@@ -16,7 +16,7 @@
     "alignment": "Lawful Good",
     "deity": "Pelor",
     "size": "Male",
-    "age": 400,
+    "age": "34",
     "gender": "Male",
     "height": "5'11''",
     "weight": "180lbs",
@@ -29,7 +29,6 @@
       "id": 1,
       "name": "Appraise",
       "keyAbility": "INT",
-      "skillModifier": 1,
       "abilityModifier": 1,
       "ranks": 0,
       "miscModifier": 0,
@@ -39,11 +38,46 @@
       "id": 2,
       "name": "Balance",
       "keyAbility": "DEX",
-      "skillModifier": -7,
       "abilityModifier": -1,
       "ranks": 0,
       "miscModifier": -6,
       "classSkill": false
+    },
+    {
+      "name": "Bluff",
+      "keyAbility": "CHA",
+      "abilityModifier": 3,
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "id": 3
+    },
+    {
+      "name": "Climb",
+      "keyAbility": "STR",
+      "abilityModifier": 1,
+      "ranks": -6,
+      "miscModifier": 0,
+      "classSkill": false,
+      "id": 4
+    },
+    {
+      "name": "Concentration",
+      "keyAbility": "CON",
+      "abilityModifier": 3,
+      "ranks": 2,
+      "miscModifier": 0,
+      "classSkill": true,
+      "id": 5
+    },
+    {
+      "name": "Craft",
+      "keyAbility": "INT",
+      "abilityModifier": 1,
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "id": 6
     }
   ]
 }

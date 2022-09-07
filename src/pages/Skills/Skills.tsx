@@ -12,6 +12,7 @@ import axios from "axios";
 import { Skill } from "../../types";
 import EditIcon from "@mui/icons-material/Edit";
 import AddIcon from "@mui/icons-material/Add";
+import { SkillsAddDialog } from "./SkillsAddDialog";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -34,7 +35,7 @@ export function Skills(): ReactElement {
       .get("http://localhost:3001/skills")
       .then((res: { data: Array<Skill> }) => setData(res.data))
       .catch((error) => console.log(error));
-  }, []);
+  }, [dialogOpen]);
 
   return (
     <>
@@ -76,7 +77,9 @@ export function Skills(): ReactElement {
                 <Typography>{skill?.keyAbility}</Typography>
               </Grid>
               <Grid xs={1} item textAlign="center">
-                <Typography>{skill?.skillModifier}</Typography>
+                <Typography>
+                  {skill?.abilityModifier + skill?.ranks + skill?.miscModifier}
+                </Typography>
               </Grid>
               <Grid xs={1} item textAlign="center">
                 <Typography sx={{ opacity: 0.4 }}>
@@ -120,7 +123,9 @@ export function Skills(): ReactElement {
         fullWidth
         open={dialogOpen}
         onClose={handleDialogClose}
-      ></Dialog>
+      >
+        <SkillsAddDialog onClose={handleDialogClose} />
+      </Dialog>
     </>
   );
 }
