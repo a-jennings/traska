@@ -1,8 +1,9 @@
 import React, { ReactElement, useState, useEffect, Fragment } from "react";
-import { Box, Typography, Grid, Divider, IconButton } from "@mui/material";
+import { Box, Typography, Grid, Divider, IconButton, Fab } from "@mui/material";
 import axios from "axios";
 import { Skill } from "../../types";
 import EditIcon from "@mui/icons-material/Edit";
+import AddIcon from "@mui/icons-material/Add";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -87,6 +88,9 @@ export function Skills(): ReactElement {
           <Divider />
         </Fragment>
       ))}
+      <Fab sx={{ position: "absolute", bottom: 30, right: 30 }} color="primary">
+        <AddIcon />
+      </Fab>
     </Box>
   );
 }
