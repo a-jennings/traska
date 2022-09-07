@@ -5,6 +5,10 @@
       {
         "class": "Cleric",
         "level": 3
+      },
+      {
+        "class": "Radiant Servant",
+        "level": 1
       }
     ],
     "player": "Drew Jennings",

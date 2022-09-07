@@ -35,6 +35,7 @@ export function Character(): ReactElement {
           <Typography>Class: </Typography>
           {data?.classes.map((cl, i) => (
             <Typography key={i}>
+              &nbsp;
               {cl.class} {cl.level}
             </Typography>
           ))}
