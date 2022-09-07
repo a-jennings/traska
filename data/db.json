@@ -1,6 +1,23 @@
 {
-  "basicInfo": {
+  "character": {
     "name": "Illusida",
-    "classes": [{ "class": "Cleric", "level": 3 }]
+    "classes": [
+      {
+        "class": "Cleric",
+        "level": 3
+      }
+    ],
+    "player": "Drew Jennings",
+    "race": "Aasimar",
+    "alignment": "LG",
+    "deity": "Pelor",
+    "size": "M",
+    "age": 400,
+    "gender": "Male",
+    "height": "5'11''",
+    "weight": "180lbs",
+    "eyes": "unknown",
+    "hair": "unknown",
+    "skin": "Tanned"
   }
 }

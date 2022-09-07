@@ -3,7 +3,7 @@ import { Navigation } from "./components/Navigation/Navigation";
 import { Character } from "./pages/Character/Character";
 
 function App() {
-  const [selectedTab, setSelectedTab] = useState("");
+  const [selectedTab, setSelectedTab] = useState("Character");
 
   return (
     <>
