@@ -44,3 +44,14 @@ export type Class = {
   class: string;
   level: number;
 };
+
+export type Skill = {
+  id: number;
+  name: string;
+  keyAbility: string;
+  skillModifier: number;
+  abilityModifier: number;
+  ranks: number;
+  miscModifier: number;
+  classSkills: boolean;
+};

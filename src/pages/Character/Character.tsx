@@ -28,7 +28,7 @@ export function Character(): ReactElement {
   }, [dialogOpen]);
 
   return (
-    <Box p={3}>
+    <Box py={3} px={8}>
       <Box mb={1}>
         <Typography>Name: {data?.name}</Typography>
         <Box display="flex">

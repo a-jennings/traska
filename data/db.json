@@ -34,6 +34,16 @@
       "ranks": 0,
       "miscModifier": 0,
       "classSkill": false
+    },
+    {
+      "id": 2,
+      "name": "Balance",
+      "keyAbility": "DEX",
+      "skillModifier": -7,
+      "abilityModifier": -1,
+      "ranks": 0,
+      "miscModifier": -6,
+      "classSkill": false
     }
   ]
 }
