@@ -1,7 +1,6 @@
 {
-    "basicInfo": {
-        "name": "Illusida",
-        "level": 3,
-        "class": "Cleric"
-    }
+  "basicInfo": {
+    "name": "Illusida",
+    "classes": [{ "class": "Cleric", "level": 3 }]
+  }
 }
