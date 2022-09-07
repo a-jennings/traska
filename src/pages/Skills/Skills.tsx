@@ -13,6 +13,7 @@ import { Skill } from "../../types";
 import EditIcon from "@mui/icons-material/Edit";
 import AddIcon from "@mui/icons-material/Add";
 import { SkillsAddDialog } from "./SkillsAddDialog";
+import SchoolIcon from "@mui/icons-material/School";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -59,9 +60,6 @@ export function Skills(): ReactElement {
           <Grid xs={1} item textAlign="center">
             <Typography>Misc Modifier</Typography>
           </Grid>
-          <Grid xs={1} item textAlign="center">
-            <Typography>Edit</Typography>
-          </Grid>
         </Grid>
         <Box mt={1}>
           <Divider />
@@ -70,15 +68,22 @@ export function Skills(): ReactElement {
         {data?.map((skill, i) => (
           <Fragment key={i}>
             <Grid container>
-              <Grid xs={6} item>
+              <Grid xs={6} item display="flex" alignItems="center">
                 <Typography>{skill?.name}</Typography>
+                {skill?.requiresTraining && (
+                  <SchoolIcon sx={{ marginLeft: 1, opacity: 0.3 }} />
+                )}
               </Grid>
               <Grid xs={1} item textAlign="center">
                 <Typography>{skill?.keyAbility}</Typography>
               </Grid>
               <Grid xs={1} item textAlign="center">
                 <Typography>
-                  {skill?.abilityModifier + skill?.ranks + skill?.miscModifier}
+                  {skill?.requiresTraining
+                    ? 0
+                    : skill?.abilityModifier +
+                      skill?.ranks +
+                      skill?.miscModifier}
                 </Typography>
               </Grid>
               <Grid xs={1} item textAlign="center">

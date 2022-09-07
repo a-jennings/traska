@@ -53,4 +53,5 @@ export type Skill = {
   ranks: number;
   miscModifier: number;
   classSkills: boolean;
+  requiresTraining: boolean;
 };

@@ -24,6 +24,7 @@ const initialValues = {
   ranks: 0,
   miscModifier: 0,
   classSkill: false,
+  requiresTraining: false,
 };
 
 type SkillsAddDialogProps = {
@@ -130,6 +131,23 @@ export function SkillsAddDialog(props: SkillsAddDialogProps): ReactElement {
                     labelPlacement="start"
                     control={<Checkbox />}
                     label="Class Skill"
+                  />
+                </Grid>
+                <Grid
+                  item
+                  xs={12}
+                  display="flex"
+                  justifyContent="flex-end"
+                  alignItems="center"
+                >
+                  <FormControlLabel
+                    id="requiresTraining"
+                    name="requiresTraining"
+                    value={values.requiresTraining}
+                    onChange={handleChange}
+                    labelPlacement="start"
+                    control={<Checkbox />}
+                    label="Training Required"
                   />
                 </Grid>
               </Grid>
