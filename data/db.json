@@ -59,8 +59,8 @@
       "name": "Climb",
       "keyAbility": "STR",
       "abilityModifier": 1,
-      "ranks": -6,
-      "miscModifier": 0,
+      "ranks": 0,
+      "miscModifier": -6,
       "classSkill": false,
       "id": 4,
       "requiresTraining": false
@@ -94,6 +94,16 @@
       "classSkill": false,
       "requiresTraining": true,
       "id": 7
+    },
+    {
+      "name": "Diplomacy",
+      "keyAbility": "CHA",
+      "abilityModifier": 3,
+      "ranks": 1,
+      "miscModifier": 0,
+      "classSkill": true,
+      "requiresTraining": false,
+      "id": 8
     }
   ]
 }
