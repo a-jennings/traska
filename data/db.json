@@ -23,5 +23,17 @@
     "eyes": "Brown",
     "hair": "Bleach Blonde",
     "skin": "Tanned"
-  }
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "Appraise",
+      "keyAbility": "INT",
+      "skillModifier": 1,
+      "abilityModifier": 1,
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false
+    }
+  ]
 }
