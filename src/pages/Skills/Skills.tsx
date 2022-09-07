@@ -17,7 +17,7 @@ export function Skills(): ReactElement {
       .get("http://localhost:3001/skills")
       .then((res: { data: Array<Skill> }) => setData(res.data))
       .catch((error) => console.log(error));
-  });
+  }, []);
 
   return (
     <Box py={3} px={8}>
