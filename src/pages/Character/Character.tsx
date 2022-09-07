@@ -28,8 +28,8 @@ export function Character(): ReactElement {
   }, [dialogOpen]);
 
   return (
-    <>
-      <Box>
+    <Box p={3}>
+      <Box mb={1}>
         <Typography>Name: {data?.name}</Typography>
         <Box display="flex">
           <Typography>Class: </Typography>
@@ -54,10 +54,12 @@ export function Character(): ReactElement {
         <Typography>Skin: {data?.skin}</Typography>
       </Box>
 
-      <Button onClick={handleDialogOpen}>Edit</Button>
+      <Button variant="outlined" size="small" onClick={handleDialogOpen}>
+        Edit
+      </Button>
 
       <Dialog
-        maxWidth="md"
+        maxWidth="sm"
         fullWidth
         open={dialogOpen}
         onClose={handleDialogClose}
@@ -66,6 +68,6 @@ export function Character(): ReactElement {
           <EditCharacterDialog onClose={handleDialogClose} data={data} />
         )}
       </Dialog>
-    </>
+    </Box>
   );
 }

@@ -1,10 +1,11 @@
 import React, { ReactElement } from "react";
 import {
-  DialogActions,
+  Box,
   DialogContent,
   DialogTitle,
   Button,
   TextField,
+  Grid,
 } from "@mui/material";
 import { Formik, Form, Field } from "formik";
 import { CharacterData } from "../../types";
@@ -32,30 +33,158 @@ export function EditCharacterDialog(
             });
           }}
         >
-          {({ values, handleSubmit }) => (
+          {({ values, handleSubmit, handleChange }) => (
             <Form>
-              <Field id="name" name="name" />
-              <Field id="player" name="player" />
-              <Field id="race" name="race" />
-              <Field id="alignment" name="alignment" />
-              <Field id="deity" name="deity" />
-              <Field id="size" name="size" />
-              <Field id="age" name="age" />
-              <Field id="gender" name="gender" />
-              <Field id="height" name="height" />
-              <Field id="weight" name="weight" />
-              <Field id="eyes" name="eyes" />
-              <Field id="hair" name="hair" />
-              <Field id="skin" name="skin" />
-
-              <Button onClick={onClose}>Cancel</Button>
-              <Button
-                variant="contained"
-                color="primary"
-                onClick={() => handleSubmit()}
-              >
-                Save
-              </Button>
+              <Grid container spacing={1} my={1}>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="name"
+                    name="name"
+                    label="Name"
+                    value={values.name}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="race"
+                    name="race"
+                    label="Race"
+                    value={values.race}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="alignment"
+                    name="alignment"
+                    label="Alignment"
+                    value={values.alignment}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="deity"
+                    name="deity"
+                    label="Deity"
+                    value={values.deity}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="size"
+                    name="size"
+                    label="Size"
+                    value={values.size}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="age"
+                    name="age"
+                    label="Age"
+                    value={values.age}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="gender"
+                    name="gender"
+                    label="Gender"
+                    value={values.gender}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="height"
+                    name="height"
+                    label="Height"
+                    value={values.height}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="weight"
+                    name="weight"
+                    label="Weight"
+                    value={values.weight}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="eyes"
+                    name="eyes"
+                    label="Eyes"
+                    value={values.eyes}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="hair"
+                    name="hair"
+                    label="Hair"
+                    value={values.hair}
+                    onChange={handleChange}
+                  />
+                </Grid>
+                <Grid item xs={6}>
+                  <TextField
+                    fullWidth
+                    size="small"
+                    id="skin"
+                    name="skin"
+                    label="Skin"
+                    value={values.skin}
+                    onChange={handleChange}
+                  />
+                </Grid>
+              </Grid>
+              <Box display="flex" justifyContent="flex-end" alignItems="center">
+                <Button
+                  variant="outlined"
+                  onClick={onClose}
+                  sx={{ marginRight: 1 }}
+                >
+                  Cancel
+                </Button>
+                <Button
+                  variant="contained"
+                  color="primary"
+                  onClick={() => handleSubmit()}
+                >
+                  Save
+                </Button>
+              </Box>
             </Form>
           )}
         </Formik>
