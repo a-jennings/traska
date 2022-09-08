@@ -54,10 +54,9 @@ export type Skill = {
   id: number;
   name: string;
   keyAbility: string;
-  abilityModifier: number;
   ranks: number;
   miscModifier: number;
-  classSkills: boolean;
+  classSkill: boolean;
   requiresTraining: boolean;
 };
 

@@ -55,7 +55,6 @@
       "id": 1,
       "name": "Appraise",
       "keyAbility": "INT",
-      "abilityModifier": 1,
       "ranks": 0,
       "miscModifier": 0,
       "classSkill": false,
@@ -65,7 +64,6 @@
       "id": 2,
       "name": "Balance",
       "keyAbility": "DEX",
-      "abilityModifier": -1,
       "ranks": 0,
       "miscModifier": -6,
       "classSkill": false,
@@ -74,7 +72,6 @@
     {
       "name": "Bluff",
       "keyAbility": "CHA",
-      "abilityModifier": 3,
       "ranks": 0,
       "miscModifier": 0,
       "classSkill": false,
@@ -84,7 +81,6 @@
     {
       "name": "Climb",
       "keyAbility": "STR",
-      "abilityModifier": 1,
       "ranks": 0,
       "miscModifier": -6,
       "classSkill": false,
@@ -94,7 +90,6 @@
     {
       "name": "Concentration",
       "keyAbility": "CON",
-      "abilityModifier": 3,
       "ranks": 2,
       "miscModifier": 0,
       "classSkill": true,
@@ -104,7 +99,6 @@
     {
       "name": "Craft",
       "keyAbility": "INT",
-      "abilityModifier": 1,
       "ranks": 0,
       "miscModifier": 0,
       "classSkill": false,
@@ -114,7 +108,6 @@
     {
       "name": "Decipher Script",
       "keyAbility": "INT",
-      "abilityModifier": 1,
       "ranks": 0,
       "miscModifier": 0,
       "classSkill": false,
@@ -124,7 +117,6 @@
     {
       "name": "Diplomacy",
       "keyAbility": "CHA",
-      "abilityModifier": 3,
       "ranks": 1,
       "miscModifier": 0,
       "classSkill": true,

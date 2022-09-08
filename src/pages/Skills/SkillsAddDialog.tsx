@@ -21,7 +21,6 @@ axios.defaults.headers.common["Access-Control-Allow-Methods"] =
 const initialValues = {
   name: "",
   keyAbility: "",
-  abilityModifier: 0,
   ranks: 0,
   miscModifier: 0,
   classSkill: false,
@@ -85,18 +84,6 @@ export function SkillsAddDialog(props: SkillsAddDialogProps): ReactElement {
                   <TextField
                     fullWidth
                     size="small"
-                    id="abilityModifier"
-                    name="abilityModifier"
-                    label="Ability Modifier"
-                    value={values.abilityModifier}
-                    type="number"
-                    onChange={handleChange}
-                  />
-                </Grid>
-                <Grid item xs={6}>
-                  <TextField
-                    fullWidth
-                    size="small"
                     id="ranks"
                     name="ranks"
                     label="Ranks"
@@ -117,13 +104,7 @@ export function SkillsAddDialog(props: SkillsAddDialogProps): ReactElement {
                     onChange={handleChange}
                   />
                 </Grid>
-                <Grid
-                  item
-                  xs={6}
-                  display="flex"
-                  justifyContent="flex-end"
-                  alignItems="center"
-                >
+                <Grid item xs={6} textAlign="right">
                   <FormControlLabel
                     id="classSkill"
                     name="classSkill"
@@ -134,13 +115,7 @@ export function SkillsAddDialog(props: SkillsAddDialogProps): ReactElement {
                     label="Class Skill"
                   />
                 </Grid>
-                <Grid
-                  item
-                  xs={12}
-                  display="flex"
-                  justifyContent="flex-end"
-                  alignItems="center"
-                >
+                <Grid item xs={6} textAlign="right">
                   <FormControlLabel
                     id="requiresTraining"
                     name="requiresTraining"
