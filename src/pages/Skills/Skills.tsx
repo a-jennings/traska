@@ -14,8 +14,10 @@ import EditIcon from "@mui/icons-material/Edit";
 import AddIcon from "@mui/icons-material/Add";
 import { SkillsAddDialog } from "./SkillsAddDialog";
 import SchoolIcon from "@mui/icons-material/School";
+import DeleteIcon from "@mui/icons-material/Delete";
 import { calcAbilityBonus } from "../../formatting";
 import { SkillsEditDialog } from "./SkillsEditDialog/SkillsEditDialog";
+import { SkillsDeleteDialog } from "./SkillsDeleteDialog/SkillsDeleteDialog";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -26,6 +28,7 @@ export function Skills(): ReactElement {
   const [abilityData, setAbilityData] = useState<CharacterAbilitiesList>();
   const [dialogOpen, setOpenDialog] = useState(false);
   const [editDialogOpen, setEditDialogOpen] = useState(false);
+  const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
   const [selected, setSelected] = useState<Skill>();
 
   const handleDialogOpen = () => setOpenDialog(true);
@@ -38,20 +41,28 @@ export function Skills(): ReactElement {
     setSelected(undefined);
     setEditDialogOpen(false);
   };
+  const handleDeleteDialogOpen = (skill: Skill) => {
+    setSelected(skill);
+    setDeleteDialogOpen(true);
+  };
+  const handleDeleteDialogClose = () => {
+    setSelected(undefined);
+    setDeleteDialogOpen(false);
+  };
 
   useEffect(() => {
     axios
       .get("http://localhost:3001/skills")
       .then((res: { data: Array<Skill> }) => setData(res.data))
       .catch((error) => console.log(error));
-  }, [dialogOpen, editDialogOpen]);
+  }, [dialogOpen, editDialogOpen, deleteDialogOpen]);
 
   useEffect(() => {
     axios
       .get("http://localhost:3001/abilities")
       .then((res: { data: CharacterAbilitiesList }) => setAbilityData(res.data))
       .catch((error) => console.log(error));
-  }, [dialogOpen]);
+  }, [dialogOpen, editDialogOpen, deleteDialogOpen]);
 
   const getAbilityModifier = (ability: string): number => {
     if (!ability || !abilityData) {
@@ -111,8 +122,8 @@ export function Skills(): ReactElement {
           <Divider />
         </Box>
 
-        {data?.map((skill, i) => (
-          <Fragment key={i}>
+        {data?.map((skill) => (
+          <Fragment key={skill.id}>
             <Grid container>
               <Grid item xs={0.5} textAlign="center">
                 {skill.classSkill && (
@@ -166,6 +177,15 @@ export function Skills(): ReactElement {
                     sx={{ height: "15px", width: "15px" }}
                   />
                 </IconButton>
+                <IconButton
+                  sx={{ height: "20px", width: "20px" }}
+                  onClick={() => handleDeleteDialogOpen(skill)}
+                >
+                  <DeleteIcon
+                    color="error"
+                    sx={{ height: "20px", width: "20px" }}
+                  />
+                </IconButton>
               </Grid>
             </Grid>
             <Divider />
@@ -194,6 +214,14 @@ export function Skills(): ReactElement {
           skill={selected}
           dialogOpen={editDialogOpen}
           onClose={handleEditDialogClose}
+        />
+      )}
+
+      {selected && (
+        <SkillsDeleteDialog
+          skill={selected}
+          dialogOpen={deleteDialogOpen}
+          onClose={handleDeleteDialogClose}
         />
       )}
     </>
