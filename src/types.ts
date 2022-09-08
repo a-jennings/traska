@@ -25,12 +25,6 @@ export type CharacterAbilitiesList = {
 };
 
 // export type CharacterStats = {
-//   stength: number;
-//   dexterity: number;
-//   constitution: number;
-//   intelligence: number;
-//   wisdom: number;
-//   charisma: number;
 //   hpMax: number;
 //   hpCurrent: number;
 //   ac: number;
@@ -40,7 +34,7 @@ export type CharacterAbilitiesList = {
 //   initiative: number;
 //   savingThrows: SavingThrows;
 //   baseAttackBonus: number;
-//   grapper: number;
+//   grapple: number;
 // };
 
 export type SavingThrows = {

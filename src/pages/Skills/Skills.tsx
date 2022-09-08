@@ -38,6 +38,10 @@ export function Skills(): ReactElement {
       .catch((error) => console.log(error));
   }, [dialogOpen]);
 
+  if (!data) {
+    return <></>;
+  }
+
   return (
     <>
       <Box py={3} px={8}>
