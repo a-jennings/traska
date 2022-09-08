@@ -1,5 +1,6 @@
 import React, { ReactElement } from "react";
 import {
+  DialogActions,
   DialogContent,
   DialogTitle,
   TextField,
@@ -151,19 +152,14 @@ export function SkillsAddDialog(props: SkillsAddDialogProps): ReactElement {
                   />
                 </Grid>
               </Grid>
-
-              <Box display="flex" justifyContent="flex-end" alignItems="center">
-                <Button
-                  sx={{ marginRight: 1 }}
-                  variant="outlined"
-                  onClick={onClose}
-                >
+              <DialogActions>
+                <Button variant="outlined" onClick={onClose}>
                   Cancel
                 </Button>
                 <Button variant="contained" onClick={() => handleSubmit()}>
                   Submit
                 </Button>
-              </Box>
+              </DialogActions>
             </Form>
           )}
         </Formik>

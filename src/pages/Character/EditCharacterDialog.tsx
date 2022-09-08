@@ -1,6 +1,7 @@
 import React, { ReactElement } from "react";
 import {
   Box,
+  DialogActions,
   DialogContent,
   DialogTitle,
   Button,
@@ -169,12 +170,8 @@ export function EditCharacterDialog(
                   />
                 </Grid>
               </Grid>
-              <Box display="flex" justifyContent="flex-end" alignItems="center">
-                <Button
-                  variant="outlined"
-                  onClick={onClose}
-                  sx={{ marginRight: 1 }}
-                >
+              <DialogActions>
+                <Button variant="outlined" onClick={onClose}>
                   Cancel
                 </Button>
                 <Button
@@ -184,7 +181,7 @@ export function EditCharacterDialog(
                 >
                   Save
                 </Button>
-              </Box>
+              </DialogActions>
             </Form>
           )}
         </Formik>
