@@ -3,6 +3,7 @@ import { Box, Typography, Dialog, Button } from "@mui/material";
 import axios from "axios";
 import { CharacterStatistics } from "../../../types";
 import { CharacterStatsEditDialog } from "./CharacterStatsEditDialog";
+import { CharacterStatsDamage } from "./CharacterStatsDamage/CharacterStatsDamage";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -11,19 +12,22 @@ axios.defaults.headers.common["Access-Control-Allow-Methods"] =
 export function CharacterStats(): ReactElement {
   const [data, setData] = useState<CharacterStatistics>();
   const [dialogOpen, setDialogOpen] = useState(false);
+  const [damageDialogOpen, setDamageDialogOpen] = useState(false);
 
-  const handleDialogOpen = () => {
-    setDialogOpen(true);
-  };
+  const handleDialogOpen = () => setDialogOpen(true);
 
-  const handleDialogClose = () => [setDialogOpen(false)];
+  const handleDialogClose = () => setDialogOpen(false);
+
+  const handleDamageDialogOpen = () => setDamageDialogOpen(true);
+
+  const handleDamageDialogClose = () => setDamageDialogOpen(false);
 
   useEffect(() => {
     axios
       .get("http://localhost:3001/stats")
       .then((res: { data: CharacterStatistics }) => setData(res.data))
       .catch((error) => console.log(error));
-  }, [dialogOpen]);
+  }, [dialogOpen, damageDialogOpen]);
 
   if (!data) {
     return <></>;
@@ -52,10 +56,18 @@ export function CharacterStats(): ReactElement {
         <Typography>Will: {data.savingThrows.will}</Typography>
       </Box>
 
-      <Box>
+      <Box display="flex" alignItems="center">
         <Button size="small" variant="outlined" onClick={handleDialogOpen}>
           Edit
         </Button>
+        <Box ml={1}>
+          <CharacterStatsDamage
+            data={data}
+            dialogOpen={damageDialogOpen}
+            onOpen={handleDamageDialogOpen}
+            onClose={handleDamageDialogClose}
+          />
+        </Box>
       </Box>
 
       <Dialog
