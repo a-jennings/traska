@@ -37,7 +37,7 @@ export function CharacterStats(): ReactElement {
         </Typography>
         <Typography>AC: {data.ac}</Typography>
         <Typography>AC Touch: {data.acTouch}</Typography>
-        <Typography>Ac Flat Footed: {data.acFF}</Typography>
+        <Typography>AC Flat Footed: {data.acFF}</Typography>
         <Typography>Speed: {data.speed}</Typography>
         <Typography>Initiative: {data.initiative}</Typography>
         <Typography>Base Attack Bonus: {data.baseAttackBonus}</Typography>
