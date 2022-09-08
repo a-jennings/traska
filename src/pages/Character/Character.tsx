@@ -4,6 +4,7 @@ import { CharacterData } from "../../types";
 import { Box, Typography, Button, Dialog } from "@mui/material";
 import { EditCharacterDialog } from "./EditCharacterDialog";
 import { CharacterAbilities } from "./CharacterAbilities/CharacterAbilities";
+import { DataArrayOutlined } from "@mui/icons-material";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -35,12 +36,12 @@ export function Character(): ReactElement {
   return (
     <>
       <Box py={3} px={8} display="flex">
-        <Box mr={10}>
+        <Box minWidth="300px" maxWidth="300px" mr={10}>
           <Box mb={1}>
-            <Typography>Name: {data?.name}</Typography>
+            <Typography>Name: {data.name}</Typography>
             <Box display="flex">
               <Typography>Class: </Typography>
-              {data?.classes.map((cl, i) => (
+              {data.classes.map((cl, i) => (
                 <Typography key={i}>
                   &nbsp;
                   {cl.class} {cl.level}
@@ -48,18 +49,18 @@ export function Character(): ReactElement {
               ))}
             </Box>
 
-            <Typography>Player: {data?.player}</Typography>
-            <Typography>Race: {data?.race}</Typography>
-            <Typography>Alignment: {data?.alignment}</Typography>
-            <Typography>Deity: {data?.deity}</Typography>
-            <Typography>Size: {data?.size}</Typography>
-            <Typography>Age: {data?.age}</Typography>
-            <Typography>Gender: {data?.gender}</Typography>
-            <Typography>Height: {data?.height}</Typography>
-            <Typography>Weight: {data?.weight}</Typography>
-            <Typography>Eyes: {data?.eyes}</Typography>
-            <Typography>Hair: {data?.hair}</Typography>
-            <Typography>Skin: {data?.skin}</Typography>
+            <Typography>Player: {data.player}</Typography>
+            <Typography>Race: {data.race}</Typography>
+            <Typography>Alignment: {data.alignment}</Typography>
+            <Typography>Deity: {data.deity}</Typography>
+            <Typography>Size: {data.size}</Typography>
+            <Typography>Age: {data.age}</Typography>
+            <Typography>Gender: {data.gender}</Typography>
+            <Typography>Height: {data.height}</Typography>
+            <Typography>Weight: {data.weight}</Typography>
+            <Typography>Eyes: {data.eyes}</Typography>
+            <Typography>Hair: {data.hair}</Typography>
+            <Typography>Skin: {data.skin}</Typography>
           </Box>
 
           <Button variant="outlined" size="small" onClick={handleDialogOpen}>
