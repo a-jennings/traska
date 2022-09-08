@@ -65,3 +65,9 @@ export type Item = {
   name: string;
   weight: number;
 };
+
+export type SpellSlot = {
+  level: number;
+  maxSlots: number;
+  currentSlots: number;
+};

@@ -130,5 +130,57 @@
       "weight": "1",
       "id": 1
     }
+  ],
+  "spellSlots": [
+    {
+      "level": 0,
+      "maxSlots": 5,
+      "currentSlots": 4
+    },
+    {
+      "level": 1,
+      "maxSlots": 5,
+      "currentSlots": 4
+    },
+    {
+      "level": 2,
+      "maxSlots": 5,
+      "currentSlots": 4
+    },
+    {
+      "level": 3,
+      "maxSlots": 5,
+      "currentSlots": 4
+    },
+    {
+      "level": 4,
+      "maxSlots": 5,
+      "currentSlots": 4
+    },
+    {
+      "level": 5,
+      "maxSlots": 5,
+      "currentSlots": 4
+    },
+    {
+      "level": 6,
+      "maxSlots": 5,
+      "currentSlots": 4
+    },
+    {
+      "level": 7,
+      "maxSlots": 5,
+      "currentSlots": 4
+    },
+    {
+      "level": 8,
+      "maxSlots": 5,
+      "currentSlots": 4
+    },
+    {
+      "level": 9,
+      "maxSlots": 5,
+      "currentSlots": 4
+    }
   ]
 }
