@@ -31,6 +31,10 @@ export function Skills(): ReactElement {
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
   const [selected, setSelected] = useState<Skill>();
 
+  const sortedData = data?.sort((a, b) =>
+    a.name > b.name ? 1 : b.name > a.name ? -1 : 0
+  );
+
   const handleDialogOpen = () => setOpenDialog(true);
   const handleDialogClose = () => setOpenDialog(false);
   const handleEditDialogOpen = (skill: Skill) => {
@@ -122,7 +126,7 @@ export function Skills(): ReactElement {
           <Divider />
         </Box>
 
-        {data?.map((skill) => (
+        {sortedData?.map((skill) => (
           <Fragment key={skill.id}>
             <Grid container>
               <Grid item xs={0.5} textAlign="center">
