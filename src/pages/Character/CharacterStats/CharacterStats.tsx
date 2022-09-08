@@ -4,6 +4,7 @@ import axios from "axios";
 import { CharacterStatistics } from "../../../types";
 import { CharacterStatsEditDialog } from "./CharacterStatsEditDialog";
 import { CharacterStatsDamage } from "./CharacterStatsDamage/CharacterStatsDamage";
+import { CharacterStatsHeal } from "./CharacterStatsHeal/CharacterStatsHeal";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -13,6 +14,7 @@ export function CharacterStats(): ReactElement {
   const [data, setData] = useState<CharacterStatistics>();
   const [dialogOpen, setDialogOpen] = useState(false);
   const [damageDialogOpen, setDamageDialogOpen] = useState(false);
+  const [healDialogOpen, setHealDialogOpen] = useState(false);
 
   const handleDialogOpen = () => setDialogOpen(true);
 
@@ -22,12 +24,16 @@ export function CharacterStats(): ReactElement {
 
   const handleDamageDialogClose = () => setDamageDialogOpen(false);
 
+  const handleHealDialogOpen = () => setHealDialogOpen(true);
+
+  const handleHealDialogClose = () => setHealDialogOpen(false);
+
   useEffect(() => {
     axios
       .get("http://localhost:3001/stats")
       .then((res: { data: CharacterStatistics }) => setData(res.data))
       .catch((error) => console.log(error));
-  }, [dialogOpen, damageDialogOpen]);
+  }, [dialogOpen, damageDialogOpen, healDialogOpen]);
 
   if (!data) {
     return <></>;
@@ -66,6 +72,14 @@ export function CharacterStats(): ReactElement {
             dialogOpen={damageDialogOpen}
             onOpen={handleDamageDialogOpen}
             onClose={handleDamageDialogClose}
+          />
+        </Box>
+        <Box ml={1}>
+          <CharacterStatsHeal
+            data={data}
+            dialogOpen={healDialogOpen}
+            onOpen={handleHealDialogOpen}
+            onClose={handleHealDialogClose}
           />
         </Box>
       </Box>
