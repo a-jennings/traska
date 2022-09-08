@@ -15,24 +15,33 @@ export type CharacterData = {
   skin: string;
 };
 
-export type CharacterStats = {
-  stength: number;
+export type CharacterAbilitiesList = {
+  strength: number;
   dexterity: number;
   constitution: number;
   intelligence: number;
   wisdom: number;
   charisma: number;
-  hpMax: number;
-  hpCurrent: number;
-  ac: number;
-  acTouch: number;
-  acFF: number;
-  speed: number;
-  initiative: number;
-  savingThrows: SavingThrows;
-  baseAttackBonus: number;
-  grapper: number;
 };
+
+// export type CharacterStats = {
+//   stength: number;
+//   dexterity: number;
+//   constitution: number;
+//   intelligence: number;
+//   wisdom: number;
+//   charisma: number;
+//   hpMax: number;
+//   hpCurrent: number;
+//   ac: number;
+//   acTouch: number;
+//   acFF: number;
+//   speed: number;
+//   initiative: number;
+//   savingThrows: SavingThrows;
+//   baseAttackBonus: number;
+//   grapper: number;
+// };
 
 export type SavingThrows = {
   fortitude: number;

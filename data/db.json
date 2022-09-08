@@ -24,6 +24,14 @@
     "hair": "Bleach Blonde",
     "skin": "Tanned"
   },
+  "abilities": {
+    "strength": 12,
+    "dexterity": 9,
+    "constitution": 16,
+    "intelligence": 12,
+    "wisdom": 18,
+    "charisma": 16
+  },
   "skills": [
     {
       "id": 1,
