@@ -32,6 +32,24 @@
     "wisdom": 18,
     "charisma": 16
   },
+  "stats": {
+    "hpMax": 10,
+    "hpCurrent": 6,
+    "ac": 0,
+    "acTouch": 0,
+    "acFF": 0,
+    "speed": 20,
+    "initative": 0,
+    "savingThrows": {
+      "fortitude": 0,
+      "reflex": 0,
+      "will": 0
+    },
+    "baseAttackBonus": 0,
+    "grapple": 0,
+    "spellResistance": 0,
+    "damageReduction": 0
+  },
   "skills": [
     {
       "id": 1,

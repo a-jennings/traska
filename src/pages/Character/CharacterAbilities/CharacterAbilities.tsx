@@ -34,7 +34,7 @@ export function CharacterAbilities(): ReactElement {
 
   return (
     <>
-      <Box minWidth="300px" maxWidth="300px">
+      <Box minWidth="300px" maxWidth="300px" mr={10}>
         <Grid container>
           <Grid item xs={8}>
             <Typography>Ability Name</Typography>

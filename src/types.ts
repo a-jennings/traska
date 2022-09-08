@@ -24,18 +24,20 @@ export type CharacterAbilitiesList = {
   charisma: number;
 };
 
-// export type CharacterStats = {
-//   hpMax: number;
-//   hpCurrent: number;
-//   ac: number;
-//   acTouch: number;
-//   acFF: number;
-//   speed: number;
-//   initiative: number;
-//   savingThrows: SavingThrows;
-//   baseAttackBonus: number;
-//   grapple: number;
-// };
+export type CharacterStatistics = {
+  hpMax: number;
+  hpCurrent: number;
+  ac: number;
+  acTouch: number;
+  acFF: number;
+  speed: number;
+  initiative: number;
+  savingThrows: SavingThrows;
+  baseAttackBonus: number;
+  grapple: number;
+  spellResistance: number;
+  damageReduction: number;
+};
 
 export type SavingThrows = {
   fortitude: number;

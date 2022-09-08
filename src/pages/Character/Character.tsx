@@ -4,7 +4,7 @@ import { CharacterData } from "../../types";
 import { Box, Typography, Button, Dialog } from "@mui/material";
 import { EditCharacterDialog } from "./EditCharacterDialog";
 import { CharacterAbilities } from "./CharacterAbilities/CharacterAbilities";
-import { DataArrayOutlined } from "@mui/icons-material";
+import { CharacterStats } from "./CharacterStats/CharacterStats";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -68,7 +68,12 @@ export function Character(): ReactElement {
           </Button>
         </Box>
 
-        <Box>{data && <CharacterAbilities />}</Box>
+        <Box>
+          <CharacterAbilities />
+        </Box>
+        <Box>
+          <CharacterStats />
+        </Box>
       </Box>
 
       <Dialog
@@ -77,9 +82,7 @@ export function Character(): ReactElement {
         open={dialogOpen}
         onClose={handleDialogClose}
       >
-        {data && (
-          <EditCharacterDialog onClose={handleDialogClose} data={data} />
-        )}
+        <EditCharacterDialog onClose={handleDialogClose} data={data} />
       </Dialog>
     </>
   );
