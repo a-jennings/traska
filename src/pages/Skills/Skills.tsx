@@ -15,6 +15,7 @@ import AddIcon from "@mui/icons-material/Add";
 import { SkillsAddDialog } from "./SkillsAddDialog";
 import SchoolIcon from "@mui/icons-material/School";
 import { calcAbilityBonus } from "../../formatting";
+import { SkillsEditDialog } from "./SkillsEditDialog/SkillsEditDialog";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -24,13 +25,18 @@ export function Skills(): ReactElement {
   const [data, setData] = useState<Array<Skill>>();
   const [abilityData, setAbilityData] = useState<CharacterAbilitiesList>();
   const [dialogOpen, setOpenDialog] = useState(false);
+  const [editDialogOpen, setEditDialogOpen] = useState(false);
+  const [selected, setSelected] = useState<Skill>();
 
-  const handleDialogOpen = () => {
-    setOpenDialog(true);
+  const handleDialogOpen = () => setOpenDialog(true);
+  const handleDialogClose = () => setOpenDialog(false);
+  const handleEditDialogOpen = (skill: Skill) => {
+    setSelected(skill);
+    setEditDialogOpen(true);
   };
-
-  const handleDialogClose = () => {
-    setOpenDialog(false);
+  const handleEditDialogClose = () => {
+    setSelected(undefined);
+    setEditDialogOpen(false);
   };
 
   useEffect(() => {
@@ -38,7 +44,7 @@ export function Skills(): ReactElement {
       .get("http://localhost:3001/skills")
       .then((res: { data: Array<Skill> }) => setData(res.data))
       .catch((error) => console.log(error));
-  }, [dialogOpen]);
+  }, [dialogOpen, editDialogOpen]);
 
   useEffect(() => {
     axios
@@ -151,8 +157,14 @@ export function Skills(): ReactElement {
                 justifyContent="center"
                 alignItems="center"
               >
-                <IconButton sx={{ height: "20px", width: "20px" }}>
-                  <EditIcon sx={{ height: "20px", width: "20px" }} />
+                <IconButton
+                  sx={{ height: "20px", width: "20px" }}
+                  onClick={() => handleEditDialogOpen(skill)}
+                >
+                  <EditIcon
+                    color="info"
+                    sx={{ height: "15px", width: "15px" }}
+                  />
                 </IconButton>
               </Grid>
             </Grid>
@@ -176,6 +188,14 @@ export function Skills(): ReactElement {
       >
         <SkillsAddDialog onClose={handleDialogClose} />
       </Dialog>
+
+      {selected && (
+        <SkillsEditDialog
+          skill={selected}
+          dialogOpen={editDialogOpen}
+          onClose={handleEditDialogClose}
+        />
+      )}
     </>
   );
 }
