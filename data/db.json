@@ -131,5 +131,12 @@
       "requiresTraining": false,
       "id": 8
     }
+  ],
+  "inventory": [
+    {
+      "name": "Holy symbol of Pelor",
+      "weight": "1",
+      "id": 1
+    }
   ]
 }

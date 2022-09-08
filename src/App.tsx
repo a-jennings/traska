@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Navigation } from "./components/Navigation/Navigation";
 import { Character } from "./pages/Character/Character";
+import { Inventory } from "./pages/Inventory/Inventory";
 import { Skills } from "./pages/Skills/Skills";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       {selectedTab === "Skills" && <Skills />}
       {selectedTab === "Spells" && <>Spells!</>}
       {selectedTab === "Abilities" && <>Abilities!</>}
-      {selectedTab === "Inventory" && <>Inventory!</>}
+      {selectedTab === "Inventory" && <Inventory />}
     </>
   );
 }

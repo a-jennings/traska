@@ -60,3 +60,9 @@ export type Skill = {
   classSkills: boolean;
   requiresTraining: boolean;
 };
+
+export type Item = {
+  id: number;
+  name: string;
+  weight: number;
+};
