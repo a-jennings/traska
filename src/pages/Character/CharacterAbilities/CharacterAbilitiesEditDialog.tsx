@@ -10,6 +10,11 @@ import {
 } from "@mui/material";
 import { CharacterAbilitiesList } from "../../../types";
 import { Formik, Form } from "formik";
+import axios from "axios";
+
+axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
+axios.defaults.headers.common["Access-Control-Allow-Methods"] =
+  "GET,PUT,POST,DELETE,PATCH,OPTIONS";
 
 type CharacterAbilitiesEditDialogProps = {
   data: CharacterAbilitiesList;
@@ -24,7 +29,15 @@ export function CharacterAbilitiesEditDialog(
     <>
       <DialogTitle>Edit Abilities</DialogTitle>
       <DialogContent>
-        <Formik initialValues={data} onSubmit={() => {}}>
+        <Formik
+          initialValues={data}
+          onSubmit={(values) => {
+            axios
+              .post("http://localhost:3001/abilities", values)
+              .then(() => onClose())
+              .catch((error) => console.log(error));
+          }}
+        >
           {({ values, handleChange, handleSubmit }) => (
             <Form>
               <Grid container spacing={1} my={1}>

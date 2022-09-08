@@ -11,6 +11,10 @@ import {
 import { Formik, Form } from "formik";
 import axios from "axios";
 
+axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
+axios.defaults.headers.common["Access-Control-Allow-Methods"] =
+  "GET,PUT,POST,DELETE,PATCH,OPTIONS";
+
 type CharacterStatsEditDialogProps = {
   data: CharacterStatistics;
   onClose: () => void;
