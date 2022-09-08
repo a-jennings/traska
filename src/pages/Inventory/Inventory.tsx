@@ -7,6 +7,7 @@ import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 import { InventoryAddDialog } from "./InventoryAddDialog/InventoryAddDialog";
 import { InventoryDeleteDialog } from "./InventoryDeleteDialog/InventoryDeleteDialog";
+import { InventoryEditDialog } from "./IventoryEditDialog/InventoryEditDialog";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -21,8 +22,14 @@ export function Inventory(): ReactElement {
 
   const handleAddDialogOpen = () => setAddDialogOpen(true);
   const handleAddDialogClose = () => setAddDialogOpen(false);
-  const handleEditDialogOpen = () => setEditDialogOpen(true);
-  const handleEditDialogClose = () => setEditDialogOpen(false);
+  const handleEditDialogOpen = (item: Item) => {
+    setSelected(item);
+    setEditDialogOpen(true);
+  };
+  const handleEditDialogClose = () => {
+    setSelected(undefined);
+    setEditDialogOpen(false);
+  };
   const handleDeleteDialogOpen = (item: Item) => {
     setSelected(item);
     setDeleteDialogOpen(true);
@@ -39,7 +46,7 @@ export function Inventory(): ReactElement {
         setData(res.data);
       })
       .catch((error) => console.log(error));
-  }, [addDialogOpen, deleteDialogOpen]);
+  }, [addDialogOpen, deleteDialogOpen, editDialogOpen]);
 
   return (
     <>
@@ -63,7 +70,10 @@ export function Inventory(): ReactElement {
                 <Typography>{item.weight}</Typography>
               </Grid>
               <Grid item xs={1} textAlign="right">
-                <IconButton sx={{ width: 20, height: 20 }}>
+                <IconButton
+                  sx={{ width: 20, height: 20 }}
+                  onClick={() => handleEditDialogOpen(item)}
+                >
                   <EditIcon color="info" sx={{ width: 15, height: 15 }} />
                 </IconButton>
                 <IconButton
@@ -90,7 +100,13 @@ export function Inventory(): ReactElement {
         dialogOpen={addDialogOpen}
         onClose={handleAddDialogClose}
       />
-      {/* <InventoryEditDialog /> */}
+      {selected && (
+        <InventoryEditDialog
+          item={selected}
+          dialogOpen={editDialogOpen}
+          onClose={handleEditDialogClose}
+        />
+      )}
       {selected && (
         <InventoryDeleteDialog
           item={selected}
