@@ -13,6 +13,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import AddIcon from "@mui/icons-material/Add";
 import HotelIcon from "@mui/icons-material/Hotel";
 import axios from "axios";
+import { SpellSlot } from "../../../types";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -20,12 +21,25 @@ axios.defaults.headers.common["Access-Control-Allow-Methods"] =
 
 export function SpellMenu(): ReactElement {
   const [regenDialogOpen, setRegenDialogOpen] = useState(false);
+  const [data, setData] = useState<Array<SpellSlot>>();
 
   const handleRegenDialogOpen = () => setRegenDialogOpen(true);
   const handleRegenDialogClose = () => setRegenDialogOpen(false);
 
   const handleRegenerateSpellSlots = () => {
-    return; //TODO
+    axios
+      .get("http://localhost:3001/spellSlots")
+      .then((res: { data: Array<SpellSlot> }) => setData(res.data))
+      .then(() => {
+        data?.forEach((slot) => {
+          axios.patch(`http://localhost:3001/spellSlots/${slot.id}`, {
+            ...slot,
+            currentSlots: slot.maxSlots,
+          });
+        });
+      })
+      .then(() => handleRegenDialogClose())
+      .catch((error) => console.log(error));
   };
 
   return (
