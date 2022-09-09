@@ -136,7 +136,7 @@
       "id": 1,
       "level": 0,
       "maxSlots": 5,
-      "currentSlots": 2
+      "currentSlots": 1
     },
     {
       "id": 2,
@@ -148,7 +148,7 @@
       "id": 3,
       "level": 2,
       "maxSlots": 5,
-      "currentSlots": 4
+      "currentSlots": 3
     },
     {
       "id": 4,
