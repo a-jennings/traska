@@ -1,7 +1,8 @@
 import React, { ReactElement, useState, useEffect, Fragment } from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, useTheme, IconButton } from "@mui/material";
 import axios from "axios";
 import { SpellSlot } from "../../../types";
+import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -9,8 +10,22 @@ axios.defaults.headers.common["Access-Control-Allow-Methods"] =
 
 export function SpellHeader(): ReactElement {
   const [data, setData] = useState<Array<SpellSlot>>();
+  const filteredData = data?.filter((slot) => slot.maxSlots !== 0);
+  const theme = useTheme();
 
-  const levels = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const handleCastSpell = (spellSlot: SpellSlot) => {
+    axios
+      .patch(`http://localhost:3001/spellSlots/${spellSlot.id}`, {
+        ...spellSlot,
+        currentSlots: spellSlot.currentSlots - 1,
+      })
+      .then(() => {
+        axios
+          .get("http://localhost:3001/spellSlots")
+          .then((res: { data: Array<SpellSlot> }) => setData(res.data))
+          .catch((error) => console.log(error));
+      });
+  };
 
   useEffect(() => {
     axios
@@ -26,21 +41,34 @@ export function SpellHeader(): ReactElement {
   return (
     <Box
       width="100%"
-      bgcolor="gray"
+      bgcolor={theme.palette.grey[300]}
       display="flex"
       justifyContent="space-around"
       alignItems="center"
+      my={1}
     >
-      {levels.map((level, index) => (
+      <Typography sx={{ opacity: 0.2 }}>|</Typography>
+      {filteredData?.map((level, index) => (
         <Fragment key={index}>
-          <Box>
-            <Typography>Level: {level}</Typography>
+          <Box py={1} textAlign="center">
+            <Box>
+              <Typography>Level: {level.level}</Typography>
+            </Box>
+            <Box>
+              <Typography variant="h5" sx={{ opacity: 0.8 }}>
+                {level.currentSlots} / {level.maxSlots}
+              </Typography>
+              <IconButton
+                disabled={!level.currentSlots}
+                onClick={() => handleCastSpell(level)}
+              >
+                <AutoFixHighIcon
+                  color={level.currentSlots ? "info" : "disabled"}
+                />
+              </IconButton>
+            </Box>
           </Box>
-          <Box>
-            <Typography>
-              Slots: {data[level].currentSlots} / {data[level].maxSlots}
-            </Typography>
-          </Box>
+          <Typography sx={{ opacity: 0.2 }}>|</Typography>
         </Fragment>
       ))}
     </Box>

@@ -67,6 +67,7 @@ export type Item = {
 };
 
 export type SpellSlot = {
+  id: number;
   level: number;
   maxSlots: number;
   currentSlots: number;
