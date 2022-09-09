@@ -1,4 +1,4 @@
-import React, { ReactElement, useState, useEffect, Fragment } from "react";
+import React, { ReactElement, Fragment, SetStateAction, Dispatch } from "react";
 import { Box, Typography, useTheme, IconButton } from "@mui/material";
 import axios from "axios";
 import { SpellSlot } from "../../../types";
@@ -8,8 +8,14 @@ axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
   "GET,PUT,POST,DELETE,PATCH,OPTIONS";
 
-export function SpellHeader(): ReactElement {
-  const [data, setData] = useState<Array<SpellSlot>>();
+type SpellHeaderProps = {
+  data: Array<SpellSlot>;
+  setData: Dispatch<SetStateAction<SpellSlot[] | undefined>>;
+};
+
+export function SpellHeader(props: SpellHeaderProps): ReactElement {
+  const { data, setData } = props;
+
   const filteredData = data?.filter((slot) => slot.maxSlots !== 0);
   const theme = useTheme();
 
@@ -24,15 +30,9 @@ export function SpellHeader(): ReactElement {
           .get("http://localhost:3001/spellSlots")
           .then((res: { data: Array<SpellSlot> }) => setData(res.data))
           .catch((error) => console.log(error));
-      });
-  };
-
-  useEffect(() => {
-    axios
-      .get("http://localhost:3001/spellSlots")
-      .then((res: { data: Array<SpellSlot> }) => setData(res.data))
+      })
       .catch((error) => console.log(error));
-  }, []);
+  };
 
   if (!data) {
     return <></>;
