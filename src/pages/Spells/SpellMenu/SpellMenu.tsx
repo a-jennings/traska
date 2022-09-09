@@ -12,8 +12,10 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 import AddIcon from "@mui/icons-material/Add";
 import HotelIcon from "@mui/icons-material/Hotel";
+import SettingsIcon from "@mui/icons-material/Settings";
 import axios from "axios";
 import { SpellSlot } from "../../../types";
+import { SpellMenuEditDialog } from "./SpellMenuEditDialog/SpellMenuEditDialog";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -27,9 +29,12 @@ type SpellMenuProps = {
 export function SpellMenu(props: SpellMenuProps): ReactElement {
   const { data, setData } = props;
   const [regenDialogOpen, setRegenDialogOpen] = useState(false);
+  const [editDialogOpen, setEditDialogOpen] = useState(false);
 
   const handleRegenDialogOpen = () => setRegenDialogOpen(true);
   const handleRegenDialogClose = () => setRegenDialogOpen(false);
+  const handleEditDialogOpen = () => setEditDialogOpen(true);
+  const handleEditDialogClose = () => setEditDialogOpen(false);
 
   const handleRegenerateSpellSlots = () => {
     data?.forEach((slot) => {
@@ -60,7 +65,19 @@ export function SpellMenu(props: SpellMenuProps): ReactElement {
           tooltipTitle="Regain Spell Slots"
           onClick={handleRegenDialogOpen}
         />
+        <SpeedDialAction
+          icon={<SettingsIcon />}
+          tooltipTitle="Edit Spell Slots"
+          onClick={handleEditDialogOpen}
+        />
       </SpeedDial>
+
+      <SpellMenuEditDialog
+        data={data}
+        setData={setData}
+        dialogOpen={editDialogOpen}
+        onClose={handleEditDialogClose}
+      />
 
       <Dialog
         open={regenDialogOpen}
