@@ -25,7 +25,7 @@ export function Spells(): ReactElement {
   return (
     <>
       <SpellHeader data={data} setData={setData} />
-      <SpellMenu />
+      <SpellMenu data={data} setData={setData} />
     </>
   );
 }

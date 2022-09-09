@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from "react";
+import React, { Dispatch, ReactElement, SetStateAction, useState } from "react";
 import {
   SpeedDial,
   SpeedDialAction,
@@ -19,26 +19,31 @@ axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
   "GET,PUT,POST,DELETE,PATCH,OPTIONS";
 
-export function SpellMenu(): ReactElement {
+type SpellMenuProps = {
+  data: Array<SpellSlot>;
+  setData: Dispatch<SetStateAction<SpellSlot[] | undefined>>;
+};
+
+export function SpellMenu(props: SpellMenuProps): ReactElement {
+  const { data, setData } = props;
   const [regenDialogOpen, setRegenDialogOpen] = useState(false);
-  const [data, setData] = useState<Array<SpellSlot>>();
 
   const handleRegenDialogOpen = () => setRegenDialogOpen(true);
   const handleRegenDialogClose = () => setRegenDialogOpen(false);
 
   const handleRegenerateSpellSlots = () => {
+    data?.forEach((slot) => {
+      axios.patch(`http://localhost:3001/spellSlots/${slot.id}`, {
+        ...slot,
+        currentSlots: slot.maxSlots,
+      });
+    });
     axios
       .get("http://localhost:3001/spellSlots")
-      .then((res: { data: Array<SpellSlot> }) => setData(res.data))
-      .then(() => {
-        data?.forEach((slot) => {
-          axios.patch(`http://localhost:3001/spellSlots/${slot.id}`, {
-            ...slot,
-            currentSlots: slot.maxSlots,
-          });
-        });
+      .then((res: { data: Array<SpellSlot> }) => {
+        setData(res.data);
+        handleRegenDialogClose();
       })
-      .then(() => handleRegenDialogClose())
       .catch((error) => console.log(error));
   };
 
