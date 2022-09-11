@@ -22,6 +22,10 @@ export function Spells(): ReactElement {
     setActiveTab(newValue);
   };
 
+  const filterSpellData = data?.filter(
+    (spell) => spell.spellLevel === activeTab
+  );
+
   useEffect(() => {
     axios
       .get("http://localhost:3001/spells")
@@ -52,7 +56,7 @@ export function Spells(): ReactElement {
 
         <SpellAddMenu />
         <Box>
-          {data.map((spell, i) => (
+          {filterSpellData?.map((spell, i) => (
             <Spell key={i} data={spell} />
           ))}
         </Box>
