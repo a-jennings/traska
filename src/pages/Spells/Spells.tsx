@@ -57,7 +57,7 @@ export function Spells(): ReactElement {
         <SpellAddMenu activeTab={setActiveTab} />
         <Box>
           {filterSpellData?.map((spell, i) => (
-            <Spell key={i} data={spell} />
+            <Spell key={i} data={spell} setActiveTab={setActiveTab} />
           ))}
         </Box>
       </Box>

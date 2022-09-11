@@ -136,8 +136,10 @@ export function SpellAddMenu(props: SpellAddMenuProps): ReactElement {
                       label="Spell Level"
                       select
                     >
-                      {levelOptions.map((level) => (
-                        <MenuItem value={level}>{level}</MenuItem>
+                      {levelOptions.map((level, i) => (
+                        <MenuItem key={i} value={level}>
+                          {level}
+                        </MenuItem>
                       ))}
                     </TextField>
                   </Grid>

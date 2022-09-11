@@ -79,6 +79,7 @@ export type SpellData = {
   spellSavingThrow: string | null;
   spellResistance: string | null;
   spellArea: string | null;
+  spellEffect: string | null;
   spellDescription: string | null;
   spellDescriptionTwo: string | null;
   spellDescriptionThree: string | null;
