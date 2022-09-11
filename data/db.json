@@ -130,5 +130,24 @@
       "weight": "1",
       "id": 1
     }
+  ],
+  "spells": [
+    {
+      "spellName": "Create Water",
+      "spellSchool": "Conjuration",
+      "spellDescriptor": "Water",
+      "spellLevel": 0,
+      "spellComponents": "V, S",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Close (25 ft. + 5 ft./2 levels)",
+      "spellDuration": "Instantaneous",
+      "spellTarget": "",
+      "spellSavingThrow": "None",
+      "spellResistance": "No",
+      "spellArea": "",
+      "spellDescription": "This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large—possibly creating a downpour or filling many small receptacles.\n\nNote: Conjuration spells can’t create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.",
+      "spellSpellResistance": "O",
+      "id": 1
+    }
   ]
 }

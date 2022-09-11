@@ -4,6 +4,7 @@ import { SpellMenu } from "./SpellMenu/SpellMenu";
 import axios from "axios";
 import { SpellSlot } from "../../types";
 import { Tabs, Tab, useTheme, Box } from "@mui/material";
+import { SpellAddMenu } from "./SpellAddMenu/SpellAddMenu";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -31,10 +32,13 @@ export function Spells(): ReactElement {
           indicatorColor="secondary"
           textColor="secondary"
         >
+          <Tab label="Zero" sx={tabStyles} />
           <Tab label="One" sx={tabStyles} />
           <Tab label="Two" sx={tabStyles} />
           <Tab label="Three" sx={tabStyles} />
         </Tabs>
+
+        <SpellAddMenu />
       </Box>
     </>
   );
