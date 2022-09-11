@@ -66,9 +66,19 @@ export type Item = {
   weight: number;
 };
 
-export type SpellSlot = {
-  id: number;
-  level: number;
-  maxSlots: number;
-  currentSlots: number;
+export type SpellData = {
+  spellName: string | null;
+  spellSchool: string | null;
+  spellDescriptor: string | null;
+  spellLevel: number;
+  spellComponents: string | null;
+  spellCastingTime: string | null;
+  spellRange: string | null;
+  spellDuration: string | null;
+  spellTarget: string | null;
+  spellSavingThrow: string | null;
+  spellResistance: string | null;
+  spellArea: string | null;
+  spellDescription: string | null;
+  id: 1;
 };
