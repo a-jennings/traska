@@ -90,6 +90,21 @@ export function Spell(props: SpellProps): ReactElement {
               <Typography>{data.spellDescription}</Typography>
             </Box>
           )}
+          {data.spellDescriptionTwo && (
+            <Box mt={1}>
+              <Typography>{data.spellDescriptionTwo}</Typography>
+            </Box>
+          )}
+          {data.spellDescriptionThree && (
+            <Box mt={1}>
+              <Typography>{data.spellDescriptionThree}</Typography>
+            </Box>
+          )}
+          {data.spellDescriptionFour && (
+            <Box mt={1}>
+              <Typography>{data.spellDescriptionFour}</Typography>
+            </Box>
+          )}
         </Collapse>
       </Box>
     </>

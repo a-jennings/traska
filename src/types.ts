@@ -80,5 +80,8 @@ export type SpellData = {
   spellResistance: string | null;
   spellArea: string | null;
   spellDescription: string | null;
+  spellDescriptionTwo: string | null;
+  spellDescriptionThree: string | null;
+  spellDescriptionFour: string | null;
   id: 1;
 };

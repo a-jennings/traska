@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from "react";
+import React, { Dispatch, ReactElement, SetStateAction, useState } from "react";
 import {
   Fab,
   Dialog,
@@ -33,12 +33,20 @@ const initialValues = {
   spellResistance: "",
   spellArea: "",
   spellDescription: "",
+  spellDescriptionTwo: "",
+  spellDescriptionThree: "",
+  spellDescriptionFour: "",
   spellEffect: "",
 };
 
 const levelOptions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-export function SpellAddMenu(): ReactElement {
+type SpellAddMenuProps = {
+  activeTab: Dispatch<SetStateAction<number>>;
+};
+
+export function SpellAddMenu(props: SpellAddMenuProps): ReactElement {
+  const { activeTab } = props;
   const [dialogOpen, setDialogOpen] = useState(false);
 
   const handleDialogOpen = () => setDialogOpen(true);
@@ -72,7 +80,10 @@ export function SpellAddMenu(): ReactElement {
             onSubmit={(values) => {
               axios
                 .post("http://localhost:3001/spells", values)
-                .then(() => handleDialogClose())
+                .then(() => {
+                  handleDialogClose();
+                  activeTab(values.spellLevel);
+                })
                 .catch((error) => console.log(error));
             }}
           >
@@ -243,7 +254,46 @@ export function SpellAddMenu(): ReactElement {
                       onChange={handleChange}
                       label="Spell Description"
                       multiline
-                      minRows={4}
+                      minRows={2}
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      id="spellDescriptionTwo"
+                      name="spellDescriptionTwo"
+                      size="small"
+                      fullWidth
+                      value={values.spellDescriptionTwo}
+                      onChange={handleChange}
+                      label="Spell Description Two"
+                      multiline
+                      minRows={2}
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      id="spellDescriptionThree"
+                      name="spellDescriptionThree"
+                      size="small"
+                      fullWidth
+                      value={values.spellDescriptionThree}
+                      onChange={handleChange}
+                      label="Spell Description Three"
+                      multiline
+                      minRows={2}
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      id="spellDescriptionFour"
+                      name="spellDescriptionFour"
+                      size="small"
+                      fullWidth
+                      value={values.spellDescriptionFour}
+                      onChange={handleChange}
+                      label="Spell Description Four"
+                      multiline
+                      minRows={2}
                     />
                   </Grid>
                 </Grid>

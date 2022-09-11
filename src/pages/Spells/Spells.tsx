@@ -31,7 +31,7 @@ export function Spells(): ReactElement {
       .get("http://localhost:3001/spells")
       .then((res: { data: Array<SpellData> }) => setData(res.data))
       .catch((error) => console.log(error));
-  }, []);
+  }, [activeTab]);
 
   if (!data) {
     return <></>;
@@ -54,7 +54,7 @@ export function Spells(): ReactElement {
           <Tab label="Three" sx={tabStyles} />
         </Tabs>
 
-        <SpellAddMenu />
+        <SpellAddMenu activeTab={setActiveTab} />
         <Box>
           {filterSpellData?.map((spell, i) => (
             <Spell key={i} data={spell} />
