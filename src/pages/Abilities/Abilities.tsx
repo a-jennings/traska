@@ -4,8 +4,7 @@ import { Attacks } from "./Attacks/Attacks";
 
 export function Abilities(): ReactElement {
   return (
-    <Box py={3} px={10}>
-      <Typography fontSize={18}>Attacks</Typography>
+    <Box py={3} px={20}>
       <Attacks />
     </Box>
   );

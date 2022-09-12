@@ -98,4 +98,5 @@ export type AttackData = {
   range: string;
   type: string;
   notes: string;
+  id: number;
 };

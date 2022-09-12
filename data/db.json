@@ -131,7 +131,6 @@
       "id": 1
     }
   ],
-
   "attacks": [
     {
       "name": "Mace",
@@ -140,7 +139,8 @@
       "critical": "x2",
       "range": "-",
       "type": "Bludgeoning",
-      "notes": "Masterwork"
+      "notes": "Masterwork",
+      "id": 1
     }
   ],
   "spells": [
