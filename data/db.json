@@ -134,7 +134,7 @@
   "attacks": [
     {
       "name": "Mace",
-      "bonus": "4",
+      "bonus": 2,
       "damage": "1d8",
       "critical": "x2",
       "range": "-",

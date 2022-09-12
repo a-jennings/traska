@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from "react";
+import React, { ReactElement, useState, useEffect } from "react";
 import {
   Box,
   Typography,
@@ -9,11 +9,12 @@ import {
   DialogTitle,
   DialogContent,
 } from "@mui/material";
-import { AttackData } from "../../types";
+import { AttackData, CharacterStatistics } from "../../types";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CloseIcon from "@mui/icons-material/Close";
 import EditIcon from "@mui/icons-material/Edit";
 import { AttackForm } from "./AttackForm";
+import axios from "axios";
 
 type AttackProps = {
   data: AttackData;
@@ -24,9 +25,21 @@ export function Attack(props: AttackProps): ReactElement {
   const { data, fetchAttacks } = props;
   const [expanded, setExpanded] = useState(false);
   const [dialogOpen, setDialogOpen] = useState(false);
+  const [statsData, setStatsData] = useState<CharacterStatistics>();
 
   const handleDialogOpen = () => setDialogOpen(true);
   const handleDialogClose = () => setDialogOpen(false);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:3001/stats")
+      .then((res: { data: CharacterStatistics }) => setStatsData(res.data))
+      .catch((error) => console.log(error));
+  });
+
+  if (!data || !statsData) {
+    return <></>;
+  }
 
   return (
     <>
@@ -36,7 +49,9 @@ export function Attack(props: AttackProps): ReactElement {
             <Typography>{data.name}</Typography>
           </Grid>
           <Grid item xs={3} textAlign="right">
-            <Typography>{data.bonus}</Typography>
+            <Typography>
+              +{Number(data.bonus) + Number(statsData?.baseAttackBonus)}
+            </Typography>
           </Grid>
           <Grid item xs={3} textAlign="right">
             <Typography>{data.damage}</Typography>
