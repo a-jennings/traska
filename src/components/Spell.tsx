@@ -89,7 +89,7 @@ export function Spell(props: SpellProps): ReactElement {
     }
 
     if (data.spellDomainSpell) {
-      return theme.palette.warning.light;
+      return "#FBF874";
     }
 
     return "transparent";
