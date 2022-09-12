@@ -61,6 +61,10 @@ export function Languages(): ReactElement {
       .catch((error) => console.log(error));
   }, [fetchLanguages]);
 
+  if (!data) {
+    return <></>;
+  }
+
   return (
     <>
       <Box>
