@@ -41,6 +41,7 @@ const initialValues = {
   spellEffect: "",
   spellDomainSpell: false,
   spellPrepared: 0,
+  spellMaterial: "",
 };
 
 const levelOptions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -270,6 +271,17 @@ export function SpellAddMenu(props: SpellAddMenuProps): ReactElement {
                         />
                       }
                       label="Domain Spell?"
+                    />
+                  </Grid>
+                  <Grid item xs={4}>
+                    <TextField
+                      id="spellMaterial"
+                      name="spellMaterial"
+                      size="small"
+                      fullWidth
+                      value={values.spellMaterial}
+                      onChange={handleChange}
+                      label="Spell Material"
                     />
                   </Grid>
                   <Grid item xs={12} my={1}>

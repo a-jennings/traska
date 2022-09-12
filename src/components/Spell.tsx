@@ -111,8 +111,11 @@ export function Spell(props: SpellProps): ReactElement {
         borderColor={theme.palette.grey[200]}
         bgcolor={getBackgroundColor(data)}
       >
-        <Box>
+        <Box display="flex" alignItems="center">
           <Typography>{data.spellName}</Typography>
+          <Typography sx={{ marginLeft: 1 }} fontSize={12}>
+            {data.spellMaterial ? <em>(M)</em> : ""}
+          </Typography>
         </Box>
         <Box>
           {data.spellPrepared > 0 && (
@@ -189,6 +192,14 @@ export function Spell(props: SpellProps): ReactElement {
               <strong>Area:</strong> {data.spellArea}
             </Typography>
           )}
+          {data.spellMaterial && (
+            <Typography>
+              <strong>Material:</strong> <em>{data.spellMaterial}</em>
+            </Typography>
+          )}
+          <Box px={10} py={1}>
+            <Divider />
+          </Box>
           {data.spellDescription && (
             <Box mt={1}>
               <Typography>{data.spellDescription}</Typography>
@@ -411,6 +422,17 @@ export function Spell(props: SpellProps): ReactElement {
                         />
                       }
                       label="Domain Spell?"
+                    />
+                  </Grid>
+                  <Grid item xs={4}>
+                    <TextField
+                      id="spellMaterial"
+                      name="spellMaterial"
+                      size="small"
+                      fullWidth
+                      value={values.spellMaterial}
+                      onChange={handleChange}
+                      label="Spell Material"
                     />
                   </Grid>
                   <Grid item xs={12} my={1}>

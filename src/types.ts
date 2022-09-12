@@ -86,5 +86,6 @@ export type SpellData = {
   spellDescriptionFour: string | null;
   spellDomainSpell: boolean;
   spellPrepared: number;
+  spellMaterial: string;
   id: 1;
 };
