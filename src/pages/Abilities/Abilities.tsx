@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 import { Attacks } from "./Attacks/Attacks";
 import { Gear } from "./Gear/Gear";
 import { Feats } from "./Feats/Feats";
+import { Languages } from "./Languages/Languages";
 
 export function Abilities(): ReactElement {
   return (
@@ -10,6 +11,7 @@ export function Abilities(): ReactElement {
       <Attacks />
       <Gear />
       <Feats />
+      <Languages />
     </Box>
   );
 }

@@ -119,3 +119,8 @@ export type FeatData = {
   name: string;
   description: string;
 };
+
+export type LanguageData = {
+  id: number;
+  name: string;
+};

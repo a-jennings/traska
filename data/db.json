@@ -181,6 +181,20 @@
       "id": 2
     }
   ],
+  "languages": [
+    {
+      "id": 1,
+      "name": "Common"
+    },
+    {
+      "id": 2,
+      "name": "Celestial"
+    },
+    {
+      "id": 3,
+      "name": "Elven"
+    }
+  ],
   "spells": [
     {
       "spellName": "Create Water",
