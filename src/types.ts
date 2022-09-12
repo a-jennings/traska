@@ -89,3 +89,13 @@ export type SpellData = {
   spellMaterial: string;
   id: 1;
 };
+
+export type AttackData = {
+  name: string;
+  bonus: number;
+  damage: string;
+  critical: string;
+  range: string;
+  type: string;
+  notes: string;
+};

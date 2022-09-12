@@ -131,6 +131,18 @@
       "id": 1
     }
   ],
+
+  "attacks": [
+    {
+      "name": "Mace",
+      "bonus": "4",
+      "damage": "1d8",
+      "critical": "x2",
+      "range": "-",
+      "type": "Bludgeoning",
+      "notes": "Masterwork"
+    }
+  ],
   "spells": [
     {
       "spellName": "Create Water",
