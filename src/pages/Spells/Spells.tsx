@@ -29,9 +29,32 @@ export function Spells(): ReactElement {
       .catch((error) => console.log(error));
   }, []);
 
-  const filterSpellData = data?.filter(
-    (spell) => spell.spellLevel === activeTab
-  );
+  const filterSpellData =
+    data?.filter((spell) => spell.spellLevel === activeTab) || [];
+
+  const sortSpells = (data: Array<SpellData>) => {
+    const preparedSpells = data
+      .filter((spell) => spell.spellPrepared > 0)
+      .sort((a, b) =>
+        a.spellName > b.spellName ? 1 : b.spellName > a.spellName ? -1 : 0
+      );
+
+    const domainSpells = data
+      .filter((spell) => spell.spellDomainSpell === true)
+      .sort((a, b) =>
+        a.spellName > b.spellName ? 1 : b.spellName > a.spellName ? -1 : 0
+      );
+
+    const otherSpells = data
+      .filter((spell) => spell.spellPrepared <= 0)
+      .sort((a, b) =>
+        a.spellName > b.spellName ? 1 : b.spellName > a.spellName ? -1 : 0
+      );
+
+    return preparedSpells.concat(domainSpells).concat(otherSpells);
+  };
+
+  const sortedFilteredSpells = sortSpells(filterSpellData);
 
   useEffect(() => {
     axios
@@ -63,7 +86,7 @@ export function Spells(): ReactElement {
 
         <SpellAddMenu fetchSpells={fetchSpells} />
         <Box>
-          {filterSpellData?.map((spell, i) => (
+          {sortedFilteredSpells.map((spell, i) => (
             <Spell key={i} data={spell} fetchSpells={fetchSpells} />
           ))}
         </Box>

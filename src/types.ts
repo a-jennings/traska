@@ -67,7 +67,7 @@ export type Item = {
 };
 
 export type SpellData = {
-  spellName: string | null;
+  spellName: string;
   spellSchool: string | null;
   spellDescriptor: string | null;
   spellLevel: number;

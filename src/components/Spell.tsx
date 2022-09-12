@@ -81,7 +81,7 @@ export function Spell(props: SpellProps): ReactElement {
     }
 
     if (data?.spellName?.includes("Cure")) {
-      return theme.palette.secondary.light;
+      return "pink";
     }
 
     if (data.spellPrepared && data.spellPrepared > 0) {
@@ -115,6 +115,15 @@ export function Spell(props: SpellProps): ReactElement {
           <Typography>{data.spellName}</Typography>
         </Box>
         <Box>
+          {data.spellPrepared > 0 && (
+            <IconButton disabled>
+              <Typography
+                sx={{ color: theme.palette.common.white, opacity: 1 }}
+              >
+                {data.spellPrepared}
+              </Typography>
+            </IconButton>
+          )}
           {data.spellPrepared > 0 && (
             <IconButton onClick={handleCastDialogOpen}>
               <AutoFixHighIcon sx={{ color: theme.palette.common.white }} />
