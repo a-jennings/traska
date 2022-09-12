@@ -135,7 +135,7 @@
     {
       "name": "Mace",
       "bonus": 2,
-      "damage": "1d8",
+      "damage": "1d8+1",
       "critical": "x2",
       "range": "-",
       "type": "Bludgeoning",
@@ -154,7 +154,7 @@
       "spellFailure": "35%",
       "speed": "20ft",
       "weight": "50",
-      "properties": "Masterwork (+1)"
+      "properties": "Masterwork. Enchanted + 1"
     },
     {
       "id": 2,
@@ -167,6 +167,18 @@
       "speed": "",
       "weight": "15",
       "properties": ""
+    }
+  ],
+  "feats": [
+    {
+      "name": "Sacred Boost",
+      "description": "You can spend a turn attempt as standard action to place an aura of positive energy upon each creature within a 60-ft. burst. Any cure spell cast on one of these creatures before the end of your next turn is automatically maximized, with no adjustment to the spell's level or casting time.",
+      "id": 1
+    },
+    {
+      "name": "Extra Turning",
+      "description": "Each time you take this feat, you can use your ability to turn or rebuke creatures four more times per day than normal. If you have the ability to turn or rebuke more than one kind of creature (such as a good-aligned cleric with access to the Fire domain, who can turn undead and water creatures and can also rebuke fire creatures), each of your turning or rebuking abilities gains four additional uses per day.",
+      "id": 2
     }
   ],
   "spells": [

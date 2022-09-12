@@ -35,7 +35,7 @@ export function Attack(props: AttackProps): ReactElement {
       .get("http://localhost:3001/stats")
       .then((res: { data: CharacterStatistics }) => setStatsData(res.data))
       .catch((error) => console.log(error));
-  });
+  }, []);
 
   if (!data || !statsData) {
     return <></>;

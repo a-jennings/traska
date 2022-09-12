@@ -26,13 +26,6 @@ export function Gear(): ReactElement {
   const handleDialogOpen = () => setDialogOpen(true);
   const handleDialogClose = () => setDialogOpen(false);
 
-  useEffect(() => {
-    axios
-      .get("http://localhost:3001/gear")
-      .then((res: { data: Array<GearData> }) => setData(res.data))
-      .catch((error) => console.log(error));
-  });
-
   const fetchGear = useCallback(() => {
     axios
       .get("http://localhost:3001/gear")
@@ -53,7 +46,7 @@ export function Gear(): ReactElement {
 
   return (
     <>
-      <Box>
+      <Box mb={2}>
         <Box display="flex" alignItems="center">
           <Typography fontSize={18} sx={{ textDecoration: "underline" }}>
             Gear

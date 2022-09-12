@@ -113,3 +113,9 @@ export type GearData = {
   weight: number;
   properties: string;
 };
+
+export type FeatData = {
+  id: number;
+  name: string;
+  description: string;
+};
