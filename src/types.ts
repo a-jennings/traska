@@ -84,5 +84,7 @@ export type SpellData = {
   spellDescriptionTwo: string | null;
   spellDescriptionThree: string | null;
   spellDescriptionFour: string | null;
+  spellDomainSpell: boolean;
+  spellPrepared: number;
   id: 1;
 };

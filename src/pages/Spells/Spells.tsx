@@ -1,4 +1,4 @@
-import React, { ReactElement, useEffect, useState } from "react";
+import React, { ReactElement, useCallback, useEffect, useState } from "react";
 import axios from "axios";
 import { Tabs, Tab, useTheme, Box } from "@mui/material";
 import { SpellAddMenu } from "./SpellAddMenu/SpellAddMenu";
@@ -22,6 +22,13 @@ export function Spells(): ReactElement {
     setActiveTab(newValue);
   };
 
+  const fetchSpells = useCallback(() => {
+    axios
+      .get("http://localhost:3001/spells")
+      .then((res: { data: Array<SpellData> }) => setData(res.data))
+      .catch((error) => console.log(error));
+  }, []);
+
   const filterSpellData = data?.filter(
     (spell) => spell.spellLevel === activeTab
   );
@@ -31,7 +38,7 @@ export function Spells(): ReactElement {
       .get("http://localhost:3001/spells")
       .then((res: { data: Array<SpellData> }) => setData(res.data))
       .catch((error) => console.log(error));
-  }, [activeTab]);
+  }, [activeTab, fetchSpells]);
 
   if (!data) {
     return <></>;
@@ -54,10 +61,10 @@ export function Spells(): ReactElement {
           <Tab label="Three" sx={tabStyles} />
         </Tabs>
 
-        <SpellAddMenu activeTab={setActiveTab} />
+        <SpellAddMenu fetchSpells={fetchSpells} />
         <Box>
           {filterSpellData?.map((spell, i) => (
-            <Spell key={i} data={spell} setActiveTab={setActiveTab} />
+            <Spell key={i} data={spell} fetchSpells={fetchSpells} />
           ))}
         </Box>
       </Box>

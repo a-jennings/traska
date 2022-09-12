@@ -14,11 +14,14 @@ import {
   Button,
   MenuItem,
   Divider,
+  FormControlLabel,
+  Checkbox,
 } from "@mui/material";
 import { SpellData } from "../types";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CloseIcon from "@mui/icons-material/Close";
 import EditIcon from "@mui/icons-material/Edit";
+import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
 import axios from "axios";
 import { Formik, Form } from "formik";
 
@@ -28,29 +31,46 @@ axios.defaults.headers.common["Access-Control-Allow-Methods"] =
 
 type SpellProps = {
   data: SpellData;
-  setActiveTab: Dispatch<SetStateAction<number>>;
+  fetchSpells: () => void;
 };
 
 const levelOptions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 export function Spell(props: SpellProps): ReactElement {
-  const { data, setActiveTab } = props;
+  const { data, fetchSpells } = props;
   const theme = useTheme();
   const [expanded, setExpanded] = useState(false);
   const [dialogOpen, setDialogOpen] = useState(false);
   const [confirmDialogOpen, setConfirmDialogOpen] = useState(false);
+  const [castDialogOpen, setCastDialogOpen] = useState(false);
 
   const handleDialogOpen = () => setDialogOpen(true);
   const handleDialogClose = () => setDialogOpen(false);
   const handleConfirmDialogOpen = () => setConfirmDialogOpen(true);
   const handleConfirmDialogClose = () => setConfirmDialogOpen(false);
+  const handleCastDialogOpen = () => setCastDialogOpen(true);
+  const handleCastDialogClose = () => setCastDialogOpen(false);
 
   const handleDelete = () => {
     axios
       .delete(`http://localhost:3001/spells/${data.id}`)
       .then(() => {
+        fetchSpells();
         handleConfirmDialogClose();
         handleDialogClose();
+      })
+      .catch((error) => console.log(error));
+  };
+
+  const handleCast = () => {
+    axios
+      .patch(`http://localhost:3001/spells/${data.id}`, {
+        ...data,
+        spellPrepared: data.spellPrepared - 1,
+      })
+      .then(() => {
+        fetchSpells();
+        handleCastDialogClose();
       })
       .catch((error) => console.log(error));
   };
@@ -64,8 +84,20 @@ export function Spell(props: SpellProps): ReactElement {
       return theme.palette.secondary.light;
     }
 
+    if (data.spellPrepared && data.spellPrepared > 0) {
+      return theme.palette.success.light;
+    }
+
+    if (data.spellDomainSpell) {
+      return theme.palette.warning.light;
+    }
+
     return "transparent";
   };
+
+  if (!data) {
+    return <></>;
+  }
 
   return (
     <>
@@ -83,6 +115,11 @@ export function Spell(props: SpellProps): ReactElement {
           <Typography>{data.spellName}</Typography>
         </Box>
         <Box>
+          {data.spellPrepared > 0 && (
+            <IconButton onClick={handleCastDialogOpen}>
+              <AutoFixHighIcon sx={{ color: theme.palette.common.white }} />
+            </IconButton>
+          )}
           <IconButton onClick={handleDialogOpen}>
             <EditIcon />
           </IconButton>
@@ -180,7 +217,7 @@ export function Spell(props: SpellProps): ReactElement {
               axios
                 .patch(`http://localhost:3001/spells/${values.id}`, values)
                 .then(() => {
-                  setActiveTab(0);
+                  fetchSpells();
                   handleDialogClose();
                 })
                 .catch((error) => console.log(error));
@@ -342,6 +379,31 @@ export function Spell(props: SpellProps): ReactElement {
                       label="Spell Effect"
                     />
                   </Grid>
+                  <Grid item xs={4}>
+                    <TextField
+                      id="spellPrepared"
+                      name="spellPrepared"
+                      size="small"
+                      fullWidth
+                      value={values.spellPrepared}
+                      onChange={handleChange}
+                      label="Spell Prepared"
+                      type="number"
+                    />
+                  </Grid>
+                  <Grid item xs={4} textAlign="center">
+                    <FormControlLabel
+                      control={
+                        <Checkbox
+                          checked={values.spellDomainSpell}
+                          onChange={handleChange}
+                          id="spellDomainSpell"
+                          name="spellDomainSpell"
+                        />
+                      }
+                      label="Domain Spell?"
+                    />
+                  </Grid>
                   <Grid item xs={12} my={1}>
                     <Divider />
                   </Grid>
@@ -423,7 +485,12 @@ export function Spell(props: SpellProps): ReactElement {
         </DialogContent>
       </Dialog>
 
-      <Dialog open={confirmDialogOpen} onClose={handleConfirmDialogClose}>
+      <Dialog
+        open={confirmDialogOpen}
+        onClose={handleConfirmDialogClose}
+        fullWidth
+        maxWidth="xs"
+      >
         <DialogTitle>Confirm Delete</DialogTitle>
         <DialogContent>
           <Typography>
@@ -436,6 +503,26 @@ export function Spell(props: SpellProps): ReactElement {
           </Button>
           <Button variant="contained" color="error" onClick={handleDelete}>
             Delete
+          </Button>
+        </DialogActions>
+      </Dialog>
+
+      <Dialog
+        open={castDialogOpen}
+        onClose={handleCastDialogClose}
+        fullWidth
+        maxWidth="xs"
+      >
+        <DialogTitle>Cast {data.spellName}?</DialogTitle>
+        <DialogContent>
+          <Typography>Are you sure?</Typography>
+        </DialogContent>
+        <DialogActions>
+          <Button variant="outlined" onClick={handleCastDialogClose}>
+            Cancel
+          </Button>
+          <Button variant="contained" color="success" onClick={handleCast}>
+            Cast
           </Button>
         </DialogActions>
       </Dialog>

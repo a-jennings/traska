@@ -10,6 +10,8 @@ import {
   TextField,
   MenuItem,
   Divider,
+  FormControlLabel,
+  Checkbox,
 } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import { Formik, Form } from "formik";
@@ -37,16 +39,18 @@ const initialValues = {
   spellDescriptionThree: "",
   spellDescriptionFour: "",
   spellEffect: "",
+  spellDomainSpell: false,
+  spellPrepared: 0,
 };
 
 const levelOptions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 type SpellAddMenuProps = {
-  activeTab: Dispatch<SetStateAction<number>>;
+  fetchSpells: () => void;
 };
 
 export function SpellAddMenu(props: SpellAddMenuProps): ReactElement {
-  const { activeTab } = props;
+  const { fetchSpells } = props;
   const [dialogOpen, setDialogOpen] = useState(false);
 
   const handleDialogOpen = () => setDialogOpen(true);
@@ -81,8 +85,8 @@ export function SpellAddMenu(props: SpellAddMenuProps): ReactElement {
               axios
                 .post("http://localhost:3001/spells", values)
                 .then(() => {
+                  fetchSpells();
                   handleDialogClose();
-                  activeTab(values.spellLevel);
                 })
                 .catch((error) => console.log(error));
             }}
@@ -241,6 +245,31 @@ export function SpellAddMenu(props: SpellAddMenuProps): ReactElement {
                       value={values.spellEffect}
                       onChange={handleChange}
                       label="Spell Effect"
+                    />
+                  </Grid>
+                  <Grid item xs={4}>
+                    <TextField
+                      id="spellPrepared"
+                      name="spellPrepared"
+                      size="small"
+                      fullWidth
+                      value={values.spellPrepared}
+                      onChange={handleChange}
+                      label="Spell Prepared"
+                      type="number"
+                    />
+                  </Grid>
+                  <Grid item xs={4} textAlign="center">
+                    <FormControlLabel
+                      control={
+                        <Checkbox
+                          checked={values.spellDomainSpell}
+                          onChange={handleChange}
+                          id="spellDomainSpell"
+                          name="spellDomainSpell"
+                        />
+                      }
+                      label="Domain Spell?"
                     />
                   </Grid>
                   <Grid item xs={12} my={1}>

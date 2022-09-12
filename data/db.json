@@ -150,7 +150,9 @@
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "Up to 2 gallons of water/level",
-      "id": 1
+      "id": 1,
+      "spellPrepared": 0,
+      "spellDomainSpell": false
     },
     {
       "spellName": "Bane",
@@ -170,7 +172,9 @@
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
-      "id": 2
+      "id": 2,
+      "spellPrepared": 0,
+      "spellDomainSpell": false
     },
     {
       "spellName": "Aid",
@@ -190,7 +194,9 @@
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
-      "id": 3
+      "id": 3,
+      "spellPrepared": 0,
+      "spellDomainSpell": false
     }
   ]
 }
