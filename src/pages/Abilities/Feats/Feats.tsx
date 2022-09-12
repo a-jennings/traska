@@ -30,7 +30,6 @@ const initialValues = {
 export function Feats(): ReactElement {
   const [addDialogOpen, setAddDialogOpen] = useState(false);
   const [data, setData] = useState<Array<FeatData>>();
-  const [expanded, setExpanded] = useState(false);
 
   const handleAddDialogOpen = () => setAddDialogOpen(true);
   const handleAddDialogClose = () => setAddDialogOpen(false);
@@ -49,6 +48,9 @@ export function Feats(): ReactElement {
       .catch((error) => console.log(error));
   }, [fetchFeats]);
 
+  if (!data) {
+    return <></>;
+  }
   return (
     <>
       <Box mb={2}>

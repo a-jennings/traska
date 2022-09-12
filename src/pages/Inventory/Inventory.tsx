@@ -48,6 +48,10 @@ export function Inventory(): ReactElement {
       .catch((error) => console.log(error));
   }, [addDialogOpen, deleteDialogOpen, editDialogOpen]);
 
+  if (!data) {
+    return <></>;
+  }
+
   return (
     <>
       <Box py={3} px={20}>
