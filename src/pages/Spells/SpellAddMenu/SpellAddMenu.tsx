@@ -59,7 +59,7 @@ export function SpellAddMenu(props: SpellAddMenuProps): ReactElement {
   return (
     <>
       <Fab
-        sx={{ position: "absolute", bottom: 30, right: 30 }}
+        sx={{ position: "absolute", top: 5, right: 30 }}
         color="primary"
         onClick={handleDialogOpen}
       >
