@@ -143,6 +143,32 @@
       "id": 1
     }
   ],
+  "gear": [
+    {
+      "id": 1,
+      "name": "Full Plate",
+      "type": "Armour",
+      "bonus": 9,
+      "maxDex": "1",
+      "checkPenalty": "-5",
+      "spellFailure": "35%",
+      "speed": "20ft",
+      "weight": "50",
+      "properties": "Masterwork (+1)"
+    },
+    {
+      "id": 2,
+      "name": "Shield, Heavy Steel",
+      "type": "Shield",
+      "bonus": 2,
+      "maxDex": "",
+      "checkPenalty": "-1",
+      "spellFailure": "5%",
+      "speed": "",
+      "weight": "15",
+      "properties": ""
+    }
+  ],
   "spells": [
     {
       "spellName": "Create Water",

@@ -1,11 +1,13 @@
 import React, { ReactElement } from "react";
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import { Attacks } from "./Attacks/Attacks";
+import { Gear } from "./Gear/Gear";
 
 export function Abilities(): ReactElement {
   return (
     <Box py={3} px={20}>
       <Attacks />
+      <Gear />
     </Box>
   );
 }

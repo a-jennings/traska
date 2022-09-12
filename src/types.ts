@@ -100,3 +100,16 @@ export type AttackData = {
   notes: string;
   id: number;
 };
+
+export type GearData = {
+  id: number;
+  name: string;
+  type: string;
+  bonus: number;
+  maxDex: string;
+  checkPenalty: string;
+  spellFailure: string;
+  speed: string;
+  weight: number;
+  properties: string;
+};
