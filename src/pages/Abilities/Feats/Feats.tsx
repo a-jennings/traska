@@ -11,8 +11,11 @@ import {
   Button,
   Grid,
   TextField,
+  Collapse,
 } from "@mui/material";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import CloseIcon from "@mui/icons-material/Close";
 import { Formik, Form } from "formik";
 import axios from "axios";
 import { FeatData } from "../../../types";
@@ -30,6 +33,7 @@ const initialValues = {
 export function Feats(): ReactElement {
   const [addDialogOpen, setAddDialogOpen] = useState(false);
   const [data, setData] = useState<Array<FeatData>>();
+  const [expanded, setExpanded] = useState(false);
 
   const handleAddDialogOpen = () => setAddDialogOpen(true);
   const handleAddDialogClose = () => setAddDialogOpen(false);
@@ -54,26 +58,34 @@ export function Feats(): ReactElement {
   return (
     <>
       <Box mb={2}>
-        <Box display="flex" alignItems="center">
-          <Typography fontSize={18} sx={{ textDecoration: "underline" }}>
-            Feats
-          </Typography>
-          <IconButton sx={{ marginLeft: 1 }} onClick={handleAddDialogOpen}>
-            <AddCircleIcon color="info" />
+        <Box display="flex" alignItems="center" justifyContent="space-between">
+          <Box display="flex" alignItems="center">
+            <Typography fontSize={18} sx={{ textDecoration: "underline" }}>
+              Feats
+            </Typography>
+            <IconButton sx={{ marginLeft: 1 }} onClick={handleAddDialogOpen}>
+              <AddCircleIcon color="info" />
+            </IconButton>
+          </Box>
+          <IconButton onClick={() => setExpanded(!expanded)}>
+            {expanded ? <CloseIcon /> : <KeyboardArrowDownIcon />}
           </IconButton>
         </Box>
-        <Grid container>
-          <Grid item xs={11}>
-            <Typography>Name</Typography>
+        <Collapse in={expanded}>
+          <Grid container>
+            <Grid item xs={11}>
+              <Typography>Name</Typography>
+            </Grid>
+            <Grid item xs={1} />
           </Grid>
-          <Grid item xs={1} />
-        </Grid>
-        <Grid item xs={12}>
-          <Divider />
-        </Grid>
-        {data?.map((feat, i) => (
-          <Feat data={feat} key={i} fetchFeats={fetchFeats} />
-        ))}
+          <Grid item xs={12}>
+            <Divider />
+          </Grid>
+
+          {data?.map((feat, i) => (
+            <Feat data={feat} key={i} fetchFeats={fetchFeats} />
+          ))}
+        </Collapse>
       </Box>
 
       <Dialog
