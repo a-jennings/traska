@@ -9,12 +9,15 @@ import {
   DialogActions,
   TextField,
   Button,
+  Collapse,
 } from "@mui/material";
 import React, { ReactElement, useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import { LanguageData } from "../../../types";
 import EditIcon from "@mui/icons-material/Edit";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import CloseIcon from "@mui/icons-material/Close";
 import { Formik, Form } from "formik";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
@@ -27,6 +30,7 @@ export function Languages(): ReactElement {
   const [editDialogOpen, setEditDialogOpen] = useState(false);
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
   const [selected, setSelected] = useState<LanguageData>();
+  const [expanded, setExpanded] = useState(false);
 
   const handleAddDialogOpen = () => setAddDialogOpen(true);
   const handleAddDialogClose = () => setAddDialogOpen(false);
@@ -68,31 +72,43 @@ export function Languages(): ReactElement {
   return (
     <>
       <Box>
-        <Box display="flex" alignItems="center" mb={1}>
-          <Typography fontSize={18} sx={{ textDecoration: "underline" }}>
-            Languages
-          </Typography>
-          <IconButton sx={{ marginLeft: 1 }} onClick={handleAddDialogOpen}>
-            <AddCircleIcon color="info" />
+        <Box
+          display="flex"
+          alignItems="center"
+          justifyContent="space-between"
+          mb={1}
+        >
+          <Box display="flex" alignItems="center">
+            <Typography fontSize={18} sx={{ textDecoration: "underline" }}>
+              Languages
+            </Typography>
+            <IconButton sx={{ marginLeft: 1 }} onClick={handleAddDialogOpen}>
+              <AddCircleIcon color="info" />
+            </IconButton>
+          </Box>
+          <IconButton onClick={() => setExpanded(!expanded)}>
+            {expanded ? <CloseIcon /> : <KeyboardArrowDownIcon />}
           </IconButton>
         </Box>
-        {data?.map((language, i) => (
-          <Grid container key={i}>
-            <Grid item xs={11}>
-              <Typography>{language.name}</Typography>
+        <Collapse in={expanded}>
+          {data?.map((language, i) => (
+            <Grid container key={i}>
+              <Grid item xs={11}>
+                <Typography>{language.name}</Typography>
+              </Grid>
+              <Grid item xs={1} textAlign="right">
+                <IconButton
+                  onClick={() => {
+                    setSelected(language);
+                    handleEditDialogOpen();
+                  }}
+                >
+                  <EditIcon color="info" />
+                </IconButton>
+              </Grid>
             </Grid>
-            <Grid item xs={1} textAlign="right">
-              <IconButton
-                onClick={() => {
-                  setSelected(language);
-                  handleEditDialogOpen();
-                }}
-              >
-                <EditIcon color="info" />
-              </IconButton>
-            </Grid>
-          </Grid>
-        ))}
+          ))}
+        </Collapse>
       </Box>
 
       <Dialog
