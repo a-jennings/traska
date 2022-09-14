@@ -101,6 +101,13 @@ export type AttackData = {
   id: number;
 };
 
+export type CurrencyData = {
+  copper: number;
+  silver: number;
+  gold: number;
+  platinum: number;
+};
+
 export type GearData = {
   id: number;
   name: string;

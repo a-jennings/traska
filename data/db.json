@@ -131,6 +131,12 @@
       "id": 1
     }
   ],
+  "currency": {
+    "copper": 0,
+    "silver": 0,
+    "gold": 1250,
+    "platinum": 0
+  },
   "attacks": [
     {
       "name": "Mace",

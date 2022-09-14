@@ -8,6 +8,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import { InventoryAddDialog } from "./InventoryAddDialog/InventoryAddDialog";
 import { InventoryDeleteDialog } from "./InventoryDeleteDialog/InventoryDeleteDialog";
 import { InventoryEditDialog } from "./IventoryEditDialog/InventoryEditDialog";
+import { Currency } from "./Currency/Currency";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -55,6 +56,7 @@ export function Inventory(): ReactElement {
   return (
     <>
       <Box py={3} px={20}>
+        <Currency />
         <Grid container>
           <Grid item xs={10}>
             <Typography>Item Name</Typography>
