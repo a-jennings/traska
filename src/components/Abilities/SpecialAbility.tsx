@@ -99,12 +99,20 @@ export function SpecialAbility(props: SpecialAbilityProps): ReactElement {
           </Grid>
           <Grid item xs={2} textAlign="right">
             {castableAbility && (
-              <IconButton onClick={handleRegenerate}>
+              <IconButton
+                onClick={handleRegenerate}
+                sx={{ color: theme.palette.success.dark }}
+                disabled={Boolean(data.currentUses)}
+              >
                 <CachedIcon />
               </IconButton>
             )}
             {castableAbility && (
-              <IconButton onClick={handleCast} disabled={!data.currentUses}>
+              <IconButton
+                onClick={handleCast}
+                disabled={!data.currentUses}
+                sx={{ color: theme.palette.common.white }}
+              >
                 <AutoFixHighIcon />
               </IconButton>
             )}
