@@ -51,7 +51,7 @@ export function Spells(): ReactElement {
       );
 
     const domainSpells = data
-      .filter((spell) => spell.spellDomainSpell === true)
+      .filter((spell) => spell.spellDomainSpell && !spell.spellPrepared)
       .sort((a, b) =>
         a.spellName > b.spellName ? 1 : b.spellName > a.spellName ? -1 : 0
       );

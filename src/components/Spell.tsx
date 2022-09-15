@@ -84,12 +84,12 @@ export function Spell(props: SpellProps): ReactElement {
       return "pink";
     }
 
-    if (data.spellPrepared && data.spellPrepared > 0) {
-      return theme.palette.success.light;
+    if (data.spellDomainSpell) {
+      return theme.palette.warning.main;
     }
 
-    if (data.spellDomainSpell) {
-      return "#FBF874";
+    if (data.spellPrepared && data.spellPrepared > 0) {
+      return theme.palette.success.light;
     }
 
     return "transparent";
