@@ -7,6 +7,7 @@ import {
   IconButton,
   Fab,
   Dialog,
+  useTheme,
 } from "@mui/material";
 import axios from "axios";
 import { CharacterAbilitiesList, Skill } from "../../types";
@@ -30,6 +31,7 @@ export function Skills(): ReactElement {
   const [editDialogOpen, setEditDialogOpen] = useState(false);
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
   const [selected, setSelected] = useState<Skill>();
+  const theme = useTheme();
 
   const sortedData = data?.sort((a, b) =>
     a.name > b.name ? 1 : b.name > a.name ? -1 : 0
@@ -98,6 +100,10 @@ export function Skills(): ReactElement {
     return <></>;
   }
 
+  const totalRanks = data
+    .map((skill) => skill.ranks)
+    .reduce((partialSum, a) => partialSum + a, 0);
+
   return (
     <>
       <Box py={3} px={20}>
@@ -116,7 +122,7 @@ export function Skills(): ReactElement {
             <Typography>Ability Modifier</Typography>
           </Grid>
           <Grid xs={1} item textAlign="center">
-            <Typography>Ranks</Typography>
+            <Typography>Ranks ({totalRanks})</Typography>
           </Grid>
           <Grid xs={1} item textAlign="center">
             <Typography>Misc Modifier</Typography>
@@ -126,9 +132,12 @@ export function Skills(): ReactElement {
           <Divider />
         </Box>
 
-        {sortedData?.map((skill) => (
+        {sortedData?.map((skill, index) => (
           <Fragment key={skill.id}>
-            <Grid container>
+            <Grid
+              container
+              bgcolor={index % 2 ? theme.palette.grey[100] : "transparent"}
+            >
               <Grid item xs={0.5} textAlign="center">
                 {skill.classSkill && (
                   <Typography sx={{ opacity: 0.7 }}>X</Typography>
@@ -146,7 +155,9 @@ export function Skills(): ReactElement {
               <Grid xs={1} item textAlign="center">
                 <Typography>
                   {skill?.requiresTraining && !skill.classSkill
-                    ? 0
+                    ? skill?.ranks + skill?.miscModifier > 0
+                      ? 0
+                      : skill?.ranks + skill?.miscModifier
                     : getAbilityModifier(skill?.keyAbility) +
                       skill?.ranks +
                       skill?.miscModifier}

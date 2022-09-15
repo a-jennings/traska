@@ -101,7 +101,7 @@
       "keyAbility": "INT",
       "ranks": 0,
       "miscModifier": 0,
-      "classSkill": false,
+      "classSkill": true,
       "id": 6,
       "requiresTraining": false
     },
@@ -122,6 +122,285 @@
       "classSkill": true,
       "requiresTraining": false,
       "id": 8
+    },
+    {
+      "name": "Disable Device",
+      "keyAbility": "INT",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": true,
+      "id": 9
+    },
+    {
+      "name": "Disguise",
+      "keyAbility": "CHA",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 10
+    },
+    {
+      "name": "Escape Artist",
+      "keyAbility": "DEX",
+      "ranks": 0,
+      "miscModifier": -6,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 11
+    },
+    {
+      "name": "Forgery",
+      "keyAbility": "INT",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 12
+    },
+    {
+      "name": "Gather Information",
+      "keyAbility": "CHA",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 13
+    },
+    {
+      "name": "Handle Animal",
+      "keyAbility": "CHA",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": true,
+      "id": 14
+    },
+    {
+      "name": "Heal",
+      "keyAbility": "WIS",
+      "ranks": 6,
+      "miscModifier": 0,
+      "classSkill": true,
+      "requiresTraining": false,
+      "id": 15
+    },
+    {
+      "name": "Hide",
+      "keyAbility": "DEX",
+      "ranks": 0,
+      "miscModifier": -6,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 16
+    },
+    {
+      "name": "Intimidate",
+      "keyAbility": "CHA",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 17
+    },
+    {
+      "name": "Jump",
+      "keyAbility": "DEX",
+      "ranks": 0,
+      "miscModifier": -6,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 18
+    },
+    {
+      "name": "Knowledge (History)",
+      "keyAbility": "INT",
+      "ranks": 3,
+      "miscModifier": 0,
+      "classSkill": true,
+      "requiresTraining": true,
+      "id": 19
+    },
+    {
+      "name": "Knowledge (Religion)",
+      "keyAbility": "INT",
+      "ranks": 6,
+      "miscModifier": 0,
+      "classSkill": true,
+      "requiresTraining": true,
+      "id": 20
+    },
+    {
+      "name": "Knowledge (The Planes)",
+      "keyAbility": "INT",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": true,
+      "requiresTraining": true,
+      "id": 21
+    },
+    {
+      "name": "Listen",
+      "keyAbility": "WIS",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 22
+    },
+    {
+      "name": "Move Silently",
+      "keyAbility": "DEX",
+      "ranks": 0,
+      "miscModifier": -6,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 23
+    },
+    {
+      "name": "Open Lock",
+      "keyAbility": "DEX",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": true,
+      "id": 24
+    },
+    {
+      "name": "Perform",
+      "keyAbility": "CHA",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": true,
+      "id": 25
+    },
+    {
+      "name": "Profession",
+      "keyAbility": "WIS",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": true,
+      "requiresTraining": true,
+      "id": 26
+    },
+    {
+      "name": "Ride",
+      "keyAbility": "DEX",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 27
+    },
+    {
+      "name": "Search",
+      "keyAbility": "INT",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 28
+    },
+    {
+      "name": "Sense Motive",
+      "keyAbility": "WIS",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 29
+    },
+    {
+      "name": "Sleight of Hand",
+      "keyAbility": "DEX",
+      "ranks": 0,
+      "miscModifier": -6,
+      "classSkill": false,
+      "requiresTraining": true,
+      "id": 30
+    },
+    {
+      "name": "Spellcraft",
+      "keyAbility": "INT",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": true,
+      "requiresTraining": true,
+      "id": 31
+    },
+    {
+      "name": "Spot",
+      "keyAbility": "WIS",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 32
+    },
+    {
+      "name": "Survival",
+      "keyAbility": "WIS",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 33
+    },
+    {
+      "name": "Swim",
+      "keyAbility": "STR",
+      "ranks": 0,
+      "miscModifier": -6,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 34
+    },
+    {
+      "name": "Tumble",
+      "keyAbility": "DEX",
+      "ranks": 0,
+      "miscModifier": -6,
+      "classSkill": false,
+      "requiresTraining": true,
+      "id": 35
+    },
+    {
+      "name": "Use Magic Device",
+      "keyAbility": "CHA",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": true,
+      "id": 36
+    },
+    {
+      "name": "Use Rope",
+      "keyAbility": "DEX",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 37
+    },
+    {
+      "name": "Perception",
+      "keyAbility": "WIS",
+      "ranks": 0,
+      "miscModifier": 2,
+      "classSkill": false,
+      "requiresTraining": false,
+      "id": 38
+    },
+    {
+      "name": "Knowledge (Arcana)",
+      "keyAbility": "INT",
+      "ranks": 0,
+      "miscModifier": 0,
+      "classSkill": true,
+      "requiresTraining": true,
+      "id": 39
     }
   ],
   "inventory": [
