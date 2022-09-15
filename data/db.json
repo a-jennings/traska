@@ -203,11 +203,39 @@
   ],
   "specialAbilities": [
     {
-      "name": "Test",
-      "description": "Test desc",
-      "currentUses": "2",
-      "maxUses": "5",
+      "name": "Turn Undead",
+      "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
+      "currentUses": 9,
+      "maxUses": "10",
       "id": 1
+    },
+    {
+      "name": "Sun Domain Turn Undead",
+      "description": "Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.",
+      "currentUses": "1",
+      "maxUses": "1",
+      "id": 2
+    },
+    {
+      "name": "Daylight Spell",
+      "description": "Aasimar with a Charisma of at least 10 may cast daylight as a spell-like ability with a caster level equal to their character level once per day. Daylight can be found under level 3 spells",
+      "currentUses": "1",
+      "maxUses": "1",
+      "id": 3
+    },
+    {
+      "name": "Darkvision 60ft",
+      "description": "Darkvision is the extraordinary ability to see with no light source at all, out to a range specified for the creature. Darkvision is black and white only (colors cannot be discerned). It does not allow characters to see anything that they could not see otherwise—invisible objects are still invisible, and illusions are still visible as what they seem to be. Likewise, darkvision subjects a creature to gaze attacks normally. The presence of light does not spoil darkvision.",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 4
+    },
+    {
+      "name": "Healing Domain",
+      "description": "You cast healing spells at +1 caster level.",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 5
     }
   ],
   "spells": [

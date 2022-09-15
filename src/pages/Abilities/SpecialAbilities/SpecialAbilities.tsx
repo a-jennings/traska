@@ -67,13 +67,13 @@ export function SpecialAbilities(): ReactElement {
           </IconButton>
         </Box>
         <Grid container>
-          <Grid item xs={8}>
+          <Grid item xs={7}>
             <Typography>Name</Typography>
           </Grid>
           <Grid item xs={3} textAlign="right">
             <Typography>Uses</Typography>
           </Grid>
-          <Grid item xs={1} textAlign="right" />
+          <Grid item xs={2} textAlign="right" />
           <Grid item xs={12}>
             <Divider />
           </Grid>
@@ -94,7 +94,7 @@ export function SpecialAbilities(): ReactElement {
             onSubmit={(values: SpecialAbilityData) => {
               axios
                 .post("http://localhost:3001/specialAbilities", values)
-                .then(() => handleDialogClose)
+                .then(() => handleDialogClose())
                 .catch((error) => console.log(error));
             }}
           >
