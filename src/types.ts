@@ -139,3 +139,36 @@ export type SpecialAbilityData = {
   currentUses: number;
   maxUses: number;
 };
+
+export type SpellSlotData = {
+  zero: number;
+  zeroBonus: number;
+  zeroDomain: number;
+  one: number;
+  oneBonus: number;
+  oneDomain: number;
+  two: number;
+  twoBonus: number;
+  twoDomain: number;
+  three: number;
+  threeBonus: number;
+  threeDomain: number;
+  four: number;
+  fourBonus: number;
+  fourDomain: number;
+  five: number;
+  fiveBonus: number;
+  fiveDomain: number;
+  six: number;
+  sixBonus: number;
+  sixDomain: number;
+  seven: number;
+  sevenBonus: number;
+  sevenDomain: number;
+  eight: number;
+  eightBonus: number;
+  eightDomain: number;
+  nine: number;
+  nineBonus: number;
+  nineDomain: number;
+};

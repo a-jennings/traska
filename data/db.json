@@ -517,6 +517,38 @@
       "id": 5
     }
   ],
+  "spellSlots": {
+    "zero": 4,
+    "zeroBonus": 0,
+    "zeroDomain": 0,
+    "one": 3,
+    "oneBonus": 1,
+    "oneDomain": 1,
+    "two": 2,
+    "twoBonus": 1,
+    "twoDomain": 1,
+    "three": 0,
+    "threeBonus": 0,
+    "threeDomain": 0,
+    "four": 0,
+    "fourBonus": 0,
+    "fourDomain": 0,
+    "five": 0,
+    "fiveBonus": 0,
+    "fiveDomain": 0,
+    "six": 0,
+    "sixBonus": 0,
+    "sixDomain": 0,
+    "seven": 0,
+    "sevenBonus": 0,
+    "sevenDomain": 0,
+    "eight": 0,
+    "eightBonus": 0,
+    "eightDomain": 0,
+    "nine": 0,
+    "nineBonus": 0,
+    "nineDomain": 0
+  },
   "spells": [
     {
       "spellName": "Create Water",

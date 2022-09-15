@@ -2,8 +2,9 @@ import React, { ReactElement, useCallback, useEffect, useState } from "react";
 import axios from "axios";
 import { Tabs, Tab, useTheme, Box } from "@mui/material";
 import { SpellAddMenu } from "./SpellAddMenu/SpellAddMenu";
-import { SpellData } from "../../types";
+import { SpellData, SpellSlotData } from "../../types";
 import { Spell } from "../../components/Spell";
+import { SpellHeader } from "./SpellHeader/SpellHeader";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -11,6 +12,7 @@ axios.defaults.headers.common["Access-Control-Allow-Methods"] =
 
 export function Spells(): ReactElement {
   const [data, setData] = useState<Array<SpellData>>();
+  const [slotData, setSlotData] = useState<SpellSlotData>();
   const [activeTab, setActiveTab] = useState(0);
   const theme = useTheme();
 
@@ -26,6 +28,15 @@ export function Spells(): ReactElement {
     axios
       .get("http://localhost:3001/spells")
       .then((res: { data: Array<SpellData> }) => setData(res.data))
+      .catch((error) => console.log(error));
+  }, []);
+
+  const fetchSpellSlots = useCallback(() => {
+    axios
+      .get("http://localhost:3001/spellSlots")
+      .then((res: { data: SpellSlotData }) => {
+        setSlotData(res.data);
+      })
       .catch((error) => console.log(error));
   }, []);
 
@@ -63,13 +74,24 @@ export function Spells(): ReactElement {
       .catch((error) => console.log(error));
   }, [activeTab, fetchSpells]);
 
-  if (!data) {
+  useEffect(() => {
+    axios
+      .get("http://localhost:3001/spellSlots")
+      .then((res: { data: SpellSlotData }) => {
+        setSlotData(res.data);
+      })
+      .catch((error) => console.log(error));
+  }, [fetchSpellSlots]);
+
+  if (!data || !slotData) {
     return <></>;
   }
 
   return (
     <>
       <Box mt={2} px={4}>
+        <SpellHeader fetchSpells={fetchSpellSlots} />
+
         <Tabs
           variant="fullWidth"
           onChange={handleChange}
@@ -78,10 +100,16 @@ export function Spells(): ReactElement {
           textColor="secondary"
           sx={{ marginBottom: 2 }}
         >
-          <Tab label="Zero" sx={tabStyles} />
-          <Tab label="One" sx={tabStyles} />
-          <Tab label="Two" sx={tabStyles} />
-          <Tab label="Three" sx={tabStyles} />
+          {slotData.zero > 0 && <Tab label="Zero" sx={tabStyles} />}
+          {slotData.one > 0 && <Tab label="One" sx={tabStyles} />}
+          {slotData.two > 0 && <Tab label="Two" sx={tabStyles} />}
+          {slotData.three > 0 && <Tab label="Three" sx={tabStyles} />}
+          {slotData.four > 0 && <Tab label="Four" sx={tabStyles} />}
+          {slotData.five > 0 && <Tab label="Five" sx={tabStyles} />}
+          {slotData.six > 0 && <Tab label="Six" sx={tabStyles} />}
+          {slotData.seven > 0 && <Tab label="Seven" sx={tabStyles} />}
+          {slotData.eight > 0 && <Tab label="Eight" sx={tabStyles} />}
+          {slotData.nine > 0 && <Tab label="Nine" sx={tabStyles} />}
         </Tabs>
 
         <SpellAddMenu fetchSpells={fetchSpells} />
