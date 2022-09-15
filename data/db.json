@@ -201,6 +201,15 @@
       "name": "Elven"
     }
   ],
+  "specialAbilities": [
+    {
+      "name": "Test",
+      "description": "Test desc",
+      "currentUses": "2",
+      "maxUses": "5",
+      "id": 1
+    }
+  ],
   "spells": [
     {
       "spellName": "Create Water",

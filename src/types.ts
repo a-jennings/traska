@@ -131,3 +131,11 @@ export type LanguageData = {
   id: number;
   name: string;
 };
+
+export type SpecialAbilityData = {
+  id: number;
+  name: string;
+  description: string;
+  currentUses: number;
+  maxUses: number;
+};
