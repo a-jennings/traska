@@ -416,6 +416,15 @@
     "gold": 1250,
     "platinum": 0
   },
+  "notes": [
+    {
+      "title": "Test",
+      "text": "",
+      "date": "2022-09-16T20:25:25.998Z",
+      "editDate": "2022-09-16T20:25:25.998Z",
+      "id": 1
+    }
+  ],
   "attacks": [
     {
       "name": "Mace",
