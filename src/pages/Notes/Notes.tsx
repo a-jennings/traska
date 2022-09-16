@@ -49,6 +49,10 @@ export function Notes(): ReactElement {
       .catch((error) => console.log(error));
   }, [addDialogOpen, fetchNotes]);
 
+  const sortedNotes = data?.sort((a, b) =>
+    a.date > b.date ? -1 : b.date > a.date ? 1 : 0
+  );
+
   if (!data) {
     return <></>;
   }
@@ -65,7 +69,7 @@ export function Notes(): ReactElement {
         Add Note
       </Button>
       <Box py={2} px={8}>
-        {data.map((note, index) => (
+        {sortedNotes?.map((note, index) => (
           <Note data={note} fetchNotes={fetchNotes} key={index} />
         ))}
       </Box>
