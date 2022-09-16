@@ -1,4 +1,4 @@
-import React, { ReactElement, useState, useEffect } from "react";
+import React, { ReactElement, useState } from "react";
 import {
   Box,
   Typography,
@@ -13,7 +13,6 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CloseIcon from "@mui/icons-material/Close";
 import EditIcon from "@mui/icons-material/Edit";
 import { GearData } from "../../types";
-import axios from "axios";
 import { GearForm } from "./GearForm";
 
 type GearItemProps = {

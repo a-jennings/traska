@@ -5,7 +5,6 @@ import {
   DialogTitle,
   Grid,
   TextField,
-  Box,
   Button,
 } from "@mui/material";
 import { CharacterAbilitiesList } from "../../../types";

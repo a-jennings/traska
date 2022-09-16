@@ -1,6 +1,5 @@
 import React, { ReactElement } from "react";
 import {
-  Box,
   DialogActions,
   DialogContent,
   DialogTitle,
@@ -8,7 +7,7 @@ import {
   TextField,
   Grid,
 } from "@mui/material";
-import { Formik, Form, Field } from "formik";
+import { Formik, Form } from "formik";
 import { CharacterData } from "../../types";
 import axios from "axios";
 

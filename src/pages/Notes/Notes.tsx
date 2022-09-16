@@ -2,7 +2,6 @@ import React, { ReactElement, useState, useEffect, useCallback } from "react";
 import {
   Box,
   Button,
-  Typography,
   Dialog,
   DialogTitle,
   DialogActions,
@@ -10,7 +9,6 @@ import {
   TextField,
   Grid,
 } from "@mui/material";
-import { TextEditor } from "../../components/TextEditor/TextEditor";
 import AddIcon from "@mui/icons-material/Add";
 import axios from "axios";
 import { Formik, Form } from "formik";

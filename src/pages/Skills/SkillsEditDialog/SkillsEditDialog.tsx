@@ -9,7 +9,6 @@ import {
   Grid,
   FormControlLabel,
   Checkbox,
-  Box,
   Button,
 } from "@mui/material";
 import { Formik, Form } from "formik";
