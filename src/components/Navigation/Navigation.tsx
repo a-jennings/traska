@@ -13,6 +13,7 @@ export function Navigation(props: NavigationProps): ReactElement {
     "Abilities",
     "Inventory",
     "World Map",
+    "Notes",
   ];
   const [currentTab, setCurrentTab] = useState("Character");
 
