@@ -6,7 +6,14 @@ type NavigationProps = {
 };
 
 export function Navigation(props: NavigationProps): ReactElement {
-  const tabList = ["Character", "Skills", "Spells", "Abilities", "Inventory"];
+  const tabList = [
+    "Character",
+    "Skills",
+    "Spells",
+    "Abilities",
+    "Inventory",
+    "World Map",
+  ];
   const [currentTab, setCurrentTab] = useState("Character");
 
   return (

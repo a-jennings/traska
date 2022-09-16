@@ -5,6 +5,7 @@ import { Inventory } from "./pages/Inventory/Inventory";
 import { Skills } from "./pages/Skills/Skills";
 import { Spells } from "./pages/Spells/Spells";
 import { Abilities } from "./pages/Abilities/Abilities";
+import { WorldMap } from "./pages/WorldMap/WorldMap";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState("Character");
@@ -17,6 +18,7 @@ function App() {
       {selectedTab === "Spells" && <Spells />}
       {selectedTab === "Abilities" && <Abilities />}
       {selectedTab === "Inventory" && <Inventory />}
+      {selectedTab === "World Map" && <WorldMap />}
     </>
   );
 }
