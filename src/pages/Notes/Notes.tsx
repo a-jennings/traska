@@ -1,4 +1,4 @@
-import React, { ReactElement, useState, useEffect } from "react";
+import React, { ReactElement, useState, useEffect, useCallback } from "react";
 import {
   Box,
   Button,
@@ -37,12 +37,19 @@ export function Notes(): ReactElement {
   const handleAddDialogOpen = () => setAddDialogOpen(true);
   const handleAddDialogClose = () => setAddDialogOpen(false);
 
+  const fetchNotes = useCallback(() => {
+    axios
+      .get("http://localhost:3001/notes")
+      .then((res: { data: Array<NoteData> }) => setData(res.data))
+      .catch((error) => console.log(error));
+  }, []);
+
   useEffect(() => {
     axios
       .get("http://localhost:3001/notes")
       .then((res: { data: Array<NoteData> }) => setData(res.data))
       .catch((error) => console.log(error));
-  }, [addDialogOpen]);
+  }, [addDialogOpen, fetchNotes]);
 
   if (!data) {
     return <></>;
@@ -61,7 +68,7 @@ export function Notes(): ReactElement {
       </Button>
       <Box py={2} px={8}>
         {data.map((note, index) => (
-          <Note data={note} key={index} />
+          <Note data={note} fetchNotes={fetchNotes} key={index} />
         ))}
       </Box>
 

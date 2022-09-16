@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from "react";
+import React, { ReactElement, useState, useEffect } from "react";
 import { NoteData } from "../../types";
 import {
   Box,
@@ -13,18 +13,47 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CloseIcon from "@mui/icons-material/Close";
 import EditIcon from "@mui/icons-material/Edit";
 import { TextEditor } from "../../components/TextEditor/TextEditor";
+import axios from "axios";
+
+axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
+axios.defaults.headers.common["Access-Control-Allow-Methods"] =
+  "GET,PUT,POST,DELETE,PATCH,OPTIONS";
 
 type NoteProps = {
   data: NoteData;
+  fetchNotes: () => void;
 };
 
 export function Note(props: NoteProps): ReactElement {
-  const { data } = props;
+  const { data, fetchNotes } = props;
   const [expanded, setExpanded] = useState(false);
   const [edit, setEdit] = useState(false);
+  const [editorText, setEditorText] = useState("");
 
   const createdDate = new Date(data.date);
   const editedDate = data.editDate && new Date(data.editDate);
+  const now = new Date();
+
+  const handleSave = () => {
+    axios
+      .patch(`http://localhost:3001/notes/${data.id}`, {
+        ...data,
+        text: editorText,
+        editDate: now,
+      })
+      .then(() => fetchNotes())
+      .catch((error) => console.log(error));
+  };
+
+  useEffect(() => {
+    if (edit) {
+      const interval = setInterval(() => {
+        handleSave();
+      }, 10000);
+
+      return () => clearInterval(interval);
+    }
+  });
 
   return (
     <>
@@ -57,7 +86,7 @@ export function Note(props: NoteProps): ReactElement {
           <Box
             display="flex"
             justifyContent="space-between"
-            alignItems="center"
+            alignItems="flex-start"
           >
             {!edit && (
               <Typography
@@ -67,21 +96,41 @@ export function Note(props: NoteProps): ReactElement {
             )}
             {edit && (
               <Box my={1} flex="1">
-                <TextEditor onChange={(value) => console.log(value)} />
+                <TextEditor
+                  onChange={(value) => setEditorText(value)}
+                  initialValue={data.text}
+                />
               </Box>
             )}
 
             {!edit && (
-              <IconButton color="info">
-                <EditIcon onClick={() => setEdit(true)} />
+              <IconButton color="info" onClick={() => setEdit(true)}>
+                <EditIcon />
               </IconButton>
             )}
           </Box>
           <Box display="flex" justifyContent="center">
             {edit && (
-              <Button variant="contained" onClick={() => setEdit(false)}>
-                Close
-              </Button>
+              <>
+                <Button
+                  variant="outlined"
+                  sx={{ marginRight: 1 }}
+                  onClick={() => {
+                    setEdit(false);
+                  }}
+                >
+                  Close
+                </Button>
+                <Button
+                  variant="contained"
+                  onClick={() => {
+                    setEdit(false);
+                    handleSave();
+                  }}
+                >
+                  Save
+                </Button>
+              </>
             )}
           </Box>
         </Collapse>

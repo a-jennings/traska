@@ -1,5 +1,5 @@
 import React, { ReactElement, useState } from "react";
-import { EditorState } from "draft-js";
+import { EditorState, convertFromHTML, ContentState } from "draft-js";
 import { Editor } from "react-draft-wysiwyg";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import { Box } from "@mui/material";
@@ -7,11 +7,18 @@ import { stateToHTML } from "draft-js-export-html";
 
 type TextEditorProps = {
   onChange: (editorHTML: string) => void;
+  initialValue: string;
 };
 
 export function TextEditor(props: TextEditorProps): ReactElement {
+  const convertedHTML = convertFromHTML(props.initialValue);
+  const contentState = ContentState.createFromBlockArray(
+    convertedHTML.contentBlocks,
+    convertedHTML.entityMap
+  );
+
   const [editorState, setEditorState] = useState(() =>
-    EditorState.createEmpty()
+    EditorState.createWithContent(contentState)
   );
 
   return (

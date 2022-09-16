@@ -174,6 +174,7 @@ export type SpellSlotData = {
 };
 
 export type NoteData = {
+  id?: number;
   title: string;
   text: string;
   date: Date;
