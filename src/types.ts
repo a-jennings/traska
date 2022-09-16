@@ -177,5 +177,5 @@ export type NoteData = {
   title: string;
   text: string;
   date: Date;
-  editDate: Date;
+  editDate: Date | null;
 };

@@ -1,3 +1,5 @@
+import { format } from "date-fns";
+
 export const calcAbilityBonus = (score: number): number => {
   if (score === 0 || score === 1) {
     return -5;
@@ -57,7 +59,6 @@ export const styleAbilityBonus = (score: number): string => {
   return `+${score}`;
 };
 
-//
-// 8 9 = -1
-// 10 11 = 0
-// 12 13 = 1
+export const formatDateTime = (date: Date) => {
+  return format(date, "EE dd LLL yyyy - HH:mm");
+};

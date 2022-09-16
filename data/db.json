@@ -419,9 +419,9 @@
   "notes": [
     {
       "title": "Test",
-      "text": "",
+      "text": "<p>Test string!</p>",
       "date": "2022-09-16T20:25:25.998Z",
-      "editDate": "2022-09-16T20:25:25.998Z",
+      "editDate": null,
       "id": 1
     }
   ],

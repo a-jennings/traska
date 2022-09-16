@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from "react";
+import React, { ReactElement, useState, useEffect } from "react";
 import {
   Box,
   Button,
@@ -15,6 +15,7 @@ import AddIcon from "@mui/icons-material/Add";
 import axios from "axios";
 import { Formik, Form } from "formik";
 import { NoteData } from "../../types";
+import { Note } from "../../components/Note/Note";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -26,19 +27,29 @@ const initialValues = {
   title: "",
   text: "",
   date: now,
-  editDate: now,
+  editDate: null,
 };
 
 export function Notes(): ReactElement {
   const [addDialogOpen, setAddDialogOpen] = useState(false);
+  const [data, setData] = useState<Array<NoteData>>();
 
   const handleAddDialogOpen = () => setAddDialogOpen(true);
   const handleAddDialogClose = () => setAddDialogOpen(false);
 
+  useEffect(() => {
+    axios
+      .get("http://localhost:3001/notes")
+      .then((res: { data: Array<NoteData> }) => setData(res.data))
+      .catch((error) => console.log(error));
+  }, [addDialogOpen]);
+
+  if (!data) {
+    return <></>;
+  }
+
   return (
     <>
-      {/* <TextEditor onChange={(htmlText) => console.log(htmlText)} />
-      <Button>Publish</Button> */}
       <Button
         color="primary"
         variant="contained"
@@ -48,6 +59,11 @@ export function Notes(): ReactElement {
       >
         Add Note
       </Button>
+      <Box py={2} px={8}>
+        {data.map((note, index) => (
+          <Note data={note} key={index} />
+        ))}
+      </Box>
 
       <Dialog
         open={addDialogOpen}

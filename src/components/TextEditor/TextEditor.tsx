@@ -17,8 +17,6 @@ export function TextEditor(props: TextEditorProps): ReactElement {
   return (
     <>
       <Box
-        my={2}
-        mx={6}
         sx={{
           ".wrapper": {
             boxShadow: 1,
