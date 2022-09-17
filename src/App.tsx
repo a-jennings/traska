@@ -7,6 +7,7 @@ import { Spells } from "./pages/Spells/Spells";
 import { Abilities } from "./pages/Abilities/Abilities";
 import { WorldMap } from "./pages/WorldMap/WorldMap";
 import { Notes } from "./pages/Notes/Notes";
+import { TurnUndead } from "./pages/TurnUndead/TurnUndead";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState("Character");
@@ -20,6 +21,7 @@ function App() {
       {selectedTab === "Abilities" && <Abilities />}
       {selectedTab === "Inventory" && <Inventory />}
       {selectedTab === "World Map" && <WorldMap />}
+      {selectedTab === "Turn Undead" && <TurnUndead />}
       {selectedTab === "Notes" && <Notes />}
     </>
   );
