@@ -207,7 +207,7 @@ export function Skills(): ReactElement {
           </Fragment>
         ))}
         <Fab
-          sx={{ position: "absolute", bottom: 30, right: 30 }}
+          sx={{ position: "absolute", top: 10, right: 30 }}
           color="primary"
           onClick={handleDialogOpen}
         >
