@@ -1,35 +1,94 @@
-import React, { ReactElement } from "react";
+import React, { ReactElement, useState, useEffect } from "react";
 import {
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-  Paper,
-  useTheme,
   Box,
   Typography,
+  Button,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
 } from "@mui/material";
+import axios from "axios";
+import { SpecialAbilityData } from "../../types";
+import { TurnUndeadTable } from "./TurnUndeadTable";
+import { TurnUndeadText } from "./TurnUndeadText";
 
-function createData(result: string, undeadAffected: string) {
-  return { result, undeadAffected };
-}
-
-const rows = [
-  createData("0 or lower", "Cleric's level -4"),
-  createData("1-3", "Cleric's level -3"),
-  createData("4-6", "Cleric's level -2"),
-  createData("7-9", "Cleric's level -1"),
-  createData("10-12", "Cleric's level"),
-  createData("13-15", "Cleric's level +1"),
-  createData("16-18", "Cleric's level +2"),
-  createData("19-21", "Cleric's level +3"),
-  createData("22 or higher", "Cleric's level +4"),
-];
+axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
+axios.defaults.headers.common["Access-Control-Allow-Methods"] =
+  "GET,PUT,POST,DELETE,PATCH,OPTIONS";
 
 export function TurnUndead(): ReactElement {
-  const theme = useTheme();
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [data, setData] = useState<Array<SpecialAbilityData>>();
+  const [variant, setVariant] = useState<"turn" | "sacredBoost" | "sunDomain">(
+    "turn"
+  );
+
+  const TurnUndeadUses = data?.find(
+    (ability) => ability.name === "Turn Undead"
+  );
+
+  const sunDomainUses = data?.find(
+    (ability) => ability.name === "Sun Domain Turn Undead"
+  );
+
+  const getDialogTitle = (): string => {
+    if (variant === "turn") {
+      return "Turn Undead";
+    }
+    if (variant === "sacredBoost") {
+      return "Sacred Boost";
+    }
+    if (variant === "sunDomain") {
+      return "Turn Undead Sun Domain";
+    }
+    return "";
+  };
+
+  const handleDialogOpen = () => setDialogOpen(true);
+  const handleDialogClose = () => setDialogOpen(false);
+
+  useEffect(() => {
+    axios
+      .get("http://localhost:3001/specialAbilities")
+      .then((res: { data: Array<SpecialAbilityData> }) => setData(res.data))
+      .catch((error) => console.log(error));
+  }, [dialogOpen]);
+
+  const handleCastTurnUndead = () => {
+    axios
+      .patch(`http://localhost:3001/specialAbilities/${TurnUndeadUses?.id}`, {
+        ...TurnUndeadUses,
+        currentUses:
+          TurnUndeadUses?.currentUses && TurnUndeadUses?.currentUses - 1,
+      })
+      .then(() => handleDialogClose())
+      .catch((error) => console.log(error));
+  };
+
+  const handleCastSunDomain = () => {
+    axios
+      .patch(`http://localhost:3001/specialAbilities/${TurnUndeadUses?.id}`, {
+        ...TurnUndeadUses,
+        currentUses:
+          TurnUndeadUses?.currentUses && TurnUndeadUses?.currentUses - 1,
+      })
+      .then(() => {
+        axios
+          .patch(
+            `http://localhost:3001/specialAbilities/${sunDomainUses?.id}`,
+            {
+              ...sunDomainUses,
+              currentUses:
+                sunDomainUses?.currentUses && sunDomainUses?.currentUses - 1,
+            }
+          )
+          .catch((error) => console.log(error));
+      })
+      .then(() => handleDialogClose())
+      .catch((error) => console.log(error));
+  };
+
   return (
     <>
       <Box my={2} mx={4}>
@@ -39,137 +98,95 @@ export function TurnUndead(): ReactElement {
           alignItems="flex-start"
         >
           <Box width="70%">
-            <Typography variant="h5" sx={{ marginBottom: 1 }}>
-              Turn Undead
-            </Typography>
-            <Typography sx={{ marginBottom: 1 }}>
-              Good clerics and paladins and some neutral clerics can channel
-              positive energy, which can halt, drive off (rout), or destroy
-              undead.
-            </Typography>
-            <Typography sx={{ marginBottom: 1 }}>
-              Evil clerics and some neutral clerics can channel negative energy,
-              which can halt, awe (rebuke), control (command), or bolster
-              undead.
-            </Typography>
-            <Typography sx={{ marginBottom: 2 }}>
-              Regardless of the effect, the general term for the activity is
-              “turning.” When attempting to exercise their divine control over
-              these creatures, characters make turning checks.
-            </Typography>
-            <Typography variant="h6" sx={{ marginBottom: 1 }}>
-              <strong>Turning Checks</strong>
-            </Typography>
-            <Typography sx={{ marginBottom: 1 }}>
-              Turning undead is a supernatural ability that a character can
-              perform as a standard action. It does not provoke attacks of
-              opportunity.
-            </Typography>
-            <Typography sx={{ marginBottom: 1 }}>
-              You must present your holy symbol to turn undead. Turning is
-              considered an attack.
-            </Typography>
-            <Typography sx={{ marginBottom: 1 }}>
-              <strong>Times per day: </strong>You may attempt to turn undead a
-              number of times per day equal to 3 + your Charisma modifier. You
-              can increase this number by taking the Extra Turning feat.
-            </Typography>
-            <Typography sx={{ marginBottom: 1 }}>
-              <strong>Range: </strong>You turn the closest turnable undead
-              first, and you can't turn undead that are more than 60 feet away
-              or that have total cover relative to you. You don't need line of
-              sight to a target, but you do need line of effect.
-            </Typography>
-            <Typography sx={{ marginBottom: 1 }}>
-              <strong>Turning Check:</strong> The first thing you do is roll a
-              turning check to see how powerful an undead creature you can turn.
-              This is a Charisma check (1d20 + your Charisma modifier). A cleric
-              with 5 or more ranks in Knowledge (religion) gets a +2 bonus on
-              turning checks against undead. Table: Turning Undead gives you the
-              Hit Dice of the most powerful undead you can affect, relative to
-              your level. On a given turning attempt, you can turn no undead
-              creature whose Hit Dice exceed the result on this table.
-            </Typography>
-            <Typography sx={{ marginBottom: 1 }}>
-              <strong>Turning Damage: </strong> If your roll on Table: Turning
-              Undead is high enough to let you turn at least some of the undead
-              within 60 feet, roll 2d6 + your cleric level + your Charisma
-              modifier for turning damage. That's how many total Hit Dice of
-              undead you can turn. If your Charisma score is average or low,
-              it's possible to roll fewer Hit Dice of undead turned than
-              indicated on Table: Turning Undead. You may skip over already
-              turned undead that are still within range, so that you do not
-              waste your turning capacity on them.
-            </Typography>
-            <Typography sx={{ marginBottom: 1 }}>
-              <strong>Effect and Duration of Turning: </strong> Turned undead
-              flee from you by the best and fastest means available to them.
-              They flee for 10 rounds (1 minute). If they cannot flee, they
-              cower (giving any attack rolls against them a +2 bonus). If you
-              approach within 10 feet of them, however, they overcome being
-              turned and act normally. (You can stand within 10 feet without
-              breaking the turning effect—you just can't approach them.) You can
-              attack them with ranged attacks (from at least 10 feet away), and
-              others can attack them in any fashion, without breaking the
-              turning effect.
-            </Typography>
-            <Typography sx={{ marginBottom: 1 }}>
-              <strong>Destroying Undead: </strong>If you have twice as many
-              levels (or more) as the undead have Hit Dice, you destroy any that
-              you would normally turn.
-            </Typography>
+            <TurnUndeadText />
           </Box>
-          <TableContainer
-            component={Paper}
-            sx={{ width: "30%", marginLeft: 5, maxHeight: "100%" }}
-          >
-            <Table>
-              <TableHead>
-                <TableRow sx={{ backgroundColor: theme.palette.grey[400] }}>
-                  <TableCell
-                    sx={{
-                      borderRight: "1px solid",
-                      borderColor: theme.palette.grey[300],
-                      fontWeight: "bold",
-                    }}
-                  >
-                    Turning Check Result
-                  </TableCell>
-                  <TableCell sx={{ fontWeight: "bold" }}>
-                    Most Powerful Undead Affected (Maximum Hit Dice)
-                  </TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                {rows.map((row, index) => (
-                  <TableRow
-                    key={index}
-                    sx={{
-                      "&:last-child td, &:last-child th": {
-                        borderBottom: 0,
-                        borderRight: "1px solid",
-                        borderColor: theme.palette.grey[300],
-                      },
-                      backgroundColor:
-                        index % 2 ? theme.palette.grey[200] : "transparent",
-                    }}
-                  >
-                    <TableCell
-                      sx={{
-                        borderRight: "1px solid",
-                        borderColor: theme.palette.grey[300],
-                      }}
-                    >
-                      {row.result}
-                    </TableCell>
-                    <TableCell>{row.undeadAffected}</TableCell>
-                  </TableRow>
-                ))}
-              </TableBody>
-            </Table>
-          </TableContainer>
+          <Box width="30%" ml={5}>
+            <TurnUndeadTable />
+            <Box mt={2} display="flex" flexDirection="column">
+              {TurnUndeadUses && (
+                <Button
+                  variant="contained"
+                  color="secondary"
+                  sx={{ marginBottom: 1 }}
+                  onClick={() => {
+                    setVariant("turn");
+                    handleDialogOpen();
+                  }}
+                  disabled={!TurnUndeadUses.currentUses}
+                >
+                  Turn Undead - {TurnUndeadUses.currentUses}/
+                  {TurnUndeadUses.maxUses}
+                </Button>
+              )}
+
+              {TurnUndeadUses && (
+                <Button
+                  variant="contained"
+                  color="success"
+                  sx={{ marginBottom: 1 }}
+                  onClick={() => {
+                    setVariant("sacredBoost");
+                    handleDialogOpen();
+                  }}
+                  disabled={!TurnUndeadUses.currentUses}
+                >
+                  Sacred Boost - {TurnUndeadUses.currentUses}/
+                  {TurnUndeadUses.maxUses}
+                </Button>
+              )}
+
+              {sunDomainUses && (
+                <Button
+                  variant="contained"
+                  color="warning"
+                  onClick={() => {
+                    setVariant("sunDomain");
+                    handleDialogOpen();
+                  }}
+                  disabled={!sunDomainUses.currentUses}
+                >
+                  Sun Domain Turn Undead - {sunDomainUses.currentUses}/
+                  {sunDomainUses.maxUses}
+                </Button>
+              )}
+            </Box>
+          </Box>
         </Box>
       </Box>
+
+      <Dialog
+        open={dialogOpen}
+        onClose={handleDialogClose}
+        fullWidth
+        maxWidth="xs"
+      >
+        <DialogTitle>{getDialogTitle()}</DialogTitle>
+        <DialogContent>
+          <Typography>Are you sure?</Typography>
+        </DialogContent>
+        <DialogActions>
+          <Button variant="outlined" onClick={handleDialogClose}>
+            Cancel
+          </Button>
+          <Button
+            variant="contained"
+            color={
+              variant === "turn"
+                ? "secondary"
+                : variant === "sacredBoost"
+                ? "success"
+                : "warning"
+            }
+            onClick={() =>
+              variant === "sunDomain"
+                ? handleCastSunDomain()
+                : handleCastTurnUndead()
+            }
+          >
+            {getDialogTitle()}
+          </Button>
+        </DialogActions>
+      </Dialog>
     </>
   );
 }
