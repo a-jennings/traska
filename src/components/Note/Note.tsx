@@ -7,6 +7,12 @@ import {
   Collapse,
   Divider,
   Button,
+  Dialog,
+  DialogTitle,
+  DialogActions,
+  DialogContent,
+  Grid,
+  TextField,
 } from "@mui/material";
 import { formatDateTime } from "../../formatting";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
@@ -14,6 +20,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import EditIcon from "@mui/icons-material/Edit";
 import { TextEditor } from "../../components/TextEditor/TextEditor";
 import axios from "axios";
+import { Form, Formik } from "formik";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -29,6 +36,10 @@ export function Note(props: NoteProps): ReactElement {
   const [expanded, setExpanded] = useState(false);
   const [edit, setEdit] = useState(false);
   const [editorText, setEditorText] = useState("");
+  const [dialogOpen, setDialogOpen] = useState(false);
+
+  const handleDialogOpen = () => setDialogOpen(true);
+  const handleDialogClose = () => setDialogOpen(false);
 
   const createdDate = new Date(data.date);
   const editedDate = data.editDate && new Date(data.editDate);
@@ -42,6 +53,16 @@ export function Note(props: NoteProps): ReactElement {
         editDate: now,
       })
       .then(() => fetchNotes())
+      .catch((error) => console.log(error));
+  };
+
+  const handleDelete = () => {
+    axios
+      .delete(`http://localhost:3001/notes/${data.id}`)
+      .then(() => {
+        fetchNotes();
+        handleDialogClose();
+      })
       .catch((error) => console.log(error));
   };
 
@@ -76,6 +97,9 @@ export function Note(props: NoteProps): ReactElement {
             )}
           </Box>
           <Box>
+            <IconButton onClick={handleDialogOpen}>
+              <EditIcon color="info" />
+            </IconButton>
             <IconButton onClick={() => setExpanded(!expanded)}>
               {expanded ? <CloseIcon /> : <KeyboardArrowDownIcon />}
             </IconButton>
@@ -135,6 +159,64 @@ export function Note(props: NoteProps): ReactElement {
           </Box>
         </Collapse>
       </Box>
+
+      <Dialog
+        open={dialogOpen}
+        onClose={handleDialogClose}
+        fullWidth
+        maxWidth="xs"
+      >
+        <DialogTitle>Edit {data.title}</DialogTitle>
+        <DialogContent>
+          <Formik
+            initialValues={data}
+            onSubmit={(values) => {
+              axios
+                .patch(`http://localhost:3001/notes/${values.id}`, {
+                  ...values,
+                  title: values.title,
+                })
+                .then(() => {
+                  fetchNotes();
+                  handleDialogClose();
+                });
+            }}
+          >
+            {({ values, handleChange, handleSubmit }) => (
+              <Form>
+                <Grid container my={1} spacing={1}>
+                  <Grid item xs={12}>
+                    <TextField
+                      id="title"
+                      name="title"
+                      label="Title"
+                      value={values.title}
+                      onChange={handleChange}
+                      fullWidth
+                      size="small"
+                    />
+                  </Grid>
+                </Grid>
+                <DialogActions>
+                  <Button
+                    variant="contained"
+                    color="error"
+                    onClick={() => handleDelete()}
+                  >
+                    Delete
+                  </Button>
+                  <Button variant="outlined" onClick={handleDialogClose}>
+                    Cancel
+                  </Button>
+                  <Button variant="contained" onClick={() => handleSubmit()}>
+                    Save
+                  </Button>
+                </DialogActions>
+              </Form>
+            )}
+          </Formik>
+        </DialogContent>
+      </Dialog>
     </>
   );
 }
