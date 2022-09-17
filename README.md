@@ -16,4 +16,4 @@ Start the React server with
 
 ### `npm start`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Navigate to localhost:3000
