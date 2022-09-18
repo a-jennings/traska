@@ -606,15 +606,16 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellArea": "All enemies within 50ft.",
-      "spellDescription": "Bane fills your enemies with fear and doubt. Each affected creature takes a -1 penalty on attack rolls and a -1 penalty on saving throws against fear effects.",
-      "spellDescriptionTwo": "Bane counters and dispels bless.",
+      "spellDescription": "<p>Bane fills your enemies with <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#fear\" title=\"fear\">fear</a> and doubt. Each affected creature takes a -1 penalty on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack rolls\">attack rolls</a> and a -1 penalty on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throws\">saving throws</a> against fear effects.</p>\n<p>Bane counters and dispels <a href=\"https://www.d20srd.org/srd/spells/bless.htm\" title=\"bless\"><em>bless</em></a>.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "id": 2,
       "spellPrepared": 0,
       "spellDomainSpell": false,
-      "spellMaterial": ""
+      "spellMaterial": "",
+      "spellSummary": "Enemies take -1 on attack rolls and saves against fear."
     },
     {
       "spellName": "Aid",
@@ -940,15 +941,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes (harmless)",
       "spellArea": "The caster and all allies within a 50-ft. burst, centered on the caster",
-      "spellDescription": "Bless fills your allies with courage. Each ally gains a +1 morale bonus on attack rolls and on saving throws against fear effects.",
-      "spellDescriptionTwo": "Bless counters and dispels bane.",
+      "spellDescription": "<p>Bless fills your allies with courage. Each ally gains a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#moraleModifier\" title=\"morale bonus\">morale bonus</a> on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack rolls\">attack rolls</a> and on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throws\">saving throws</a> against <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#fear\" title=\"fear\">fear</a> effects.</p>\n<p>Bless counters and dispels <a href=\"https://www.d20srd.org/srd/spells/bane.htm\" title=\"bane\"><em>bane</em></a>.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 16
+      "id": 16,
+      "spellSummary": "Allies gain +1 on attack rolls and saves against fear."
     },
     {
       "spellName": "Bless Water",
@@ -963,7 +965,7 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "This transmutation imbues a flask (1 pint) of water with positive energy, turning it into holy water.",
+      "spellDescription": "<p>This transmutation imbues a flask (1 pint) of water with positive energy, turning it into <a href=\"https://www.d20srd.org/srd/equipment/goodsAndServices.htm#holyWater\" title=\"holy water\">holy water</a>.</p>\n<h6><em>Material Component</em></h6>\n<p>5 pounds of powdered silver (worth 25 gp).&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -971,7 +973,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "5 pounds of powdered silver (worth 25 gp).",
-      "id": 17
+      "id": 17,
+      "spellSummary": "Makes holy water."
     },
     {
       "spellName": "Cause Fear",
@@ -986,15 +989,16 @@
       "spellSavingThrow": "Will partial",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more Hit Dice are immune to this effect.",
-      "spellDescriptionTwo": "Cause fear counters and dispels remove fear.\n\n",
+      "spellDescription": "<p>The affected creature becomes <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#frightened\" title=\"frightened\">frightened</a>. If the subject succeeds on a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a>, it is <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#shaken\" title=\"shaken\">shaken</a> for 1 round. Creatures with 6 or more Hit Dice are immune to this effect.</p>\n<p>Cause fear counters and dispels <a href=\"https://www.d20srd.org/srd/spells/removeFear.htm\" title=\"remove fear\"><em>remove fear</em></a>.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 18
+      "id": 18,
+      "spellSummary": "One creature of 5 HD or less flees for 1d4 rounds."
     },
     {
       "spellName": "Command",
@@ -1009,18 +1013,19 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "You give the subject a single command, which it obeys to the best of its ability at its earliest opportunity. You may select from the following options:",
-      "spellDescriptionTwo": "Approach - On its turn, the subject moves toward you as quickly and directly as possible for 1 round. The creature may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal. Drop -\nOn its turn, the subject drops whatever it is holding. It can’t pick up any dropped item until its next turn.",
-      "spellDescriptionThree": "Fall - \nOn its turn, the subject falls to the ground and remains prone for 1 round. It may act normally while prone but takes any appropriate penalties.\nFlee - \nOn its turn, the subject moves away from you as quickly as possible for 1 round. It may do nothing but move during its turn, and it provokes attacks of opportunity for this movement as normal.",
-      "spellDescriptionFour": "Halt - \nThe subject stands in place for 1 round. It may not take any actions but is not considered helpless.\nIf the subject can’t carry out your command on its next turn, the spell automatically fails.\n\n",
+      "spellDescription": "<p>You give the subject a single command, which it obeys to the best of its ability at its earliest opportunity. You may select from the following options.</p>\n<h6><em>Approach</em></h6>\n<p>On its turn, the subject moves toward you as quickly and directly as possible for 1 round. The creature may do nothing but move during its turn, and it provokes <a href=\"https://www.d20srd.org/srd/combat/attacksOfOpportunity.htm\" title=\"attacks of opportunity\">attacks of opportunity</a> for this movement as normal.</p>\n<h6><em>Drop</em></h6>\n<p>On its turn, the subject drops whatever it is holding. It can’t pick up any dropped item until its next turn.</p>\n<h6><em>Fall</em></h6>\n<p>On its turn, the subject falls to the ground and remains <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#prone\" title=\"prone\">prone</a> for 1 round. It may act normally while prone but takes any appropriate penalties.</p>\n<h6><em>Flee</em></h6>\n<p>On its turn, the subject moves away from you as quickly as possible for 1 round. It may do nothing but move during its turn, and it provokes <a href=\"https://www.d20srd.org/srd/combat/attacksOfOpportunity.htm\" title=\"attacks of opportunity\">attacks of opportunity</a> for this movement as normal.</p>\n<h6><em>Halt</em></h6>\n<p>The subject stands in place for 1 round. It may not take any actions but is not considered <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#helpless\" title=\"helpless\">helpless</a>.</p>\n<p>If the subject can’t carry out your command on its next turn, the spell automatically fails.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 19
+      "id": 19,
+      "spellSummary": "One subject obeys selected command for 1 round."
     },
     {
-      "spellName": "Comprehend Language",
+      "spellName": "Comprehend Languages",
       "spellSchool": "Divination",
       "spellDescriptor": "",
       "spellLevel": 1,
@@ -1032,15 +1037,16 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "You can understand the spoken words of creatures or read otherwise incomprehensible written messages. In either case, you must touch the creature or the writing. The ability to read does not necessarily impart insight into the material, merely its literal meaning. The spell enables you to understand or read an unknown language, not speak or write it.",
-      "spellDescriptionTwo": "Written material can be read at the rate of one page (250 words) per minute. Magical writing cannot be read, though the spell reveals that it is magical. This spell can be foiled by certain warding magic (such as the secret page and illusory script spells). It does not decipher codes or reveal messages concealed in otherwise normal text.",
-      "spellDescriptionThree": "Comprehend languages can be made permanent with a permanency spell.",
+      "spellDescription": "<p>You can understand the spoken words of creatures or read otherwise incomprehensible written messages. In either case, you must touch the creature or the writing. The ability to read does not necessarily impart insight into the material, merely its literal meaning. The spell enables you to understand or read an unknown language, not speak or write it.</p>\n<p>Written material can be read at the rate of one page (250 words) per minute. Magical writing cannot be read, though the spell reveals that it is magical. This spell can be foiled by certain warding magic (such as the <a href=\"https://www.d20srd.org/srd/spells/secretPage.htm\" title=\"secret page\"><em>secret page</em></a> and <a href=\"https://www.d20srd.org/srd/spells/illusoryScript.htm\" title=\"illusory script\"><em>illusory script</em></a> spells). It does not decipher codes or reveal messages concealed in otherwise normal text.</p>\n<p>Comprehend languages can be made permanent with a <a href=\"https://www.d20srd.org/srd/spells/permanency.htm\" title=\"permanency\"><em>permanency</em></a> spell.</p>\n<h6><em>Arcane Material Component</em></h6>\n<p>A pinch of soot and a few grains of salt.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 20
+      "id": 20,
+      "spellSummary": "You understand all spoken and written languages."
     },
     {
       "spellName": "Cure Light Wounds",
@@ -1055,15 +1061,16 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless); see text",
       "spellArea": "",
-      "spellDescription": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5).",
-      "spellDescriptionTwo": "Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+      "spellDescription": "<p>When laying your hand upon a living creature, you channel positive energy that cures <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> points of damage +1 point per caster level (maximum +5).</p>\n<p>Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature can apply <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"spell resistance\">spell resistance</a>, and can attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a> to take half damage.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 21
+      "id": 21,
+      "spellSummary": "Cures 1d8 damage +1/level (max +5)."
     },
     {
       "spellName": "Detect Evil",
@@ -1078,15 +1085,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "Cone-shaped emanation",
-      "spellDescription": "You can sense the presence of evil. The amount of information revealed depends on how long you study a particular area or subject.\n\n1st Round - \nPresence or absence of evil.\n\n2nd Round - \nNumber of evil auras (creatures, objects, or spells) in the area and the power of the most potent evil aura present.\n\nIf you are of good alignment, and the strongest evil aura’s power is overwhelming (see below), and the HD or level of the aura’s source is at least twice your character level, you are stunned for 1 round and the spell ends.\n\n3rd Round - \nThe power and location of each aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.",
-      "spellDescriptionTwo": "Aura Power - \nAn evil aura’s power depends on the type of evil creature or object that you’re detecting and its HD, caster level, or (in the case of a cleric) class level; see the accompanying table. If an aura falls into more than one strength category, the spell indicates the stronger of the two.",
-      "spellDescriptionThree": "Lingering Aura - \nAn evil aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a creature or magic item). If detect evil is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:",
-      "spellDescriptionFour": "See more: https://www.d20srd.org/srd/spells/detectEvil.htm",
+      "spellDescription": "<p>You can sense the presence of evil. The amount of information revealed depends on how long you study a particular area or subject.</p>\n<h6><em>1st Round</em></h6>\n<p>Presence or absence of evil.</p>\n<h6><em>2nd Round</em></h6>\n<p>Number of evil auras (creatures, objects, or spells) in the area and the power of the most potent evil aura present.</p>\n<p>If you are of good <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a>, and the strongest evil aura’s power is overwhelming (see below), and the HD or level of the aura’s source is at least twice your character level, you are <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#stunned\" title=\"stunned\">stunned</a> for 1 round and the spell ends.</p>\n<h6><em>3rd Round</em></h6>\n<p>The power and location of each aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.</p>\n<h6><em>Aura Power</em></h6>\n<p>An evil aura’s power depends on the type of evil creature or object that you’re detecting and its HD, caster level, or (in the case of a <a href=\"https://www.d20srd.org/srd/classes/cleric.htm\" title=\"cleric\">cleric</a>) class level; see the accompanying table. If an aura falls into more than one strength category, the spell indicates the stronger of the two.&nbsp;</p>\n<p><br></p>\n<h6><em>Lingering Aura</em></h6>\n<p>An evil aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a creature or magic item). If detect evil is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:&nbsp;</p>\n<p><br></p>\n<p>Animals, traps, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poisons\">poisons</a>, and other potential perils are not evil, and as such this spell does not detect them.</p>\n<p>Each round, you can turn to detect evil in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</p>\n<p><br></p>\n<p><br>\n&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 22
+      "id": 22,
+      "spellSummary": "Reveals creatures, spells, or objects of selected alignment."
     },
     {
       "spellName": "Detect Undead",
@@ -1101,15 +1109,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "Cone-shaped emanation",
-      "spellDescription": "You can detect the aura that surrounds undead creatures. The amount of information revealed depends on how long you study a particular area.\n\n1st Round\nPresence or absence of undead auras.\n\n2nd Round\nNumber of undead auras in the area and the strength of the strongest undead aura present. If you are of good alignment, and the strongest undead aura’s strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are stunned for 1 round and the spell ends.\n\n3rd Round\nThe strength and location of each undead aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.",
-      "spellDescriptionTwo": "Aura Strength\nThe strength of an undead aura is determined by the HD of the undead creature, as given on the following table:",
-      "spellDescriptionThree": "Lingering Aura\nAn undead aura lingers after its original source is destroyed. If detect undead is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:",
-      "spellDescriptionFour": "Each round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it. See more: https://www.d20srd.org/srd/spells/detectUndead.htm",
+      "spellDescription": "<p>You can detect the aura that surrounds <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creatures. The amount of information revealed depends on how long you study a particular area.</p>\n<h6><em>1st Round</em></h6>\n<p>Presence or absence of undead auras.</p>\n<h6><em>2nd Round</em></h6>\n<p>Number of undead auras in the area and the strength of the strongest undead aura present. If you are of good <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a>, and the strongest undead aura’s strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#stunned\" title=\"stunned\">stunned</a> for 1 round and the spell ends.</p>\n<h6><em>3rd Round</em></h6>\n<p>The strength and location of each undead aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.</p>\n<h6><em>Aura Strength</em></h6>\n<p>The strength of an undead aura is determined by the HD of the <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature, as given on the following table:&nbsp;</p>\n<p><br></p>\n<h6><em>Lingering Aura</em></h6>\n<p>An undead aura lingers after its original source is destroyed. If detect undead is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:&nbsp;</p>\n<p><br></p>\n<p>Each round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</p>\n<h6><em>Arcane Material Component</em></h6>\n<p>A bit of earth from a grave.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 23
+      "id": 23,
+      "spellSummary": "Reveals undead within 60 ft."
     },
     {
       "spellName": "Divine Favor",
@@ -1124,7 +1133,7 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "Calling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn’t apply to spell damage.",
+      "spellDescription": "<p>Calling upon the strength and wisdom of a deity, you gain a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#luckModifier\" title=\"luck bonus\">luck bonus</a> on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn’t apply to spell damage.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1132,7 +1141,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 24
+      "id": 24,
+      "spellSummary": "You gain +1 per three levels on attack and damage rolls."
     },
     {
       "spellName": "Doom",
@@ -1147,7 +1157,7 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "This spell fills a single subject with a feeling of horrible dread that causes it to become shaken.",
+      "spellDescription": "<p>This spell fills a single subject with a feeling of horrible dread that causes it to become <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#shaken\" title=\"shaken\">shaken</a>.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1155,7 +1165,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 25
+      "id": 25,
+      "spellSummary": "One subject takes -2 on attack rolls, saves, and checks."
     },
     {
       "spellName": "Endure Elements",
@@ -1170,15 +1181,16 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves). The creature’s equipment is likewise protected.",
-      "spellDescriptionTwo": "Endure elements doesn’t provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.",
+      "spellDescription": "<p>A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#fortitude\" title=\"Fortitude saves\">Fortitude saves</a>). The creature’s equipment is likewise protected.</p>\n<p>Endure elements doesn’t provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 26
+      "id": 26,
+      "spellSummary": "Exist comfortably in hot or cold environments."
     },
     {
       "spellName": "Entropic Shield",
@@ -1193,7 +1205,7 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "A magical field appears around you, glowing with a chaotic blast of multicolored hues. This field deflects incoming arrows, rays, and other ranged attacks. Each ranged attack directed at you for which the attacker must make an attack roll has a 20% miss chance (similar to the effects of concealment). Other attacks that simply work at a distance are not affected.",
+      "spellDescription": "<p>A magical field appears around you, glowing with a chaotic blast of multicolored hues. This field deflects incoming arrows, rays, and other ranged attacks. Each ranged attack directed at you for which the attacker must make an <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack roll\">attack roll</a> has a 20% miss chance (similar to the effects of <a href=\"https://www.d20srd.org/srd/combat/combatModifiers.htm#concealment\" title=\"concealment\">concealment</a>). Other attacks that simply work at a distance are not affected.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1201,7 +1213,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 27
+      "id": 27,
+      "spellSummary": "Ranged attacks against you have 20% miss chance."
     },
     {
       "spellName": "Hide from Undead",
@@ -1216,7 +1229,7 @@
       "spellSavingThrow": "Will negates (harmless); see text",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "Undead cannot see, hear, or smell the warded creatures. Even extraordinary or supernatural sensory capabilities, such as blindsense, blindsight, scent, and tremorsense, cannot detect or locate warded creatures. Nonintelligent undead creatures are automatically affected and act as though the warded creatures are not there. An intelligent undead creature gets a single Will saving throw. If it fails, the subject can’t see any of the warded creatures. However, if it has reason to believe unseen opponents are present, it can attempt to find or strike them. If a warded creature attempts to turn or command undead, touches an undead creature, or attacks any creature (even with a spell), the spell ends for all recipients.",
+      "spellDescription": "<p>Undead cannot see, hear, or smell the warded creatures. Even <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#extraordinaryAbilities\" title=\"extraordinary\">extraordinary</a> or <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#supernaturalAbilities\" title=\"supernatural\">supernatural</a> sensory capabilities, such as <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#blindsightAndBlindsense\" title=\"blindsense\">blindsense</a>, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#blindsightAndBlindsense\" title=\"blindsight\">blindsight</a>, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#scent\" title=\"scent\">scent</a>, and <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#tremorsense\" title=\"tremorsense\">tremorsense</a>, cannot detect or locate warded creatures. Nonintelligent <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creatures are automatically affected and act as though the warded creatures are not there. An intelligent undead creature gets a single <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#reflex\" title=\"Will saving throw\">Will saving throw</a>. If it fails, the subject can’t see any of the warded creatures. However, if it has reason to believe unseen opponents are present, it can attempt to find or strike them. If a warded creature attempts to turn or command undead, touches an undead creature, or attacks any creature (even with a spell), the spell ends for all recipients.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1224,7 +1237,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 28
+      "id": 28,
+      "spellSummary": "Undead can’t perceive one subject/level."
     },
     {
       "spellName": "Inflict Light Wounds",
@@ -1239,15 +1253,16 @@
       "spellSavingThrow": "Will half",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage +1 point per caster level (maximum +5).",
-      "spellDescriptionTwo": "Since undead are powered by negative energy, this spell cures such a creature of a like amount of damage, rather than harming it.",
+      "spellDescription": "<p>When laying your hand upon a creature, you channel negative energy that deals <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> points of damage +1 point per caster level (maximum +5).</p>\n<p>Since undead are powered by negative energy, this spell cures such a creature of a like amount of damage, rather than harming it.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 29
+      "id": 29,
+      "spellSummary": "Touch deals 1d8 damage +1/level (max +5)."
     },
     {
       "spellName": "Magic Stone",
@@ -1262,7 +1277,7 @@
       "spellSavingThrow": "Will negates (harmless, object)",
       "spellResistance": "Yes (harmless, object)",
       "spellArea": "",
-      "spellDescription": "You transmute as many as three pebbles, which can be no larger than sling bullets, so that they strike with great force when thrown or slung. If hurled, they have a range increment of 20 feet. If slung, treat them as sling bullets (range increment 50 feet). The spell gives them a +1 enhancement bonus on attack and damage rolls. The user of the stones makes a normal ranged attack. Each stone that hits deals 1d6+1 points of damage (including the spell’s enhancement bonus), or 2d6+2 points against undead.",
+      "spellDescription": "<p>You transmute as many as three pebbles, which can be no larger than sling bullets, so that they strike with great force when thrown or slung. If hurled, they have a range increment of 20 feet. If slung, treat them as sling bullets (range increment 50 feet). The spell gives them a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#enhancementBonus\" title=\"enhancement bonus\">enhancement bonus</a> on attack and damage rolls. The user of the stones makes a normal ranged attack. Each stone that hits deals <a href=\"javascript:void(0);\" title=\"1d6+1\">1d6+1</a> points of damage (including the spell’s enhancement bonus), or <a href=\"javascript:void(0);\" title=\"2d6+2\">2d6+2</a> points against undead.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1270,7 +1285,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 30
+      "id": 30,
+      "spellSummary": "Three stones gain +1 on attack, deal 1d6 +1 damage."
     },
     {
       "spellName": "Magic Weapon",
@@ -1285,15 +1301,16 @@
       "spellSavingThrow": "Will negates (harmless, object)",
       "spellResistance": "Yes (harmless, object)",
       "spellArea": "",
-      "spellDescription": "Magic weapon gives a weapon a +1 enhancement bonus on attack and damage rolls. (An enhancement bonus does not stack with a masterwork weapon’s +1 bonus on attack rolls.)",
-      "spellDescriptionTwo": "You can’t cast this spell on a natural weapon, such as an unarmed strike (instead, see magic fang). A monk’s unarmed strike is considered a weapon, and thus it can be enhanced by this spell.",
+      "spellDescription": "<p>Magic weapon gives a weapon a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#enhancementBonus\" title=\"enhancement bonus\">enhancement bonus</a> on attack and damage rolls. (An enhancement bonus does not stack with a masterwork weapon’s +1 bonus on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack rolls\">attack rolls</a>.)</p>\n<p>You can’t cast this spell on a <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#naturalWeapons\" title=\"natural weapon\">natural weapon</a>, such as an <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#unarmedStrike\" title=\"unarmed strike\">unarmed strike</a> (instead, see <a href=\"https://www.d20srd.org/srd/spells/magicFang.htm\" title=\"magic fang\"><em>magic fang</em></a>). A <a href=\"https://www.d20srd.org/srd/classes/monk.htm\" title=\"monk’s\">monk’s</a> unarmed strike is considered a weapon, and thus it can be enhanced by this spell.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 31
+      "id": 31,
+      "spellSummary": "Weapon gains +1 bonus."
     },
     {
       "spellName": "Obscuring Mist",
@@ -1308,15 +1325,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "A misty vapor arises around you. It is stationary once created. The vapor obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target).",
-      "spellDescriptionTwo": "A moderate wind (11+ mph), such as from a gust of wind spell, disperses the fog in 4 rounds. A strong wind (21+ mph) disperses the fog in 1 round. A fireball, flame strike, or similar spell burns away the fog in the explosive or fiery spell’s area. A wall of fire burns away the fog in the area into which it deals damage.",
-      "spellDescriptionThree": "This spell does not function underwater.",
+      "spellDescription": "<p>A misty vapor arises around you. It is stationary once created. The vapor obscures all sight, including <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#darkvision\" title=\"darkvision\">darkvision</a>, beyond 5 feet. A creature 5 feet away has <a href=\"https://www.d20srd.org/srd/combat/combatModifiers.htm#concealment\" title=\"concealment\">concealment</a> (attacks have a 20% miss chance). Creatures farther away have <a href=\"https://www.d20srd.org/srd/combat/combatModifiers.htm#totalConcealment\" title=\"total concealment\">total concealment</a> (50% miss chance, and the attacker cannot use sight to locate the target).</p>\n<p>A moderate wind (11+ mph), such as from a <a href=\"https://www.d20srd.org/srd/spells/gustOfWind.htm\" title=\"gust of wind\"><em>gust of wind</em></a> spell, disperses the fog in 4 rounds. A strong wind (21+ mph) disperses the fog in 1 round. A <a href=\"https://www.d20srd.org/srd/spells/fireball.htm\" title=\"fireball\"><em>fireball</em></a>, <a href=\"https://www.d20srd.org/srd/spells/flameStrike.htm\" title=\"flame strike\"><em>flame strike</em></a>, or similar spell burns away the fog in the explosive or fiery spell’s area. A <a href=\"https://www.d20srd.org/srd/spells/wallOfFire.htm\" title=\"wall of fire\"><em>wall of fire</em></a> burns away the fog in the area into which it deals damage.</p>\n<p>This spell does not function underwater.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "Cloud spreads in 20-ft. radius from you, 20 ft. high",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 32
+      "id": 32,
+      "spellSummary": "Fog surrounds you."
     },
     {
       "spellName": "Protection from Evil",
@@ -1331,15 +1349,16 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "No; see text",
       "spellArea": "",
-      "spellDescription": "This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.",
-      "spellDescriptionTwo": "First, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.",
-      "spellDescriptionThree": "Second, the barrier blocks any attempt to possess the warded creature (by a magic jar attack, for example) or to exercise mental control over the creature (including enchantment (charm) effects and enchantment (compulsion) effects that grant the caster ongoing control over the subject, such as dominate person). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the protection from evil effect. If the protection from evil effect ends before the effect granting mental control does, the would-be controller would then be able to mentally command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast. This second effect works regardless of alignment.",
-      "spellDescriptionFour": "Third, the spell prevents bodily contact by summoned creatures. This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Good summoned creatures are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. Spell resistance can allow a creature to overcome this protection and touch the warded creature.",
+      "spellDescription": "<p>This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.</p>\n<p>First, the subject gains a +2 <a href=\"https://www.d20srd.org/srd/theBasics.htm#deflectionBonus\" title=\"deflection bonus\">deflection bonus</a> to AC and a +2 <a href=\"https://www.d20srd.org/srd/theBasics.htm#resistanceBonus\" title=\"resistance bonus\">resistance bonus</a> on saves. Both these bonuses apply against attacks made or effects created by evil creatures.</p>\n<p>Second, the barrier blocks any attempt to possess the warded creature (by a <a href=\"https://www.d20srd.org/srd/spells/magicJar.htm\" title=\"magic jar\"><em>magic jar</em></a> attack, for example) or to exercise mental control over the creature (including enchantment (charm) effects and enchantment (compulsion) effects that grant the caster ongoing control over the subject, such as <a href=\"https://www.d20srd.org/srd/spells/dominatePerson.htm\" title=\"dominate person\"><em>dominate person</em></a>). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the protection from evil effect. If the protection from evil effect ends before the effect granting mental control does, the would-be controller would then be able to mentally command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast. This second effect works regardless of <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a>.</p>\n<p>Third, the spell prevents bodily contact by summoned creatures. This causes the <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#naturalWeapons\" title=\"natural weapon\">natural weapon</a> attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Good summoned creatures are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"Spell resistance\">Spell resistance</a> can allow a creature to overcome this protection and touch the warded creature.</p>\n<h6><em>Arcane Material Component</em></h6>\n<p>A little powdered silver with which you trace a 3-foot -diameter circle on the floor (or ground) around the creature to be warded.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 33
+      "id": 33,
+      "spellSummary": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders."
     },
     {
       "spellName": "Remove Fear",
@@ -1354,15 +1373,16 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell.",
-      "spellDescriptionTwo": "Remove fear counters and dispels cause fear.",
+      "spellDescription": "<p>You instill courage in the subject, granting it a +4 <a href=\"https://www.d20srd.org/srd/theBasics.htm#moraleModifier\" title=\"morale bonus\">morale bonus</a> against <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#fear\" title=\"fear\">fear</a> effects for 10 minutes. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell.</p>\n<p>Remove fear counters and dispels <a href=\"https://www.d20srd.org/srd/spells/causeFear.htm\" title=\"cause fear\"><em>cause fear</em></a>.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 34
+      "id": 34,
+      "spellSummary": "Suppresses fear or gives +4 on saves against fear for one subject + one per four levels."
     },
     {
       "spellName": "Sanctuary",
@@ -1377,7 +1397,7 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "Any opponent attempting to strike or otherwise directly attack the warded creature, even with a targeted spell, must attempt a Will save. If the save succeeds, the opponent can attack normally and is unaffected by that casting of the spell. If the save fails, the opponent can’t follow through with the attack, that part of its action is lost, and it can’t directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area or effect spells. The subject cannot attack without breaking the spell but may use nonattack spells or otherwise act.",
+      "spellDescription": "<p>Any opponent attempting to strike or otherwise directly attack the warded creature, even with a targeted spell, must attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a>. If the save succeeds, the opponent can attack normally and is unaffected by that casting of the spell. If the save fails, the opponent can’t follow through with the attack, that part of its action is lost, and it can’t directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area or effect spells. The subject cannot attack without breaking the spell but may use nonattack spells or otherwise act.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1385,7 +1405,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 35
+      "id": 35,
+      "spellSummary": "Opponents can’t attack you, and you can’t attack."
     },
     {
       "spellName": "Shield of Faith",
@@ -1400,7 +1421,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "This spell creates a shimmering, magical field around the touched creature that averts attacks. The spell grants the subject a +2 deflection bonus to AC, with an additional +1 to the bonus for every six levels you have (maximum +5 deflection bonus at 18th level).",
+      "spellDescription": "<p>This spell creates a shimmering, magical field around the touched creature that averts attacks. The spell grants the subject a +2 <a href=\"https://www.d20srd.org/srd/theBasics.htm#deflectionBonus\" title=\"deflection bonus\">deflection bonus</a> to AC, with an additional +1 to the bonus for every six levels you have (maximum +5 deflection bonus at 18th level).</p>\n<h6><em>Material Component</em></h6>\n<p>A small parchment with a bit of holy text written upon it.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1408,10 +1429,11 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 36
+      "id": 36,
+      "spellSummary": "Aura grants +2 or higher deflection bonus"
     },
     {
-      "spellName": "Summon Monster",
+      "spellName": "Summon Monster I",
       "spellSchool": "Conjuration",
       "spellDescriptor": "Summoning",
       "spellLevel": 1,
@@ -1423,15 +1445,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "This spell summons an extraplanar creature (typically an outsider, elemental, or magical beast native to another plane). It appears where you designate and acts immediately, on your turn. It attacks your opponents to the best of its ability. If you can communicate with the creature, you can direct it not to attack, to attack particular enemies, or to perform other actions.",
-      "spellDescriptionTwo": "The spell conjures one of the creatures from the 1st-level list on the accompanying Summon Monster table. You choose which kind of creature to summon, and you can change that choice each time you cast the spell.",
-      "spellDescriptionThree": "A summoned monster cannot summon or otherwise conjure another creature, nor can it use any teleportation or planar travel abilities. Creatures cannot be summoned into an environment that cannot support them.",
-      "spellDescriptionFour": "When you use a summoning spell to summon an air, chaotic, earth, evil, fire, good, lawful, or water creature, it is a spell of that type.",
+      "spellDescription": "<p>This spell summons an extraplanar creature (typically an <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#outsiderType\" title=\"outsider\">outsider</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#elementalType\" title=\"elemental\">elemental</a>, or <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#magicalBeastType\" title=\"magical beast\">magical beast</a> native to another plane). It appears where you designate and acts immediately, on your turn. It attacks your opponents to the best of its ability. If you can communicate with the creature, you can direct it not to attack, to attack particular enemies, or to perform other actions.</p>\n<p>The spell conjures one of the creatures from the 1st-level list on the accompanying Summon Monster table. You choose which kind of creature to summon, and you can change that choice each time you cast the spell.</p>\n<p>A summoned monster cannot summon or otherwise conjure another creature, nor can it use any teleportation or planar travel abilities. Creatures cannot be summoned into an environment that cannot support them.</p>\n<p>When you use a summoning spell to summon an <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#airSubtype\" title=\"air\">air</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#chaoticSubtype\" title=\"chaotic\">chaotic</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#earthSubtype\" title=\"earth\">earth</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#evilSubtype\" title=\"evil\">evil</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#fireSubtype\" title=\"fire\">fire</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#goodSubtype\" title=\"good\">good</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#lawfulSubtype\" title=\"lawful\">lawful</a>, or <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#waterSubtype\" title=\"water\">water</a> creature, it is a spell of that type.</p>\n<h6><em>Arcane Focus</em></h6>\n<p>A tiny bag and a small (not necessarily lit) candle.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "One summoned creature",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 37
+      "id": 37,
+      "spellSummary": "Calls extraplanar creature to fight for you."
     },
     {
       "spellName": "Blade of Blood",
@@ -1446,15 +1469,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "Red blood erupts along the weapon's blade, bludgeon, or point.\nThe blood drips to spatter in thick, viscous drops upon the ground.\nThis spell infuses the weapon touched with baleful energy.\nThe next time this weapon strikes a living creature, blade of blood discharges.",
-      "spellDescriptionTwo": "The spell deals an extra 1d6 points of damage against the target of the attack.",
-      "spellDescriptionThree": "You can voluntarily take 5 hit points of damage to empower the weapon to deal an extra 2d6 points of damage (for a total of 3d6 points of extra damage).",
-      "spellDescriptionFour": "The weapon loses this property if its wielder drops it or otherwise loses contact with it.",
+      "spellDescription": "<p>Red blood erupts along the weapon's blade, bludgeon, or point.<br>\nThe blood drips to spatter in thick, viscous drops upon the ground.<br>\nThis spell infuses the weapon touched with baleful energy.<br>\nThe next time this weapon strikes a living creature, blade of blood discharges.<br>\nThe spell deals an extra 1d6 points of damage against the target of the attack.<br>\nYou can voluntarily take 5 hit points of damage to empower the weapon to deal an extra 2d6 points of damage (for a total of 3d6 points of extra damage).<br>\nThe weapon loses this property if its wielder drops it or otherwise loses contact with it.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 38
+      "id": 38,
+      "spellSummary": "Weapon deals +1d6 damage, or +3d6 if you take 5 points of damage."
     },
     {
       "spellName": "Invest Light Protection",
@@ -1469,15 +1493,16 @@
       "spellSavingThrow": "Will half (harmless); see text;",
       "spellResistance": "Yes (harmless); see text",
       "spellArea": "",
-      "spellDescription": "You invest the target with an infusion of divine energy.\nHis wounds knit shut, while the power you grant to him helps ward off future injuries.\nYou heal a living creature you touch of 1d4 points of damage +1 per two caster levels (maximum +3).\nIn addition, the creature touched gains damage reduction 1/evil for 1 minute.",
-      "spellDescriptionTwo": "Like cure light wounds, this spell deals damage to undead creatures instead of curing them.\nIn addition, on a failed save undead creatures take an extra 1 point of damage from any weapon or physical attack capable of overcoming good damage reduction for 1 minute.",
+      "spellDescription": "<p>You invest the target with an infusion of divine energy.<br>\nHis wounds knit shut, while the power you grant to him helps ward off future injuries.<br>\nYou heal a living creature you touch of 1d4 points of damage +1 per two caster levels (maximum +3).<br>\nIn addition, the creature touched gains damage reduction 1/evil for 1 minute.<br>\nLike cure light wounds, this spell deals damage to undead creatures instead of curing them.<br>\nIn addition, on a failed save undead creatures take an extra 1 point of damage from any weapon or physical attack capable of overcoming good damage reduction for 1 minute.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 39
+      "id": 39,
+      "spellSummary": "Heal 1d4 damage + 1/2 levels, grant DR 1/evil."
     },
     {
       "spellName": "Impede",
@@ -1492,15 +1517,16 @@
       "spellSavingThrow": "Will partial",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "An affected creature is capable of taking actions, such as attacking or casting spells, but it cannot step from its current square (or squares, if it occupies more than one). The subject also takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves while so rooted.",
-      "spellDescriptionTwo": "If the subject succeeds on the initial Will save, it suffers no ill effects and the spell ends immediately. If it fails the initial save, it can attempt a new Will save every round thereafter. Once the subject succeeds on one of these secondary saves, it can move, but its base speed is reduced by 10 feet (to a minimum of 5 feet) for the duration of the spell. If the subject has multiple modes of movement, each is reduced accordingly.",
-      "spellDescriptionThree": "If the subject is already under an effect that curtails its ability to move (such as slow or hold person), it also takes a -4 penalty to Dexterity for the duration of this spell, even if the other effect ends before this one does.",
-      "spellDescriptionFour": "All penalties imposed by the spell are sacred if your deity is good or neutral or profane if your deity is evil.",
+      "spellDescription": "<p>An affected creature is capable of taking actions, such as attacking or casting spells, but it cannot step from its current square (or squares, if it occupies more than one). The subject also takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves while so rooted.</p>\n<p>If the subject succeeds on the initial Will save, it suffers no ill effects and the spell ends immediately. If it fails the initial save, it can attempt a new Will save every round thereafter. Once the subject succeeds on one of these secondary saves, it can move, but its base speed is reduced by 10 feet (to a minimum of 5 feet) for the duration of the spell. If the subject has multiple modes of movement, each is reduced accordingly.</p>\n<p>If the subject is already under an effect that curtails its ability to move (such as slow or hold person), it also takes a -4 penalty to Dexterity for the duration of this spell, even if the other effect ends before this one does.</p>\n<p>All penalties imposed by the spell are sacred if your deity is good or neutral or profane if your deity is evil.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 40
+      "id": 40,
+      "spellSummary": "Subject is locked in place and takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves."
     },
     {
       "spellName": "Nimbus of Light",
@@ -1515,15 +1541,16 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "A glittering corona of sunlight surrounds your body at a few inches distance—until you release it as a focused blast of divine energy.\nThe nimbus of light glows like a lantern, shedding bright light in a 30-foot radius (and dim light for an additional 30 feet) from you.\nAs a move action, you can coalesce the energy from the nimbus of light around your outstretched arm, and then as a standard action fling it toward a foe within 30 feet.",
-      "spellDescriptionTwo": "As a ranged touch attack, the nimbus of light deals 1d8 points of damage +1 point per round that's elapsed since you cast the spell (max of 1d8 + caster level damage).\nAttacking with the nimbus of light ends the spell, whether the energy hits its target or not.",
+      "spellDescription": "<p>A glittering corona of sunlight surrounds your body at a few inches distance—until you release it as a focused blast of divine energy.<br>\nThe nimbus of light glows like a lantern, shedding bright light in a 30-foot radius (and dim light for an additional 30 feet) from you.<br>\nAs a move action, you can coalesce the energy from the nimbus of light around your outstretched arm, and then as a standard action fling it toward a foe within 30 feet.<br>\nAs a ranged touch attack, the nimbus of light deals 1d8 points of damage +1 point per round that's elapsed since you cast the spell (max of 1d8 + caster level damage).<br>\nAttacking with the nimbus of light ends the spell, whether the energy hits its target or not&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 41
+      "id": 41,
+      "spellSummary": "Sunlight illuminates you until released as an attack for 1d8+1/level damage"
     },
     {
       "spellName": "Omen of Peril",
@@ -1538,15 +1565,16 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "A brief supplication grants you a vision that hints at how dangerous the immediate future is likely to be.\nBased on an assessment of the caster's immediate surroundings and likely path of travel, the caster receives one of three visions: safety, peril, or great danger.\n\nThe base chance for receiving an accurate reply is 70% + 1% per caster level, to a maximum of 90%; the DM makes the roll secretly.\n\nIf the omen of peril is successful, you receive one of three fleeting visions:",
-      "spellDescriptionTwo": "Safety: The caster isn't in any immediate danger. If he continues on his present course (or remains where he is if he's been stationary for some time before casting the spell), he'll face no significant monsters, traps, or challenges for the next hour or so.\nPeril: The caster will face challenges typical of an adventure: challenging but not overwhelming monsters, dangerous traps, and other hazards for the next hour or so.\nGreat danger: The caster's very life is at grave risk.\n",
-      "spellDescriptionThree": "He will likely face powerful NPCs or deadly traps in the next hour.\nIf the roll fails, you receive one of the other two results, determined randomly by the DM, and you don't necessarily know you failed because the DM rolls secretly.\nChoosing which vision is \"correct\" takes some educated guesswork on the part of the DM, who should assess the party's likely courses of action and what dangers they're likely to face.\nThe form that an omen of peril takes depends on whether the caster worships a specific deity, venerates nature as a druid, or simply upholds abstract principles.",
-      "spellDescriptionFour": "A cleric of Fharlanghn might see a vision of a straight road for safety, a crossroads for peril, and a washed-out bridge for great danger.\nUnlike the more powerful augury, an omen of peril doesn't respond to a specific question.\nIt only indicates the level of danger likely for the next hour, not what form the danger will take.",
+      "spellDescription": "<p>A brief supplication grants you a vision that hints at how dangerous the immediate future is likely to be.<br>\nBased on an assessment of the caster's immediate surroundings and likely path of travel, the caster receives one of three visions: safety, peril, or great danger.</p>\n<p>The base chance for receiving an accurate reply is 70% + 1% per caster level, to a maximum of 90%; the DM makes the roll secretly.</p>\n<p>If the omen of peril is successful, you receive one of three fleeting visions:</p>\n<ul>\n  <li>Safety: The caster isn't in any immediate danger. If he continues on his present course (or remains where he is if he's been stationary for some time before casting the spell), he'll face no significant monsters, traps, or challenges for the next hour or so.</li>\n  <li>Peril: The caster will face challenges typical of an adventure: challenging but not overwhelming monsters, dangerous traps, and other hazards for the next hour or so.</li>\n  <li>Great danger: The caster's very life is at grave risk.</li>\n</ul>\n<p><br>\nHe will likely face powerful NPCs or deadly traps in the next hour.<br>\nIf the roll fails, you receive one of the other two results, determined randomly by the DM, and you don't necessarily know you failed because the DM rolls secretly.<br>\nChoosing which vision is \"correct\" takes some educated guesswork on the part of the DM, who should assess the party's likely courses of action and what dangers they're likely to face.<br>\nThe form that an omen of peril takes depends on whether the caster worships a specific deity, venerates nature as a druid, or simply upholds abstract principles.<br>\nA druid might see a white dove for safety, a dark cloud obscuring the sun for peril, and a forest fire for great danger.<br>\nA cleric of Fharlanghn might see a vision of a straight road for safety, a crossroads for peril, and a washed-out bridge for great danger.<br>\nUnlike the more powerful augury, an omen of peril doesn't respond to a specific question.<br>\nIt only indicates the level of danger likely for the next hour, not what form the danger will take.<br>\nFocus: A set of marked sticks, bones, or similar tokens of at least 25 gp value.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "A set of marked sticks, bones, or similar tokens of at least 25 gp value.",
-      "id": 42
+      "id": 42,
+      "spellSummary": "You know how dangerous the future will be"
     },
     {
       "spellName": "Resurgence",
@@ -1561,15 +1589,16 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "The subject of a resurgence spell can make a second attempt to save against an ongoing spell, spell- ike ability, or supernatural ability, such as dominate person. If the subject of resurgence is affected by more than one ongoing magical effect, the subject chooses one of them to retry the save against. If the subject succeeds on the saving throw on the second attempt, the effect ends immediately. Resurgence never restores hit points or ability score damage, but it does eliminate any conditions such as shaken, fatigued, or nauseated that were caused by a spell, spell-like ability, or supernatural ability.",
-      "spellDescriptionTwo": "If a spell, spell-like ability, or supernatural ability doesn't allow a save (such as power word stun), then resurgence won't help the subject recover.",
+      "spellDescription": "<p>The subject of a resurgence spell can make a second attempt to save against an ongoing spell, spell- ike ability, or supernatural ability, such as dominate person. If the subject of resurgence is affected by more than one ongoing magical effect, the subject chooses one of them to retry the save against. If the subject succeeds on the saving throw on the second attempt, the effect ends immediately. Resurgence never restores hit points or ability score damage, but it does eliminate any conditions such as shaken, fatigued, or nauseated that were caused by a spell, spell-like ability, or supernatural ability.</p>\n<p>If a spell, spell-like ability, or supernatural ability doesn't allow a save (such as power word stun), then resurgence won't help the subject recover.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 43
+      "id": 43,
+      "spellSummary": "You grant subject a second chance at a saving throw"
     },
     {
       "spellName": "Lessor Vigor",
@@ -1584,18 +1613,19 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "The subject gains fast healing 1, enabling it to heal 1 hit point per round until the spell ends and automatically becoming stabilized if it begins dying from hit point loss during that time. Lesser vigor does not restore hit points lost from starvation, thirst, or suffocation, nor does it allow a creature to regrow or attach lost body parts.",
-      "spellDescriptionTwo": "The effects of multiple vigor spells do not stack; only the highest-level effect applies.",
+      "spellDescription": "<p>The subject gains fast healing 1, enabling it to heal 1 hit point per round until the spell ends and automatically becoming stabilized if it begins dying from hit point loss during that time. <em>Lesser vigor</em> does not restore hit points lost from starvation, thirst, or suffocation, nor does it allow a creature to regrow or attach lost body parts.</p>\n<p>The effects of multiple <em>vigor</em> spells do not stack; only the highest-level effect applies.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 44
+      "id": 44,
+      "spellSummary": "Creature heals 1hp/round (max 15 rounds)"
     },
     {
-      "spellName": "Healer Vision",
+      "spellName": "Healer's Vision",
       "spellSchool": "Divination",
       "spellDescriptor": "",
       "spellLevel": 1,
@@ -1607,15 +1637,16 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "You gain a macabre change to your vision that seemingly peels away skin and sinew to reveal the flesh beneath. You gain a +5 insight bonus on Heal checks, and any cure spell you cast on a living creature heals 1 extra point of damage per level of the spell.",
-      "spellDescriptionTwo": "You also gain a +2 bonus on attack rolls and damage rolls when making a precision-based attack (such as a sneak attack or a sudden strike) against a living creature, since you are able to pick out your target's most vital points. (This effect makes the spell popular among less benevolent casters). Healer's vision does not grant you the ability to make a precision-based attack if you don't already have that ability, nor does it allow you to make such attacks against creatures normally unaffected by them.",
-      "spellDescriptionThree": "This spell does not reveal the true forms of creatures affected by illusions or other magical disguises, so it grants no benefit to Heal checks or attacks against such creatures.\n\n",
+      "spellDescription": "<p>You gain a macabre change to your vision that seemingly peels away skin and sinew to reveal the flesh beneath. You gain a +5 insight bonus on <a href=\"https://dnd.arkalseif.info/skills/heal/index.html\" title=\"Heal\"><u>Heal</u></a> checks, and any <em>cure</em> spell you cast on a living creature heals 1 extra point of damage per level of the spell.</p>\n<p>You also gain a +2 bonus on attack rolls and damage rolls when making a precision-based attack (such as a sneak attack or a sudden strike) against a living creature, since you are able to pick out your target's most vital points. (This effect makes the spell popular among less benevolent casters). <em>Healer's vision</em> does not grant you the ability to make a precision-based attack if you don't already have that ability, nor does it allow you to make such attacks against creatures normally unaffected by them.</p>\n<p>This spell does not reveal the true forms of creatures affected by illusions or other magical disguises, so it grants no benefit to <a href=\"https://dnd.arkalseif.info/skills/heal/index.html\" title=\"Heal\"><u>Heal</u></a> checks or attacks against such creatures.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 45
+      "id": 45,
+      "spellSummary": "Gain +5 bonus on Heal checks, and +2 attack and damage on sneak attacks."
     },
     {
       "spellName": "Scholar's Touch",
@@ -1630,15 +1661,16 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "With this spell you can touch a book or scroll and absorb the knowledge contained within as if you had just read it.\nThis is equivalent to a solid reading but not deep study—\nthe character does not gain perfect recall of the information, just whatever he would have gotten from reading it completely once.",
-      "spellDescriptionTwo": "If you can't read the language of the source, the spell has no effect.",
-      "spellDescriptionThree": "This spell cannot be used to prepare spells or to cast magical scrolls, nor does it have any effect when reading a magical book (such as a tome of understanding).",
+      "spellDescription": "<p>With this spell you can touch a book or scroll and absorb the knowledge contained within as if you had just read it.<br>\nThis is equivalent to a solid reading but not deep study—<br>\nthe character does not gain perfect recall of the information, just whatever he would have gotten from reading it completely once.<br>\nIf you can't read the language of the source, the spell has no effect.<br>\nThis spell cannot be used to prepare spells or to cast magical scrolls, nor does it have any effect when reading a magical book (such as a tome of understanding).<br>\nMaterial Component: A scrap of parchment and a pinch of tinder.<br>\nFocus: A thin crystal disc.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 46
+      "id": 46,
+      "spellSummary": "Read books in seconds."
     },
     {
       "spellName": "Spell Flower",
@@ -1653,15 +1685,16 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "You are able to hold the charge for one touch spell per arm of your body as long as you don't use a changed limb to cast another spell or touch anything with it. Each touch spell you cast resides in a different forelimb. For the duration of this spell, any touch spells you cast are discharged only if you cast another spell with that forelimb or touch something with that forelimb.",
-      "spellDescriptionTwo": "For example, a human sorcerer casts this spell, then casts chill touch and holds the charge in his left hand, then casts shocking grasp and holds the charge in his right hand. Because of the spell flower, he can hold the charge on both of these spells at the same time. If he casts another spell with a somatic component (which requires the use of one of his hands), he immediately loses one of his held touch spells (his choice), but if the spell he casts is also a touch spell, he can immediately hold the charge in the available hand. If he chooses to attack with a touch spell, it works normally. Since he has multiple limbs that are considered armed, he can make an off-hand attack with the other touch spell in the same round, with the normal penalties for fighting with two weapons (PH 160).",
-      "spellDescriptionThree": "A marilith spellcaster could do the same as the sorcerer in the previous example, except that she could hold the charge on up to six touch spells. She could also use any of her spell-like or supernatural bilities, since those do not interfere with holding a charge.\nIf the spell flower effect ends, the most recent touch spell cast remains as a held charge and all other held spells dissipate.",
+      "spellDescription": "<p>You are able to hold the charge for one touch spell per arm of your body as long as you don't use a changed limb to cast another spell or touch anything with it. Each touch spell you cast resides in a different forelimb. For the duration of this spell, any touch spells you cast are discharged only if you cast another spell with that forelimb or touch something with that forelimb.</p>\n<p>For example, a human sorcerer casts this spell, then casts chill touch and holds the charge in his left hand, then casts shocking grasp and holds the charge in his right hand. Because of the spell flower, he can hold the charge on both of these spells at the same time. If he casts another spell with a somatic component (which requires the use of one of his hands), he immediately loses one of his held touch spells (his choice), but if the spell he casts is also a touch spell, he can immediately hold the charge in the available hand. If he chooses to attack with a touch spell, it works normally. Since he has multiple limbs that are considered armed, he can make an off-hand attack with the other touch spell in the same round, with the normal penalties for fighting with two weapons (PH 160).</p>\n<p>A marilith spellcaster could do the same as the sorcerer in the previous example, except that she could hold the charge on up to six touch spells. She could also use any of her spell-like or supernatural bilities, since those do not interfere with holding a charge.<br>\nIf the spell flower effect ends, the most recent touch spell cast remains as a held charge and all other held spells dissipate.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 47
+      "id": 47,
+      "spellSummary": "Hold the charge on one touch spell per forelimb."
     },
     {
       "spellName": "Blessed Aim",
@@ -1676,7 +1709,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "This spell grants your allies within the spread a +2 morale bonus on ranged attack rolls.",
+      "spellDescription": "<p>This spell grants your allies within the spread a +2 morale bonus on ranged attack rolls.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1684,7 +1717,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 48
+      "id": 48,
+      "spellSummary": "+2 bonus for allies' ranged attacks."
     },
     {
       "spellName": "Conviction",
@@ -1699,7 +1733,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "This spell bolsters the mental, physical, and spiritual strength of the creature touched.\nThe spell grants the subject a +2 morale bonus on all saving throws, with an additional +1 to the bonus for every six caster levels you have (maximum +5 morale bonus at 18th level).",
+      "spellDescription": "<p>This spell bolsters the mental, physical, and spiritual strength of the creature touched.<br>\nThe spell grants the subject a +2 morale bonus on all saving throws, with an additional +1 to the bonus for every six caster levels you have (maximum +5 morale bonus at 18th level).<br>\nMaterial Component: A small parchment with a bit of holy text written upon it.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1707,7 +1741,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 49
+      "id": 49,
+      "spellSummary": "Subject gains +2 or higher save bonus."
     },
     {
       "spellName": "Ebon Eyes",
@@ -1722,7 +1757,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "The subject of this spell gains the ability to see normally in natural and magical darkness, although it does not otherwise improve the subject's ability to see in natural dark or shadowy conditions. The subject ignores the miss chance due to lack of illumination other than total darkness. While the spell is in effect, a jet black film covers the subject's eyes, a visual effect that gives the spell its name.",
+      "spellDescription": "<p>The subject of this spell gains the ability to see normally in natural and magical darkness, although it does not otherwise improve the subject's ability to see in natural dark or shadowy conditions. The subject ignores the miss chance due to lack of illumination other than total darkness. While the spell is in effect, a jet· black film covers the subject's eyes, a visual effect that gives the spell its name.</p>\n<p><em>Material Component:</em> A pinch of powdered black gemstone of any type.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1730,7 +1765,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 50
+      "id": 50,
+      "spellSummary": "Subject can see through magical darkness"
     },
     {
       "spellName": "Faith Healing",
@@ -1745,7 +1781,7 @@
       "spellSavingThrow": "Will half (harmless)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "When laying your hand upon a living creature, you channel positive energy that cures 8 points of damage +1 point per caster level (up to +5).\nThe spell only works on a creature with the same patron as you.\nA target with no patron or a different patron than you is unaffected by the spell, even if the target would normally be harmed by positive energy.",
+      "spellDescription": "<p>When laying your hand upon a living creature, you channel positive energy that cures 8 points of damage +1 point per caster level (up to +5).<br>\nThe spell only works on a creature with the same patron as you.<br>\nA target with no patron or a different patron than you is unaffected by the spell, even if the target would normally be harmed by positive energy.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1753,7 +1789,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 51
+      "id": 51,
+      "spellSummary": "Cures 8 hp +1/level (max +5) to worshiper of your deity"
     },
     {
       "spellName": "Guiding Light",
@@ -1768,7 +1805,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "Bright lights shine at the targets. The lights grant a +2 circumstance bonus on ranged attack rolls against any highlighted target. If a creature gains total cover or total concealment relative to you, or if it leaves the area, the spell ends for that target.",
+      "spellDescription": "<p>Bright lights shine at the targets. The lights grant a +2 circumstance bonus on ranged attack rolls against any highlighted target. If a creature gains total cover or total concealment relative to you, or if it leaves the area, the spell ends for that target.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1776,7 +1813,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 52
+      "id": 52,
+      "spellSummary": "+2 on ranged attacks against creatures in illuminated area"
     },
     {
       "spellName": "Ironguts",
@@ -1791,7 +1829,7 @@
       "spellSavingThrow": "Will negate",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "You make a creature more able to fight the effects of poison.\nThe target gains a +4 circumstance bonus on Fortitude saves against all kinds of poisons, whether injury, contact, ingestion, or inhalation is the source of the poison.",
+      "spellDescription": "<p>You make a creature more able to fight the effects of poison.<br>\nThe target gains a +4 circumstance bonus on Fortitude saves against all kinds of poisons, whether injury, contact, ingestion, or inhalation is the source of the poison.<br>\nMaterial Component: A vial containing the diluted poison of four different creatures.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1799,30 +1837,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 53
-    },
-    {
-      "spellName": "Ironguts",
-      "spellSchool": "Abjuration",
-      "spellDescriptor": "",
-      "spellLevel": 1,
-      "spellComponents": "V, S, M",
-      "spellCastingTime": "1 action",
-      "spellRange": "Touch",
-      "spellDuration": "10 min./level",
-      "spellTarget": "Creature Touched",
-      "spellSavingThrow": "Will negate",
-      "spellResistance": "Yes",
-      "spellArea": "",
-      "spellDescription": "You make a creature more able to fight the effects of poison.\nThe target gains a +4 circumstance bonus on Fortitude saves against all kinds of poisons, whether injury, contact, ingestion, or inhalation is the source of the poison.",
-      "spellDescriptionTwo": "",
-      "spellDescriptionThree": "",
-      "spellDescriptionFour": "",
-      "spellEffect": "",
-      "spellDomainSpell": false,
-      "spellPrepared": 0,
-      "spellMaterial": "",
-      "id": 54
+      "id": 53,
+      "spellSummary": "Subject gains +5 bonus on saving throws against poison"
     },
     {
       "spellName": "Light of Lunia",
@@ -1837,15 +1853,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes; see text",
       "spellArea": "",
-      "spellDescription": "The silvery radiance created by this spell emanates from you in a 30-foot radius, and dim light extends for an additional 30 feet.",
-      "spellDescriptionTwo": "Beginning one turn after you cast this spell, you can choose to expend some or all of the light of Lunia as a ray of light. You must succeed on a ranged touch attack with the ray to strike a target. You can make a single ranged touch attack that deals 1d6 points of damage, or 2d6 points of damage against undead or evil outsiders, with a range of 30 feet. Spell resistance applies to this attack. This dims your silvery radiance to half (15-foot light, with dim light for an additional 15 feet). You can choose to fire one additional ray with the same characteristics either on the same round or on a subsequent round. Firing the second ray quenches your radiance and ends the spell.",
+      "spellDescription": "<p>The silvery radiance created by this spell emanates from you in a 30-foot radius, and dim light extends for an additional 30 feet.</p>\n<p>Beginning one turn after you cast this spell, you can choose to expend some or all of the light of Lunia as a ray of light. You must succeed on a ranged touch attack with the ray to strike a target. You can make a single ranged touch attack that deals 1d6 points of damage, or 2d6 points of damage against undead or evil outsiders, with a range of 30 feet. Spell resistance applies to this attack. This dims your silvery radiance to half (15-foot light, with dim light for an additional 15 feet). You can choose to fire one additional ray with the same characteristics either on the same round or on a subsequent round. Firing the second ray quenches your radiance and ends the spell.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 55
+      "id": 55,
+      "spellSummary": "You radiate silvery light, which you can expend as 2 bolts that deal 1d6 damage"
     },
     {
       "spellName": "Cure Moderate Wounds",

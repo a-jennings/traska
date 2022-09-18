@@ -446,8 +446,6 @@ export function Spell(props: SpellProps): ReactElement {
                       value={values.spellSummary}
                       onChange={handleChange}
                       label="Spell Summary"
-                      multiline
-                      minRows={2}
                     />
                   </Grid>
                   <Grid item xs={12}>
