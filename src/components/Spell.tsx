@@ -24,6 +24,7 @@ import EditIcon from "@mui/icons-material/Edit";
 import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
 import axios from "axios";
 import { Formik, Form } from "formik";
+import { TextEditor } from "./TextEditor/TextEditor";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -43,6 +44,7 @@ export function Spell(props: SpellProps): ReactElement {
   const [dialogOpen, setDialogOpen] = useState(false);
   const [confirmDialogOpen, setConfirmDialogOpen] = useState(false);
   const [castDialogOpen, setCastDialogOpen] = useState(false);
+  const [editorText, setEditorText] = useState("");
 
   const handleDialogOpen = () => setDialogOpen(true);
   const handleDialogClose = () => setDialogOpen(false);
@@ -115,6 +117,9 @@ export function Spell(props: SpellProps): ReactElement {
           <Typography>{data.spellName}</Typography>
           <Typography sx={{ marginLeft: 1 }} fontSize={12}>
             {data.spellMaterial ? <em>(M)</em> : ""}
+          </Typography>
+          <Typography fontSize={12} sx={{ opacity: 0.6 }}>
+            {data.spellSummary}
           </Typography>
         </Box>
         <Box>
@@ -202,22 +207,10 @@ export function Spell(props: SpellProps): ReactElement {
           </Box>
           {data.spellDescription && (
             <Box mt={1}>
-              <Typography>{data.spellDescription}</Typography>
-            </Box>
-          )}
-          {data.spellDescriptionTwo && (
-            <Box mt={1}>
-              <Typography>{data.spellDescriptionTwo}</Typography>
-            </Box>
-          )}
-          {data.spellDescriptionThree && (
-            <Box mt={1}>
-              <Typography>{data.spellDescriptionThree}</Typography>
-            </Box>
-          )}
-          {data.spellDescriptionFour && (
-            <Box mt={1}>
-              <Typography>{data.spellDescriptionFour}</Typography>
+              <Typography
+                component="div"
+                dangerouslySetInnerHTML={{ __html: data.spellDescription }}
+              />
             </Box>
           )}
         </Collapse>
@@ -235,7 +228,13 @@ export function Spell(props: SpellProps): ReactElement {
             initialValues={data}
             onSubmit={(values) => {
               axios
-                .patch(`http://localhost:3001/spells/${values.id}`, values)
+                .patch(`http://localhost:3001/spells/${values.id}`, {
+                  ...values,
+                  spellDescription: editorText,
+                  spellDescriptionTwo: "",
+                  spellDescriptionThree: "",
+                  spellDescriptionFour: "",
+                })
                 .then(() => {
                   fetchSpells();
                   handleDialogClose();
@@ -440,54 +439,28 @@ export function Spell(props: SpellProps): ReactElement {
                   </Grid>
                   <Grid item xs={12}>
                     <TextField
-                      id="spellDescription"
-                      name="spellDescription"
+                      id="spellSummary"
+                      name="spellSummary"
                       size="small"
                       fullWidth
-                      value={values.spellDescription}
+                      value={values.spellSummary}
                       onChange={handleChange}
-                      label="Spell Description"
+                      label="Spell Summary"
                       multiline
                       minRows={2}
                     />
                   </Grid>
                   <Grid item xs={12}>
-                    <TextField
-                      id="spellDescriptionTwo"
-                      name="spellDescriptionTwo"
-                      size="small"
-                      fullWidth
-                      value={values.spellDescriptionTwo}
-                      onChange={handleChange}
-                      label="Spell Description Two"
-                      multiline
-                      minRows={2}
-                    />
-                  </Grid>
-                  <Grid item xs={12}>
-                    <TextField
-                      id="spellDescriptionThree"
-                      name="spellDescriptionThree"
-                      size="small"
-                      fullWidth
-                      value={values.spellDescriptionThree}
-                      onChange={handleChange}
-                      label="Spell Description Three"
-                      multiline
-                      minRows={2}
-                    />
-                  </Grid>
-                  <Grid item xs={12}>
-                    <TextField
-                      id="spellDescriptionFour"
-                      name="spellDescriptionFour"
-                      size="small"
-                      fullWidth
-                      value={values.spellDescriptionFour}
-                      onChange={handleChange}
-                      label="Spell Description Four"
-                      multiline
-                      minRows={2}
+                    <TextEditor
+                      initialValue={
+                        values?.spellDescription +
+                          values?.spellDescriptionTwo +
+                          values.spellDescriptionThree +
+                          values.spellDescriptionFour || ""
+                      }
+                      onChange={(value) => {
+                        setEditorText(value);
+                      }}
                     />
                   </Grid>
                 </Grid>

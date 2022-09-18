@@ -80,11 +80,12 @@ export type SpellData = {
   spellResistance: string | null;
   spellArea: string | null;
   spellEffect: string | null;
-  spellDescription: string | null;
-  spellDescriptionTwo: string | null;
-  spellDescriptionThree: string | null;
-  spellDescriptionFour: string | null;
+  spellDescription: string;
+  spellDescriptionTwo: string;
+  spellDescriptionThree: string;
+  spellDescriptionFour: string;
   spellDomainSpell: boolean;
+  spellSummary: string | null;
   spellPrepared: number;
   spellMaterial: string;
   id: 1;

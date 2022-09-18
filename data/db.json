@@ -426,6 +426,13 @@
       "date": "2022-09-15T22:47:00.914Z",
       "editDate": "2022-09-15T22:48:35.614Z",
       "id": 2
+    },
+    {
+      "title": "Test",
+      "text": "",
+      "date": "2022-09-18T07:47:17.912Z",
+      "editDate": "2022-09-18T07:51:51.126Z",
+      "id": 3
     }
   ],
   "attacks": [
@@ -575,15 +582,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large—possibly creating a downpour or filling many small receptacles.",
-      "spellDescriptionTwo": "Note: Conjuration spells can’t create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.",
+      "spellDescription": "<p>This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large—possibly creating a downpour or filling many small receptacles.</p>\n<p><em>Note:</em> Conjuration spells can’t create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "Up to 2 gallons of water/level",
       "id": 1,
       "spellPrepared": 0,
       "spellDomainSpell": false,
-      "spellMaterial": ""
+      "spellMaterial": "",
+      "spellSummary": "Creates 2 gallons/level of pure water."
     },
     {
       "spellName": "Bane",
@@ -644,7 +652,7 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "This spell functions like cure light wounds, except that it cures only 1 point of damage.",
+      "spellDescription": "<p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/cureLightWounds.htm\" title=\"cure light wounds\"><em>cure light wounds</em></a>, except that it cures only 1 point of damage.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -652,7 +660,8 @@
       "spellDomainSpell": false,
       "spellMaterial": "",
       "spellPrepared": 0,
-      "id": 4
+      "id": 4,
+      "spellSummary": "Cures 1 point of damage."
     },
     {
       "spellName": "Detect Magic",
@@ -667,15 +676,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "Cone-shaped emanation",
-      "spellDescription": "You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.\n\n1st Round\nPresence or absence of magical auras.\n\n2nd Round\nNumber of different magical auras and the power of the most potent aura.\n\n3rd Round\nThe strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make Spellcraft skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.)",
-      "spellDescriptionTwo": "Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.\n\nAura Strength\nAn aura’s power depends on a spell’s functioning spell level or an item’s caster level. If an aura falls into more than one category, detect magic indicates the stronger of the two. See Table",
-      "spellDescriptionThree": "Lingering Aura\nA magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power. See Table",
-      "spellDescriptionFour": "Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers.\n\nEach round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.\n\nDetect magic can be made permanent with a permanency spell.",
+      "spellDescription": "<p>You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.</p>\n<h6><em>1st Round</em></h6>\n<p>Presence or absence of magical auras.</p>\n<h6><em>2nd Round</em></h6>\n<p>Number of different magical auras and the power of the most potent aura.</p>\n<h6><em>3rd Round</em></h6>\n<p>The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make <a href=\"https://www.d20srd.org/srd/skills/spellcraft.htm\" title=\"Spellcraft\">Spellcraft</a> <a href=\"https://www.d20srd.org/srd/skills/usingSkills.htm#skillChecks\" title=\"skill checks\">skill checks</a> to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.)</p>\n<p>Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.</p>\n<h6><em>Aura Strength</em></h6>\n<p>An aura’s power depends on a spell’s functioning spell level or an item’s caster level. If an aura falls into more than one category, detect magic indicates the stronger of the two.&nbsp;</p>\n<p><br></p>\n<h6><em>Lingering Aura</em></h6>\n<p>A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:&nbsp;</p>\n<p><br></p>\n<p><a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#outsiderType\" title=\"Outsiders\">Outsiders</a> and <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#elementalType\" title=\"elementals\">elementals</a> are not magical in themselves, but if they are summoned, the conjuration spell registers.</p>\n<p>Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</p>\n<p>Detect magic can be made permanent with a <a href=\"https://www.d20srd.org/srd/spells/permanency.htm\" title=\"permanency\"><em>permanency</em></a> spell.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 5
+      "id": 5,
+      "spellSummary": "Detects spells and magic items within 60 ft."
     },
     {
       "spellName": "Detect Poison",
@@ -690,15 +700,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "You determine whether a creature, object, or area has been poisoned or is poisonous. You can determine the exact type of poison with a DC 20 Wisdom check. A character with the Craft (alchemy) skill may try a DC 20 Craft (alchemy) check if the Wisdom check fails, or may try the Craft (alchemy) check prior to the Wisdom check.",
-      "spellDescriptionTwo": "The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.",
+      "spellDescription": "<p>You determine whether a creature, object, or area has been <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poisoned\">poisoned</a> or is <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poisonous\">poisonous</a>. You can determine the exact type of <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poison\">poison</a> with a DC 20 Wisdom check. A character with the <a href=\"https://www.d20srd.org/srd/skills/craft.htm\" title=\"Craft\">Craft</a> (alchemy) skill may try a DC 20 <a href=\"https://www.d20srd.org/srd/skills/craft.htm\" title=\"Craft\">Craft</a> (alchemy) check if the Wisdom check fails, or may try the <a href=\"https://www.d20srd.org/srd/skills/craft.htm\" title=\"Craft\">Craft</a> (alchemy) check prior to the Wisdom check.</p>\n<p>The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 6
+      "id": 6,
+      "spellSummary": "Detects poison in one creature or object."
     },
     {
       "spellName": "Guidance",
@@ -713,7 +724,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "This spell imbues the subject with a touch of divine guidance. The creature gets a +1 competence bonus on a single attack roll, saving throw, or skill check. It must choose to use the bonus before making the roll to which it applies.",
+      "spellDescription": "<p>This spell imbues the subject with a touch of divine guidance. The creature gets a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#competenceModifier\" title=\"competence bonus\">competence bonus</a> on a single <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack roll\">attack roll</a>, <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throw\">saving throw</a>, or <a href=\"https://www.d20srd.org/srd/skills/usingSkills.htm#skillChecks\" title=\"skill check\">skill check</a>. It must choose to use the bonus before making the roll to which it applies.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -721,7 +732,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 7
+      "id": 7,
+      "spellSummary": "+1 on one attack roll, saving throw, or skill check."
     },
     {
       "spellName": "Light",
@@ -736,15 +748,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.",
-      "spellDescriptionTwo": "A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the darkness descriptor) of an equal or lower level.",
+      "spellDescription": "<p>This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.</p>\n<p>A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the darkness descriptor) of an equal or lower level.</p>\n<h6><em>Arcane Material Component</em></h6>\n<p>A firefly or a piece of phosphorescent moss.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 8
+      "id": 8,
+      "spellSummary": "Object shines like a torch."
     },
     {
       "spellName": "Mending",
@@ -759,15 +772,16 @@
       "spellSavingThrow": "Will negates (harmless, object)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "Mending repairs small breaks or tears in objects (but not warps, such as might be caused by a warp wood spell). It will weld broken metallic objects such as a ring, a chain link, a medallion, or a slender dagger, providing but one break exists.",
-      "spellDescriptionTwo": "Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new. A hole in a leather sack or a wineskin is completely healed over by mending. The spell can repair a magic item, but the item’s magical abilities are not restored. The spell cannot mend broken magic rods, staffs, or wands, nor does it affect creatures (including constructs).",
+      "spellDescription": "<p>Mending repairs small breaks or tears in objects (but not warps, such as might be caused by a <a href=\"https://www.d20srd.org/srd/spells/warpWood.htm\" title=\"warp wood\"><em>warp wood</em></a> spell). It will weld broken metallic objects such as a ring, a chain link, a medallion, or a slender dagger, providing but one break exists.</p>\n<p>Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new. A hole in a leather sack or a wineskin is completely healed over by mending. The spell can repair a magic item, but the item’s magical abilities are not restored. The spell cannot mend broken magic rods, staffs, or wands, nor does it affect creatures (including <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#constructType\" title=\"constructs\">constructs</a>).&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 9
+      "id": 9,
+      "spellSummary": "Makes minor repairs on an object."
     },
     {
       "spellName": "Purify Food and Drink",
@@ -782,15 +796,16 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "This spell makes spoiled, rotten, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by purify food and drink, but the spell has no effect on creatures of any type nor upon magic potions.",
-      "spellDescriptionTwo": "Note: Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.",
+      "spellDescription": "<p>This spell makes spoiled, rotten, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poisonous\">poisonous</a>, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by purify food and drink, but the spell has no effect on creatures of any type nor upon magic potions.</p>\n<p><em>Note:</em> Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 10
+      "id": 10,
+      "spellSummary": "Purifies 1 cu. ft./level of food or water."
     },
     {
       "spellName": "Read Magic",
@@ -805,15 +820,16 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "By means of read magic, you can decipher magical inscriptions on objects—books, scrolls, weapons, and the like—that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic. You can read at the rate of one page (250 words) per minute. The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check (DC 10 + spell level).",
-      "spellDescriptionTwo": "Read magic can be made permanent with a permanency spell.",
+      "spellDescription": "<p>By means of read magic, you can decipher magical inscriptions on objects—books, scrolls, weapons, and the like—that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic. You can read at the rate of one page (250 words) per minute. The spell allows you to identify a <a href=\"https://www.d20srd.org/srd/spells/glyphOfWarding.htm\" title=\"glyph of warding\"><em>glyph of warding</em></a> with a DC 13 <a href=\"https://www.d20srd.org/srd/skills/spellcraft.htm\" title=\"Spellcraft\">Spellcraft</a> check, a <a href=\"https://www.d20srd.org/srd/spells/glyphOfWardingGreater.htm\" title=\"greater glyph of warding\"><em>greater glyph of warding</em></a> with a DC 16 <a href=\"https://www.d20srd.org/srd/skills/spellcraft.htm\" title=\"Spellcraft\">Spellcraft</a> check, or any symbol spell with a <a href=\"https://www.d20srd.org/srd/skills/spellcraft.htm\" title=\"Spellcraft\">Spellcraft</a> check (DC 10 + spell level).</p>\n<p>Read magic can be made permanent with a <a href=\"https://www.d20srd.org/srd/spells/permanency.htm\" title=\"permanency\"><em>permanency</em></a> spell.</p>\n<h6><em>Focus</em></h6>\n<p>A clear crystal or mineral prism.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 11
+      "id": 11,
+      "spellSummary": "Read scrolls and spellbooks."
     },
     {
       "spellName": "Virtue",
@@ -828,7 +844,7 @@
       "spellSavingThrow": "Fortitude negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "The subject gains 1 temporary hit point.",
+      "spellDescription": "<p>The subject gains 1 temporary hit point.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -836,7 +852,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 12
+      "id": 12,
+      "spellSummary": "Subject gains 1 temporary hp."
     },
     {
       "spellName": "Resistance",
@@ -851,15 +868,16 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves.",
-      "spellDescriptionTwo": "Resistance can be made permanent with a permanency spell.",
+      "spellDescription": "<p>You imbue the subject with magical energy that protects it from harm, granting it a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#resistanceBonus\" title=\"resistance bonus\">resistance bonus</a> on saves.</p>\n<p>Resistance can be made permanent with a <a href=\"https://www.d20srd.org/srd/spells/permanency.htm\" title=\"permanency\"><em>permanency</em></a> spell.</p>\n<h6><em>Arcane Material Component</em></h6>\n<p>A miniature cloak.</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 13
+      "id": 13,
+      "spellSummary": "Subject gains +1 on saving throws."
     },
     {
       "spellName": "Summon Holy Symbol",
@@ -874,7 +892,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "You conjure a small holy symbol, which you can then use to turn undead, or as a divine focus for spells, or for any other purpose that you would normally use one. The conjured holy symbol is made of wood and is neither magical nor particularly valuable.",
+      "spellDescription": "<p>You conjure a small holy symbol, which you can then use to turn undead, or as a divine focus for spells, or for any other purpose that you would normally use one. The conjured holy symbol is made of wood and is neither magical nor particularly valuable.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -882,7 +900,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 14
+      "id": 14,
+      "spellSummary": "Wooden holy symbol appears in your hand."
     },
     {
       "spellName": "Amaneunsis",
@@ -897,15 +916,16 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "You point at the writing and then move your hand as though holding a stylus or quill. As you intone the spell, the script appears on a sheet of paper close at hand.",
-      "spellDescriptionTwo": "You cause writing from one source (such as a book) to be copied into a book, paper, or parchment. This spell copies 250 words per minute and creates a perfect duplicate of the original. The spell copies only nonmagical text, not illustrations or magical writings (such as the text of a spellbook, a spell scroll, or a sepia snake sigil). If the target contains normal and magical writing (such as a letter with explosive runes), only the normal text is copied, leaving blank space in the copied text where the magical writing would be expected. Likewise, if the target contains text and illustration, only the text is copied.",
-      "spellDescriptionThree": "The spell triggers (but does not copy) writing-based magic traps in the material being copied.\n\nBlank paper, parchment, or a book must be provided for the spell to write upon. If the target has multiple pages, the spell automatically turns to the next blank page whenever necessary. If more pages in the target exist than blank pages are available, the spell copies the original until it runs out of\nblank pages. At any time during the spell's duration you can redirect the magic to copy from another target, copy onto a different blank source, or resume a duplication that was interrupted by a shortfall of blank pages.",
-      "spellDescriptionFour": "The spell does not translate the copied writing. If you do not understand the original, you have no additional ability to understand the copy.",
+      "spellDescription": "<p>You point at the writing and then move your hand as though holding a stylus or quill. As you intone the spell, the script appears on a sheet of paper close at hand.</p>\n<p>You cause writing from one source (such as a book) to be copied into a book, paper, or parchment. This spell copies 250 words per minute and creates a perfect duplicate of the original. The spell copies only nonmagical text, not illustrations or magical writings (such as the text of a spellbook, a spell scroll, or a sepia snake sigil). If the target contains normal and magical writing (such as a letter with explosive runes), only the normal text is copied, leaving blank space in the copied text where the magical writing would be expected. Likewise, if the target contains text and illustration, only the text is copied.</p>\n<p>The spell triggers (but does not copy) writing-based magic traps in the material being copied.</p>\n<p>Blank paper, parchment, or a book must be provided for the spell to write upon. If the target has multiple pages, the spell automatically turns to the next blank page whenever necessary. If more pages in the target exist than blank pages are available, the spell copies the original until it runs out of<br>\nblank pages. At any time during the spell's duration you can redirect the magic to copy from another target, copy onto a different blank source, or resume a duplication that was interrupted by a shortfall of blank pages.</p>\n<p>The spell does not translate the copied writing. If you do not understand the original, you have no additional ability to understand the copy.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 15
+      "id": 15,
+      "spellSummary": "Copy nonmagical text."
     },
     {
       "spellName": "Bless",
