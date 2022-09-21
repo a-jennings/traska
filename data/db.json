@@ -630,7 +630,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "Aid grants the target a +1 morale bonus on attack rolls and saves against fear effects, plus temporary hit points equal to 1d8 + caster level (to a maximum of 1d8+10 temporary hit points at caster level 10th).",
+      "spellDescription": "<p>Aid grants the target a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#moraleModifier\" title=\"morale bonus\">morale bonus</a> on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack rolls\">attack rolls</a> and saves against <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#fear\" title=\"fear\">fear</a> effects, plus temporary hit points equal to <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> + caster level (to a maximum of <a href=\"javascript:void(0);\" title=\"1d8+10\">1d8+10</a> temporary hit points at caster level 10th).&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -638,7 +638,8 @@
       "id": 3,
       "spellPrepared": 0,
       "spellDomainSpell": false,
-      "spellMaterial": ""
+      "spellMaterial": "",
+      "spellSummary": "+1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10)."
     },
     {
       "spellName": "Cure Minor Wounds",
@@ -1877,15 +1878,16 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless); see text",
       "spellArea": "",
-      "spellDescription": "When laying your hand upon a living creature, you channel positive energy that cures 2d8 points of damage +1 point per caster level (maximum +10).",
-      "spellDescriptionTwo": "Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.",
+      "spellDescription": "<p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/cureLightWounds.htm\" title=\"cure light wounds\"><em>cure light wounds</em></a>, except that it cures <a href=\"javascript:void(0);\" title=\"2d8\">2d8</a> points of damage +1 point per caster level (maximum +10).&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 56
+      "id": 56,
+      "spellSummary": "Cures 2d8 damage +1/level (max +10)."
     },
     {
       "spellName": "Heat Metal",
@@ -1900,15 +1902,16 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "Heat metal makes metal extremely warm. Unattended, nonmagical metal gets no saving throw. Magical metal is allowed a saving throw against the spell. An item in a creature’s possession uses the creature’s saving throw bonus unless its own is higher.",
-      "spellDescriptionTwo": "A creature takes fire damage if its equipment is heated. It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight. The creature takes minimum damage (1 point or 2 points; see the table) if it’s not wearing metal armor and the metal that it’s carrying weighs less than one-fifth of its weight.",
-      "spellDescriptionThree": "On the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell’s duration. During the second (and also the next-to-last) round, intense heat causes pain and damage. In the third, fourth, and fifth rounds, the metal is searing hot, causing more damage, as shown on the table below.",
-      "spellDescriptionFour": "Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, heat metal deals half damage and boils the surrounding water.\n\nHeat metal counters and dispels chill metal.",
+      "spellDescription": "<p>Heat metal makes metal extremely warm. Unattended, nonmagical metal gets no <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throw\">saving throw</a>. Magical metal is allowed a saving throw against the spell. An item in a creature’s possession uses the creature’s saving throw bonus unless its own is higher.</p>\n<p>A creature takes fire damage if its equipment is heated. It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight. The creature takes minimum damage (1 point or 2 points; see the table) if it’s not wearing metal armor and the metal that it’s carrying weighs less than one-fifth of its weight. <br>\n<br>\nOn the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell’s duration. During the second (and also the next-to-last) round, intense heat causes pain and damage. In the third, fourth, and fifth rounds, the metal is searing hot, causing more damage, as shown on the table below.</p>\n<p>Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, heat metal deals half damage and boils the surrounding water.</p>\n<p>Heat metal counters and dispels <a href=\"https://www.d20srd.org/srd/spells/chillMetal.htm\" title=\"chill metal\"><em>chill metal</em></a>.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 57
+      "id": 57,
+      "spellSummary": "Make metal so hot it damages those who touch it."
     },
     {
       "spellName": "Align Weapon",
@@ -1923,15 +1926,16 @@
       "spellSavingThrow": "Will negates (harmless, object)",
       "spellResistance": "Yes (harmless, object)",
       "spellArea": "",
-      "spellDescription": "Align weapon makes a weapon good, evil, lawful, or chaotic, as you choose. A weapon that is aligned can bypass the damage reduction of certain creatures. This spell has no effect on a weapon that already has an alignment.\n\n",
-      "spellDescriptionTwo": "You can’t cast this spell on a natural weapon, such as an unarmed strike.\n\n",
-      "spellDescriptionThree": "When you make a weapon good, evil, lawful, or chaotic, align weapon is a good, evil, lawful, or chaotic spell, respectively.\n\n",
+      "spellDescription": "<p>Align weapon makes a weapon good, evil, lawful, or chaotic, as you choose. A weapon that is aligned can bypass the <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#damageReduction\" title=\"damage reduction\">damage reduction</a> of certain creatures. This spell has no effect on a weapon that already has an <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a>.</p>\n<p>You can’t cast this spell on a <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#naturalWeapons\" title=\"natural weapon\">natural weapon</a>, such as an <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#unarmedStrike\" title=\"unarmed strike\">unarmed strike</a>.</p>\n<p>When you make a weapon good, evil, lawful, or chaotic, align weapon is a good, evil, lawful, or chaotic spell, respectively.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 58
+      "id": 58,
+      "spellSummary": "Weapon becomes good, evil, lawful, or chaotic."
     },
     {
       "spellName": "Augury",
@@ -1946,15 +1950,16 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "An augury can tell you whether a particular action will bring good or bad results for you in the immediate future.\n\nThe base chance for receiving a meaningful reply is 70% + 1% per caster level, to a maximum of 90%; this roll is made secretly. A question may be so straightforward that a successful result is automatic, or so vague as to have no chance of success. If the augury succeeds, you get one of four results:",
-      "spellDescriptionTwo": "Weal (if the action will probably bring good results).\nWoe (for bad results).\nWeal and woe (for both).\nNothing (for actions that don’t have especially good or bad results).",
-      "spellDescriptionThree": "If the spell fails, you get the “nothing” result. A cleric who gets the “nothing” result has no way to tell whether it was the consequence of a failed or successful augury.",
-      "spellDescriptionFour": "The augury can see into the future only about half an hour, so anything that might happen after that does not affect the result. Thus, the result might not take into account the long-term consequences of a contemplated action. All auguries cast by the same person about the same topic use the same dice result as the first casting.",
+      "spellDescription": "<p>An augury can tell you whether a particular action will bring good or bad results for you in the immediate future.</p>\n<p>The base chance for receiving a meaningful reply is 70% + 1% per caster level, to a maximum of 90%; this roll is made secretly. A question may be so straightforward that a successful result is automatic, or so vague as to have no chance of success. If the augury succeeds, you get one of four results:</p>\n<ul>\n  <li>Weal (if the action will probably bring good results).</li>\n  <li>Woe (for bad results).</li>\n  <li>Weal and woe (for both).</li>\n  <li>Nothing (for actions that don’t have especially good or bad results).</li>\n</ul>\n<p>If the spell fails, you get the “nothing” result. A <a href=\"https://www.d20srd.org/srd/classes/cleric.htm\" title=\"cleric\">cleric</a> who gets the “nothing” result has no way to tell whether it was the consequence of a failed or successful augury.</p>\n<p>The augury can see into the future only about half an hour, so anything that might happen after that does not affect the result. Thus, the result might not take into account the long-term consequences of a contemplated action. All auguries cast by the same person about the same topic use the same dice result as the first casting.</p>\n<h6><em>Material Component</em></h6>\n<p>Incense worth at least 25 gp.</p>\n<h6><em>Focus</em></h6>\n<p>A set of marked sticks, bones, or similar tokens of at least 25 gp value.</p>\n<p><br></p>\n<p><br>\n&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "Incense worth at least 25 gp.",
-      "id": 59
+      "id": 59,
+      "spellSummary": "Learns whether an action will be good or bad."
     },
     {
       "spellName": "Bear's Endurance",
@@ -1969,15 +1974,16 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to Constitution, which adds the usual benefits to hit points, Fortitude saves, Constitution checks, and so forth.\n\n",
-      "spellDescriptionTwo": "Hit points gained by a temporary increase in Constitution score are not temporary hit points. They go away when the subject’s Constitution drops back to normal. They are not lost first as temporary hit points are.\n\n",
+      "spellDescription": "<p>The affected creature gains greater vitality and stamina. The spell grants the subject a +4 <a href=\"https://www.d20srd.org/srd/theBasics.htm#enhancementBonus\" title=\"enhancement bonus\">enhancement bonus</a> to Constitution, which adds the usual benefits to hit points, <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#fortitude\" title=\"Fortitude saves\">Fortitude saves</a>, Constitution checks, and so forth.</p>\n<p>Hit points gained by a temporary increase in Constitution score are not temporary hit points. They go away when the subject’s Constitution drops back to normal. They are not lost first as temporary hit points are.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 60
+      "id": 60,
+      "spellSummary": "Subject gains +4 to Con for 1 min./level."
     },
     {
       "spellName": "Bull's Strength",
@@ -1992,7 +1998,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier.",
+      "spellDescription": "<p>The subject becomes stronger. The spell grants a +4 <a href=\"https://www.d20srd.org/srd/theBasics.htm#enhancementBonus\" title=\"enhancement bonus\">enhancement bonus</a> to Strength, adding the usual benefits to melee <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack rolls\">attack rolls</a>, melee damage rolls, and other uses of the Strength modifier.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2000,7 +2006,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 61
+      "id": 61,
+      "spellSummary": "Subject gains +4 to Str for 1 min./level."
     },
     {
       "spellName": "Calm Emotions",
@@ -2015,15 +2022,16 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellArea": "Creatures in a 20-ft.-radius spread",
-      "spellDescription": "This spell calms agitated creatures. You have no control over the affected creatures, but calm emotions can stop raging creatures from fighting or joyous ones from reveling. Creatures so affected cannot take violent actions (although they can defend themselves) or do anything destructive. Any aggressive action against or damage dealt to a calmed creature immediately breaks the spell on all calmed creatures.\n\n",
-      "spellDescriptionTwo": "This spell automatically suppresses (but does not dispel) any morale bonuses granted by spells such as bless, good hope, and rage, as well as negating a bard’s ability to inspire courage or a barbarian’s rage ability. It also suppresses any fear effects and removes the confused condition from all targets. While the spell lasts, a suppressed spell or effect has no effect. When the calm emotions spell ends, the original spell or effect takes hold of the creature again, provided that its duration has not expired in the meantime.\n\n",
+      "spellDescription": "<p>This spell calms agitated creatures. You have no control over the affected creatures, but calm emotions can stop raging creatures from fighting or joyous ones from reveling. Creatures so affected cannot take violent actions (although they can defend themselves) or do anything destructive. Any aggressive action against or damage dealt to a calmed creature immediately breaks the spell on all calmed creatures.</p>\n<p>This spell automatically suppresses (but does not dispel) any <a href=\"https://www.d20srd.org/srd/theBasics.htm#moraleModifier\" title=\"morale bonus\">morale bonus</a>es granted by spells such as <a href=\"https://www.d20srd.org/srd/spells/bless.htm\" title=\"bless\"><em>bless</em></a>, <a href=\"https://www.d20srd.org/srd/spells/goodHope.htm\" title=\"good hope\"><em>good hope</em></a>, and <a href=\"https://www.d20srd.org/srd/spells/rage.htm\" title=\"rage\"><em>rage</em></a>, as well as negating a <a href=\"https://www.d20srd.org/srd/classes/bard.htm\" title=\"bard’s\">bard’s</a> ability to inspire courage or a <a href=\"https://www.d20srd.org/srd/classes/barbarian.htm\" title=\"barbarian’s\">barbarian’s</a> rage ability. It also suppresses any <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#fear\" title=\"fear\">fear</a> effects and removes the <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#confused\" title=\"&lt;em&gt;confused&lt;/em&gt;\"><em>confused</em></a> condition from all targets. While the spell lasts, a suppressed spell or effect has no effect. When the calm emotions spell ends, the original spell or effect takes hold of the creature again, provided that its duration has not expired in the meantime.</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 62
+      "id": 62,
+      "spellSummary": "Calms creatures, negating emotion effects."
     },
     {
       "spellName": "Consecrate",
@@ -2038,15 +2046,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "20ft. radius emanation",
-      "spellDescription": "This spell blesses an area with positive energy. Each Charisma check made to turn undead within this area gains a +3 sacred bonus. Every undead creature entering a consecrated area suffers minor disruption, giving it a -1 penalty on attack rolls, damage rolls, and saves. Undead cannot be created within or summoned into a consecrated area.",
-      "spellDescriptionTwo": "If the consecrated area contains an altar, shrine, or other permanent fixture dedicated to your deity, pantheon, or aligned higher power, the modifiers given above are doubled (+6 sacred bonus on turning checks, -2 penalties for undead in the area). You cannot consecrate an area with a similar fixture of a deity other than your own patron.",
-      "spellDescriptionThree": "If the area does contain an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron, the consecrate spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.",
-      "spellDescriptionFour": "Consecrate counters and dispels desecrate.",
+      "spellDescription": "<p>This spell imbues an area with negative energy. Each Charisma check made to <a href=\"https://www.d20srd.org/srd/combat/specialAttacks.htm#turnOrRebukeUndead\" title=\"turn undead\">turn undead</a> within this area takes a -3 <a href=\"https://www.d20srd.org/srd/theBasics.htm#profaneModifier\" title=\"profane penalty\">profane penalty</a>, and every <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature entering a desecrated area gains a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#profaneModifier\" title=\"profane bonus\">profane bonus</a> on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack rolls\">attack rolls</a>, damage rolls, and <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throws\">saving throws</a>. An undead creature created within or summoned into such an area gains +1 hit points per HD.</p>\n<p>If the desecrated area contains an altar, shrine, or other permanent fixture dedicated to your deity or aligned higher power, the modifiers given above are doubled (-6 <a href=\"https://www.d20srd.org/srd/theBasics.htm#profaneModifier\" title=\"profane penalty\">profane penalty</a> on turning checks, +2 <a href=\"https://www.d20srd.org/srd/theBasics.htm#profaneModifier\" title=\"profane bonus\">profane bonus</a> and +2 hit points per HD for undead in the area).</p>\n<p>Furthermore, anyone who casts <a href=\"https://www.d20srd.org/srd/spells/animateDead.htm\" title=\"animate dead\"><em>animate dead</em></a> within this area may create as many as double the normal amount of undead (that is, 4 HD per caster level rather than 2 HD per caster level).</p>\n<p>If the area contains an altar, shrine, or other permanent fixture of a deity, pantheon, or higher power other than your patron, the desecrate spell instead curses the area, cutting off its connection with the associated deity or power. This secondary function, if used, does not also grant the bonuses and penalties relating to undead, as given above.</p>\n<p>Desecrate counters and dispels <a href=\"https://www.d20srd.org/srd/spells/consecrate.htm\" title=\"consecrate\"><em>consecrate</em></a>.</p>\n<h6><em>Material Component</em></h6>\n<p>A vial of unholy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "A vial of holy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area.",
-      "id": 63
+      "id": 63,
+      "spellSummary": "Fills area with positive energy, making undead weaker."
     },
     {
       "spellName": "Darkness",
@@ -2061,15 +2070,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "This spell causes an object to radiate shadowy illumination out to a 20-foot radius. All creatures in the area gain concealment (20% miss chance). Even creatures that can normally see in such conditions (such as with darkvision or low-light vision) have the miss chance in an area shrouded in magical darkness.",
-      "spellDescriptionTwo": "Normal lights (torches, candles, lanterns, and so forth) are incapable of brightening the area, as are light spells of lower level. Higher level light spells are not affected by darkness.\n\n",
-      "spellDescriptionThree": "If darkness is cast on a small object that is then placed inside or under a lightproof covering, the spell’s effect is blocked until the covering is removed.\n\n",
-      "spellDescriptionFour": "Darkness counters or dispels any light spell of equal or lower spell level.\n\n",
+      "spellDescription": "<p>This spell causes an object to radiate shadowy illumination out to a 20-foot radius. All creatures in the area gain <a href=\"https://www.d20srd.org/srd/combat/combatModifiers.htm#concealment\" title=\"concealment\">concealment</a> (20% miss chance). Even creatures that can normally see in such conditions (such as with <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#darkvision\" title=\"darkvision\">darkvision</a> or <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#lowLightVision\" title=\"low-light vision\">low-light vision</a>) have the miss chance in an area shrouded in magical darkness.</p>\n<p>Normal lights (torches, candles, lanterns, and so forth) are incapable of brightening the area, as are light spells of lower level. Higher level light spells are not affected by darkness.</p>\n<p>If darkness is cast on a small object that is then placed inside or under a lightproof covering, the spell’s effect is blocked until the covering is removed.</p>\n<p>Darkness counters or dispels any light spell of equal or lower spell level.</p>\n<h6><em>Arcane Material Component</em></h6>\n<p>A bit of bat fur and either a drop of pitch or a piece of coal.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 64
+      "id": 64,
+      "spellSummary": "20-ft. radius of supernatural shadow."
     },
     {
       "spellName": "Delay Poison",
@@ -2084,7 +2094,7 @@
       "spellSavingThrow": "Fortitude negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell’s duration does not affect the subject until the spell’s duration has expired. Delay poison does not cure any damage that poison may have already done.\n\n",
+      "spellDescription": "<p>The subject becomes temporarily immune to <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poison\">poison</a>. Any <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poison\">poison</a> in its system or any <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poison\">poison</a> to which it is exposed during the spell’s duration does not affect the subject until the spell’s duration has expired. Delay poison does not cure any damage that <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poison\">poison</a> may have already done.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2092,7 +2102,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 65
+      "id": 65,
+      "spellSummary": "Stops poison from harming subject for 1 hour/level."
     },
     {
       "spellName": "Eagle's Splendor",
@@ -2107,7 +2118,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. Sorcerers and bards (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spell’s effect do increase.",
+      "spellDescription": "<p>The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 <a href=\"https://www.d20srd.org/srd/theBasics.htm#enhancementBonus\" title=\"enhancement bonus\">enhancement bonus</a> to Charisma, adding the usual benefits to Charisma-based <a href=\"https://www.d20srd.org/srd/skills/usingSkills.htm#skillChecks\" title=\"skill checks\">skill checks</a> and other uses of the Charisma modifier. <a href=\"https://www.d20srd.org/srd/classes/sorcererWizard.htm#sorcerer\" title=\"Sorcerers\">Sorcerers</a> and <a href=\"https://www.d20srd.org/srd/classes/bard.htm\" title=\"bards\">bards</a> (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spell’s effect do increase.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2115,7 +2126,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 66
+      "id": 66,
+      "spellSummary": "Subject gains +4 to Cha for 1 min./level."
     },
     {
       "spellName": "Enthrall",
@@ -2130,15 +2142,16 @@
       "spellSavingThrow": "Will negates; see text",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "If you have the attention of a group of creatures, you can use this spell to hold them spellbound. To cast the spell, you must speak or sing without interruption for 1 full round. Thereafter, those affected give you their undivided attention, ignoring their surroundings. They are considered to have an attitude of friendly while under the effect of the spell. Any potentially affected creature of a race or religion unfriendly to yours gets a +4 bonus on the saving throw.\n\n",
-      "spellDescriptionTwo": "A creature with 4 or more HD or with a Wisdom score of 16 or higher remains aware of its surroundings and has an attitude of indifferent. It gains a new saving throw if it witnesses actions that it opposes.\n\n",
-      "spellDescriptionThree": "The effect lasts as long as you speak or sing, to a maximum of 1 hour. Those enthralled by your words take no action while you speak or sing and for 1d3 rounds thereafter while they discuss the topic or performance. Those entering the area during the performance must also successfully save or become enthralled. The speech ends (but the 1d3-round delay still applies) if you lose concentration or do anything other than speak or sing.\n\n",
-      "spellDescriptionFour": "If those not enthralled have unfriendly or hostile attitudes toward you, they can collectively make a Charisma check to try to end the spell by jeering and heckling. For this check, use the Charisma bonus of the creature with the highest Charisma in the group; others may make Charisma checks to assist. The heckling ends the spell if this check result beats your Charisma check result. Only one such challenge is allowed per use of the spell.\n\nIf any member of the audience is attacked or subjected to some other overtly hostile act, the spell ends and the previously enthralled members become immediately unfriendly toward you. Each creature with 4 or more HD or with a Wisdom score of 16 or higher becomes hostile.\n\n",
+      "spellDescription": "<p>If you have the attention of a group of creatures, you can use this spell to hold them spellbound. To cast the spell, you must speak or sing without interruption for 1 full round. Thereafter, those affected give you their undivided attention, ignoring their surroundings. They are considered to have an attitude of friendly while under the effect of the spell. Any potentially affected creature of a race or religion unfriendly to yours gets a +4 bonus on the <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throw\">saving throw</a>.</p>\n<p>A creature with 4 or more HD or with a Wisdom score of 16 or higher remains aware of its surroundings and has an attitude of indifferent. It gains a new <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throw\">saving throw</a> if it witnesses actions that it opposes.</p>\n<p>The effect lasts as long as you speak or sing, to a maximum of 1 hour. Those enthralled by your words take no action while you speak or sing and for <a href=\"javascript:void(0);\" title=\"1d3\">1d3</a> rounds thereafter while they discuss the topic or performance. Those entering the area during the performance must also successfully save or become enthralled. The speech ends (but the <a href=\"javascript:void(0);\" title=\"1d3\">1d3</a>-round delay still applies) if you lose concentration or do anything other than speak or sing.</p>\n<p>If those not enthralled have unfriendly or hostile attitudes toward you, they can collectively make a Charisma check to try to end the spell by jeering and heckling. For this check, use the Charisma bonus of the creature with the highest Charisma in the group; others may make Charisma checks to assist. The heckling ends the spell if this check result beats your Charisma check result. Only one such challenge is allowed per use of the spell.</p>\n<p>If any member of the audience is attacked or subjected to some other overtly hostile act, the spell ends and the previously enthralled members become immediately unfriendly toward you. Each creature with 4 or more HD or with a Wisdom score of 16 or higher becomes hostile.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 67
+      "id": 67,
+      "spellSummary": "Captivates all within 100 ft. + 10 ft./level."
     },
     {
       "spellName": "Find Traps",
@@ -2153,15 +2166,16 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "You gain intuitive insight into the workings of traps. You can use the Search skill to detect traps just as a rogue can. In addition, you gain an insight bonus equal to one-half your caster level (maximum +10) on Search checks made to find traps while the spell is in effect.\n\n",
-      "spellDescriptionTwo": "Note that find traps grants no ability to disable the traps that you may find.\n\n",
+      "spellDescription": "<p>You gain intuitive insight into the workings of traps. You can use the <a href=\"https://www.d20srd.org/srd/skills/search.htm\" title=\"Search\">Search</a> skill to detect traps just as a <a href=\"https://www.d20srd.org/srd/classes/rogue.htm\" title=\"rogue\">rogue</a> can. In addition, you gain an <a href=\"https://www.d20srd.org/srd/theBasics.htm#insightBonus\" title=\"insight bonus\">insight bonus</a> equal to one-half your caster level (maximum +10) on <a href=\"https://www.d20srd.org/srd/skills/search.htm\" title=\"Search\">Search</a> checks made to find traps while the spell is in effect.</p>\n<p>Note that find traps grants no ability to disable the traps that you may find.</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 68
+      "id": 68,
+      "spellSummary": "Notice traps as a rogue does."
     },
     {
       "spellName": "Gentle Repose",
@@ -2176,15 +2190,16 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "You preserve the remains of a dead creature so that they do not decay. Doing so effectively extends the time limit on raising that creature from the dead (see raise dead). Days spent under the influence of this spell don’t count against the time limit. Additionally, this spell makes transporting a fallen comrade more pleasant.\n\n",
-      "spellDescriptionTwo": "The spell also works on severed body parts and the like.\n\n",
+      "spellDescription": "<p>You preserve the remains of a <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#dead\" title=\"dead\">dead</a> creature so that they do not decay. Doing so effectively extends the time limit on raising that creature from the dead (see <a href=\"https://www.d20srd.org/srd/spells/raiseDead.htm\" title=\"raise dead\"><em>raise dead</em></a>). Days spent under the influence of this spell don’t count against the time limit. Additionally, this spell makes transporting a fallen comrade more pleasant.</p>\n<p>The spell also works on severed body parts and the like.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 69
+      "id": 69,
+      "spellSummary": "Preserves one corpse."
     },
     {
       "spellName": "Hold Person",
@@ -2199,15 +2214,16 @@
       "spellSavingThrow": "Will negates; see text",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "The subject becomes paralyzed and freezes in place. It is aware and breathes normally but cannot take any actions, even speech. Each round on its turn, the subject may attempt a new saving throw to end the effect. (This is a full-round action that does not provoke attacks of opportunity.)\n\n",
-      "spellDescriptionTwo": "A winged creature who is paralyzed cannot flap its wings and falls. A swimmer can’t swim and may drown.\n\n",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 70
+      "id": 70,
+      "spellSummary": "Paralyzes one humanoid for 1 round/level."
     },
     {
       "spellName": "Inflict Moderate Wounds",
@@ -2222,7 +2238,7 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "This spell functions like inflict light wounds, except that you deal 2d8 points of damage +1 point per caster level (maximum +10).\n\n",
+      "spellDescription": "<p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/inflictLightWounds.htm\" title=\"inflict light wounds\"><em>inflict light wounds</em></a>, except that you deal <a href=\"javascript:void(0);\" title=\"2d8\">2d8</a> points of damage +1 point per caster level (maximum +10)&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2230,7 +2246,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 71
+      "id": 71,
+      "spellSummary": "Touch attack, 2d8 damage +1/level (max +10)."
     },
     {
       "spellName": "Make Whole",
@@ -2245,7 +2262,7 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "This spell functions like mending, except that make whole completely repairs an object made of any substance, even one with multiple breaks, to be as strong as new. The spell does not restore the magical abilities of a broken magic item made whole, and it cannot mend broken magic rods, staffs, or wands. The spell does not repair items that have been warped, burned, disintegrated, ground to powder, melted, or vaporized, nor does it affect creatures (including constructs).\n\n",
+      "spellDescription": "<p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/mending.htm\" title=\"mending\">mending</a>, except that <em>make whole</em> completely repairs an object made of any substance, even one with multiple breaks, to be as strong as new. The spell does not restore the magical abilities of a broken magic item made whole, and it cannot mend broken magic rods, staffs, or wands. The spell does not repair items that have been warped, burned, <a href=\"https://www.d20srd.org/srd/spells/disintegrate.htm\" title=\"disintegrated\"><em>disintegrated</em></a>, ground to powder, melted, or vaporized, nor does it affect creatures (including <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#constructType\" title=\"constructs\">constructs</a>).&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2253,7 +2270,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 72
+      "id": 72,
+      "spellSummary": "Repairs an object"
     },
     {
       "spellName": "Owl's Wisdom",
@@ -2268,7 +2286,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the usual benefit to Wisdom-related skills. Clerics, druids, paladins, and rangers (and other Wisdom-based spellcasters) who receive owl’s wisdom do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their spells increase.\n\n",
+      "spellDescription": "<p>The transmuted creature becomes wiser. The spell grants a +4 <a href=\"https://www.d20srd.org/srd/theBasics.htm#enhancementBonus\" title=\"enhancement bonus\">enhancement bonus</a> to Wisdom, adding the usual benefit to Wisdom-related skills. <a href=\"https://www.d20srd.org/srd/classes/cleric.htm\" title=\"Clerics\">Clerics</a>, <a href=\"https://www.d20srd.org/srd/classes/druid.htm\" title=\"druids\">druids</a>, <a href=\"https://www.d20srd.org/srd/classes/paladin.htm\" title=\"paladins\">paladins</a>, and <a href=\"https://www.d20srd.org/srd/classes/ranger.htm\" title=\"rangers\">rangers</a> (and other Wisdom-based spellcasters) who receive owl’s wisdom do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their spells increase.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2276,7 +2294,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 73
+      "id": 73,
+      "spellSummary": "Subject gains +4 to Wis for 1 min./level."
     },
     {
       "spellName": "Remove Paralysis",
@@ -2291,15 +2310,16 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "You can free one or more creatures from the effects of any temporary paralysis or related magic, including a ghoul’s touch or a slow spell. If the spell is cast on one creature, the paralysis is negated. If cast on two creatures, each receives another save with a +4 resistance bonus against the effect that afflicts it. If cast on three or four creatures, each receives another save with a +2 resistance bonus.\n\n",
-      "spellDescriptionTwo": "The spell does not restore ability scores reduced by penalties, damage, or drain.\n\n",
+      "spellDescription": "<p>You can free one or more creatures from the effects of any temporary <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#paralysis\" title=\"paralysis\">paralysis</a> or related magic, including a <a href=\"https://www.d20srd.org/srd/monsters/ghoul.htm\" title=\"ghoul’s\">ghoul’s</a> touch or a <a href=\"https://www.d20srd.org/srd/spells/slow.htm\" title=\"slow\"><em>slow</em></a> spell. If the spell is cast on one creature, the <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#paralysis\" title=\"paralysis\">paralysis</a> is negated. If cast on two creatures, each receives another save with a +4 <a href=\"https://www.d20srd.org/srd/theBasics.htm#resistanceBonus\" title=\"resistance bonus\">resistance bonus</a> against the effect that afflicts it. If cast on three or four creatures, each receives another save with a +2 resistance bonus.</p>\n<p>The spell does not restore ability scores reduced by penalties, damage, or drain.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 74
+      "id": 74,
+      "spellSummary": "Frees one or more creatures from paralysis or slow effect."
     },
     {
       "spellName": "Resist Energy",
@@ -2314,15 +2334,16 @@
       "spellSavingThrow": "Fortitude negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains energy resistance 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature’s hit points. The value of the energy resistance granted increases to 20 points at 7th level and to a maximum of 30 points at 11th level. The spell protects the recipient’s equipment as well.\n\n",
-      "spellDescriptionTwo": "Resist energy absorbs only damage. The subject could still suffer unfortunate side effects.\n\n",
-      "spellDescriptionThree": "Note: Resist energy overlaps (and does not stack with) protection from energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted.\n\n",
+      "spellDescription": "<p>This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#sonicAttacks\" title=\"sonic\">sonic</a>. The subject gains <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#resistanceToEnergy\" title=\"energy resistance\">energy resistance</a> 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature’s hit points. The value of the energy resistance granted increases to 20 points at 7th level and to a maximum of 30 points at 11th level. The spell protects the recipient’s equipment as well.</p>\n<p>Resist energy absorbs only damage. The subject could still suffer unfortunate side effects.</p>\n<p><em>Note:</em> Resist energy overlaps (and does not stack with) <a href=\"https://www.d20srd.org/srd/spells/protectionFromEnergy.htm\" title=\"protection from energy\"><em>protection from energy</em></a>. If a character is warded by <a href=\"https://www.d20srd.org/srd/spells/protectionFromEnergy.htm\" title=\"protection from energy\"><em>protection from energy</em></a> and resist energy, the protection spell absorbs damage until its power is exhausted.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 75
+      "id": 75,
+      "spellSummary": " Ignores 10 (or more) points of damage/attack from specified energy type."
     },
     {
       "spellName": "Lessor Restoration",
@@ -2337,7 +2358,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "Lesser restoration dispels any magical effects reducing one of the subject’s ability scores or cures 1d4 points of temporary ability damage to one of the subject’s ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain.\n\n",
+      "spellDescription": "<p>Lesser restoration dispels any magical effects reducing one of the subject’s ability scores or cures <a href=\"javascript:void(0);\" title=\"1d4\">1d4</a> points of temporary <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDamage\" title=\"ability damage\">ability damage</a> to one of the subject’s ability scores. It also eliminates any <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#fatigued\" title=\"fatigue\">fatigue</a> suffered by the character, and improves an <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#exhausted\" title=\"exhausted\">exhausted</a> condition to fatigued. It does not restore permanent <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDrain\" title=\"ability drain\">ability drain</a>.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2345,7 +2366,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 76
+      "id": 76,
+      "spellSummary": "Dispels magical ability penalty or repairs 1d4 ability damage."
     },
     {
       "spellName": "Shatter",
@@ -2360,15 +2382,16 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "Shatter creates a loud, ringing noise that breaks brittle, nonmagical objects; sunders a single solid, nonmagical object; or damages a crystalline creature.\n\n",
-      "spellDescriptionTwo": "Used as an area attack, shatter destroys nonmagical objects of crystal, glass, ceramic, or porcelain. All such objects within a 5-foot radius of the point of origin are smashed into dozens of pieces by the spell. Objects weighing more than 1 pound per your level are not affected, but all other objects of the appropriate composition are shattered.\n\n",
-      "spellDescriptionThree": "Alternatively, you can target shatter against a single solid object, regardless of composition, weighing up to 10 pounds per caster level. Targeted against a crystalline creature (of any weight), shatter deals 1d6 points of sonic damage per caster level (maximum 10d6), with a Fortitude save for half damage.\n\n",
+      "spellDescription": "<p>Shatter creates a loud, ringing noise that breaks brittle, nonmagical objects; sunders a single solid, nonmagical object; or damages a crystalline creature.</p>\n<p>Used as an area attack, shatter destroys nonmagical objects of crystal, glass, ceramic, or porcelain. All such objects within a 5-foot radius of the point of origin are smashed into dozens of pieces by the spell. Objects weighing more than 1 pound per your level are not affected, but all other objects of the appropriate composition are shattered.</p>\n<p>Alternatively, you can target shatter against a single solid object, regardless of composition, weighing up to 10 pounds per caster level. Targeted against a crystalline creature (of any weight), shatter deals <a href=\"javascript:void(0);\" title=\"1d6\">1d6</a> points of <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#sonicAttacks\" title=\"sonic\">sonic</a> damage per caster level (maximum <a href=\"javascript:void(0);\" title=\"10d6\">10d6</a>), with a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#fortitude\" title=\"Fortitude save\">Fortitude save</a> for half damage.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 77
+      "id": 77,
+      "spellSummary": "Sonic vibration damages objects or crystalline creatures."
     },
     {
       "spellName": "Shield Other",
@@ -2383,15 +2406,16 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "This spell wards the subject and creates a mystic connection between you and the subject so that some of its wounds are transferred to you. The subject gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. Additionally, the subject takes only half damage from all wounds and attacks (including that dealt by special abilities) that deal hit point damage. The amount of damage not taken by the warded creature is taken by you. Forms of harm that do not involve hit points, such as charm effects, temporary ability damage, level draining, and death effects, are not affected. If the subject suffers a reduction of hit points from a lowered Constitution score, the reduction is not split with you because it is not hit point damage. When the spell ends, subsequent damage is no longer divided between the subject and you, but damage already split is not reassigned to the subject.\n\n",
-      "spellDescriptionTwo": "If you and the subject of the spell move out of range of each other, the spell ends.\n\n",
-      "spellDescriptionThree": "Focus - \nA pair of platinum rings (worth at least 50 gp each) worn by both you and the warded creature.\n\n",
+      "spellDescription": "<p>This spell wards the subject and creates a mystic connection between you and the subject so that some of its wounds are transferred to you. The subject gains a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#deflectionBonus\" title=\"deflection bonus\">deflection bonus</a> to AC and a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#resistanceBonus\" title=\"resistance bonus\">resistance bonus</a> on saves. Additionally, the subject takes only half damage from all wounds and attacks (including that dealt by special abilities) that deal hit point damage. The amount of damage not taken by the warded creature is taken by you. Forms of harm that do not involve hit points, such as <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#charmAndCompulsion\" title=\"charm\">charm</a> effects, temporary <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDamage\" title=\"ability damage\">ability damage</a>, level draining, and <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#deathAttacks\" title=\"death effects\">death effects</a>, are not affected. If the subject suffers a reduction of hit points from a lowered Constitution score, the reduction is not split with you because it is not hit point damage. When the spell ends, subsequent damage is no longer divided between the subject and you, but damage already split is not reassigned to the subject.</p>\n<p>If you and the subject of the spell move out of range of each other, the spell ends.</p>\n<h6><em>Focus</em></h6>\n<p>A pair of platinum rings (worth at least 50 gp each) worn by both you and the warded creature.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 78
+      "id": 78,
+      "spellSummary": "You take half of subject’s damage."
     },
     {
       "spellName": "Silence",
@@ -2406,7 +2430,7 @@
       "spellSavingThrow": "Will negates; see text or none (object)",
       "spellResistance": "Yes; see text or no (object)",
       "spellArea": "20-ft.-radius emanation centered on a creature, object, or point in space",
-      "spellDescription": "Upon the casting of this spell, complete silence prevails in the affected area. All sound is stopped: Conversation is impossible, spells with verbal components cannot be cast, and no noise whatsoever issues from, enters, or passes through the area. The spell can be cast on a point in space, but the effect is stationary unless cast on a mobile object. The spell can be centered on a creature, and the effect then radiates from the creature and moves as it moves. An unwilling creature can attempt a Will save to negate the spell and can use spell resistance, if any. Items in a creature’s possession or magic items that emit sound receive the benefits of saves and spell resistance, but unattended objects and points in space do not. This spell provides a defense against sonic or language-based attacks.\n\n",
+      "spellDescription": "<p>Upon the casting of this spell, complete silence prevails in the affected area. All sound is stopped: Conversation is impossible, spells with verbal components cannot be cast, and no noise whatsoever issues from, enters, or passes through the area. The spell can be cast on a point in space, but the effect is stationary unless cast on a mobile object. The spell can be centered on a creature, and the effect then radiates from the creature and moves as it moves. An unwilling creature can attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a> to negate the spell and can use <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"spell resistance\">spell resistance</a>, if any. Items in a creature’s possession or magic items that emit sound receive the benefits of saves and spell resistance, but unattended objects and points in space do not. This spell provides a defense against <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#sonicAttacks\" title=\"sonic\">sonic</a> or language-based attacks.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2414,7 +2438,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 79
+      "id": 79,
+      "spellSummary": "Negates sound in 20-ft. radius."
     },
     {
       "spellName": "Sound Burst",
@@ -2429,15 +2454,16 @@
       "spellSavingThrow": "Fortitude partial",
       "spellResistance": "Yes",
       "spellArea": "10-ft.-radius spread",
-      "spellDescription": "You blast an area with a tremendous cacophony. Every creature in the area takes 1d8 points of sonic damage and must succeed on a Fortitude save to avoid being stunned for 1 round.\n\n",
-      "spellDescriptionTwo": "Creatures that cannot hear are not stunned but are still damaged.\n\n",
+      "spellDescription": "<p>You blast an area with a tremendous cacophony. Every creature in the area takes <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> points of <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#sonicAttacks\" title=\"sonic\">sonic</a> damage and must succeed on a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#fortitude\" title=\"Fortitude save\">Fortitude save</a> to avoid being <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#stunned\" title=\"stunned\">stunned</a> for 1 round.</p>\n<p>Creatures that cannot hear are not stunned but are still damaged.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 80
+      "id": 80,
+      "spellSummary": "Deals 1d8 sonic damage to subjects; may stun them."
     },
     {
       "spellName": "Spiritual Weapon",
@@ -2452,15 +2478,16 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "A weapon made of pure force springs into existence and attacks opponents at a distance, as you direct it, dealing 1d8 force damage per hit, +1 point per three caster levels (maximum +5 at 15th level). The weapon takes the shape of a weapon favored by your deity or a weapon with some spiritual significance or symbolism to you (see below) and has the same threat range and critical multipliers as a real weapon of its form. It strikes the opponent you designate, starting with one attack in the round the spell is cast and continuing each round thereafter on your turn. It uses your base attack bonus (possibly allowing it multiple attacks per round in subsequent rounds) plus your Wisdom modifier as its attack bonus. It strikes as a spell, not as a weapon, so, for example, it can damage creatures that have damage reduction. As a force effect, it can strike incorporeal creatures without the normal miss chance associated with incorporeality. The weapon always strikes from your direction. It does not get a flanking bonus or help a combatant get one. Your feats or combat actions do not affect the weapon. If the weapon goes beyond the spell range, if it goes out of your sight, or if you are not directing it, the weapon returns to you and hovers.",
-      "spellDescriptionTwo": "Each round after the first, you can use a move action to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round’s target. On any round that the weapon switches targets, it gets one attack. Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to. Even if the spiritual weapon is a ranged weapon, use the spell’s range, not the weapon’s normal range increment, and switching targets still is a move action.",
-      "spellDescriptionThree": "A spiritual weapon cannot be attacked or harmed by physical attacks, but dispel magic, disintegrate, a sphere of annihilation, or a rod of cancellation affects it. A spiritual weapon’s AC against touch attacks is 12 (10 + size bonus for Tiny object).\n\nIf an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the spiritual weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.",
-      "spellDescriptionFour": "The weapon that you get is often a force replica of your deity’s own personal weapon. A cleric without a deity gets a weapon based on his alignment. A neutral cleric without a deity can create a spiritual weapon of any alignment, provided he is acting at least generally in accord with that alignment at the time. The weapons associated with each alignment are as follows.",
+      "spellDescription": "<p>A weapon made of pure force springs into existence and attacks opponents at a distance, as you direct it, dealing <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> force damage per hit, +1 point per three caster levels (maximum +5 at 15th level). The weapon takes the shape of a weapon favored by your deity or a weapon with some spiritual significance or symbolism to you (see below) and has the same threat range and critical multipliers as a real weapon of its form. It strikes the opponent you designate, starting with one attack in the round the spell is cast and continuing each round thereafter on your turn. It uses your base attack bonus (possibly allowing it multiple attacks per round in subsequent rounds) plus your Wisdom modifier as its attack bonus. It strikes as a spell, not as a weapon, so, for example, it can damage creatures that have <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#damageReduction\" title=\"damage reduction\">damage reduction</a>. As a force effect, it can strike <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#incorporealSubtype\" title=\"incorporeal creatures\">incorporeal creatures</a> without the normal miss chance associated with <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#incorporeality\" title=\"incorporeality\">incorporeality</a>. The weapon always strikes from your direction. It does not get a <a href=\"https://www.d20srd.org/srd/combat/combatModifiers.htm#flanking\" title=\"flanking\">flanking</a> bonus or help a combatant get one. Your feats or combat actions do not affect the weapon. If the weapon goes beyond the spell range, if it goes out of your sight, or if you are not directing it, the weapon returns to you and hovers.</p>\n<p>Each round after the first, you can use a <a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#moveActions\" title=\"move action\">move action</a> to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round’s target. On any round that the weapon switches targets, it gets one attack. Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to. Even if the spiritual weapon is a ranged weapon, use the spell’s range, not the weapon’s normal range increment, and switching targets still is a move action.</p>\n<p>A spiritual weapon cannot be attacked or harmed by physical attacks, but <a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\" title=\"dispel magic\"><em>dispel magic</em></a>, <a href=\"https://www.d20srd.org/srd/spells/disintegrate.htm\" title=\"disintegrate\"><em>disintegrate</em></a>, a sphere of annihilation, or a rod of cancellation affects it. A spiritual weapon’s AC against <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#touchAttacks\" title=\"touch attacks\">touch attacks</a> is 12 (10 + size bonus for Tiny object).</p>\n<p>If an attacked creature has <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"spell resistance\">spell resistance</a>, you make a <a href=\"https://www.d20srd.org/srd/magicOverview/castingSpells.htm#casterLevelChecks\" title=\"caster level check\">caster level check</a> (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + caster level) against that spell resistance the first time the spiritual weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.</p>\n<p>The weapon that you get is often a force replica of your deity’s own personal weapon. A <a href=\"https://www.d20srd.org/srd/classes/cleric.htm\" title=\"cleric\">cleric</a> without a deity gets a weapon based on his <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a>. A neutral cleric without a deity can create a spiritual weapon of any alignment, provided he is acting at least generally in accord with that alignment at the time. The weapons associated with each alignment are as follows.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
       "spellEffect": "Magic weapon of force",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 81
+      "id": 81,
+      "spellSummary": "Magic weapon attacks on its own."
     },
     {
       "spellName": "Status",
@@ -2475,7 +2502,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "When you need to keep track of comrades who may get separated, status allows you to mentally monitor their relative positions and general condition. You are aware of direction and distance to the creatures and any conditions affecting them: unharmed, wounded, disabled, staggered, unconscious, dying, nauseated, panicked, stunned, poisoned, diseased, confused, or the like. Once the spell has been cast upon the subjects, the distance between them and the caster does not affect the spell as long as they are on the same plane of existence. If a subject leaves the plane, or if it dies, the spell ceases to function for it.",
+      "spellDescription": "<p>When you need to keep track of comrades who may get separated, status allows you to mentally monitor their relative positions and general condition. You are aware of direction and distance to the creatures and any conditions affecting them: unharmed, wounded, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#disabled\" title=\"disabled\">disabled</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#staggered\" title=\"staggered\">staggered</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#unconscious\" title=\"unconscious\">unconscious</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#dying\" title=\"dying\">dying</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#nauseated\" title=\"nauseated\">nauseated</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#panicked\" title=\"panicked\">panicked</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#stunned\" title=\"stunned\">stunned</a>, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poisoned\">poisoned</a>, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#disease\" title=\"diseased\">diseased</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#confused\" title=\"&lt;em&gt;confused&lt;/em&gt;\"><em>confused</em></a>, or the like. Once the spell has been cast upon the subjects, the distance between them and the caster does not affect the spell as long as they are on the same plane of existence. If a subject leaves the plane, or if it dies, the spell ceases to function for it.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2483,7 +2510,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 82
+      "id": 82,
+      "spellSummary": "Monitors condition, position of allies."
     },
     {
       "spellName": "Undetectable Alignment",
@@ -2498,7 +2526,7 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "An undetectable alignment spell conceals the alignment of an object or a creature from all forms of divination.\n\n",
+      "spellDescription": "<p>An <em>undetectable alignment</em> spell conceals the <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a> of an object or a creature from all forms of divination.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2506,7 +2534,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 83
+      "id": 83,
+      "spellSummary": "Conceals alignment for 24 hours."
     },
     {
       "spellName": "Zone of Truth",
@@ -2521,7 +2550,7 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellArea": "20 ft. radius emanation",
-      "spellDescription": "Creatures within the emanation area (or those who enter it) can’t speak any deliberate and intentional lies. Each potentially affected creature is allowed a save to avoid the effects when the spell is cast or when the creature first enters the emanation area. Affected creatures are aware of this enchantment. Therefore, they may avoid answering questions to which they would normally respond with a lie, or they may be evasive as long as they remain within the boundaries of the truth. Creatures who leave the area are free to speak as they choose.\n\n",
+      "spellDescription": "<p>Creatures within the emanation area (or those who enter it) can’t speak any deliberate and intentional lies. Each potentially affected creature is allowed a save to avoid the effects when the spell is cast or when the creature first enters the emanation area. Affected creatures are aware of this enchantment. Therefore, they may avoid answering questions to which they would normally respond with a lie, or they may be evasive as long as they remain within the boundaries of the truth. Creatures who leave the area are free to speak as they choose.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2529,7 +2558,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 84
+      "id": 84,
+      "spellSummary": "Subjects within range cannot lie."
     },
     {
       "spellName": "Insight of Good Fortune",
@@ -2544,15 +2574,16 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "You toss a small golden die.\nIt rolls toward the creature you choose, then disappears in a tiny golden flash of light.",
-      "spellDescriptionTwo": "The subject of the spell becomes unusually lucky.\nOnce during the spell's duration, when he makes an attack roll, skill check, saving throw, or ability check, he rolls twice and takes the better result.",
-      "spellDescriptionThree": "He must choose to use this ability before the check is attempted, and the spell expires once the second die is rolled.",
+      "spellDescription": "<p>You toss a small golden die.<br>\nIt rolls toward the creature you choose, then disappears in a tiny golden flash of light.<br>\nThe subject of the spell becomes unusually lucky.<br>\nOnce during the spell's duration, when he makes an attack roll, skill check, saving throw, or ability check, he rolls twice and takes the better result.<br>\nHe must choose to use this ability before the check is attempted, and the spell expires once the second die is rolled.<br>\nMaterial Component: A gold die (worth 20 gp).&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "A gold die (worth 20 gp)",
-      "id": 85
+      "id": 85,
+      "spellSummary": "Grant advantage to a roll"
     },
     {
       "spellName": "Curse of Ill Fortune",
@@ -2567,7 +2598,7 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "You place a temporary curse upon the subject, giving it a -3 penalty on attack rolls, ability checks, and skill checks. Curse of ill fortune is negated by any spell that removes a bestow curse spell.",
+      "spellDescription": "<p>You place a temporary curse upon the subject, giving it a -3 penalty on attack rolls, ability checks, and skill checks. <em>Curse of ill fortune</em> is negated by any spell that removes a <em>bestow curse</em> spell&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2575,7 +2606,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 86
+      "id": 86,
+      "spellSummary": "Subject takes –3 penalty on attacks, checks, and saves."
     },
     {
       "spellName": "Close Wounds",
@@ -2590,15 +2622,16 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "This spell cures 1d4 points of damage +1 point per caster level (maximum +5).\n\n",
-      "spellDescriptionTwo": "If you cast this spell immediately after the subject takes damage, it effectively prevents the damage. It would keep alive someone who had just dropped to —10 hit points, for example, leaving the character at negative hit points but stable.\n\n",
-      "spellDescriptionThree": "Used against an undead creature, close wounds deals damage instead of curing the creature (which takes half damage if it makes a Will saving throw).\n\n",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 87
+      "id": 87,
+      "spellSummary": "Cure 1d4 damage +1/level, even on another’s turn"
     },
     {
       "spellName": "Healing Lorecall",
@@ -2613,38 +2646,16 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "A caster with 5 or more ranks in Heal can, when casting a conjuration (healing) spell, choose to remove any one of the following conditions affecting the subject of the spell, in addition to the spell's normal effects: dazed, dazzled, or fatigued. A caster with 10 or more ranks in Heal can choose from the following conditions in addition to those above: exhausted, nauseated, or sickened.\n\n",
-      "spellDescriptionTwo": "Also, when determining the amount of damage healed by your conjuration (healing) spells, you can substitute your total ranks in Heal for your caster level. The normal caster level limit for individual spells still applies; thus, a 3rd-level cleric with 6 ranks in Heal when under the effect of healing lorecall cures 1d8+5 points of damage with a cure light wounds spell.\n\n",
+      "spellDescription": "<p>A caster with 5 or more ranks in Heal can, when casting a conjuration (healing) spell, choose to remove any one of the following conditions affecting the subject of the spell, in addition to the spell's normal effects: dazed, dazzled, or fatigued. A caster with 10 or more ranks in Heal can choose from the following conditions in addition to those above: exhausted, nauseated, or sickened.</p>\n<p>Also, when determining the amount of damage healed by your conjuration (healing) spells, you can substitute your total ranks in Heal for your caster level. The normal caster level limit for individual spells still applies; thus, a 3rd-level cleric with 6 ranks in Heal when under the effect of healing lorecall cures 1d8+5 points of damage with a cure light wounds spell.&nbsp;</p>",
+      "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 88
-    },
-    {
-      "spellName": "Healing Lorecall",
-      "spellSchool": "Divination",
-      "spellDescriptor": "",
-      "spellLevel": 2,
-      "spellComponents": "V, S, M",
-      "spellCastingTime": "1 standard action",
-      "spellRange": "Personal",
-      "spellDuration": "10 min./level",
-      "spellTarget": "You",
-      "spellSavingThrow": "",
-      "spellResistance": "",
-      "spellArea": "",
-      "spellDescription": "A caster with 5 or more ranks in Heal can, when casting a conjuration (healing) spell, choose to remove any one of the following conditions affecting the subject of the spell, in addition to the spell's normal effects: dazed, dazzled, or fatigued. A caster with 10 or more ranks in Heal can choose from the following conditions in addition to those above: exhausted, nauseated, or sickened.\n\n",
-      "spellDescriptionTwo": "Also, when determining the amount of damage healed by your conjuration (healing) spells, you can substitute your total ranks in Heal for your caster level. The normal caster level limit for individual spells still applies; thus, a 3rd-level cleric with 6 ranks in Heal when under the effect of healing lorecall cures 1d8+5 points of damage with a cure light wounds spell.\n\n",
-      "spellDescriptionThree": "",
-      "spellDescriptionFour": "",
-      "spellEffect": "",
-      "spellDomainSpell": false,
-      "spellPrepared": 0,
-      "spellMaterial": "",
-      "id": 89
+      "id": 88,
+      "spellSummary": "If you have 5 or more ranks in Heal, you can remove harmful conditions with conjuration (healing) spells."
     },
     {
       "spellName": "Iron Silence",
@@ -2659,7 +2670,7 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes (harmless, object)",
       "spellArea": "",
-      "spellDescription": "While this spell is in effect, the armor check penalty from the affected suit or suits of armor does not apply on Hide and Move Silently checks. Only wearers proficient in the armor's use get this benefit when wearing the affected armor. The armor check penalty still applies to other skill checks as normal.\n\n",
+      "spellDescription": "<p>While this spell is in effect, the armor check penalty from the affected suit or suits of armor does not apply on Hide and Move Silently checks. Only wearers proficient in the armor's use get this benefit when wearing the affected armor. The armor check penalty still applies to other skill checks as normal.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2667,7 +2678,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 90
+      "id": 90,
+      "spellSummary": "Armor touched has no armor check penalty on Hide and Move Silently checks for 1 hour/level."
     },
     {
       "spellName": "Daylight",
