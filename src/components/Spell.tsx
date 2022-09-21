@@ -115,7 +115,7 @@ export function Spell(props: SpellProps): ReactElement {
       >
         <Box display="flex" alignItems="center">
           <Typography>{data.spellName}</Typography>
-          <Typography sx={{ marginLeft: 1 }} fontSize={12}>
+          <Typography sx={{ marginLeft: 1, marginRight: 1 }} fontSize={12}>
             {data.spellMaterial ? <em>(M)</em> : ""}
           </Typography>
           <Typography fontSize={12} sx={{ opacity: 0.6 }}>
