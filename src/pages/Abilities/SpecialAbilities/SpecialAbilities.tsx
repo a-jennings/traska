@@ -51,6 +51,10 @@ export function SpecialAbilities(): ReactElement {
       .catch((error) => console.log(error));
   }, [dialogOpen, fetchSpecialAbility]);
 
+  const sortedData = data
+    ?.filter((ability) => ability.maxUses > 0)
+    .concat(data.filter((ability) => ability.maxUses === 0));
+
   if (!data) {
     return <></>;
   }
@@ -78,7 +82,7 @@ export function SpecialAbilities(): ReactElement {
             <Divider />
           </Grid>
         </Grid>
-        {data?.map((ability) => (
+        {sortedData?.map((ability) => (
           <SpecialAbility
             data={ability}
             fetchSpecialAbility={fetchSpecialAbility}

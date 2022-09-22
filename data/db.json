@@ -426,13 +426,6 @@
       "date": "2022-09-15T22:47:00.914Z",
       "editDate": "2022-09-15T22:48:35.614Z",
       "id": 2
-    },
-    {
-      "title": "Test",
-      "text": "",
-      "date": "2022-09-18T07:47:17.912Z",
-      "editDate": "2022-09-18T07:51:51.126Z",
-      "id": 3
     }
   ],
   "attacks": [
@@ -534,6 +527,13 @@
       "currentUses": 0,
       "maxUses": 0,
       "id": 5
+    },
+    {
+      "name": "Epic Point",
+      "description": "An Epic Point can be spent at any point to do one of the following things:\n\n** Increase your Crit Range by 3 (after other multiplications) for one turn\n** Make a full attack as a standard acton\n** Add 5ft to your weapon reach for 3 turns\n** The next spell you cast will be empowered (it cannot be an empowered or maximised spell)\n** Gain Damage Reduction 30 / Epic for one turn\n** The next skill roll you make is an automatic natural 20\n** Do something EPIC***\n\n***EPIC = This is something that doesn’t necessarily have rules, and can be proposed that go beyond normal rules. That said, the above options should give an indicator for how powerful the action should be.\n",
+      "currentUses": "1",
+      "maxUses": "1",
+      "id": 6
     }
   ],
   "spellSlots": {
@@ -2622,7 +2622,7 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>This spell cures 1d4 points of damage +1 point per caster level (maximum +5).</p>\n<p>If you cast this spell immediately after the subject takes damage, it effectively prevents the damage. It would keep alive someone who had just dropped to —10 hit points, for example, leaving the character at negative hit points but stable.</p>\n<p>Used against an undead creature, close wounds deals damage instead of curing the creature (which takes half damage if it makes a Will saving throw).</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
