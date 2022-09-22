@@ -26,11 +26,11 @@
     "constitution": 16,
     "intelligence": 12,
     "wisdom": 18,
-    "charisma": 16
+    "charisma": 12
   },
   "stats": {
     "hpMax": 27,
-    "hpCurrent": 27,
+    "hpCurrent": 25,
     "ac": 20,
     "acTouch": 9,
     "acFF": 20,
@@ -426,6 +426,13 @@
       "date": "2022-09-15T22:47:00.914Z",
       "editDate": "2022-09-15T22:48:35.614Z",
       "id": 2
+    },
+    {
+      "title": "Session 1",
+      "text": "<p>We begin the session by re-introducing ourselves after the undead destruction.</p>\n<p>Making sure that everyone is fine after the battle. Otto is slightly injured, but nothing to worry about.</p>\n<p>We carry on down the corridor deeper in the tomb. There are tombs built into the walls in the side where there are assumed bodies. Also on the walls the elven designs and inlay get more intricate as we go further down.</p>\n<p>The next room we enter has two sarcophagi on the left and right.<br>\nI get super spooked at this point and cast Detect Undead. It doesn't show any undead in the area so we continue. Spooky!</p>\n<p>We're going deeper underground dun dun!<br>\n <br>\nWe come across another room with like 16 sarcophagi in it. Fucking bollucks blew my load too early. Just enough detect undead to not find any undead in this room.</p>\n<p>We continue and continue, and give Mozzi a big telling off for looting, he stops.<br>\n <br>\nMe and Nym are holding up the rear of the party when this big slop of meat falls on us. These skin kites tear off part of our skin and we suffer 4 points of Charisma damage. What in the actual fuck, not cool man! They try to fly off and multiply, but Otto has other plans... and kills them both with attacks of opportunity.</p>\n<p>We enter the boss room (I hope). Its a squarish room, with 3 normal looking skeletons, and 1 maybe boss skeleton? Who knows.<br>\nThere are 8 sarcophagi with who knows what the fuck is going on there. And then at the back of the room are two massive crossed swords blocking some sort of entrance? Looks dangerous.<br>\nI went for a nervous shit, because you know fear, and when I came back Otto had fucking annhiliated the room! Noice!<br>\nHowever he's also taking a fucking shit tonne of damage from this ghoul like creature, which eventually paralyzes him, no bueno.<br>\nEventually the creature falls.<br>\n <br>\nFor a little bit, at least, until Nym accidently triggers a trap and the ghoul reforms right fucking next to me! Less than ideal!</p>\n<p>Tarryn almost dies, but he's all fucking good for sure... no worries at all..</p>\n<p>We take a little short rest, so Mozzi can repair guns and for a little cry.<br>\nWe continue down the corridor, until we hit the definite fucking boss chamber now. Inside we see a figure:<br>\n <br>\nShort form, long dark hair learning over a table. They seem to be taking pieces of undead bodies, and kind of build a bearing some sort of undead creature. Fuck my actual life.<br>\n <br>\nThis bitch throws a bone and then goes invisible. What the fuck is that? The bone then turns into a skeleton I guess?!?!<br>\nTarryn reveals here with some glitter, and I charge in and blow my full load all over her face, Sun domain turn undead at max rolls. She gives 0 fucks about this situation.<br>\n <br>\nIt starts to look real bad. It's very bad when Otto gets pushed underground by this fucking she deamon and entombed...<br>\n <br>\nThe fight continues, it comes close to pain as she's summoning skeletons and shit. Eventually killed by Otto<br>\n <br>\nLord Evenor is the top tomb of this place. Tarryn recognises that this lord is old, before the time of the empire. We need to get the fuck out of here!<br>\nAlthough we do loot his tomb, and come across a purple gem of doom.</p>\n<p>We run! As we leave the tomb oh fucking great we're surrounded by elves, bows drawn. 'We need to talk' the main dude says. Fuck my ass</p>",
+      "date": "2022-09-22T17:05:30.738Z",
+      "editDate": "2022-09-22T22:25:10.270Z",
+      "id": 3
     }
   ],
   "attacks": [
@@ -496,21 +503,21 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 9,
+      "currentUses": 2,
       "maxUses": "10",
       "id": 1
     },
     {
       "name": "Sun Domain Turn Undead",
       "description": "Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.",
-      "currentUses": "1",
+      "currentUses": 0,
       "maxUses": "1",
       "id": 2
     },
     {
       "name": "Daylight Spell",
       "description": "Aasimar with a Charisma of at least 10 may cast daylight as a spell-like ability with a caster level equal to their character level once per day. Daylight can be found under level 3 spells",
-      "currentUses": "1",
+      "currentUses": 0,
       "maxUses": "1",
       "id": 3
     },
@@ -948,7 +955,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 16,
       "spellSummary": "Allies gain +1 on attack rolls and saves against fear."
@@ -1116,7 +1123,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 23,
       "spellSummary": "Reveals undead within 60 ft."
@@ -1188,7 +1195,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 26,
       "spellSummary": "Exist comfortably in hot or cold environments."
@@ -1404,7 +1411,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 35,
       "spellSummary": "Opponents can’t attack you, and you can’t attack."
@@ -1908,7 +1915,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 57,
       "spellSummary": "Make metal so hot it damages those who touch it."
@@ -2004,7 +2011,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 61,
       "spellSummary": "Subject gains +4 to Str for 1 min./level."
@@ -2604,7 +2611,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 86,
       "spellSummary": "Subject takes –3 penalty on attacks, checks, and saves."
@@ -2700,7 +2707,7 @@
       "spellDescriptionFour": "Daylight counters or dispels any darkness spell of equal or lower level, such as darkness.\n\n",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 91
     }
