@@ -31,15 +31,15 @@
   "stats": {
     "hpMax": 43,
     "hpCurrent": 43,
-    "ac": 22,
-    "acTouch": 10,
-    "acFF": 22,
+    "ac": 23,
+    "acTouch": 11,
+    "acFF": 23,
     "speed": 20,
     "initiative": 0,
     "savingThrows": {
-      "fortitude": 7,
-      "reflex": 1,
-      "will": 8
+      "fortitude": 8,
+      "reflex": 2,
+      "will": 9
     },
     "baseAttackBonus": 3,
     "grapple": 4,
@@ -61,7 +61,7 @@
       "name": "Balance",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -6,
+      "miscModifier": -5,
       "classSkill": false,
       "requiresTraining": false
     },
@@ -78,7 +78,7 @@
       "name": "Climb",
       "keyAbility": "STR",
       "ranks": 0,
-      "miscModifier": -6,
+      "miscModifier": -5,
       "classSkill": false,
       "id": 4,
       "requiresTraining": false
@@ -141,7 +141,7 @@
       "name": "Escape Artist",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -6,
+      "miscModifier": -5,
       "classSkill": false,
       "requiresTraining": false,
       "id": 11
@@ -186,7 +186,7 @@
       "name": "Hide",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -11,
+      "miscModifier": -10,
       "classSkill": false,
       "requiresTraining": false,
       "id": 16
@@ -204,7 +204,7 @@
       "name": "Jump",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -6,
+      "miscModifier": -5,
       "classSkill": false,
       "requiresTraining": false,
       "id": 18
@@ -249,7 +249,7 @@
       "name": "Move Silently",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -6,
+      "miscModifier": -5,
       "classSkill": false,
       "requiresTraining": false,
       "id": 23
@@ -312,7 +312,7 @@
       "name": "Sleight of Hand",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -6,
+      "miscModifier": -5,
       "classSkill": false,
       "requiresTraining": true,
       "id": 30
@@ -348,7 +348,7 @@
       "name": "Swim",
       "keyAbility": "STR",
       "ranks": 0,
-      "miscModifier": -6,
+      "miscModifier": -5,
       "classSkill": false,
       "requiresTraining": false,
       "id": 34
@@ -357,7 +357,7 @@
       "name": "Tumble",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -6,
+      "miscModifier": -5,
       "classSkill": false,
       "requiresTraining": true,
       "id": 35
@@ -409,7 +409,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 3025,
+    "gold": 4025,
     "platinum": 0
   },
   "notes": [
@@ -450,7 +450,7 @@
   "gear": [
     {
       "id": 1,
-      "name": "Full Plate (Commander)",
+      "name": "Full Plate (M/Work +1, Commander)",
       "type": "Armour",
       "bonus": 9,
       "maxDex": "1",
@@ -462,15 +462,15 @@
     },
     {
       "id": 2,
-      "name": "Shield, Heavy Steel",
+      "name": "Shield, Heavy Steel (M/Work +10",
       "type": "Shield",
-      "bonus": 2,
+      "bonus": 3,
       "maxDex": "",
-      "checkPenalty": "-1",
+      "checkPenalty": "0",
       "spellFailure": "5%",
       "speed": "",
       "weight": "15",
-      "properties": ""
+      "properties": "Masterwork, +1"
     },
     {
       "id": 3,
@@ -483,6 +483,30 @@
       "speed": "",
       "weight": 0,
       "properties": ""
+    },
+    {
+      "id": 4,
+      "name": "Cloak of Resistance",
+      "type": "",
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": "+1 to all saves"
+    },
+    {
+      "id": 5,
+      "name": "Amulet of Natural Armour",
+      "type": "",
+      "bonus": 1,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": "+1 natural armour"
     }
   ],
   "feats": [
