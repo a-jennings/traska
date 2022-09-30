@@ -4,7 +4,7 @@
     "classes": [
       {
         "class": "Cleric",
-        "level": 5
+        "level": 3
       }
     ],
     "player": "Drew Jennings",
@@ -22,15 +22,15 @@
   },
   "abilities": {
     "strength": 12,
-    "dexterity": 10,
+    "dexterity": 9,
     "constitution": 16,
     "intelligence": 12,
     "wisdom": 18,
-    "charisma": 16
+    "charisma": 12
   },
   "stats": {
     "hpMax": 27,
-    "hpCurrent": 27,
+    "hpCurrent": 25,
     "ac": 20,
     "acTouch": 9,
     "acFF": 20,
