@@ -4,7 +4,7 @@
     "classes": [
       {
         "class": "Cleric",
-        "level": 5
+        "level": 3
       }
     ],
     "player": "Drew Jennings",
@@ -22,27 +22,27 @@
   },
   "abilities": {
     "strength": 12,
-    "dexterity": 10,
+    "dexterity": 9,
     "constitution": 16,
     "intelligence": 12,
     "wisdom": 18,
     "charisma": 16
   },
   "stats": {
-    "hpMax": 43,
-    "hpCurrent": 43,
-    "ac": 23,
-    "acTouch": 11,
-    "acFF": 23,
+    "hpMax": 27,
+    "hpCurrent": 27,
+    "ac": 20,
+    "acTouch": 9,
+    "acFF": 20,
     "speed": 20,
-    "initiative": 0,
+    "initiative": -1,
     "savingThrows": {
-      "fortitude": 8,
-      "reflex": 2,
-      "will": 9
+      "fortitude": 6,
+      "reflex": 0,
+      "will": 7
     },
-    "baseAttackBonus": 3,
-    "grapple": 4,
+    "baseAttackBonus": 2,
+    "grapple": 3,
     "spellResistance": 0,
     "damageReduction": 0
   },
@@ -61,7 +61,7 @@
       "name": "Balance",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -5,
+      "miscModifier": -6,
       "classSkill": false,
       "requiresTraining": false
     },
@@ -78,7 +78,7 @@
       "name": "Climb",
       "keyAbility": "STR",
       "ranks": 0,
-      "miscModifier": -5,
+      "miscModifier": -6,
       "classSkill": false,
       "id": 4,
       "requiresTraining": false
@@ -86,7 +86,7 @@
     {
       "name": "Concentration",
       "keyAbility": "CON",
-      "ranks": 3,
+      "ranks": 2,
       "miscModifier": 0,
       "classSkill": true,
       "id": 5,
@@ -113,8 +113,8 @@
     {
       "name": "Diplomacy",
       "keyAbility": "CHA",
-      "ranks": 3,
-      "miscModifier": 2,
+      "ranks": 1,
+      "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": false,
       "id": 8
@@ -141,7 +141,7 @@
       "name": "Escape Artist",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -5,
+      "miscModifier": -6,
       "classSkill": false,
       "requiresTraining": false,
       "id": 11
@@ -176,7 +176,7 @@
     {
       "name": "Heal",
       "keyAbility": "WIS",
-      "ranks": 7,
+      "ranks": 6,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": false,
@@ -186,7 +186,7 @@
       "name": "Hide",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -10,
+      "miscModifier": -6,
       "classSkill": false,
       "requiresTraining": false,
       "id": 16
@@ -204,7 +204,7 @@
       "name": "Jump",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -5,
+      "miscModifier": -6,
       "classSkill": false,
       "requiresTraining": false,
       "id": 18
@@ -221,7 +221,7 @@
     {
       "name": "Knowledge (Religion)",
       "keyAbility": "INT",
-      "ranks": 8,
+      "ranks": 6,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": true,
@@ -249,7 +249,7 @@
       "name": "Move Silently",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -5,
+      "miscModifier": -6,
       "classSkill": false,
       "requiresTraining": false,
       "id": 23
@@ -312,7 +312,7 @@
       "name": "Sleight of Hand",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -5,
+      "miscModifier": -6,
       "classSkill": false,
       "requiresTraining": true,
       "id": 30
@@ -348,7 +348,7 @@
       "name": "Swim",
       "keyAbility": "STR",
       "ranks": 0,
-      "miscModifier": -5,
+      "miscModifier": -6,
       "classSkill": false,
       "requiresTraining": false,
       "id": 34
@@ -357,7 +357,7 @@
       "name": "Tumble",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -5,
+      "miscModifier": -6,
       "classSkill": false,
       "requiresTraining": true,
       "id": 35
@@ -414,7 +414,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 4025,
+    "gold": 4250,
     "platinum": 0
   },
   "notes": [
@@ -441,9 +441,9 @@
     },
     {
       "title": "Session 2",
-      "text": "<p>RECAPPED! It's Bridgy fair tonite maaa88ytte.<br>\nElves is here. The clear leader elf is long blond hair and literallly fully standard elf. Longbow in hand but not fully drawn. His pals are drawn.</p>\n<p>Speaks in Elven to Nym. They really fucking hate Nym. Elves hate black people.<br>\nThey search all of us, and Mozzi gives up the gem after kind of accidentally showing it. Again, to stress it, they FUCKING HATE Nym! Then they let us leave, thank you so much.</p>\n<p>We make camp, before going through Vraddak. Me and Nym heal up our Charisma damage thank god, and eventually we end up back in Kessan. <br>\nWE NAME OURSELVES<strong> THE PEDIGREE CHUMS!!</strong></p>\n<p>We decide that we're going to celebrate with a big night out in the Big Leak tavern.</p>\n<p>Tarryn and Otto have a drinking competition, because, you know. DnD. <br>\nWe all wake up the next day in various states of hungover, and head to the hospitatlity district to the Pig N Milk to meet up with Jonah!<br>\n <br>\nThe most epic moment ever. Mozzi spends his epic point, to retroactively actually steal the purple gem, which he pulls out in front of Jonah. Fucking hilarious, but potentially &nbsp;fucking dangerous. The gem is extremely magical, and possibly a soul gem from the underdark.<br>\n <br>\nI spend my off time (a couple of months) in the temple.</p>\n<p>Neccos Kalarys <em>(Neck Oss)</em>- Golden dragonborn, high priestess of Pelor. I spend a lot of time with her during the off months. One of the most powerful people in this city.<br>\nAppearance, 6andhalf feet, radiating light and warmth, Arabian accent. Meeting with her in the temple, she explains that Pelor is shining down upon me. Pelor wants me to fucking roam bitch, samesies. <br>\n <br>\nShe thinks that I would be best suited to be travelling around in the world, bringing Pelor's will to the needy. Also she requests to be able to call on me should the need arise.<br>\n <br>\nWE LEVEL UP TO OUR NEXT CHARACTERS HERE!!<br>\n <br>\nHired by Stefan Gallows via Jonah, part of the neighbourhood watch of Kremix. Hired because 3 dissapearances in this tiny village, and agreed to meet him in the Bugbear's Delight tavern. Northwest of Kessan, 4 days or so walk. Close to the river. People appear to hate us in this town for some reason. 5000gp per person!<br>\n <br>\nWe meet up with a grey haired, scragily loooking Stefan. Brown glove with silver studs on the knuckles? He says since 12 days ago, 4 people have gone missing. Upgraded from 3.</p>\n<p>- Tamlyn Dock, human 40 something, long dark hair quite gaunt looking. Farmer. Left the tavern one evening 12 days ago, never seen again! NorthWest on a farm I assume.</p>\n<p>- Levena Draska, Elf traveller. She stayed in a different pub Farm Hands Rest. But she never arrived at that tavern. Found her cloak and staff. Dissapeared at night</p>\n<p>- Kravena Kragstilt - Dwarf. Returning from farmlot. Farmus Bodge last saw her, left late in the dark. 6 days ago. Also at night A FUCKING PATTERN</p>\n<p>- Drizza Kalop - Half Elf. Left this inn late 2 days ago. He was about 50.</p>\n<p>The Mayor of this town doesn't like adventures. Idiot. Town guard of which there are like 10-12, don't really like us either appaz.<br>\nSo we make a plan(?) to try and find out more information about these dissapearances.</p>\n<p>Me Nym and Otto attempt to go the market to buy/distract. One of the guards stops us and doesn't like us at all! Tells us to not cause trouble. We head to a farm to get more information / bless crops.</p>\n<p>Tarryn gets questioned too. Somehow goes from bad to good! Mozzi hiding the whole time.</p>\n<p>Mozzi finds some shit near where Levana's stuff was found. Taking his time he starts to find some tracks, even through the cobblestone. It all leads to a fucking well. Of course it fucking does. Fuck you. Also nearby there are some steps going down to a sealed iron gate.</p>\n<p>We have a run in with a fucking yokel farmer. Who after much shit talk, eventually find out that potentially some kind of crazy giant spider. Oh joy. Massive spider potentially bigger than Otto.&nbsp;</p>\n<p>A long time later! We make a plan to kill this spooky spider in the well. Its gonna be gross</p>",
+      "text": "<p>RECAPPED! It's Bridgy fair tonite maaa88ytte.<br>\nElves is here. The clear leader elf is long blond hair and literallly fully standard elf. Longbow in hand but not fully drawn. His pals are drawn.</p>\n<p>Speaks in Elven to Nym. They really fucking hate Nym. Elves hate black people.<br>\nThey search all of us, and Mozzi gives up the gem after kind of accidentally showing it. Again, to stress it, they FUCKING HATE Nym! Then they let us leave, thank you so much.</p>\n<p>We make camp, before going through Vraddak. Me and Nym heal up our Charisma damage thank god, and eventually we end up back in Kessan. <br>\nWE NAME OURSELVES<strong> THE PEDIGREE CHUMS!!</strong></p>\n<p>We decide that we're going to celebrate with a big night out in the Big Leak tavern.</p>\n<p>Tarryn and Otto have a drinking competition, because, you know. DnD. <br>\nWe all wake up the next day in various states of hungover, and head to the hospitatlity district to the Pig N Milk to meet up with Jonah!<br>\n <br>\nThe most epic moment ever. Mozzi spends his epic point, to retroactively actually steal the purple gem, which he pulls out in front of Jonah. Fucking hilarious, but potentially &nbsp;fucking dangerous. The gem is extremely magical, and possibly a soul gem from the underdark.<br>\n <br>\nI spend my off time (a couple of months) in the temple.</p>\n<p>Neccos Kalarys <em>(Neck Oss)</em>- Golden dragonborn, high priestess of Pelor. I spend a lot of time with her during the off months. One of the most powerful people in this city.<br>\nAppearance, 6andhalf feet, radiating light and warmth, Arabian accent. Meeting with her in the temple, she explains that Pelor is shining down upon me. Pelor wants me to fucking roam bitch, samesies. <br>\n<br>\nShe thinks that I would be best suited to be travelling around in the world, bringing Pelor's will to the needy. Also she requests to be able to call on me should the need arise.&nbsp;</p>",
       "date": "2022-09-30T18:03:56.356Z",
-      "editDate": "2022-09-30T22:05:28.495Z",
+      "editDate": "2022-09-30T19:24:27.385Z",
       "id": 4
     }
   ],
@@ -462,7 +462,7 @@
   "gear": [
     {
       "id": 1,
-      "name": "Full Plate (M/Work +1, Commander)",
+      "name": "Full Plate",
       "type": "Armour",
       "bonus": 9,
       "maxDex": "1",
@@ -470,55 +470,19 @@
       "spellFailure": "35%",
       "speed": "20ft",
       "weight": "50",
-      "properties": "Masterwork. Enchanted + 1, Commander"
+      "properties": "Masterwork. Enchanted + 1"
     },
     {
       "id": 2,
-      "name": "Shield, Heavy Steel (M/Work +10",
+      "name": "Shield, Heavy Steel",
       "type": "Shield",
-      "bonus": 3,
+      "bonus": 2,
       "maxDex": "",
-      "checkPenalty": "0",
+      "checkPenalty": "-1",
       "spellFailure": "5%",
       "speed": "",
       "weight": "15",
-      "properties": "Masterwork, +1"
-    },
-    {
-      "id": 3,
-      "name": "Ring of Protection",
-      "type": "Accessory",
-      "bonus": 1,
-      "maxDex": "",
-      "checkPenalty": "",
-      "spellFailure": "",
-      "speed": "",
-      "weight": 0,
       "properties": ""
-    },
-    {
-      "id": 4,
-      "name": "Cloak of Resistance",
-      "type": "Accessory",
-      "bonus": 0,
-      "maxDex": "",
-      "checkPenalty": "",
-      "spellFailure": "",
-      "speed": "",
-      "weight": 0,
-      "properties": "+1 to all saves"
-    },
-    {
-      "id": 5,
-      "name": "Amulet of Natural Armour",
-      "type": "Accessory",
-      "bonus": 1,
-      "maxDex": "",
-      "checkPenalty": "",
-      "spellFailure": "",
-      "speed": "",
-      "weight": 0,
-      "properties": "+1 natural armour"
     }
   ],
   "feats": [
@@ -551,21 +515,21 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": "10",
+      "currentUses": 2,
       "maxUses": "10",
       "id": 1
     },
     {
       "name": "Sun Domain Turn Undead",
       "description": "Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.",
-      "currentUses": "1",
+      "currentUses": 0,
       "maxUses": "1",
       "id": 2
     },
     {
       "name": "Daylight Spell",
       "description": "Aasimar with a Charisma of at least 10 may cast daylight as a spell-like ability with a caster level equal to their character level once per day. Daylight can be found under level 3 spells",
-      "currentUses": "1",
+      "currentUses": 0,
       "maxUses": "1",
       "id": 3
     },
@@ -589,17 +553,10 @@
       "currentUses": "1",
       "maxUses": "1",
       "id": 6
-    },
-    {
-      "name": "Commander Armour (+1 will to allies within 30ft.)",
-      "description": "A suit of armour or shield that has this property always appears brilliant and gleaming, even in filthy or squalid conditions, though it doesn't shed any useful light. Attempts to paint over or obscure its finish do not diminish its brightness.\n\nWhile wearing commander armour or carrying a commander shield, you gain a +2 competence bonus on Diplomacy checks, and each ally within 30 feet of you (not including yourself) gains a +1 morale bonus on Will saves. However, the shiny finish makes you so noticeable that you also take a —5 penalty on Hide checks (in addition to the normal armour check penalty).",
-      "currentUses": 0,
-      "maxUses": 0,
-      "id": 7
     }
   ],
   "spellSlots": {
-    "zero": 5,
+    "zero": 4,
     "zeroBonus": 0,
     "zeroDomain": 0,
     "one": 3,
@@ -609,8 +566,8 @@
     "twoBonus": 1,
     "twoDomain": 1,
     "three": 1,
-    "threeBonus": 1,
-    "threeDomain": 1,
+    "threeBonus": 0,
+    "threeDomain": 0,
     "four": 0,
     "fourBonus": 0,
     "fourDomain": 0,
@@ -836,13 +793,13 @@
       "spellSavingThrow": "Will negates (harmless, object)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>Mending repairs small breaks or tears in objects (but not warps, such as might be caused by a <a href=\"https://www.d20srd.org/srd/spells/warpWood.htm\" title=\"warp wood\"><em>warp wood</em></a> spell). It will weld broken metallic objects such as a ring, a chain link, a medallion, or a slender dagger, providing but one break exists.</p>\n<p>Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new. A hole in a leather sack or a wineskin is completely healed over by mending. The spell can repair a magic item, but the item’s magical abilities are not restored. The spell cannot mend broken magic rods, staffs, or wands, nor does it affect creatures (including <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#constructType\" title=\"constructs\">constructs</a>).&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 9,
       "spellSummary": "Makes minor repairs on an object."
@@ -1124,7 +1081,7 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless); see text",
       "spellArea": "",
-      "spellDescription": "<p>When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5).</p>\n<p>Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature can apply <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"spell resistance\">spell resistance</a>, and can attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a> to take half damage.</p>",
+      "spellDescription": "<p>When laying your hand upon a living creature, you channel positive energy that cures <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> points of damage +1 point per caster level (maximum +5).</p>\n<p>Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature can apply <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"spell resistance\">spell resistance</a>, and can attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a> to take half damage.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1133,7 +1090,7 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 21,
-      "spellSummary": "Cures 1d8 damage +1/level (max +5). +1"
+      "spellSummary": "Cures 1d8 damage +1/level (max +5)."
     },
     {
       "spellName": "Detect Evil",
@@ -1460,13 +1417,13 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>Any opponent attempting to strike or otherwise directly attack the warded creature, even with a targeted spell, must attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a>. If the save succeeds, the opponent can attack normally and is unaffected by that casting of the spell. If the save fails, the opponent can’t follow through with the attack, that part of its action is lost, and it can’t directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area or effect spells. The subject cannot attack without breaking the spell but may use nonattack spells or otherwise act.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 35,
       "spellSummary": "Opponents can’t attack you, and you can’t attack."
@@ -1580,13 +1537,13 @@
       "spellSavingThrow": "Will partial",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>An affected creature is capable of taking actions, such as attacking or casting spells, but it cannot step from its current square (or squares, if it occupies more than one). The subject also takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves while so rooted.</p>\n<p>If the subject succeeds on the initial Will save, it suffers no ill effects and the spell ends immediately. If it fails the initial save, it can attempt a new Will save every round thereafter. Once the subject succeeds on one of these secondary saves, it can move, but its base speed is reduced by 10 feet (to a minimum of 5 feet) for the duration of the spell. If the subject has multiple modes of movement, each is reduced accordingly.</p>\n<p>If the subject is already under an effect that curtails its ability to move (such as slow or hold person), it also takes a -4 penalty to Dexterity for the duration of this spell, even if the other effect ends before this one does.</p>\n<p>All penalties imposed by the spell are sacred if your deity is good or neutral or profane if your deity is evil.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 40,
       "spellSummary": "Subject is locked in place and takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves."
@@ -1688,6 +1645,30 @@
       "spellSummary": "Creature heals 1hp/round (max 15 rounds)"
     },
     {
+      "spellName": "Healer's Vision",
+      "spellSchool": "Divination",
+      "spellDescriptor": "",
+      "spellLevel": 1,
+      "spellComponents": "V, S",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Personal",
+      "spellDuration": "1 round/level (D)",
+      "spellTarget": "You",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "<p>You gain a macabre change to your vision that seemingly peels away skin and sinew to reveal the flesh beneath. You gain a +5 insight bonus on <a href=\"https://dnd.arkalseif.info/skills/heal/index.html\" title=\"Heal\"><u>Heal</u></a> checks, and any <em>cure</em> spell you cast on a living creature heals 1 extra point of damage per level of the spell.</p>\n<p>You also gain a +2 bonus on attack rolls and damage rolls when making a precision-based attack (such as a sneak attack or a sudden strike) against a living creature, since you are able to pick out your target's most vital points. (This effect makes the spell popular among less benevolent casters). <em>Healer's vision</em> does not grant you the ability to make a precision-based attack if you don't already have that ability, nor does it allow you to make such attacks against creatures normally unaffected by them.</p>\n<p>This spell does not reveal the true forms of creatures affected by illusions or other magical disguises, so it grants no benefit to <a href=\"https://dnd.arkalseif.info/skills/heal/index.html\" title=\"Heal\"><u>Heal</u></a> checks or attacks against such creatures.&nbsp;</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 45,
+      "spellSummary": "Gain +5 bonus on Heal checks, and +2 attack and damage on sneak attacks."
+    },
+    {
       "spellName": "Scholar's Touch",
       "spellSchool": "Divination",
       "spellDescriptor": "",
@@ -1748,7 +1729,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>This spell grants your allies within the spread a +2 morale bonus on ranged attack rolls.<br>\n</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1844,13 +1825,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "<p>Bright lights shine at the targets. The lights grant a +2 circumstance bonus on ranged attack rolls against any highlighted target. If a creature gains total cover or total concealment relative to you, or if it leaves the area, the spell ends for that target.<br>\n</p>",
+      "spellDescription": "<p>Bright lights shine at the targets. The lights grant a +2 circumstance bonus on ranged attack rolls against any highlighted target. If a creature gains total cover or total concealment relative to you, or if it leaves the area, the spell ends for that target.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 52,
       "spellSummary": "+2 on ranged attacks against creatures in illuminated area"
@@ -1916,7 +1897,7 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless); see text",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/cureLightWounds.htm\" title=\"cure light wounds\"><em>cure light wounds</em></a>, except that it cures <a href=\"javascript:void(0);\" title=\"2d8\">2d8</a> points of damage +1 point per caster level (maximum +10).&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1925,7 +1906,7 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 56,
-      "spellSummary": "Cures 2d8 damage +1/level (max +10). +1"
+      "spellSummary": "Cures 2d8 damage +1/level (max +10)."
     },
     {
       "spellName": "Heat Metal",
@@ -2036,13 +2017,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>The subject becomes stronger. The spell grants a +4 <a href=\"https://www.d20srd.org/srd/theBasics.htm#enhancementBonus\" title=\"enhancement bonus\">enhancement bonus</a> to Strength, adding the usual benefits to melee <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack rolls\">attack rolls</a>, melee damage rolls, and other uses of the Strength modifier.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 61,
       "spellSummary": "Subject gains +4 to Str for 1 min./level."
@@ -2402,7 +2383,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 76,
       "spellSummary": "Dispels magical ability penalty or repairs 1d4 ability damage."
@@ -2588,13 +2569,13 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellArea": "20 ft. radius emanation",
-      "spellDescription": "",
+      "spellDescription": "<p>Creatures within the emanation area (or those who enter it) can’t speak any deliberate and intentional lies. Each potentially affected creature is allowed a save to avoid the effects when the spell is cast or when the creature first enters the emanation area. Affected creatures are aware of this enchantment. Therefore, they may avoid answering questions to which they would normally respond with a lie, or they may be evasive as long as they remain within the boundaries of the truth. Creatures who leave the area are free to speak as they choose.&nbsp;</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 84,
       "spellSummary": "Subjects within range cannot lie."
@@ -2660,13 +2641,13 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>This spell cures 1d4 points of damage +1 point per caster level (maximum +5).</p>\n<p>If you cast this spell immediately after the subject takes damage, it effectively prevents the damage. It would keep alive someone who had just dropped to —10 hit points, for example, leaving the character at negative hit points but stable.</p>\n<p>Used against an undead creature, close wounds deals damage instead of curing the creature (which takes half damage if it makes a Will saving throw).</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 87,
       "spellSummary": "Cure 1d4 damage +1/level, even on another’s turn"
@@ -2741,102 +2722,6 @@
       "spellPrepared": 1,
       "spellMaterial": "",
       "id": 91
-    },
-    {
-      "spellName": "Cure Serious Wounds",
-      "spellSchool": "Conjuration",
-      "spellDescriptor": "Healing",
-      "spellLevel": 3,
-      "spellComponents": "",
-      "spellCastingTime": "",
-      "spellRange": "",
-      "spellDuration": "",
-      "spellTarget": "",
-      "spellSavingThrow": "",
-      "spellResistance": "",
-      "spellArea": "",
-      "spellDescription": "",
-      "spellDescriptionTwo": "",
-      "spellDescriptionThree": "",
-      "spellDescriptionFour": "",
-      "spellEffect": "",
-      "spellDomainSpell": false,
-      "spellPrepared": 0,
-      "spellMaterial": "",
-      "id": 92,
-      "spellSummary": "Cures 3d8 damage +1/level (max +15). +1"
-    },
-    {
-      "spellName": "Searing Light",
-      "spellSchool": "Evocation",
-      "spellDescriptor": "",
-      "spellLevel": 3,
-      "spellComponents": "V, S",
-      "spellCastingTime": "1 standard action",
-      "spellRange": "Medium (100 ft. + 10 ft./level)",
-      "spellDuration": "Instantaneous",
-      "spellTarget": "",
-      "spellSavingThrow": "None",
-      "spellResistance": "Yes",
-      "spellArea": "",
-      "spellDescription": "<p>Focusing divine power like a ray of the sun, you project a blast of light from your open palm. You must succeed on a ranged <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#touchAttacks\" title=\"touch attack\">touch attack</a> to strike your target. A creature struck by this ray of light takes <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> points of damage per two caster levels (maximum <a href=\"javascript:void(0);\" title=\"5d8\">5d8</a>). An <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature takes <a href=\"javascript:void(0);\" title=\"1d6\">1d6</a> points of damage per caster level (maximum <a href=\"javascript:void(0);\" title=\"10d6\">10d6</a>), and an undead creature particularly vulnerable to bright light takes <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> points of damage per caster level (maximum <a href=\"javascript:void(0);\" title=\"10d8\">10d8</a>). A <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#constructType\" title=\"construct\">construct</a> or inanimate object takes only <a href=\"javascript:void(0);\" title=\"1d6\">1d6</a> points of damage per two caster levels (maximum <a href=\"javascript:void(0);\" title=\"5d6\">5d6</a>).</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
-      "spellDescriptionTwo": "",
-      "spellDescriptionThree": "",
-      "spellDescriptionFour": "",
-      "spellEffect": "Ray",
-      "spellDomainSpell": true,
-      "spellPrepared": 1,
-      "spellMaterial": "",
-      "id": 94,
-      "spellSummary": "Ray deals 1d8/two levels, more against undead."
-    },
-    {
-      "spellName": "Locate Object",
-      "spellSchool": "Divination",
-      "spellDescriptor": "",
-      "spellLevel": 3,
-      "spellComponents": "V, S, F/DF",
-      "spellCastingTime": "1 standard action",
-      "spellRange": "Long (400 ft. + 40 ft./level)",
-      "spellDuration": "1 min./level",
-      "spellTarget": "",
-      "spellSavingThrow": "None",
-      "spellResistance": "No",
-      "spellArea": "Circle, centered on you, with a radius of 400 ft. + 40 ft./level",
-      "spellDescription": "<p>You sense the direction of a well-known or clearly visualized object. You can search for general items, in which case you locate the nearest one of its kind if more than one is within range. Attempting to find a certain item requires a specific and accurate mental image; if the image is not close enough to the actual object, the spell fails. You cannot specify a unique item unless you have observed that particular item firsthand (not through divination).</p>\n<p>The spell is blocked by even a thin sheet of lead. Creatures cannot be found by this spell. <a href=\"https://www.d20srd.org/srd/spells/polymorphAnyObject.htm\" title=\"Polymorph any object\"><em>Polymorph any object</em></a> fools it.</p>",
-      "spellDescriptionTwo": "",
-      "spellDescriptionThree": "",
-      "spellDescriptionFour": "",
-      "spellEffect": "",
-      "spellDomainSpell": false,
-      "spellPrepared": 1,
-      "spellMaterial": "",
-      "id": 95,
-      "spellSummary": "Senses direction toward object (specific or type)."
-    },
-    {
-      "spellName": "Prayer",
-      "spellSchool": "Enchantment",
-      "spellDescriptor": "Compulsion, Mind-Affecting",
-      "spellLevel": 3,
-      "spellComponents": "V, S, DF",
-      "spellCastingTime": "1 standard action",
-      "spellRange": "40ft",
-      "spellDuration": "1 round/level",
-      "spellTarget": "",
-      "spellSavingThrow": "None",
-      "spellResistance": "Yes",
-      "spellArea": "All allies and foes within a 40-ft.-radius burst centered on you",
-      "spellDescription": "<p>You bring special favor upon yourself and your allies while bringing disfavor to your enemies. You and your each of your allies gain a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#luckModifier\" title=\"luck bonus\">luck bonus</a> on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack rolls\">attack rolls</a>, weapon damage rolls, saves, and <a href=\"https://www.d20srd.org/srd/skills/usingSkills.htm#skillChecks\" title=\"skill checks\">skill checks</a>, while each of your foes takes a -1 penalty on such rolls.</p>",
-      "spellDescriptionTwo": "",
-      "spellDescriptionThree": "",
-      "spellDescriptionFour": "",
-      "spellEffect": "",
-      "spellDomainSpell": false,
-      "spellPrepared": 1,
-      "spellMaterial": "",
-      "id": 96,
-      "spellSummary": "Allies +1 bonus on most rolls, enemies -1 penalty."
     }
   ]
 }
