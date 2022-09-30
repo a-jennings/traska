@@ -29,20 +29,20 @@
     "charisma": 16
   },
   "stats": {
-    "hpMax": 27,
-    "hpCurrent": 27,
-    "ac": 20,
-    "acTouch": 9,
-    "acFF": 20,
+    "hpMax": 43,
+    "hpCurrent": 43,
+    "ac": 22,
+    "acTouch": 10,
+    "acFF": 22,
     "speed": 20,
-    "initiative": -1,
+    "initiative": 0,
     "savingThrows": {
-      "fortitude": 6,
-      "reflex": 0,
-      "will": 7
+      "fortitude": 7,
+      "reflex": 1,
+      "will": 8
     },
-    "baseAttackBonus": 2,
-    "grapple": 3,
+    "baseAttackBonus": 3,
+    "grapple": 4,
     "spellResistance": 0,
     "damageReduction": 0
   },
@@ -86,7 +86,7 @@
     {
       "name": "Concentration",
       "keyAbility": "CON",
-      "ranks": 2,
+      "ranks": 3,
       "miscModifier": 0,
       "classSkill": true,
       "id": 5,
@@ -113,8 +113,8 @@
     {
       "name": "Diplomacy",
       "keyAbility": "CHA",
-      "ranks": 1,
-      "miscModifier": 0,
+      "ranks": 3,
+      "miscModifier": 2,
       "classSkill": true,
       "requiresTraining": false,
       "id": 8
@@ -176,7 +176,7 @@
     {
       "name": "Heal",
       "keyAbility": "WIS",
-      "ranks": 6,
+      "ranks": 7,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": false,
@@ -186,7 +186,7 @@
       "name": "Hide",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -6,
+      "miscModifier": -11,
       "classSkill": false,
       "requiresTraining": false,
       "id": 16
@@ -221,7 +221,7 @@
     {
       "name": "Knowledge (Religion)",
       "keyAbility": "INT",
-      "ranks": 6,
+      "ranks": 8,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": true,
@@ -409,7 +409,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 1250,
+    "gold": 3025,
     "platinum": 0
   },
   "notes": [
@@ -450,7 +450,7 @@
   "gear": [
     {
       "id": 1,
-      "name": "Full Plate",
+      "name": "Full Plate (Commander)",
       "type": "Armour",
       "bonus": 9,
       "maxDex": "1",
@@ -458,7 +458,7 @@
       "spellFailure": "35%",
       "speed": "20ft",
       "weight": "50",
-      "properties": "Masterwork. Enchanted + 1"
+      "properties": "Masterwork. Enchanted + 1, Commander"
     },
     {
       "id": 2,
@@ -470,6 +470,18 @@
       "spellFailure": "5%",
       "speed": "",
       "weight": "15",
+      "properties": ""
+    },
+    {
+      "id": 3,
+      "name": "Ring of Protection",
+      "type": "Accessory",
+      "bonus": 1,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
       "properties": ""
     }
   ],
@@ -503,21 +515,21 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 2,
+      "currentUses": "10",
       "maxUses": "10",
       "id": 1
     },
     {
       "name": "Sun Domain Turn Undead",
       "description": "Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.",
-      "currentUses": 0,
+      "currentUses": "1",
       "maxUses": "1",
       "id": 2
     },
     {
       "name": "Daylight Spell",
       "description": "Aasimar with a Charisma of at least 10 may cast daylight as a spell-like ability with a caster level equal to their character level once per day. Daylight can be found under level 3 spells",
-      "currentUses": 0,
+      "currentUses": "1",
       "maxUses": "1",
       "id": 3
     },
@@ -541,10 +553,17 @@
       "currentUses": "1",
       "maxUses": "1",
       "id": 6
+    },
+    {
+      "name": "Commander Armour (+1 will to allies within 30ft.)",
+      "description": "A suit of armour or shield that has this property always appears brilliant and gleaming, even in filthy or squalid conditions, though it doesn't shed any useful light. Attempts to paint over or obscure its finish do not diminish its brightness.\n\nWhile wearing commander armour or carrying a commander shield, you gain a +2 competence bonus on Diplomacy checks, and each ally within 30 feet of you (not including yourself) gains a +1 morale bonus on Will saves. However, the shiny finish makes you so noticeable that you also take a —5 penalty on Hide checks (in addition to the normal armour check penalty).",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 7
     }
   ],
   "spellSlots": {
-    "zero": 4,
+    "zero": 5,
     "zeroBonus": 0,
     "zeroDomain": 0,
     "one": 3,
@@ -554,8 +573,8 @@
     "twoBonus": 1,
     "twoDomain": 1,
     "three": 1,
-    "threeBonus": 0,
-    "threeDomain": 0,
+    "threeBonus": 1,
+    "threeDomain": 1,
     "four": 0,
     "fourBonus": 0,
     "fourDomain": 0,
