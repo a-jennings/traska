@@ -4,7 +4,11 @@
     "classes": [
       {
         "class": "Cleric",
-        "level": 5
+        "level": 6
+      },
+      {
+        "class": "Rad Serv of Pelor",
+        "level": 1
       }
     ],
     "player": "Drew Jennings",
@@ -29,20 +33,20 @@
     "charisma": 16
   },
   "stats": {
-    "hpMax": 43,
-    "hpCurrent": 43,
+    "hpMax": 57,
+    "hpCurrent": 57,
     "ac": 23,
     "acTouch": 11,
     "acFF": 23,
     "speed": 20,
     "initiative": 0,
     "savingThrows": {
-      "fortitude": 8,
+      "fortitude": 10,
       "reflex": 2,
-      "will": 9
+      "will": 11
     },
-    "baseAttackBonus": 3,
-    "grapple": 4,
+    "baseAttackBonus": 4,
+    "grapple": 5,
     "spellResistance": 0,
     "damageReduction": 0
   },
@@ -86,7 +90,7 @@
     {
       "name": "Concentration",
       "keyAbility": "CON",
-      "ranks": 3,
+      "ranks": 5,
       "miscModifier": 0,
       "classSkill": true,
       "id": 5,
@@ -176,7 +180,7 @@
     {
       "name": "Heal",
       "keyAbility": "WIS",
-      "ranks": 7,
+      "ranks": 8,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": false,
@@ -212,7 +216,7 @@
     {
       "name": "Knowledge (History)",
       "keyAbility": "INT",
-      "ranks": 3,
+      "ranks": 4,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": true,
@@ -221,7 +225,7 @@
     {
       "name": "Knowledge (Religion)",
       "keyAbility": "INT",
-      "ranks": 8,
+      "ranks": 10,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": true,
@@ -414,7 +418,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 4025,
+    "gold": 17025,
     "platinum": 0
   },
   "notes": [
@@ -531,6 +535,11 @@
       "name": "Extra Turning",
       "description": "Each time you take this feat, you can use your ability to turn or rebuke creatures four more times per day than normal. If you have the ability to turn or rebuke more than one kind of creature (such as a good-aligned cleric with access to the Fire domain, who can turn undead and water creatures and can also rebuke fire creatures), each of your turning or rebuking abilities gains four additional uses per day.",
       "id": 2
+    },
+    {
+      "name": "Reach Spell [Metamagic]",
+      "description": "You may cast a spell that normally has a range of touch at any distance up to 30 feet. The spell effectively becomes a ray, so you must succeed on a ranged touch attack to bestow the spell upon the recipient. A reach spell uses up a spell slot two levels higher than the spell's actual level.",
+      "id": 3
     }
   ],
   "languages": [
@@ -599,21 +608,21 @@
     }
   ],
   "spellSlots": {
-    "zero": 5,
+    "zero": 6,
     "zeroBonus": 0,
     "zeroDomain": 0,
-    "one": 3,
+    "one": 5,
     "oneBonus": 1,
     "oneDomain": 1,
-    "two": 2,
+    "two": 4,
     "twoBonus": 1,
     "twoDomain": 1,
-    "three": 1,
+    "three": 2,
     "threeBonus": 1,
     "threeDomain": 1,
-    "four": 0,
-    "fourBonus": 0,
-    "fourDomain": 0,
+    "four": 2,
+    "fourBonus": 1,
+    "fourDomain": 1,
     "five": 0,
     "fiveBonus": 0,
     "fiveDomain": 0,
