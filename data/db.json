@@ -405,20 +405,25 @@
   ],
   "inventory": [
     {
-      "name": "Holy symbol of Pelor",
-      "weight": "1",
-      "id": 1
-    },
-    {
       "name": "Pedigree Chum limited edition pajamas",
       "weight": 0,
       "id": 2
+    },
+    {
+      "name": "Spell components for Divination",
+      "weight": "1",
+      "id": 3
+    },
+    {
+      "name": "Pedigree Chum business cards",
+      "weight": 0,
+      "id": 4
     }
   ],
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 25,
+    "gold": 0,
     "platinum": 0
   },
   "notes": [
@@ -459,9 +464,9 @@
     },
     {
       "title": "Session 4",
-      "text": "<p>It begins... Don't cry...<br>\n <br>\nOk we start of the combat in the cavern under the well. Mozzi gets picked up by this crazy spider creature because we ended with him next to it. Not ideal.<br>\nAlso Nym and Otto start popping the weird spore things, which look gross.<br>\n <br>\nI'm so fucking god damn slow in this cavern and everyone is fucking dyyyiiinnngggggg!</p>\n<p>OTTO THE FUCKING MAN! Takes over a grapple he's in, and then fucking Hulk vs Loki's him around the room.<br>\nAlthough Otta and Mozzi go down which gets a little spicy but we all survive.</p>\n<p>The Cussy (Cave pussy) goes down into the underdark apparently!? Which is super fucked up because it shouldn't be here.<br>\nThe bodies are all here and very dead. Tarryn starts writing a note explaining this shit situation to the Goblin mayor.</p>",
+      "text": "<p>It begins... Don't cry...<br>\n <br>\nOk we start of the combat in the cavern under the well. Mozzi gets picked up by this crazy spider creature because we ended with him next to it. Not ideal.<br>\nAlso Nym and Otto start popping the weird spore things, which look gross.<br>\n <br>\nI'm so fucking god damn slow in this cavern and everyone is fucking dyyyiiinnngggggg!</p>\n<p>OTTO THE FUCKING MAN! Takes over a grapple he's in, and then fucking Hulk vs Loki's him around the room.<br>\nAlthough Otta and Mozzi go down which gets a little spicy but we all survive.</p>\n<p>The Cussy (Cave pussy) goes down into the underdark apparently!? Which is super fucked up because it shouldn't be here.<br>\nThe bodies are all here and very dead. Tarryn starts writing a note explaining this shit situation to the Goblin mayor.</p>\n<p>So eventually we leave and head back to Kessen! Much gold get, Drinks are had, Prayers to Pelor are completed.<br>\nThe rest of the chums go shopping while I pray and shit. They meet Get Aetris, at the Enchanting Enchanter store where they get lots and lots of upgrade. Oh and like a month and a half passes while we do minor stuff and dat.<br>\n <br>\nMy adventure! I go to the shop the 'Healing Wave' to buy my wand of cure mod wounds. The shopkeeper is a female with blue tinted skin, white eyes, long white braided hair over a shoulder. Tall woman. I've never seen this type of creature before. She closes the book she's reading, and I see she has webbed fingers. Ardor Crisp.<br>\nI buy the wand, but before I leave I check her for a religious symbol and she used to wear a ring dedicated to Ehlonna, goddess of Forests, Woodlands, Flora, Fauna, and Fertility.<br>\nWe all head then to the Above Board Under Dark shop, with the drow shopkeeper. She. Fucking. Haaaaaates. Me! I buy my shit and run out before I cause a domestic.<br>\n <br>\nMore time passes, we chillin. At one point we get teamed up with the Mage Guard, who no one seems to fucking like. We start becoming heroes up in dis bish.<br>\nJonah messages Nym mentally that he's been kidnapped! We need to go to Vraddak to get him. He also says there's a big bonus!!</p>\n<p>We try to get Get to teleport us, but it's gonna cost way too much and we'd have to do trips. Sounds fucking stupid, so we buy a horse and carriage. Nym goes and buys some spells scrolls from Ardor at the Healing Wave.<br>\n <br>\nWe start out travels! AND WE GET TO THE END OF THE FLASHBACK SAT AROUND THE CAMPFIRE!!</p>\n<p>We enter Vraddak, and saddle our carriage. We head to the pub in Vraddak that we've been to before. Inside we see a woman who sort of looks like a pirate. Hey, she has a gun! Also a white eye in on her coat. She's part of the fucking inquisition! Oh shiiiiiitt<br>\n <br>\n <em>MagicNote: I have a 2nd level cure spell prepared under meta magic range spell feat!</em></p>",
       "date": "2022-10-21T17:31:24.693Z",
-      "editDate": "2022-10-21T19:17:02.426Z",
+      "editDate": "2022-10-21T21:25:39.857Z",
       "id": 6
     }
   ],
@@ -1979,7 +1984,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 56,
       "spellSummary": "Cures 2d8 damage +1/level (max +10). +1"
@@ -2651,7 +2656,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 84,
       "spellSummary": "Subjects within range cannot lie."
