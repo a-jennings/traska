@@ -4,7 +4,11 @@
     "classes": [
       {
         "class": "Cleric",
-        "level": 5
+        "level": 6
+      },
+      {
+        "class": "Rad Serv of Pelor",
+        "level": 1
       }
     ],
     "player": "Drew Jennings",
@@ -29,20 +33,20 @@
     "charisma": 16
   },
   "stats": {
-    "hpMax": 43,
-    "hpCurrent": 37,
-    "ac": 23,
-    "acTouch": 11,
-    "acFF": 23,
+    "hpMax": 59,
+    "hpCurrent": 59,
+    "ac": 25,
+    "acTouch": 12,
+    "acFF": 25,
     "speed": 20,
     "initiative": 0,
     "savingThrows": {
-      "fortitude": 8,
+      "fortitude": 10,
       "reflex": 2,
-      "will": 9
+      "will": 11
     },
-    "baseAttackBonus": 3,
-    "grapple": 4,
+    "baseAttackBonus": 4,
+    "grapple": 5,
     "spellResistance": 0,
     "damageReduction": 0
   },
@@ -69,7 +73,7 @@
       "name": "Bluff",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "id": 3,
       "requiresTraining": false
@@ -86,7 +90,7 @@
     {
       "name": "Concentration",
       "keyAbility": "CON",
-      "ranks": 3,
+      "ranks": 5,
       "miscModifier": 0,
       "classSkill": true,
       "id": 5,
@@ -114,7 +118,7 @@
       "name": "Diplomacy",
       "keyAbility": "CHA",
       "ranks": 3,
-      "miscModifier": 2,
+      "miscModifier": 5,
       "classSkill": true,
       "requiresTraining": false,
       "id": 8
@@ -132,7 +136,7 @@
       "name": "Disguise",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": false,
       "id": 10
@@ -159,7 +163,7 @@
       "name": "Gather Information",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": false,
       "id": 13
@@ -168,7 +172,7 @@
       "name": "Handle Animal",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": true,
       "id": 14
@@ -176,7 +180,7 @@
     {
       "name": "Heal",
       "keyAbility": "WIS",
-      "ranks": 7,
+      "ranks": 8,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": false,
@@ -195,7 +199,7 @@
       "name": "Intimidate",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": false,
       "id": 17
@@ -212,7 +216,7 @@
     {
       "name": "Knowledge (History)",
       "keyAbility": "INT",
-      "ranks": 3,
+      "ranks": 4,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": true,
@@ -221,7 +225,7 @@
     {
       "name": "Knowledge (Religion)",
       "keyAbility": "INT",
-      "ranks": 8,
+      "ranks": 10,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": true,
@@ -267,7 +271,7 @@
       "name": "Perform",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": true,
       "id": 25
@@ -366,7 +370,7 @@
       "name": "Use Magic Device",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": true,
       "id": 36
@@ -414,7 +418,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 4025,
+    "gold": 25,
     "platinum": 0
   },
   "notes": [
@@ -471,6 +475,16 @@
       "type": "Bludgeoning",
       "notes": "Masterwork",
       "id": 1
+    },
+    {
+      "name": "Wand of Cure Moderate Wounds",
+      "bonus": 0,
+      "damage": "50/50",
+      "critical": "",
+      "range": "",
+      "type": "",
+      "notes": "",
+      "id": 2
     }
   ],
   "gear": [
@@ -488,7 +502,7 @@
     },
     {
       "id": 2,
-      "name": "Shield, Heavy Steel (M/Work +10",
+      "name": "Shield, Heavy Steel (M/Work +1)",
       "type": "Shield",
       "bonus": 3,
       "maxDex": "",
@@ -523,16 +537,40 @@
       "properties": "+1 to all saves"
     },
     {
-      "id": 5,
-      "name": "Amulet of Natural Armour",
+      "id": 6,
+      "name": "Holy Reliquary Symbol",
       "type": "Accessory",
-      "bonus": 1,
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": "",
+      "properties": "As the repository of a tiny fragment of a\nlong-dead high priest of a particular deity,\na reliquary holy symbol functions just like\nany other holy symbol. In addition, for\neach of the following prerequisites that\nyou meet, the holy symbol grants you one\nadditional daily use of your turn or rebuke\nundead ability.\n• At least 5 ranks in Knowledge\n(religion)\n• Improved Turning feat\n• At least one divine feat (CD 77)"
+    },
+    {
+      "id": 7,
+      "name": "Circlet of Persuasion ",
+      "type": "Head",
+      "bonus": 0,
       "maxDex": "",
       "checkPenalty": "",
       "spellFailure": "",
       "speed": "",
       "weight": 0,
-      "properties": "+1 natural armour"
+      "properties": "+3 on Charisma Based Checks including turn undead"
+    },
+    {
+      "id": 8,
+      "name": "Ring of Deflection +2",
+      "type": "Ring",
+      "bonus": 2,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": ""
     }
   ],
   "feats": [
@@ -545,6 +583,11 @@
       "name": "Extra Turning",
       "description": "Each time you take this feat, you can use your ability to turn or rebuke creatures four more times per day than normal. If you have the ability to turn or rebuke more than one kind of creature (such as a good-aligned cleric with access to the Fire domain, who can turn undead and water creatures and can also rebuke fire creatures), each of your turning or rebuking abilities gains four additional uses per day.",
       "id": 2
+    },
+    {
+      "name": "Reach Spell [Metamagic]",
+      "description": "You may cast a spell that normally has a range of touch at any distance up to 30 feet. The spell effectively becomes a ray, so you must succeed on a ranged touch attack to bestow the spell upon the recipient. A reach spell uses up a spell slot two levels higher than the spell's actual level.",
+      "id": 3
     }
   ],
   "languages": [
@@ -565,15 +608,15 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 7,
-      "maxUses": "10",
+      "currentUses": "14",
+      "maxUses": "14",
       "id": 1
     },
     {
       "name": "Sun Domain Turn Undead",
       "description": "Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.",
-      "currentUses": "1",
-      "maxUses": "1",
+      "currentUses": "6",
+      "maxUses": "6",
       "id": 2
     },
     {
@@ -600,7 +643,7 @@
     {
       "name": "Epic Point",
       "description": "An Epic Point can be spent at any point to do one of the following things:\n\n** Increase your Crit Range by 3 (after other multiplications) for one turn\n** Make a full attack as a standard acton\n** Add 5ft to your weapon reach for 3 turns\n** The next spell you cast will be empowered (it cannot be an empowered or maximised spell)\n** Gain Damage Reduction 30 / Epic for one turn\n** The next skill roll you make is an automatic natural 20\n** Do something EPIC***\n\n***EPIC = This is something that doesn’t necessarily have rules, and can be proposed that go beyond normal rules. That said, the above options should give an indicator for how powerful the action should be.\n",
-      "currentUses": 0,
+      "currentUses": "1",
       "maxUses": "1",
       "id": 6
     },
@@ -610,31 +653,24 @@
       "currentUses": 0,
       "maxUses": 0,
       "id": 7
-    },
-    {
-      "name": "Natural Resistances - Acid, Electricity, Cold",
-      "description": "Resistance 5 to Acid, Electricity or Cold",
-      "currentUses": 0,
-      "maxUses": 0,
-      "id": 8
     }
   ],
   "spellSlots": {
-    "zero": 5,
+    "zero": 6,
     "zeroBonus": 0,
     "zeroDomain": 0,
-    "one": 3,
+    "one": 5,
     "oneBonus": 1,
     "oneDomain": 1,
-    "two": 2,
+    "two": 4,
     "twoBonus": 1,
     "twoDomain": 1,
-    "three": 1,
+    "three": 2,
     "threeBonus": 1,
     "threeDomain": 1,
-    "four": 0,
-    "fourBonus": 0,
-    "fourDomain": 0,
+    "four": 2,
+    "fourBonus": 1,
+    "fourDomain": 1,
     "five": 0,
     "fiveBonus": 0,
     "fiveDomain": 0,
@@ -833,7 +869,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.</p>\n<p>A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the darkness descriptor) of an equal or lower level.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -953,13 +989,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>You imbue the subject with magical energy that protects it from harm, granting it a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#resistanceBonus\" title=\"resistance bonus\">resistance bonus</a> on saves.</p>\n<p>Resistance can be made permanent with a <a href=\"https://www.d20srd.org/srd/spells/permanency.htm\" title=\"permanency\"><em>permanency</em></a> spell.</p>\n<h6><em>Arcane Material Component</em></h6>\n<p>A miniature cloak.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 13,
       "spellSummary": "Subject gains +1 on saving throws."
@@ -1097,13 +1133,13 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "<p>You give the subject a single command, which it obeys to the best of its ability at its earliest opportunity. You may select from the following options.</p>\n<h6><em>Approach</em></h6>\n<p>On its turn, the subject moves toward you as quickly and directly as possible for 1 round. The creature may do nothing but move during its turn, and it provokes <a href=\"https://www.d20srd.org/srd/combat/attacksOfOpportunity.htm\" title=\"attacks of opportunity\">attacks of opportunity</a> for this movement as normal.</p>\n<h6><em>Drop</em></h6>\n<p>On its turn, the subject drops whatever it is holding. It can’t pick up any dropped item until its next turn.</p>\n<h6><em>Fall</em></h6>\n<p>On its turn, the subject falls to the ground and remains <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#prone\" title=\"prone\">prone</a> for 1 round. It may act normally while prone but takes any appropriate penalties.</p>\n<h6><em>Flee</em></h6>\n<p>On its turn, the subject moves away from you as quickly as possible for 1 round. It may do nothing but move during its turn, and it provokes <a href=\"https://www.d20srd.org/srd/combat/attacksOfOpportunity.htm\" title=\"attacks of opportunity\">attacks of opportunity</a> for this movement as normal.</p>\n<h6><em>Halt</em></h6>\n<p>The subject stands in place for 1 round. It may not take any actions but is not considered <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#helpless\" title=\"helpless\">helpless</a>.</p>\n<p>If the subject can’t carry out your command on its next turn, the spell automatically fails.&nbsp;</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 19,
       "spellSummary": "One subject obeys selected command for 1 round."
@@ -1775,7 +1811,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "50-ft. - radius spread centered on you",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 48,
       "spellSummary": "+2 bonus for allies' ranged attacks."
@@ -2537,13 +2573,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "<p>A weapon made of pure force springs into existence and attacks opponents at a distance, as you direct it, dealing <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> force damage per hit, +1 point per three caster levels (maximum +5 at 15th level). The weapon takes the shape of a weapon favored by your deity or a weapon with some spiritual significance or symbolism to you (see below) and has the same threat range and critical multipliers as a real weapon of its form. It strikes the opponent you designate, starting with one attack in the round the spell is cast and continuing each round thereafter on your turn. It uses your base attack bonus (possibly allowing it multiple attacks per round in subsequent rounds) plus your Wisdom modifier as its attack bonus. It strikes as a spell, not as a weapon, so, for example, it can damage creatures that have <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#damageReduction\" title=\"damage reduction\">damage reduction</a>. As a force effect, it can strike <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#incorporealSubtype\" title=\"incorporeal creatures\">incorporeal creatures</a> without the normal miss chance associated with <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#incorporeality\" title=\"incorporeality\">incorporeality</a>. The weapon always strikes from your direction. It does not get a <a href=\"https://www.d20srd.org/srd/combat/combatModifiers.htm#flanking\" title=\"flanking\">flanking</a> bonus or help a combatant get one. Your feats or combat actions do not affect the weapon. If the weapon goes beyond the spell range, if it goes out of your sight, or if you are not directing it, the weapon returns to you and hovers.</p>\n<p>Each round after the first, you can use a <a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#moveActions\" title=\"move action\">move action</a> to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round’s target. On any round that the weapon switches targets, it gets one attack. Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to. Even if the spiritual weapon is a ranged weapon, use the spell’s range, not the weapon’s normal range increment, and switching targets still is a move action.</p>\n<p>A spiritual weapon cannot be attacked or harmed by physical attacks, but <a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\" title=\"dispel magic\"><em>dispel magic</em></a>, <a href=\"https://www.d20srd.org/srd/spells/disintegrate.htm\" title=\"disintegrate\"><em>disintegrate</em></a>, a sphere of annihilation, or a rod of cancellation affects it. A spiritual weapon’s AC against <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#touchAttacks\" title=\"touch attacks\">touch attacks</a> is 12 (10 + size bonus for Tiny object).</p>\n<p>If an attacked creature has <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"spell resistance\">spell resistance</a>, you make a <a href=\"https://www.d20srd.org/srd/magicOverview/castingSpells.htm#casterLevelChecks\" title=\"caster level check\">caster level check</a> (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + caster level) against that spell resistance the first time the spiritual weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.</p>\n<p>The weapon that you get is often a force replica of your deity’s own personal weapon. A <a href=\"https://www.d20srd.org/srd/classes/cleric.htm\" title=\"cleric\">cleric</a> without a deity gets a weapon based on his <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a>. A neutral cleric without a deity can create a spiritual weapon of any alignment, provided he is acting at least generally in accord with that alignment at the time. The weapons associated with each alignment are as follows.&nbsp;</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "Magic weapon of force",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 81,
       "spellSummary": "Magic weapon attacks on its own."
@@ -2759,7 +2795,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 91
     },
@@ -2806,7 +2842,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "Ray",
       "spellDomainSpell": true,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 94,
       "spellSummary": "Ray deals 1d8/two levels, more against undead."
@@ -2830,7 +2866,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 95,
       "spellSummary": "Senses direction toward object (specific or type)."
@@ -2854,10 +2890,154 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 96,
       "spellSummary": "Allies +1 bonus on most rolls, enemies -1 penalty."
+    },
+    {
+      "spellName": "Speak With Dead",
+      "spellSchool": "Necromancy",
+      "spellDescriptor": "Language-Dependant",
+      "spellLevel": 3,
+      "spellComponents": "V, S, DF",
+      "spellCastingTime": "10 minutes",
+      "spellRange": "10ft",
+      "spellDuration": "1 min./level",
+      "spellTarget": "One dead creature",
+      "spellSavingThrow": "Will negates; see text",
+      "spellResistance": "No",
+      "spellArea": "",
+      "spellDescription": "<p>You grant the semblance of life and intellect to a corpse, allowing it to answer several questions that you put to it. You may ask one question per two caster levels. Unasked questions are wasted if the duration expires. The corpse’s knowledge is limited to what the creature knew during life, including the languages it spoke (if any). Answers are usually brief, cryptic, or repetitive. If the creature’s <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a> was different from yours, the corpse gets a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a> to resist the spell as if it were alive.</p>\n<p>If the corpse has been subject to speak with dead within the past week, the new spell fails. You can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all.</p>\n<p>This spell does not let you actually speak to the person (whose soul has departed). It instead draws on the imprinted knowledge stored in the corpse. The partially animated body retains the imprint of the soul that once inhabited it, and thus it can speak with all the knowledge that the creature had while alive. The corpse, however, cannot learn new information.</p>\n<p>Indeed, it can’t even remember being questioned.</p>\n<p>This spell does not affect a corpse that has been turned into an <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 1,
+      "spellMaterial": "",
+      "id": 97,
+      "spellSummary": "Corpse answers one question/two levels."
+    },
+    {
+      "spellName": "Cure Critical Wounds",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 4,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "<p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/cureLightWounds.htm\" title=\"cure light wounds\"><em>cure light wounds</em></a>, except that it cures <a href=\"javascript:void(0);\" title=\"4d8\">4d8</a> points of damage +1 point per caster level (maximum +20).</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 98,
+      "spellSummary": "Cures 4d8 damage +1/level (max +20)."
+    },
+    {
+      "spellName": "Fire Shield",
+      "spellSchool": "Evocation",
+      "spellDescriptor": "Fire or Cold",
+      "spellLevel": 4,
+      "spellComponents": "V, S, M/DF",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Personal",
+      "spellDuration": "1 round/level (D)",
+      "spellTarget": "You",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "<p>This spell wreathes you in flame and causes damage to each creature that attacks you in melee. The flames also protect you from either cold-based or fire-based attacks (your choice).</p>\n<p>Any creature striking you with its body or a handheld weapon deals normal damage, but at the same time the attacker takes <a href=\"javascript:void(0);\" title=\"1d6\">1d6</a> points of damage +1 point per caster level (maximum +15). This damage is either cold damage (if the shield protects against fire-based attacks) or fire damage (if the shield protects against cold-based attacks). If the attacker has <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"spell resistance\">spell resistance</a>, it applies to this effect. Creatures wielding weapons with exceptional reach are not subject to this damage if they attack you.</p>\n<p>When casting this spell, you appear to immolate yourself, but the flames are thin and wispy, giving off light equal to only half the illumination of a normal torch (10 feet). The color of the flames is determined randomly (50% chance of either color)—blue or green if the chill shield is cast, violet or blue if the warm shield is employed. The special powers of each version are as follows.</p>\n<h6><em>Warm Shield</em></h6>\n<p>The flames are warm to the touch. You take only half damage from cold-based attacks. If such an attack allows a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#reflex\" title=\"Reflex save\">Reflex save</a> for half damage, you take no damage on a successful save.</p>\n<h6><em>Chill Shield</em></h6>\n<p>The flames are cool to the touch. You take only half damage from fire-based attacks. If such an attack allows a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#reflex\" title=\"Reflex save\">Reflex save</a> for half damage, you take no damage on a successful save.</p>\n<h6><em>Arcane Material Component</em></h6>\n<p>A bit of phosphorus for the warm shield; a live firefly or glowworm or the tail portions of four dead ones for the chill shield.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": true,
+      "spellPrepared": 1,
+      "spellMaterial": "",
+      "id": 99,
+      "spellSummary": "Creatures attacking you take fire damage; you’re protected from heat or cold."
+    },
+    {
+      "spellName": "Sending",
+      "spellSchool": "Evocation",
+      "spellDescriptor": "",
+      "spellLevel": 4,
+      "spellComponents": "V, S, M/DF",
+      "spellCastingTime": "10 minutes",
+      "spellRange": "See text",
+      "spellDuration": "1 round; see text",
+      "spellTarget": "One creature",
+      "spellSavingThrow": "None",
+      "spellResistance": "No",
+      "spellArea": "",
+      "spellDescription": "<p>You contact a particular creature with which you are familiar and send a short message of twenty-five words or less to the subject. The subject recognizes you if it knows you. It can answer in like manner immediately. A creature with an Intelligence score as low as 1 can understand the sending, though the subject’s ability to react is limited as normal by its Intelligence score. Even if the sending is received, the subject is not obligated to act upon it in any manner.</p>\n<p>If the creature in question is not on the same plane of existence as you are, there is a 5% chance that the sending does not arrive. (Local conditions on other planes may worsen this chance considerably.)</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 1,
+      "spellMaterial": "",
+      "id": 100,
+      "spellSummary": "Delivers short message anywhere, instantly."
+    },
+    {
+      "spellName": "Divination",
+      "spellSchool": "Divination",
+      "spellDescriptor": "",
+      "spellLevel": 4,
+      "spellComponents": "V, S, M",
+      "spellCastingTime": "10 minutes",
+      "spellRange": "Personal",
+      "spellDuration": "Instantaneous",
+      "spellTarget": "You",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "<p>Similar to <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a> but more powerful, a divination spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within one week. The advice can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. If your party doesn’t act on the information, the conditions may change so that the information is no longer useful. The base chance for a correct divination is 70% + 1% per caster level, to a maximum of 90%. If the dice roll fails, you know the spell failed, unless specific magic yielding false information is at work.</p>\n<p>As with <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a>, multiple divinations about the same topic by the same caster use the same dice result as the first divination spell and yield the same answer each time.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 1,
+      "spellMaterial": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.",
+      "id": 101,
+      "spellSummary": "Provides useful advice for specific proposed actions."
+    },
+    {
+      "spellName": "Magic Weapon, Greater",
+      "spellSchool": "Transmutation",
+      "spellDescriptor": "",
+      "spellLevel": 4,
+      "spellComponents": "V, S, M/DF",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Close (25 ft. + 5 ft./2 levels)",
+      "spellDuration": "1 hour/level",
+      "spellTarget": "\tOne weapon or fifty projectiles (all of which must be in contact with each other at the time of casting)",
+      "spellSavingThrow": "Will negates (harmless, object)",
+      "spellResistance": "Yes (harmless, object)",
+      "spellArea": "",
+      "spellDescription": "<p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/magicWeapon.htm\" title=\"magic weapon\"><em>magic weapon</em></a>, except that it gives a weapon an <a href=\"https://www.d20srd.org/srd/theBasics.htm#enhancementBonus\" title=\"enhancement bonus\">enhancement bonus</a> on attack and damage rolls of +1 per four caster levels (maximum +5).</p>\n<p>Alternatively, you can affect as many as fifty arrows, bolts, or bullets. The <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#projectileWeapons\" title=\"projectiles\">projectiles</a> must be of the same kind, and they have to be together (in the same quiver or other container). Projectiles, but not <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#thrownWeapons\" title=\"thrown weapons\">thrown weapons</a>, lose their transmutation when used. (Treat <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#shuriken\" title=\"shuriken\">shuriken</a> as projectiles, rather than as thrown weapons, for the purpose of this spell.)</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 1,
+      "spellMaterial": "",
+      "id": 102,
+      "spellSummary": "+1 bonus/four levels (max +5)."
     }
   ]
 }
