@@ -33,11 +33,11 @@
     "charisma": 16
   },
   "stats": {
-    "hpMax": 57,
-    "hpCurrent": 57,
-    "ac": 23,
-    "acTouch": 11,
-    "acFF": 23,
+    "hpMax": 59,
+    "hpCurrent": 59,
+    "ac": 25,
+    "acTouch": 12,
+    "acFF": 25,
     "speed": 20,
     "initiative": 0,
     "savingThrows": {
@@ -73,7 +73,7 @@
       "name": "Bluff",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "id": 3,
       "requiresTraining": false
@@ -118,7 +118,7 @@
       "name": "Diplomacy",
       "keyAbility": "CHA",
       "ranks": 3,
-      "miscModifier": 2,
+      "miscModifier": 5,
       "classSkill": true,
       "requiresTraining": false,
       "id": 8
@@ -136,7 +136,7 @@
       "name": "Disguise",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": false,
       "id": 10
@@ -163,7 +163,7 @@
       "name": "Gather Information",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": false,
       "id": 13
@@ -172,7 +172,7 @@
       "name": "Handle Animal",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": true,
       "id": 14
@@ -199,7 +199,7 @@
       "name": "Intimidate",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": false,
       "id": 17
@@ -271,7 +271,7 @@
       "name": "Perform",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": true,
       "id": 25
@@ -370,7 +370,7 @@
       "name": "Use Magic Device",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": true,
       "id": 36
@@ -418,7 +418,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 17025,
+    "gold": 25,
     "platinum": 0
   },
   "notes": [
@@ -461,6 +461,16 @@
       "type": "Bludgeoning",
       "notes": "Masterwork",
       "id": 1
+    },
+    {
+      "name": "Wand of Cure Moderate Wounds (50/50)",
+      "bonus": 0,
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "type": "",
+      "notes": "",
+      "id": 2
     }
   ],
   "gear": [
@@ -513,16 +523,40 @@
       "properties": "+1 to all saves"
     },
     {
-      "id": 5,
-      "name": "Amulet of Natural Armour",
+      "id": 6,
+      "name": "Holy Reliquary Symbol",
       "type": "Accessory",
-      "bonus": 1,
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": "",
+      "properties": "As the repository of a tiny fragment of a\nlong-dead high priest of a particular deity,\na reliquary holy symbol functions just like\nany other holy symbol. In addition, for\neach of the following prerequisites that\nyou meet, the holy symbol grants you one\nadditional daily use of your turn or rebuke\nundead ability.\n• At least 5 ranks in Knowledge\n(religion)\n• Improved Turning feat\n• At least one divine feat (CD 77)"
+    },
+    {
+      "id": 7,
+      "name": "Circlet of Persuasion ",
+      "type": "Head",
+      "bonus": 0,
       "maxDex": "",
       "checkPenalty": "",
       "spellFailure": "",
       "speed": "",
       "weight": 0,
-      "properties": "+1 natural armour"
+      "properties": "+3 on Charisma Based Checks including turn undead"
+    },
+    {
+      "id": 8,
+      "name": "Ring of Deflection +2",
+      "type": "Ring",
+      "bonus": 2,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": ""
     }
   ],
   "feats": [
@@ -560,15 +594,15 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": "10",
-      "maxUses": "10",
+      "currentUses": "14",
+      "maxUses": "14",
       "id": 1
     },
     {
       "name": "Sun Domain Turn Undead",
       "description": "Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.",
-      "currentUses": "1",
-      "maxUses": "1",
+      "currentUses": "6",
+      "maxUses": "6",
       "id": 2
     },
     {
