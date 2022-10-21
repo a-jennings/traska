@@ -4,7 +4,11 @@
     "classes": [
       {
         "class": "Cleric",
-        "level": 5
+        "level": 6
+      },
+      {
+        "class": "Rad Serv of Pelor",
+        "level": 1
       }
     ],
     "player": "Drew Jennings",
@@ -29,20 +33,20 @@
     "charisma": 16
   },
   "stats": {
-    "hpMax": 43,
-    "hpCurrent": 37,
-    "ac": 23,
-    "acTouch": 11,
-    "acFF": 23,
+    "hpMax": 59,
+    "hpCurrent": 59,
+    "ac": 25,
+    "acTouch": 12,
+    "acFF": 25,
     "speed": 20,
     "initiative": 0,
     "savingThrows": {
-      "fortitude": 8,
+      "fortitude": 10,
       "reflex": 2,
-      "will": 9
+      "will": 11
     },
-    "baseAttackBonus": 3,
-    "grapple": 4,
+    "baseAttackBonus": 4,
+    "grapple": 5,
     "spellResistance": 0,
     "damageReduction": 0
   },
@@ -69,7 +73,7 @@
       "name": "Bluff",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "id": 3,
       "requiresTraining": false
@@ -86,7 +90,7 @@
     {
       "name": "Concentration",
       "keyAbility": "CON",
-      "ranks": 3,
+      "ranks": 5,
       "miscModifier": 0,
       "classSkill": true,
       "id": 5,
@@ -114,7 +118,7 @@
       "name": "Diplomacy",
       "keyAbility": "CHA",
       "ranks": 3,
-      "miscModifier": 2,
+      "miscModifier": 5,
       "classSkill": true,
       "requiresTraining": false,
       "id": 8
@@ -132,7 +136,7 @@
       "name": "Disguise",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": false,
       "id": 10
@@ -159,7 +163,7 @@
       "name": "Gather Information",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": false,
       "id": 13
@@ -168,7 +172,7 @@
       "name": "Handle Animal",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": true,
       "id": 14
@@ -176,7 +180,7 @@
     {
       "name": "Heal",
       "keyAbility": "WIS",
-      "ranks": 7,
+      "ranks": 8,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": false,
@@ -195,7 +199,7 @@
       "name": "Intimidate",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": false,
       "id": 17
@@ -212,7 +216,7 @@
     {
       "name": "Knowledge (History)",
       "keyAbility": "INT",
-      "ranks": 3,
+      "ranks": 4,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": true,
@@ -221,7 +225,7 @@
     {
       "name": "Knowledge (Religion)",
       "keyAbility": "INT",
-      "ranks": 8,
+      "ranks": 10,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": true,
@@ -267,7 +271,7 @@
       "name": "Perform",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": true,
       "id": 25
@@ -366,7 +370,7 @@
       "name": "Use Magic Device",
       "keyAbility": "CHA",
       "ranks": 0,
-      "miscModifier": 0,
+      "miscModifier": 3,
       "classSkill": false,
       "requiresTraining": true,
       "id": 36
@@ -414,7 +418,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 4025,
+    "gold": 25,
     "platinum": 0
   },
   "notes": [
@@ -445,13 +449,6 @@
       "date": "2022-09-30T18:03:56.356Z",
       "editDate": "2022-09-30T22:05:28.495Z",
       "id": 4
-    },
-    {
-      "title": "Session 3",
-      "text": "<p>Scary times!! Begin by doing the watch, looking at the well. Waiting and hoping that nothing comes out of the well.<br>\nSo we all do our watches and we smell some stank, and hear some weird popping noises from coming down the well?<br>\n <br>\nApart from that nothing major... hopefully...<br>\nWe decide fuck it yolo and we're going to try get through the gate somehow. Me and Tarryn go to speak to the head of the guard, who is a large orc fella. Some talking ensues, and we go to visit the Mayor at his house!</p>\n<p>Mayor is a gnome, Gildrek Loken. Sat in a chair way to big for him. He might not like us. Motherfucking monocle.<br>\nI'm still fucking confused as to why they hate us. They hate us cos they aint us<br>\n <br>\nWe signed a document saying we wont cause a ruckus. Also the mayor is just a straight up asshole and definitely is probably 100% evil for sure maybe.<br>\n <br>\nWe open the gate eventually, and we start the sewer dungeon crawl. Mozzy tries to speak to a rat. It doesn't go well. Also it smells a lot like rotting flesh down here.<br>\n <br>\nWe end up in an open cavern, fighting some carion crawlers, and some other doggy like underdark beasties. It's getting pretty gross down here, especially when Otto gets fucking paralyzed!<br>\nWhy is underdark beasties here? We ain't nowhere near it. Its bad juju</p>\n<p>Carrying on, we enter what looks to be the big boss cavern... Uh oh!</p>",
-      "date": "2022-10-03T17:58:40.847Z",
-      "editDate": "2022-10-03T20:50:16.989Z",
-      "id": 5
     }
   ],
   "attacks": [
@@ -464,6 +461,16 @@
       "type": "Bludgeoning",
       "notes": "Masterwork",
       "id": 1
+    },
+    {
+      "name": "Wand of Cure Moderate Wounds (50/50)",
+      "bonus": 0,
+      "damage": "",
+      "critical": "",
+      "range": "",
+      "type": "",
+      "notes": "",
+      "id": 2
     }
   ],
   "gear": [
@@ -516,16 +523,40 @@
       "properties": "+1 to all saves"
     },
     {
-      "id": 5,
-      "name": "Amulet of Natural Armour",
+      "id": 6,
+      "name": "Holy Reliquary Symbol",
       "type": "Accessory",
-      "bonus": 1,
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": "",
+      "properties": "As the repository of a tiny fragment of a\nlong-dead high priest of a particular deity,\na reliquary holy symbol functions just like\nany other holy symbol. In addition, for\neach of the following prerequisites that\nyou meet, the holy symbol grants you one\nadditional daily use of your turn or rebuke\nundead ability.\n• At least 5 ranks in Knowledge\n(religion)\n• Improved Turning feat\n• At least one divine feat (CD 77)"
+    },
+    {
+      "id": 7,
+      "name": "Circlet of Persuasion ",
+      "type": "Head",
+      "bonus": 0,
       "maxDex": "",
       "checkPenalty": "",
       "spellFailure": "",
       "speed": "",
       "weight": 0,
-      "properties": "+1 natural armour"
+      "properties": "+3 on Charisma Based Checks including turn undead"
+    },
+    {
+      "id": 8,
+      "name": "Ring of Deflection +2",
+      "type": "Ring",
+      "bonus": 2,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": ""
     }
   ],
   "feats": [
@@ -538,6 +569,11 @@
       "name": "Extra Turning",
       "description": "Each time you take this feat, you can use your ability to turn or rebuke creatures four more times per day than normal. If you have the ability to turn or rebuke more than one kind of creature (such as a good-aligned cleric with access to the Fire domain, who can turn undead and water creatures and can also rebuke fire creatures), each of your turning or rebuking abilities gains four additional uses per day.",
       "id": 2
+    },
+    {
+      "name": "Reach Spell [Metamagic]",
+      "description": "You may cast a spell that normally has a range of touch at any distance up to 30 feet. The spell effectively becomes a ray, so you must succeed on a ranged touch attack to bestow the spell upon the recipient. A reach spell uses up a spell slot two levels higher than the spell's actual level.",
+      "id": 3
     }
   ],
   "languages": [
@@ -558,15 +594,15 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 9,
-      "maxUses": "10",
+      "currentUses": "14",
+      "maxUses": "14",
       "id": 1
     },
     {
       "name": "Sun Domain Turn Undead",
       "description": "Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.",
-      "currentUses": "1",
-      "maxUses": "1",
+      "currentUses": "6",
+      "maxUses": "6",
       "id": 2
     },
     {
@@ -603,31 +639,24 @@
       "currentUses": 0,
       "maxUses": 0,
       "id": 7
-    },
-    {
-      "name": "Natural Resistances - Acid, Electricity, Cold",
-      "description": "Resistance 5 to Acid, Electricity or Cold",
-      "currentUses": 0,
-      "maxUses": 0,
-      "id": 8
     }
   ],
   "spellSlots": {
-    "zero": 5,
+    "zero": 6,
     "zeroBonus": 0,
     "zeroDomain": 0,
-    "one": 3,
+    "one": 5,
     "oneBonus": 1,
     "oneDomain": 1,
-    "two": 2,
+    "two": 4,
     "twoBonus": 1,
     "twoDomain": 1,
-    "three": 1,
+    "three": 2,
     "threeBonus": 1,
     "threeDomain": 1,
-    "four": 0,
-    "fourBonus": 0,
-    "fourDomain": 0,
+    "four": 2,
+    "fourBonus": 1,
+    "fourDomain": 1,
     "five": 0,
     "fiveBonus": 0,
     "fiveDomain": 0,
@@ -826,7 +855,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.</p>\n<p>A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the darkness descriptor) of an equal or lower level.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2823,7 +2852,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 95,
       "spellSummary": "Senses direction toward object (specific or type)."

@@ -30,7 +30,7 @@
   },
   "stats": {
     "hpMax": 43,
-    "hpCurrent": 43,
+    "hpCurrent": 37,
     "ac": 23,
     "acTouch": 11,
     "acFF": 23,
@@ -445,6 +445,13 @@
       "date": "2022-09-30T18:03:56.356Z",
       "editDate": "2022-09-30T22:05:28.495Z",
       "id": 4
+    },
+    {
+      "title": "Session 3",
+      "text": "<p>Scary times!! Begin by doing the watch, looking at the well. Waiting and hoping that nothing comes out of the well.<br>\nSo we all do our watches and we smell some stank, and hear some weird popping noises from coming down the well?<br>\n <br>\nApart from that nothing major... hopefully...<br>\nWe decide fuck it yolo and we're going to try get through the gate somehow. Me and Tarryn go to speak to the head of the guard, who is a large orc fella. Some talking ensues, and we go to visit the Mayor at his house!</p>\n<p>Mayor is a gnome, Gildrek Loken. Sat in a chair way to big for him. He might not like us. Motherfucking monocle.<br>\nI'm still fucking confused as to why they hate us. They hate us cos they aint us<br>\n <br>\nWe signed a document saying we wont cause a ruckus. Also the mayor is just a straight up asshole and definitely is probably 100% evil for sure maybe.<br>\n <br>\nWe open the gate eventually, and we start the sewer dungeon crawl. Mozzy tries to speak to a rat. It doesn't go well. Also it smells a lot like rotting flesh down here.<br>\n <br>\nWe end up in an open cavern, fighting some carion crawlers, and some other doggy like underdark beasties. It's getting pretty gross down here, especially when Otto gets fucking paralyzed!<br>\nWhy is underdark beasties here? We ain't nowhere near it. Its bad juju</p>\n<p>Carrying on, we enter what looks to be the big boss cavern... Uh oh!</p>",
+      "date": "2022-10-03T17:58:40.847Z",
+      "editDate": "2022-10-03T20:50:16.989Z",
+      "id": 5
     }
   ],
   "attacks": [
@@ -551,7 +558,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": "10",
+      "currentUses": 9,
       "maxUses": "10",
       "id": 1
     },
@@ -596,6 +603,13 @@
       "currentUses": 0,
       "maxUses": 0,
       "id": 7
+    },
+    {
+      "name": "Natural Resistances - Acid, Electricity, Cold",
+      "description": "Resistance 5 to Acid, Electricity or Cold",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 8
     }
   ],
   "spellSlots": {
@@ -812,7 +826,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.</p>\n<p>A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the darkness descriptor) of an equal or lower level.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2809,7 +2823,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 95,
       "spellSummary": "Senses direction toward object (specific or type)."

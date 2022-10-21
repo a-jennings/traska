@@ -110,14 +110,14 @@ export function CharacterAbilities(): ReactElement {
           </Grid>
 
           <Grid item xs={8}>
-            <Typography>Charisma</Typography>
+            <Typography>Charisma (+3)</Typography>
           </Grid>
           <Grid item xs={2} textAlign="center">
             <Typography>{data.charisma}</Typography>
           </Grid>
           <Grid item xs={2} textAlign="center">
             <Typography>
-              {styleAbilityBonus(calcAbilityBonus(data.charisma))}
+              {styleAbilityBonus(calcAbilityBonus(data.charisma) + 3)}
             </Typography>
           </Grid>
         </Grid>
