@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 59,
-    "hpCurrent": 59,
+    "hpCurrent": 55,
     "ac": 25,
     "acTouch": 12,
     "acFF": 25,
@@ -492,9 +492,9 @@
     },
     {
       "title": "Session 8",
-      "text": "<p>Heartstone aqquired. Tarryn goes to check on the other old lady.<br>\nThe rest of us make our way slowly back to the temple of Pelor.</p>\n<p>Half way to the temple, a gargoyle drops down behind us. He's large even by gargoyle standards. PEBS! Is his name! He might be stupid...</p>\n<p>Arriving at the temple, I immediately go to Vinny, and let him know he can finally rest. We should Pebs that we're good guys, and fuck the mayor. I reassure Father Arven that we're all good, and Pebs is fine too. However Arven hates Pebs because he really fucks people up all the time. We diplomatically talk about maybe killing the mayor.</p>\n<p>Pebs also knows roughly where Jonah is, River to the north, however not exactly where.&nbsp;</p>",
+      "text": "<p>Heartstone aqquired. Tarryn goes to check on the other old lady.<br>\nThe rest of us make our way slowly back to the temple of Pelor.</p>\n<p>Half way to the temple, a gargoyle drops down behind us. He's large even by gargoyle standards. PEBS! Is his name! He might be stupid...</p>\n<p>Arriving at the temple, I immediately go to Vinny, and let him know he can finally rest. We should Pebs that we're good guys, and fuck the mayor. I reassure Father Arven that we're all good, and Pebs is fine too. However Arven hates Pebs because he really fucks people up all the time. We diplomatically talk about maybe killing the mayor.</p>\n<p>Pebs also knows roughly where Jonah is, River to the north, however not exactly where.<br>\nWE FINALLY REST THANK GOD, and me and Arven manage to heal Otto to full! Even with the disgusting demonic disease he gained with the Hag's bite.</p>\n<p>We head to the market to try and get some information about any boats/barges that go north? Nobody know what the fuck we're on about. Tarryn goes to the dock for more info disguised. Still no info. Although they think we killed the old lady, so we're wanted men now.<br>\n <br>\nWe eventually all end up back in the Cobblers House, drinking and being merry all good...</p>\n<p>Uhhhhh. We're fucking surrounded...<br>\n<br>\nCOMBAT BEGINS<br>\n<br>\nOh God fireball... Holy shit.<br>\nOH GOD PEBS IS HERE AND FUCKING SHIT UP</p>\n<p>I almost die... cry...<br>\nBut we succeed. With 3 guard surrendered, and the mayor super dedge.</p>",
       "date": "2022-11-18T18:06:15.815Z",
-      "editDate": "2022-11-18T19:26:23.927Z",
+      "editDate": "2022-11-18T22:40:25.086Z",
       "id": 10
     }
   ],
@@ -510,9 +510,9 @@
       "id": 1
     },
     {
-      "name": "Wand of Cure Moderate Wounds",
+      "name": "Wand of Cure Moderate Wounds (2d8+3)",
       "bonus": 0,
-      "damage": "50/50",
+      "damage": "49/50",
       "critical": "",
       "range": "",
       "type": "",
@@ -641,7 +641,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 12,
+      "currentUses": 9,
       "maxUses": "13",
       "id": 1
     },
@@ -1581,13 +1581,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>This spell creates a shimmering, magical field around the touched creature that averts attacks. The spell grants the subject a +2 <a href=\"https://www.d20srd.org/srd/theBasics.htm#deflectionBonus\" title=\"deflection bonus\">deflection bonus</a> to AC, with an additional +1 to the bonus for every six levels you have (maximum +5 deflection bonus at 18th level).</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 36,
       "spellSummary": "Aura grants +2 or higher deflection bonus"
@@ -1677,13 +1677,13 @@
       "spellSavingThrow": "Will partial",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>An affected creature is capable of taking actions, such as attacking or casting spells, but it cannot step from its current square (or squares, if it occupies more than one). The subject also takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves while so rooted.</p>\n<p>If the subject succeeds on the initial Will save, it suffers no ill effects and the spell ends immediately. If it fails the initial save, it can attempt a new Will save every round thereafter. Once the subject succeeds on one of these secondary saves, it can move, but its base speed is reduced by 10 feet (to a minimum of 5 feet) for the duration of the spell. If the subject has multiple modes of movement, each is reduced accordingly.</p>\n<p>If the subject is already under an effect that curtails its ability to move (such as slow or hold person), it also takes a -4 penalty to Dexterity for the duration of this spell, even if the other effect ends before this one does.</p>\n<p>All penalties imposed by the spell are sacred if your deity is good or neutral or profane if your deity is evil.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 40,
       "spellSummary": "Subject is locked in place and takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves."
@@ -2037,7 +2037,7 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>Heat metal makes metal extremely warm. Unattended, nonmagical metal gets no <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throw\">saving throw</a>. Magical metal is allowed a saving throw against the spell. An item in a creature’s possession uses the creature’s saving throw bonus unless its own is higher.</p>\n<p>A creature takes fire damage if its equipment is heated. It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight. The creature takes minimum damage (1 point or 2 points; see the table) if it’s not wearing metal armor and the metal that it’s carrying weighs less than one-fifth of its weight.</p>\n<p>On the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell’s duration. During the second (and also the next-to-last) round, intense heat causes pain and damage. In the third, fourth, and fifth rounds, the metal is searing hot, causing more damage, as shown on the table below.</p>\n<p>Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, heat metal deals half damage and boils the surrounding water.</p>\n<p>Heat metal counters and dispels <a href=\"https://www.d20srd.org/srd/spells/chillMetal.htm\" title=\"chill metal\"><em>chill metal</em></a>.</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2493,13 +2493,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>Lesser restoration dispels any magical effects reducing one of the subject’s ability scores or cures <a href=\"javascript:void(0);\" title=\"1d4\">1d4</a> points of temporary <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDamage\" title=\"ability damage\">ability damage</a> to one of the subject’s ability scores. It also eliminates any <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#fatigued\" title=\"fatigue\">fatigue</a> suffered by the character, and improves an <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#exhausted\" title=\"exhausted\">exhausted</a> condition to fatigued. It does not restore permanent <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDrain\" title=\"ability drain\">ability drain</a>.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 5,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 76,
       "spellSummary": "Dispels magical ability penalty or repairs 1d4 ability damage."
@@ -2906,7 +2906,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 95,
       "spellSummary": "Senses direction toward object (specific or type)."
@@ -2930,7 +2930,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 96,
       "spellSummary": "Allies +1 bonus on most rolls, enemies -1 penalty."
@@ -2954,7 +2954,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 97,
       "spellSummary": "Corpse answers one question/two levels."
@@ -3050,7 +3050,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.",
       "id": 101,
       "spellSummary": "Provides useful advice for specific proposed actions."
