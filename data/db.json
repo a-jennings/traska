@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 59,
-    "hpCurrent": 59,
+    "hpCurrent": 46,
     "ac": 25,
     "acTouch": 12,
     "acFF": 25,
@@ -503,6 +503,13 @@
       "date": "2022-11-25T18:21:25.003Z",
       "editDate": "2022-11-25T21:52:53.870Z",
       "id": 11
+    },
+    {
+      "title": "Session 10",
+      "text": "<p>WHAMAGEDDON</p>\n<p>We arrive at a shady house where Jonah may be? Who knows. There's a fucking boat. I thought boats were banned.<br>\nGET THE DIVINE VIGOR FEAT!!<br>\n <br>\nOk so we start trying to sneak up to the building and fucking IMMEDIATE lightning bolt comes out? What the actual fuck.<br>\nCombat begins. Me and Tarryn completely fuck it up with the card and end up face down in the dirt. Haste is fun. Fast as fuck boi.</p>\n<p>It start's getting dicey. Otto takes 4 negative levels!?!?!?! What the fuck is that shit. He also might die... The sun must come!!<br>\nThank fuck for haste. I get there fast as we almost lose Nym and Otto and manage to heal them. Eventually we manage to coral them into the building and we do kill them all! And we find Jonah in the cage unconcious.<br>\n <br>\nLooting all the stuff! And retrieving the cart!! And finding all the strange potions.<br>\nAfter speaking with the dead bard with speak with dead, this appears to be an older group of adventurers that Jonah has shunned in the past?</p>\n<p>The boss is the beaky man!! Who the fuck is the beaky man!!</p>",
+      "date": "2022-12-01T18:11:09.537Z",
+      "editDate": "2022-12-01T21:49:56.303Z",
+      "id": 12
     }
   ],
   "attacks": [
@@ -648,7 +655,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 6,
+      "currentUses": 7,
       "maxUses": "13",
       "id": 1
     },
@@ -683,7 +690,7 @@
     {
       "name": "Epic Point",
       "description": "An Epic Point can be spent at any point to do one of the following things:\n\n** Increase your Crit Range by 3 (after other multiplications) for one turn\n** Make a full attack as a standard acton\n** Add 5ft to your weapon reach for 3 turns\n** The next spell you cast will be empowered (it cannot be an empowered or maximised spell)\n** Gain Damage Reduction 30 / Epic for one turn\n** The next skill roll you make is an automatic natural 20\n** Do something EPIC***\n\n***EPIC = This is something that doesn’t necessarily have rules, and can be proposed that go beyond normal rules. That said, the above options should give an indicator for how powerful the action should be.\n",
-      "currentUses": 0,
+      "currentUses": "1",
       "maxUses": "1",
       "id": 6
     },
@@ -1522,7 +1529,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 33,
       "spellSummary": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders."
@@ -2170,7 +2177,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 62,
       "spellSummary": "Calms creatures, negating emotion effects."
@@ -2314,7 +2321,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 68,
       "spellSummary": "Notice traps as a rogue does."
@@ -2500,7 +2507,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>Lesser restoration dispels any magical effects reducing one of the subject’s ability scores or cures <a href=\"javascript:void(0);\" title=\"1d4\">1d4</a> points of temporary <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDamage\" title=\"ability damage\">ability damage</a> to one of the subject’s ability scores. It also eliminates any <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#fatigued\" title=\"fatigue\">fatigue</a> suffered by the character, and improves an <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#exhausted\" title=\"exhausted\">exhausted</a> condition to fatigued. It does not restore permanent <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDrain\" title=\"ability drain\">ability drain</a>.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2698,7 +2705,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 84,
       "spellSummary": "Subjects within range cannot lie."
@@ -2913,7 +2920,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 95,
       "spellSummary": "Senses direction toward object (specific or type)."
@@ -2955,13 +2962,13 @@
       "spellSavingThrow": "Will negates; see text",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>You grant the semblance of life and intellect to a corpse, allowing it to answer several questions that you put to it. You may ask one question per two caster levels. Unasked questions are wasted if the duration expires. The corpse’s knowledge is limited to what the creature knew during life, including the languages it spoke (if any). Answers are usually brief, cryptic, or repetitive. If the creature’s <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a> was different from yours, the corpse gets a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a> to resist the spell as if it were alive.</p>\n<p>If the corpse has been subject to speak with dead within the past week, the new spell fails. You can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all.</p>\n<p>This spell does not let you actually speak to the person (whose soul has departed). It instead draws on the imprinted knowledge stored in the corpse. The partially animated body retains the imprint of the soul that once inhabited it, and thus it can speak with all the knowledge that the creature had while alive. The corpse, however, cannot learn new information.</p>\n<p>Indeed, it can’t even remember being questioned.</p>\n<p>This spell does not affect a corpse that has been turned into an <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 97,
       "spellSummary": "Corpse answers one question/two levels."
@@ -3033,7 +3040,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3057,7 +3064,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.",
       "id": 101,
       "spellSummary": "Provides useful advice for specific proposed actions."
@@ -3081,10 +3088,34 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 102,
       "spellSummary": "+1 bonus/four levels (max +5)."
+    },
+    {
+      "spellName": "Restoration",
+      "spellSchool": "Conjuration",
+      "spellDescriptor": "Healing",
+      "spellLevel": 4,
+      "spellComponents": "",
+      "spellCastingTime": "3 rounds",
+      "spellRange": "Touch",
+      "spellDuration": "Instantaneous",
+      "spellTarget": "Creature Touched",
+      "spellSavingThrow": "Will negates (harmless)",
+      "spellResistance": "Yes (harmless)",
+      "spellArea": "",
+      "spellDescription": "<p>Lesser restoration dispels any magical effects reducing one of the subject’s ability scores or cures 1d4 points of temporary <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDamage\" title=\"ability damage\">ability damage</a> to one of the subject’s ability scores. It also eliminates any <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#fatigued\" title=\"fatigue\">fatigue</a> suffered by the character, and improves an <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#exhausted\" title=\"exhausted\">exhausted</a> condition to fatigued. It does not restore permanent <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDrain\" title=\"ability drain\">ability drain</a>.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "Diamond dust worth 100 gp that is sprinkled over the target.",
+      "id": 103,
+      "spellSummary": "Restores level and ability score drains."
     }
   ]
 }
