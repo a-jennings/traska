@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 59,
-    "hpCurrent": 46,
+    "hpCurrent": 59,
     "ac": 25,
     "acTouch": 12,
     "acFF": 25,
@@ -660,7 +660,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 7,
+      "currentUses": "13",
       "maxUses": "13",
       "id": 1
     },
@@ -1600,13 +1600,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>This spell creates a shimmering, magical field around the touched creature that averts attacks. The spell grants the subject a +2 <a href=\"https://www.d20srd.org/srd/theBasics.htm#deflectionBonus\" title=\"deflection bonus\">deflection bonus</a> to AC, with an additional +1 to the bonus for every six levels you have (maximum +5 deflection bonus at 18th level).</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 36,
       "spellSummary": "Aura grants +2 or higher deflection bonus"
@@ -2182,7 +2182,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 62,
       "spellSummary": "Calms creatures, negating emotion effects."
@@ -2326,7 +2326,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 68,
       "spellSummary": "Notice traps as a rogue does."
@@ -2710,7 +2710,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 84,
       "spellSummary": "Subjects within range cannot lie."
@@ -2848,7 +2848,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>The object touched sheds light as bright as full daylight in a 60-foot radius, and dim light for an additional 60 feet beyond that. Creatures that take penalties in bright light also take them while within the radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by bright light.</p>\n<p>If daylight is cast on a small object that is then placed inside or under a light-proof covering, the spell’s effects are blocked until the covering is removed.</p>\n<p>Daylight brought into an area of magical darkness (or vice versa) is temporarily negated, so that the otherwise prevailing light conditions exist in the overlapping areas of effect.</p>\n<p>Daylight counters or dispels any darkness spell of equal or lower level, such as <a href=\"https://www.d20srd.org/srd/spells/darkness.htm\" title=\"darkness\"><em>darkness</em></a>.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2856,7 +2856,8 @@
       "spellDomainSpell": true,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 91
+      "id": 91,
+      "spellSummary": "60-ft. radius of bright light."
     },
     {
       "spellName": "Cure Serious Wounds",
@@ -2949,7 +2950,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 96,
       "spellSummary": "Allies +1 bonus on most rolls, enemies -1 penalty."
@@ -2967,13 +2968,13 @@
       "spellSavingThrow": "Will negates; see text",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>You grant the semblance of life and intellect to a corpse, allowing it to answer several questions that you put to it. You may ask one question per two caster levels. Unasked questions are wasted if the duration expires. The corpse’s knowledge is limited to what the creature knew during life, including the languages it spoke (if any). Answers are usually brief, cryptic, or repetitive. If the creature’s <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a> was different from yours, the corpse gets a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a> to resist the spell as if it were alive.</p>\n<p>If the corpse has been subject to speak with dead within the past week, the new spell fails. You can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all.</p>\n<p>This spell does not let you actually speak to the person (whose soul has departed). It instead draws on the imprinted knowledge stored in the corpse. The partially animated body retains the imprint of the soul that once inhabited it, and thus it can speak with all the knowledge that the creature had while alive. The corpse, however, cannot learn new information.</p>\n<p>Indeed, it can’t even remember being questioned.</p>\n<p>This spell does not affect a corpse that has been turned into an <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 97,
       "spellSummary": "Corpse answers one question/two levels."
@@ -3045,7 +3046,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3069,7 +3070,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.",
       "id": 101,
       "spellSummary": "Provides useful advice for specific proposed actions."
@@ -3111,13 +3112,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>Lesser restoration dispels any magical effects reducing one of the subject’s ability scores or cures 1d4 points of temporary <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDamage\" title=\"ability damage\">ability damage</a> to one of the subject’s ability scores. It also eliminates any <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#fatigued\" title=\"fatigue\">fatigue</a> suffered by the character, and improves an <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#exhausted\" title=\"exhausted\">exhausted</a> condition to fatigued. It does not restore permanent <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#abilityDrain\" title=\"ability drain\">ability drain</a>.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "Diamond dust worth 100 gp that is sprinkled over the target.",
       "id": 103,
       "spellSummary": "Restores level and ability score drains."
@@ -3284,29 +3285,6 @@
       "id": 110
     },
     {
-      "spellName": "Locate Object",
-      "spellSchool": "",
-      "spellDescriptor": "",
-      "spellLevel": 3,
-      "spellComponents": "",
-      "spellCastingTime": "",
-      "spellRange": "",
-      "spellDuration": "",
-      "spellTarget": "",
-      "spellSavingThrow": "",
-      "spellResistance": "",
-      "spellArea": "",
-      "spellDescription": "",
-      "spellDescriptionTwo": "",
-      "spellDescriptionThree": "",
-      "spellDescriptionFour": "",
-      "spellEffect": "",
-      "spellDomainSpell": false,
-      "spellPrepared": 0,
-      "spellMaterial": "",
-      "id": 111
-    },
-    {
       "spellName": "Obscure Object",
       "spellSchool": "",
       "spellDescriptor": "",
@@ -3371,9 +3349,10 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 114
+      "id": 114,
+      "spellSummary": "Frees object or person from curse."
     },
     {
       "spellName": "Remove Disease",
@@ -3463,9 +3442,10 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 118
+      "id": 118,
+      "spellSummary": "You touch a weapon and it bursts into flame"
     },
     {
       "spellName": "Lesser Telepathic Bond",
@@ -3627,29 +3607,6 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 125
-    },
-    {
-      "spellName": "Divination",
-      "spellSchool": "",
-      "spellDescriptor": "",
-      "spellLevel": 4,
-      "spellComponents": "",
-      "spellCastingTime": "",
-      "spellRange": "",
-      "spellDuration": "",
-      "spellTarget": "",
-      "spellSavingThrow": "",
-      "spellResistance": "",
-      "spellArea": "",
-      "spellDescription": "",
-      "spellDescriptionTwo": "",
-      "spellDescriptionThree": "",
-      "spellDescriptionFour": "",
-      "spellEffect": "",
-      "spellDomainSpell": false,
-      "spellPrepared": 0,
-      "spellMaterial": "",
-      "id": 126
     },
     {
       "spellName": "Dismissal",
