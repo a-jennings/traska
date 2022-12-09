@@ -112,7 +112,10 @@ export function Spells(): ReactElement {
           {slotData.nine > 0 && <Tab label="Nine" sx={tabStyles} />}
         </Tabs>
 
-        <SpellAddMenu fetchSpells={fetchSpells} />
+        <SpellAddMenu
+          fetchSpells={fetchSpells}
+          currentLevelSelected={activeTab}
+        />
         <Box>
           {sortedFilteredSpells.map((spell, i) => (
             <Spell key={i} data={spell} fetchSpells={fetchSpells} />

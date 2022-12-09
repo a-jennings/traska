@@ -21,41 +21,42 @@ axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
   "GET,PUT,POST,DELETE,PATCH,OPTIONS";
 
-const initialValues = {
-  spellName: "",
-  spellSchool: "",
-  spellDescriptor: "",
-  spellLevel: 0,
-  spellComponents: "",
-  spellCastingTime: "",
-  spellRange: "",
-  spellDuration: "",
-  spellTarget: "",
-  spellSavingThrow: "",
-  spellResistance: "",
-  spellArea: "",
-  spellDescription: "",
-  spellDescriptionTwo: "",
-  spellDescriptionThree: "",
-  spellDescriptionFour: "",
-  spellEffect: "",
-  spellDomainSpell: false,
-  spellPrepared: 0,
-  spellMaterial: "",
-};
-
 const levelOptions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 type SpellAddMenuProps = {
   fetchSpells: () => void;
+  currentLevelSelected: number;
 };
 
 export function SpellAddMenu(props: SpellAddMenuProps): ReactElement {
-  const { fetchSpells } = props;
+  const { fetchSpells, currentLevelSelected } = props;
   const [dialogOpen, setDialogOpen] = useState(false);
 
   const handleDialogOpen = () => setDialogOpen(true);
   const handleDialogClose = () => setDialogOpen(false);
+
+  const initialValues = {
+    spellName: "",
+    spellSchool: "",
+    spellDescriptor: "",
+    spellLevel: currentLevelSelected,
+    spellComponents: "",
+    spellCastingTime: "",
+    spellRange: "",
+    spellDuration: "",
+    spellTarget: "",
+    spellSavingThrow: "",
+    spellResistance: "",
+    spellArea: "",
+    spellDescription: "",
+    spellDescriptionTwo: "",
+    spellDescriptionThree: "",
+    spellDescriptionFour: "",
+    spellEffect: "",
+    spellDomainSpell: false,
+    spellPrepared: 0,
+    spellMaterial: "",
+  };
 
   return (
     <>
