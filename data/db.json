@@ -518,9 +518,9 @@
     },
     {
       "title": "Session 11",
-      "text": "<p>So. There's a door. Do not disturb :)</p>\n<p>We disturb.</p>\n<p>It's a fucking door full of undead creatures, answered by a Lich. Fucking my big black ass.</p>\n<p>Actually there's a mistress here? Lich has a boss? Named Ildi Sunfire. She looks like me a bit...</p>\n<p>Me and Nym were kind of hiding at the back behind a tree, until a group of skeletons come out and do some dance routine with her? Yeah nah yeah nah.</p>\n<p>We seriously get the fuck out of there!</p>\n<p>Carrying on down the road some more we run in to the ACTUAL FUCKING LYDIA GREYMONT. She is a no bullshit kind of person. We tell her basically everything. Seems like she's on the trail of her impersonator... This might come back to bite us in the ass one day...</p>\n<p>Side quest? Lederna has lost her husband Richard? They're heading to Kessen, but he got lead away into the forest? or away?</p>\n<p>I lost some notes :(.<br>\nBasically we go searching for Richard, we find some Will o Wisps, and we kill them even with their crazy high AC.</p>\n<p>Then we keep going forward through the forest and there's a campfire that Tarryn investigates. SYKE FUCKING TERRIBLE IDEA. He starts running back to us because it's bad juju</p>",
+      "text": "<p>So. There's a door. Do not disturb :)</p>\n<p>We disturb.</p>\n<p>It's a fucking door full of undead creatures, answered by a Lich. Fucking my big black ass.</p>\n<p>Actually there's a mistress here? Lich has a boss? Named Ildi Sunfire. She looks like me a bit...</p>\n<p>Me and Nym were kind of hiding at the back behind a tree, until a group of skeletons come out and do some dance routine with her? Yeah nah yeah nah.</p>\n<p>We seriously get the fuck out of there!</p>\n<p>Carrying on down the road some more we run in to the ACTUAL FUCKING LYDIA GREYMONT. She is a no bullshit kind of person. We tell her basically everything. Seems like she's on the trail of her impersonator... This might come back to bite us in the ass one day...</p>\n<p>Side quest? Lederna has lost her husband Richard? They're heading to Kessen, but he got lead away into the forest? or away?</p>\n<p>I lost some notes :(.<br>\nBasically we go searching for Richard, we find some Will o Wisps, and we kill them even with their crazy high AC.</p>\n<p>Then we keep going forward through the forest and there's a campfire that Tarryn investigates. SYKE FUCKING TERRIBLE IDEA. He starts running back to us because it's bad juju.<br>\nThis big fucking creature and some smaller boys come at us.<br>\nTHE COOLEST KILL EVER. Double mace to the face.</p>",
       "date": "2022-12-09T18:18:42.633Z",
-      "editDate": "2022-12-09T22:00:28.526Z",
+      "editDate": "2022-12-09T22:30:12.918Z",
       "id": 13
     }
   ],
@@ -667,7 +667,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": "13",
+      "currentUses": 10,
       "maxUses": "13",
       "id": 1
     },
@@ -3053,7 +3053,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
