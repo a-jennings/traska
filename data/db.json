@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 59,
-    "hpCurrent": 59,
+    "hpCurrent": 57,
     "ac": 25,
     "acTouch": 12,
     "acFF": 25,
@@ -518,9 +518,9 @@
     },
     {
       "title": "Session 11",
-      "text": "<p>So. There's a door. Do not disturb :)</p>\n<p>We disturb.</p>\n<p>It's a fucking door full of undead creatures, answered by a Lich. Fucking my big black ass.</p>\n<p>Actually there's a mistress here? Lich has a boss? Named Ildi Sunfire. She looks like me a bit...</p>\n<p>Me and Nym were kind of hiding at the back behind a tree, until a group of skeletons come out and do some dance routine with her? Yeah nah yeah nah.</p>\n<p>We seriously get the fuck out of there!</p>\n<p>Carrying on down the road some more we run in to the ACTUAL FUCKING LYDIA GREYMONT. She is a no bullshit kind of person. We tell her basically everything. Seems like she's on the trail of her impersonator... This might come back to bite us in the ass one day...</p>\n<p><br></p>\n<p>Side quest? Lederna has lost her husband Richard? They're heading to Kessen, but he got lead away into the forest? or away?</p>",
+      "text": "<p>So. There's a door. Do not disturb :)</p>\n<p>We disturb.</p>\n<p>It's a fucking door full of undead creatures, answered by a Lich. Fucking my big black ass.</p>\n<p>Actually there's a mistress here? Lich has a boss? Named Ildi Sunfire. She looks like me a bit...</p>\n<p>Me and Nym were kind of hiding at the back behind a tree, until a group of skeletons come out and do some dance routine with her? Yeah nah yeah nah.</p>\n<p>We seriously get the fuck out of there!</p>\n<p>Carrying on down the road some more we run in to the ACTUAL FUCKING LYDIA GREYMONT. She is a no bullshit kind of person. We tell her basically everything. Seems like she's on the trail of her impersonator... This might come back to bite us in the ass one day...</p>\n<p>Side quest? Lederna has lost her husband Richard? They're heading to Kessen, but he got lead away into the forest? or away?</p>\n<p>I lost some notes :(.<br>\nBasically we go searching for Richard, we find some Will o Wisps, and we kill them even with their crazy high AC.</p>\n<p>Then we keep going forward through the forest and there's a campfire that Tarryn investigates. SYKE FUCKING TERRIBLE IDEA. He starts running back to us because it's bad juju</p>",
       "date": "2022-12-09T18:18:42.633Z",
-      "editDate": "2022-12-09T20:18:17.096Z",
+      "editDate": "2022-12-09T22:00:28.526Z",
       "id": 13
     }
   ],
@@ -1493,7 +1493,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 31,
       "spellSummary": "Weapon gains +1 bonus."
@@ -1613,7 +1613,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 36,
       "spellSummary": "Aura grants +2 or higher deflection bonus"
@@ -2645,7 +2645,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "Magic weapon of force",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 81,
       "spellSummary": "Magic weapon attacks on its own."
@@ -2861,7 +2861,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 91,
       "spellSummary": "60-ft. radius of bright light."
@@ -3029,7 +3029,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 99,
       "spellSummary": "Creatures attacking you take fire damage; you’re protected from heat or cold."
