@@ -70,7 +70,7 @@ export function Note(props: NoteProps): ReactElement {
     if (edit) {
       const interval = setInterval(() => {
         handleSave();
-      }, 10000);
+      }, 1000);
 
       return () => clearInterval(interval);
     }
