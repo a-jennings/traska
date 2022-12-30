@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 59,
-    "hpCurrent": 59,
+    "hpCurrent": 48,
     "ac": 25,
     "acTouch": 12,
     "acFF": 25,
@@ -529,6 +529,13 @@
       "date": "2022-12-16T18:58:39.696Z",
       "editDate": "2022-12-16T22:23:31.985Z",
       "id": 14
+    },
+    {
+      "title": "Session 13",
+      "text": "<p>FUUUUUCCKKKKKKK. I got smacked out turn one for 26 damage. That hurt.</p>\n<p>It goes as bad as it possibly could. A wall of fire in the corridor we're in fucks everything. Lodo almost dies, Tarryn almost dies. Nym almost dies. Eventually they kind of just let us live!? <br>\nThe flame portal at the back of the room kind of changes into a more stary space instead.</p>\n<p>We enter into a temple? A bird temple?</p>\n<p>Fernia - Goddess of fire. Forogtten temple. Within this stone is some of my power. Calamity is near. She will bestow power to whoever passes her test! And then a feather slowly falls down onto an egg and bazinga. It turns into a fucking pheonix and the test begins! Fuck my ass.</p>",
+      "date": "2022-12-30T16:35:01.732Z",
+      "editDate": "2022-12-30T18:16:31.328Z",
+      "id": 15
     }
   ],
   "attacks": [
@@ -545,7 +552,7 @@
     {
       "name": "Wand of Cure Moderate Wounds (2d8+3)",
       "bonus": 0,
-      "damage": "49/50",
+      "damage": "47/50",
       "critical": "",
       "range": "",
       "type": "",
@@ -674,7 +681,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": "13",
+      "currentUses": 8,
       "maxUses": "13",
       "id": 1
     },
@@ -1590,7 +1597,7 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>Any opponent attempting to strike or otherwise directly attack the warded creature, even with a targeted spell, must attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a>. If the save succeeds, the opponent can attack normally and is unaffected by that casting of the spell. If the save fails, the opponent can’t follow through with the attack, that part of its action is lost, and it can’t directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area or effect spells. The subject cannot attack without breaking the spell but may use nonattack spells or otherwise act.</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -1980,7 +1987,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 52,
       "spellSummary": "+2 on ranged attacks against creatures in illuminated area"
@@ -2646,7 +2653,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>A weapon made of pure force springs into existence and attacks opponents at a distance, as you direct it, dealing <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> force damage per hit, +1 point per three caster levels (maximum +5 at 15th level). The weapon takes the shape of a weapon favored by your deity or a weapon with some spiritual significance or symbolism to you (see below) and has the same threat range and critical multipliers as a real weapon of its form. It strikes the opponent you designate, starting with one attack in the round the spell is cast and continuing each round thereafter on your turn. It uses your base attack bonus (possibly allowing it multiple attacks per round in subsequent rounds) plus your Wisdom modifier as its attack bonus. It strikes as a spell, not as a weapon, so, for example, it can damage creatures that have <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#damageReduction\" title=\"damage reduction\">damage reduction</a>. As a force effect, it can strike <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#incorporealSubtype\" title=\"incorporeal creatures\">incorporeal creatures</a> without the normal miss chance associated with <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#incorporeality\" title=\"incorporeality\">incorporeality</a>. The weapon always strikes from your direction. It does not get a <a href=\"https://www.d20srd.org/srd/combat/combatModifiers.htm#flanking\" title=\"flanking\">flanking</a> bonus or help a combatant get one. Your feats or combat actions do not affect the weapon. If the weapon goes beyond the spell range, if it goes out of your sight, or if you are not directing it, the weapon returns to you and hovers.</p>\n<p>Each round after the first, you can use a <a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#moveActions\" title=\"move action\">move action</a> to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round’s target. On any round that the weapon switches targets, it gets one attack. Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to. Even if the spiritual weapon is a ranged weapon, use the spell’s range, not the weapon’s normal range increment, and switching targets still is a move action.</p>\n<p>A spiritual weapon cannot be attacked or harmed by physical attacks, but <a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\" title=\"dispel magic\"><em>dispel magic</em></a>, <a href=\"https://www.d20srd.org/srd/spells/disintegrate.htm\" title=\"disintegrate\"><em>disintegrate</em></a>, a sphere of annihilation, or a rod of cancellation affects it. A spiritual weapon’s AC against <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#touchAttacks\" title=\"touch attacks\">touch attacks</a> is 12 (10 + size bonus for Tiny object).</p>\n<p>If an attacked creature has <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"spell resistance\">spell resistance</a>, you make a <a href=\"https://www.d20srd.org/srd/magicOverview/castingSpells.htm#casterLevelChecks\" title=\"caster level check\">caster level check</a> (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + caster level) against that spell resistance the first time the spiritual weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.</p>\n<p>The weapon that you get is often a force replica of your deity’s own personal weapon. A <a href=\"https://www.d20srd.org/srd/classes/cleric.htm\" title=\"cleric\">cleric</a> without a deity gets a weapon based on his <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a>. A neutral cleric without a deity can create a spiritual weapon of any alignment, provided he is acting at least generally in accord with that alignment at the time. The weapons associated with each alignment are as follows.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3317,7 +3324,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 112
     },
@@ -3363,7 +3370,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 114,
       "spellSummary": "Frees object or person from curse."
@@ -3456,7 +3463,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 118,
       "spellSummary": "You touch a weapon and it bursts into flame"
@@ -3779,7 +3786,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 133
     }
