@@ -536,6 +536,13 @@
       "date": "2022-12-30T16:35:01.732Z",
       "editDate": "2022-12-30T22:23:18.740Z",
       "id": 15
+    },
+    {
+      "title": "Session 14",
+      "text": "<p>What did Tarryn do!?</p>\n<p>We run, to the explosion of the military tower. Through the mile long tunnel until we hit the crowd of people. I manage to push the party through, into the carnage, and try and save/heal as many people as possible. Then suddenly a fucking terrorist fireball explosion happens and kills fucking a billion civilians. What the actual fuck</p>\n<p>We leave, silently and solumly. We make our way to somewhere quiet to chat. We find a private room in Kiplings (The Inn) to discuss.</p>\n<p>Tarryn wrote the song of the Democratic Liberartion Front, its a movement that believes that Traska should be run by a democracy instead of a mageocracy.</p>\n<p>In the past a big gathering of 50k people, stormed the political tower and arranged a sit in. No violence, until there was. 1000's died on both side. Saw the death of Evelios Gallernoble, an elf whos wife Volo Brokenfang Orc lived and basically starts going crazy trying to get revenge. Radical Turn. Since Volo has run it, acts of terrorism has gone up and targetting anyone if they can fuck with the mageocracy.</p>\n<p>Volo eventually arrested and taken to prison... Is she out now? Its on? 12 years or so timeline.</p>\n<p><br></p>",
+      "date": "2023-01-06T18:51:34.831Z",
+      "editDate": "2023-01-06T19:40:00.439Z",
+      "id": 16
     }
   ],
   "attacks": [
@@ -681,7 +688,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": "13",
+      "currentUses": 5,
       "maxUses": "13",
       "id": 1
     },
@@ -1233,7 +1240,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 19,
       "spellSummary": "One subject obeys selected command for 1 round."
@@ -1305,7 +1312,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 22,
       "spellSummary": "Reveals creatures, spells, or objects of selected alignment."
@@ -1329,7 +1336,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 23,
       "spellSummary": "Reveals undead within 60 ft."
@@ -1617,7 +1624,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 35,
       "spellSummary": "Opponents can’t attack you, and you can’t attack."
@@ -1737,7 +1744,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 40,
       "spellSummary": "Subject is locked in place and takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves."
@@ -2241,7 +2248,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "A vial of holy water and 25 gp worth (5 pounds) of silver dust, all of which must be sprinkled around the area.",
       "id": 63,
       "spellSummary": "Fills area with positive energy, making undead weaker."
@@ -2361,7 +2368,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 68,
       "spellSummary": "Notice traps as a rogue does."
@@ -2745,7 +2752,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 84,
       "spellSummary": "Subjects within range cannot lie."
@@ -3783,18 +3790,18 @@
     },
     {
       "spellName": "Tongues",
-      "spellSchool": "",
+      "spellSchool": "Divination",
       "spellDescriptor": "",
       "spellLevel": 4,
-      "spellComponents": "",
-      "spellCastingTime": "",
-      "spellRange": "",
-      "spellDuration": "",
-      "spellTarget": "",
-      "spellSavingThrow": "",
-      "spellResistance": "",
+      "spellComponents": "V M/DF",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Touch",
+      "spellDuration": "10 min./level",
+      "spellTarget": "Creature Touched",
+      "spellSavingThrow": "Will negates (harmless)",
+      "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>This spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak only one language at a time, although it may be able to understand several languages. Tongues does not enable the subject to speak with creatures who don’t speak. The subject can make itself understood as far as its voice carries. This spell does not predispose any creature addressed toward the subject in any way.</p>\n<p>Tongues can be made permanent with a <a href=\"https://www.d20srd.org/srd/spells/permanency.htm\" title=\"permanency\"><em>permanency</em></a> spell.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3802,7 +3809,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 133
+      "id": 133,
+      "spellSummary": "Speak any language."
     }
   ]
 }
