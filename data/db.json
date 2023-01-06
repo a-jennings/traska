@@ -35,10 +35,10 @@
   "stats": {
     "hpMax": 65,
     "hpCurrent": 65,
-    "ac": 25,
+    "ac": 24,
     "acTouch": 12,
-    "acFF": 25,
-    "speed": 20,
+    "acFF": 24,
+    "speed": 30,
     "initiative": 0,
     "savingThrows": {
       "fortitude": 11,
@@ -208,7 +208,7 @@
       "name": "Jump",
       "keyAbility": "DEX",
       "ranks": 0,
-      "miscModifier": -5,
+      "miscModifier": 0,
       "classSkill": false,
       "requiresTraining": false,
       "id": 18
@@ -423,12 +423,22 @@
       "name": "100gp worth of diamond dust x3",
       "weight": 0,
       "id": 5
+    },
+    {
+      "name": "200gp worth of powdered silver ",
+      "weight": 0,
+      "id": 6
+    },
+    {
+      "name": "5x golden dice spell component",
+      "weight": 0,
+      "id": 7
     }
   ],
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 10000,
+    "gold": 3125,
     "platinum": 0
   },
   "notes": [
@@ -539,9 +549,9 @@
     },
     {
       "title": "Session 14",
-      "text": "<p>What did Tarryn do!?</p>\n<p>We run, to the explosion of the military tower. Through the mile long tunnel until we hit the crowd of people. I manage to push the party through, into the carnage, and try and save/heal as many people as possible. Then suddenly a fucking terrorist fireball explosion happens and kills fucking a billion civilians. What the actual fuck</p>\n<p>We leave, silently and solumly. We make our way to somewhere quiet to chat. We find a private room in Kiplings (The Inn) to discuss.</p>\n<p>Tarryn wrote the song of the Democratic Liberartion Front, its a movement that believes that Traska should be run by a democracy instead of a mageocracy.</p>\n<p>In the past a big gathering of 50k people, stormed the political tower and arranged a sit in. No violence, until there was. 1000's died on both side. Saw the death of Evelios Gallernoble, an elf whos wife Volo Brokenfang Orc lived and basically starts going crazy trying to get revenge. Radical Turn. Since Volo has run it, acts of terrorism has gone up and targetting anyone if they can fuck with the mageocracy.</p>\n<p>Volo eventually arrested and taken to prison... Is she out now? Its on? 12 years or so timeline.</p>\n<p><br></p>",
+      "text": "<p>What did Tarryn do!?</p>\n<p>We run, to the explosion of the military tower. Through the mile long tunnel until we hit the crowd of people. I manage to push the party through, into the carnage, and try and save/heal as many people as possible. Then suddenly a fucking terrorist fireball explosion happens and kills fucking a billion civilians. What the actual fuck</p>\n<p>We leave, silently and solumly. We make our way to somewhere quiet to chat. We find a private room in Kiplings (The Inn) to discuss. It costs a fortune.</p>\n<p>Tarryn wrote the song of the Democratic Liberartion Front, its a movement that believes that Traska should be run by a democracy instead of a mageocracy.</p>\n<p>In the past a big gathering of 50k people, stormed the political tower and arranged a sit in. No violence, until there was. 1000's died on both side. Saw the death of Evelios Gallernoble, an elf whos wife Vola Brokenfang Orc lived and basically starts going crazy trying to get revenge. Radical Turn. Since Volo has run it, acts of terrorism has gone up and targetting anyone if they can fuck with the mageocracy.</p>\n<p>Vola eventually arrested and taken to prison... Is she out now? Its on? 12 years or so timeline.</p>\n<p>This is all kind of fucked up..<br>\nWe take our rest in our private room. Lodo gets repaired!!! Also... ratmen? skaven? bad news.</p>\n<p>I teach Tarryn some celestial through the day.</p>\n<p>Next Day! Shopping adventure. I finally get boots of striding and sprinting! I can fucking moooooovvee. Apparently necklace of fireballs are gonna be banned soon. Also in the attack maybe some potions were used? Emergency?!</p>\n<p>The Water Genasi woman, Ardor Crisp is trying to replicate the potions... Maybe I'll give her one one day...<br>\nWe also all get rings of communication!!</p>\n<p>We buy stabling for the horse and cart for the year. WE BUY A FUCKING FLAT! Lets go. 32nd floor of Halfbreed Heights. The flat is called The Pedigree Pad.</p>\n<p>We meet Jonah in the Pig N Milk, and he confirms that actually way more fucking mage guard got murdered, as the terrorist acts happenend in every tunnel connected to the military district. Also confirmed Vola is out!</p>\n<p>We try to figure out what to do with the potions that are super fucking hot right now, as they were used in the attacks.<br>\n<br>\nEventually, we make the diplomatic decision to hand the hot potions to the Mageocracy... Which I have to now figure out next time on dragonball Z</p>",
       "date": "2023-01-06T18:51:34.831Z",
-      "editDate": "2023-01-06T19:40:00.439Z",
+      "editDate": "2023-01-06T22:19:48.754Z",
       "id": 16
     }
   ],
@@ -594,9 +604,9 @@
     },
     {
       "id": 3,
-      "name": "Ring of Protection",
+      "name": "Ring of Protection - Unequipped",
       "type": "Accessory",
-      "bonus": 1,
+      "bonus": 0,
       "maxDex": "",
       "checkPenalty": "",
       "spellFailure": "",
@@ -651,6 +661,30 @@
       "speed": "",
       "weight": 0,
       "properties": ""
+    },
+    {
+      "id": 9,
+      "name": "Boots of Striding and Sprinting",
+      "type": "Boots",
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "+10ft",
+      "weight": 0,
+      "properties": "These boots increase the wearer’s base land speed by 10 feet. In addition to this striding ability (considered an enhancement bonus), these boots allow the wearer to make great leaps. She can jump with a +5 competence bonus on Jump checks."
+    },
+    {
+      "id": 10,
+      "name": "Ring of Communication",
+      "type": "Ring",
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": "Each of these identical silver rings is inscribed with the Draconic word for friendship.\n\nWhen you activate a ring of communication, for the next minute you can clearly hear any words spoken by anyone within 1 mile who is wearing another ring of communication to which you are attuned. The volume of the speech and the background noise at either end make no difference; whispers are audible above even the sounds of combat.\n\nAny two or more ring wearers need only touch their rings together (a standard action) and speak the command word in unison to attune the rings to each other. Any number of rings can become attuned to one another in this manner, so long as all are touched together at the same time.\n\nA ring remains attuned to the others until you attune it to a different ring."
     }
   ],
   "feats": [
@@ -688,7 +722,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 5,
+      "currentUses": "13",
       "maxUses": "13",
       "id": 1
     },
@@ -1240,7 +1274,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 19,
       "spellSummary": "One subject obeys selected command for 1 round."
@@ -1264,7 +1298,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 20,
       "spellSummary": "You understand all spoken and written languages."
@@ -1336,7 +1370,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 23,
       "spellSummary": "Reveals undead within 60 ft."
@@ -1618,13 +1652,13 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>Any opponent attempting to strike or otherwise directly attack the warded creature, even with a targeted spell, must attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a>. If the save succeeds, the opponent can attack normally and is unaffected by that casting of the spell. If the save fails, the opponent can’t follow through with the attack, that part of its action is lost, and it can’t directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area or effect spells. The subject cannot attack without breaking the spell but may use nonattack spells or otherwise act.</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 35,
       "spellSummary": "Opponents can’t attack you, and you can’t attack."
@@ -1648,7 +1682,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 36,
       "spellSummary": "Aura grants +2 or higher deflection bonus"
@@ -1744,7 +1778,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 40,
       "spellSummary": "Subject is locked in place and takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves."
@@ -2674,13 +2708,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "<p>A weapon made of pure force springs into existence and attacks opponents at a distance, as you direct it, dealing <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> force damage per hit, +1 point per three caster levels (maximum +5 at 15th level). The weapon takes the shape of a weapon favored by your deity or a weapon with some spiritual significance or symbolism to you (see below) and has the same threat range and critical multipliers as a real weapon of its form. It strikes the opponent you designate, starting with one attack in the round the spell is cast and continuing each round thereafter on your turn. It uses your base attack bonus (possibly allowing it multiple attacks per round in subsequent rounds) plus your Wisdom modifier as its attack bonus. It strikes as a spell, not as a weapon, so, for example, it can damage creatures that have <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#damageReduction\" title=\"damage reduction\">damage reduction</a>. As a force effect, it can strike <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#incorporealSubtype\" title=\"incorporeal creatures\">incorporeal creatures</a> without the normal miss chance associated with <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#incorporeality\" title=\"incorporeality\">incorporeality</a>. The weapon always strikes from your direction. It does not get a <a href=\"https://www.d20srd.org/srd/combat/combatModifiers.htm#flanking\" title=\"flanking\">flanking</a> bonus or help a combatant get one. Your feats or combat actions do not affect the weapon. If the weapon goes beyond the spell range, if it goes out of your sight, or if you are not directing it, the weapon returns to you and hovers.</p>\n<p>Each round after the first, you can use a <a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#moveActions\" title=\"move action\">move action</a> to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round’s target. On any round that the weapon switches targets, it gets one attack. Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to. Even if the spiritual weapon is a ranged weapon, use the spell’s range, not the weapon’s normal range increment, and switching targets still is a move action.</p>\n<p>A spiritual weapon cannot be attacked or harmed by physical attacks, but <a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\" title=\"dispel magic\"><em>dispel magic</em></a>, <a href=\"https://www.d20srd.org/srd/spells/disintegrate.htm\" title=\"disintegrate\"><em>disintegrate</em></a>, a sphere of annihilation, or a rod of cancellation affects it. A spiritual weapon’s AC against <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#touchAttacks\" title=\"touch attacks\">touch attacks</a> is 12 (10 + size bonus for Tiny object).</p>\n<p>If an attacked creature has <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"spell resistance\">spell resistance</a>, you make a <a href=\"https://www.d20srd.org/srd/magicOverview/castingSpells.htm#casterLevelChecks\" title=\"caster level check\">caster level check</a> (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + caster level) against that spell resistance the first time the spiritual weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.</p>\n<p>The weapon that you get is often a force replica of your deity’s own personal weapon. A <a href=\"https://www.d20srd.org/srd/classes/cleric.htm\" title=\"cleric\">cleric</a> without a deity gets a weapon based on his <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a>. A neutral cleric without a deity can create a spiritual weapon of any alignment, provided he is acting at least generally in accord with that alignment at the time. The weapons associated with each alignment are as follows.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "Magic weapon of force",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 81,
       "spellSummary": "Magic weapon attacks on its own."
@@ -2770,13 +2804,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>You toss a small golden die.<br>\nIt rolls toward the creature you choose, then disappears in a tiny golden flash of light.<br>\nThe subject of the spell becomes unusually lucky.<br>\nOnce during the spell's duration, when he makes an attack roll, skill check, saving throw, or ability check, he rolls twice and takes the better result.<br>\nHe must choose to use this ability before the check is attempted, and the spell expires once the second die is rolled.<br>\nMaterial Component: A gold die (worth 20 gp).&nbsp;</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "A gold die (worth 20 gp)",
       "id": 85,
       "spellSummary": "Grant advantage to a roll"
@@ -2818,13 +2852,13 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>This spell cures 1d4 points of damage +1 point per caster level (maximum +5).</p>\n<p>If you cast this spell immediately after the subject takes damage, it effectively prevents the damage. It would keep alive someone who had just dropped to —10 hit points, for example, leaving the character at negative hit points but stable.</p>\n<p>Used against an undead creature, close wounds deals damage instead of curing the creature (which takes half damage if it makes a Will saving throw).</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 87,
       "spellSummary": "Cure 1d4 damage +1/level, even on another’s turn"
@@ -3088,7 +3122,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3262,15 +3296,15 @@
       "spellSchool": "",
       "spellDescriptor": "",
       "spellLevel": 3,
-      "spellComponents": "",
-      "spellCastingTime": "",
-      "spellRange": "",
-      "spellDuration": "",
-      "spellTarget": "",
-      "spellSavingThrow": "",
-      "spellResistance": "",
+      "spellComponents": "V, S",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Medium (100 ft. + 10 ft./level)",
+      "spellDuration": "Instantaneous",
+      "spellTarget": "One spellcaster, creature, or object; or 20-ft.-radius burst",
+      "spellSavingThrow": "None",
+      "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>You can use dispel magic to end ongoing spells that have been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, to end ongoing spells (or at least their effects) within an area, or to counter another spellcaster’s spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can’t be defeated by dispel magic. Dispel magic can dispel (but not counter) <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellLikeAbilities\" title=\"spell-like\">spell-like</a> effects just as it does spells.</p>\n<p><em>Note:</em> The effect of a spell with an instantaneous duration can’t be dispelled, because the magical effect is already over before the dispel magic can take effect.</p>\n<p>You choose to use dispel magic in one of three ways: a targeted dispel, an area dispel, or a counterspell:</p>\n<h6><em>Targeted Dispel</em></h6>\n<p>One object, creature, or spell is the target of the dispel magic spell. You make a dispel check (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell’s caster level. If you succeed on a particular check, that spell is dispelled; if you fail, that spell remains in effect.</p>\n<p>If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning), you make a dispel check to end the spell that conjured the object or creature.</p>\n<p>If the object that you target is a magic item, you make a dispel check against the item’s caster level. If you succeed, all the item’s magical properties are suppressed for <a href=\"javascript:void(0);\" title=\"1d4\">1d4</a> rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a bag of holding) is temporarily closed. A magic item’s physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.</p>\n<p>You automatically succeed on your dispel check against any spell that you cast yourself.</p>\n<h6><em>Area Dispel</em></h6>\n<p>When dispel magic is used in this way, the spell affects everything within a 20-foot radius.</p>\n<p>For each creature within the area that is the subject of one or more spells, you make a dispel check against the spell with the highest caster level. If that check fails, you make dispel checks against progressively weaker spells until you dispel one spell (which discharges the dispel magic spell so far as that target is concerned) or until you fail all your checks. The creature’s magic items are not affected.</p>\n<p>For each object within the area that is the target of one or more spells, you make dispel checks as with creatures. Magic items are not affected by an area dispel.</p>\n<p>For each ongoing area or effect spell whose point of origin is within the area of the dispel magic spell, you can make a dispel check to dispel the spell.</p>\n<p>For each ongoing spell whose area overlaps that of the dispel magic spell, you can make a dispel check to end the effect, but only within the overlapping area.</p>\n<p>If an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning) is in the area, you can make a dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel spells targeting the creature or object.</p>\n<p>You may choose to automatically succeed on dispel checks against any spell that you have cast.</p>\n<h6><em>Counterspell</em></h6>\n<p>When dispel magic is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, dispel magic may not work; you must make a dispel check to counter the other spellcaster’s spell.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3278,7 +3312,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 1,
       "spellMaterial": "",
-      "id": 108
+      "id": 108,
+      "spellSummary": "Cancels spells and magical effects."
     },
     {
       "spellName": "Helping Hand",
