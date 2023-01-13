@@ -556,9 +556,9 @@
     },
     {
       "title": "Session 15",
-      "text": "<p>Feature request! To me! When casting spell, log somewhere what you fucking cast dipshit. Also add option to cast as healing spell to log that as well, dipshit!</p>",
+      "text": "<p>Feature request! To me! When casting spell, log somewhere what you fucking cast dipshit. Also add option to cast as healing spell to log that as well, dipshit!</p>\n<p>Anyway session!</p>\n<p>I speak to the captain of the Mageguard, Captain Lightpass the angry dwarf bloke, and explain that we found some of the potions previous. No lies, and eventually he gets all the potions, promising to hand some over to Ardor Crisp.&nbsp;</p>\n<p>The other boys went to library to be nerds, and Mozzi stays behind to put a catapult on Lodo? maybe?&nbsp;</p>",
       "date": "2023-01-13T18:13:24.456Z",
-      "editDate": "2023-01-13T18:17:27.454Z",
+      "editDate": "2023-01-13T19:12:19.021Z",
       "id": 17
     }
   ],
@@ -3225,7 +3225,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 104
     },
@@ -3843,17 +3843,26 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>This spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak only one language at a time, although it may be able to understand several languages. Tongues does not enable the subject to speak with creatures who don’t speak. The subject can make itself understood as far as its voice carries. This spell does not predispose any creature addressed toward the subject in any way.</p>\n<p>Tongues can be made permanent with a <a href=\"https://www.d20srd.org/srd/spells/permanency.htm\" title=\"permanency\"><em>permanency</em></a> spell.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 133,
       "spellSummary": "Speak any language."
     }
   ],
-  "log": []
+  "log": [
+    {
+      "data": "Fri 13 Jan 2023 - 19:06 - Cast spell: Tongues",
+      "id": 1
+    },
+    {
+      "data": "Fri 13 Jan 2023 - 19:15 - Cast spell: Blindness/Deafness",
+      "id": 2
+    }
+  ]
 }

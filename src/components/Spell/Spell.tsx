@@ -25,6 +25,7 @@ import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
 import axios from "axios";
 import { Formik, Form } from "formik";
 import { TextEditor } from "../TextEditor/TextEditor";
+import { formatDateTime } from "../../formatting";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -53,8 +54,6 @@ export function Spell(props: SpellProps): ReactElement {
   const handleCastDialogOpen = () => setCastDialogOpen(true);
   const handleCastDialogClose = () => setCastDialogOpen(false);
 
-  const handleAddLog = () => {};
-
   const handleDelete = () => {
     axios
       .delete(`http://localhost:3001/spells/${data.id}`)
@@ -67,17 +66,36 @@ export function Spell(props: SpellProps): ReactElement {
   };
 
   const handleCast = () => {
-    axios
-      .patch(`http://localhost:3001/spells/${data.id}`, {
+    Promise.all([
+      axios.patch(`http://localhost:3001/spells/${data.id}`, {
         ...data,
         spellPrepared: data.spellPrepared - 1,
-      })
+      }),
+      axios.post("http://localhost:3001/log", {
+        data: `${formatDateTime(new Date(Date.now()))} - Cast spell: ${
+          data.spellName
+        }`,
+      }),
+    ])
       .then(() => {
         fetchSpells();
         handleCastDialogClose();
       })
       .catch((error) => console.log(error));
   };
+
+  // const handleCast = () => {
+  //   axios
+  //     .patch(`http://localhost:3001/spells/${data.id}`, {
+  //       ...data,
+  //       spellPrepared: data.spellPrepared - 1,
+  //     })
+  //     .then(() => {
+  //       fetchSpells();
+  //       handleCastDialogClose();
+  //     })
+  //     .catch((error) => console.log(error));
+  // };
 
   const getBackgroundColor = (data: SpellData): string => {
     if (!data) {

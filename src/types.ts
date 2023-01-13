@@ -181,3 +181,8 @@ export type NoteData = {
   date: Date;
   editDate: Date | null;
 };
+
+export type LogInfo = {
+  data: string;
+  id: number;
+};
