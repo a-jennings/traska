@@ -15,6 +15,7 @@ export function Navigation(props: NavigationProps): ReactElement {
     "World Map",
     "Turn Undead",
     "Notes",
+    "Log",
   ];
   const [currentTab, setCurrentTab] = useState("Character");
 

@@ -553,6 +553,13 @@
       "date": "2023-01-06T18:51:34.831Z",
       "editDate": "2023-01-06T22:19:48.754Z",
       "id": 16
+    },
+    {
+      "title": "Session 15",
+      "text": "<p>Feature request! To me! When casting spell, log somewhere what you fucking cast dipshit. Also add option to cast as healing spell to log that as well, dipshit!</p>",
+      "date": "2023-01-13T18:13:24.456Z",
+      "editDate": "2023-01-13T18:17:27.454Z",
+      "id": 17
     }
   ],
   "attacks": [
@@ -2804,7 +2811,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>You toss a small golden die.<br>\nIt rolls toward the creature you choose, then disappears in a tiny golden flash of light.<br>\nThe subject of the spell becomes unusually lucky.<br>\nOnce during the spell's duration, when he makes an attack roll, skill check, saving throw, or ability check, he rolls twice and takes the better result.<br>\nHe must choose to use this ability before the check is attempted, and the spell expires once the second die is rolled.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3847,5 +3854,6 @@
       "id": 133,
       "spellSummary": "Speak any language."
     }
-  ]
+  ],
+  "log": []
 }

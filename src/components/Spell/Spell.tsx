@@ -17,14 +17,14 @@ import {
   FormControlLabel,
   Checkbox,
 } from "@mui/material";
-import { SpellData } from "../types";
+import { SpellData } from "../../types";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import CloseIcon from "@mui/icons-material/Close";
 import EditIcon from "@mui/icons-material/Edit";
 import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
 import axios from "axios";
 import { Formik, Form } from "formik";
-import { TextEditor } from "./TextEditor/TextEditor";
+import { TextEditor } from "../TextEditor/TextEditor";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -52,6 +52,8 @@ export function Spell(props: SpellProps): ReactElement {
   const handleConfirmDialogClose = () => setConfirmDialogOpen(false);
   const handleCastDialogOpen = () => setCastDialogOpen(true);
   const handleCastDialogClose = () => setCastDialogOpen(false);
+
+  const handleAddLog = () => {};
 
   const handleDelete = () => {
     axios

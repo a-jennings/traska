@@ -3,7 +3,7 @@ import axios from "axios";
 import { Tabs, Tab, useTheme, Box } from "@mui/material";
 import { SpellAddMenu } from "./SpellAddMenu/SpellAddMenu";
 import { SpellData, SpellSlotData } from "../../types";
-import { Spell } from "../../components/Spell";
+import { Spell } from "../../components/Spell/Spell";
 import { SpellHeader } from "./SpellHeader/SpellHeader";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";

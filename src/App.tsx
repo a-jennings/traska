@@ -8,6 +8,7 @@ import { Abilities } from "./pages/Abilities/Abilities";
 import { WorldMap } from "./pages/WorldMap/WorldMap";
 import { Notes } from "./pages/Notes/Notes";
 import { TurnUndead } from "./pages/TurnUndead/TurnUndead";
+import { Log } from "./pages/Log/Log";
 
 function App() {
   const [selectedTab, setSelectedTab] = useState("Character");
@@ -23,6 +24,7 @@ function App() {
       {selectedTab === "World Map" && <WorldMap />}
       {selectedTab === "Turn Undead" && <TurnUndead />}
       {selectedTab === "Notes" && <Notes />}
+      {selectedTab === "Log" && <Log />}
     </>
   );
 }
