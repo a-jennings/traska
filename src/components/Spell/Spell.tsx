@@ -73,7 +73,7 @@ export function Spell(props: SpellProps): ReactElement {
       axios.post("http://localhost:3001/log", {
         dateTime: new Date(Date.now()),
         logText: `Cast spell: ${data.spellName}${
-          healingCast && " as healing spell"
+          healingCast ? " as healing spell" : ""
         }`,
       }),
     ])
@@ -234,14 +234,21 @@ export function Spell(props: SpellProps): ReactElement {
           <Formik
             initialValues={data}
             onSubmit={(values) => {
-              axios
-                .patch(`http://localhost:3001/spells/${values.id}`, {
+              Promise.all([
+                axios.patch(`http://localhost:3001/spells/${values.id}`, {
                   ...values,
                   spellDescription: editorText,
                   spellDescriptionTwo: "",
                   spellDescriptionThree: "",
                   spellDescriptionFour: "",
-                })
+                }),
+                axios.post("http://localhost:3001/log", {
+                  dateTime: new Date(Date.now()),
+                  logText: values.spellPrepared
+                    ? `Prepared spell: ${values.spellName}`
+                    : `Updated spell information for ${values.spellName}`,
+                }),
+              ])
                 .then(() => {
                   fetchSpells();
                   handleDialogClose();

@@ -54,21 +54,32 @@ export function SpecialAbility(props: SpecialAbilityProps): ReactElement {
   };
 
   const handleCast = () => {
-    axios
-      .patch(`http://localhost:3001/specialAbilities/${data.id}`, {
+    Promise.all([
+      axios.patch(`http://localhost:3001/specialAbilities/${data.id}`, {
         ...data,
         currentUses: data.currentUses - 1,
-      })
+      }),
+      axios.post("http://localhost:3001/log", {
+        dateTime: new Date(Date.now()),
+        logText: `Used special ability: ${data.name}`,
+      }),
+    ])
       .then(() => fetchSpecialAbility())
       .catch((error) => console.log(error));
   };
 
   const handleRegenerate = () => {
-    axios
-      .patch(`http://localhost:3001/specialAbilities/${data.id}`, {
+    Promise.all([
+      axios.patch(`http://localhost:3001/specialAbilities/${data.id}`, {
         ...data,
         currentUses: data.maxUses,
-      })
+      }),
+      axios.post("http://localhost:3001/log", {
+        dateTime: new Date(Date.now()),
+        logText: `Regenerated special ability: ${data.name}`,
+      }),
+    ])
+
       .then(() => fetchSpecialAbility())
       .catch((error) => console.log(error));
   };
@@ -102,7 +113,7 @@ export function SpecialAbility(props: SpecialAbilityProps): ReactElement {
               <IconButton
                 onClick={handleRegenerate}
                 sx={{ color: theme.palette.success.dark }}
-                disabled={Boolean(data.currentUses)}
+                disabled={data.currentUses === data.maxUses}
               >
                 <CachedIcon />
               </IconButton>

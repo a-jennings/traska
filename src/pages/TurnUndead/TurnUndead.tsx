@@ -56,23 +56,39 @@ export function TurnUndead(): ReactElement {
   }, [dialogOpen]);
 
   const handleCastTurnUndead = () => {
-    axios
-      .patch(`http://localhost:3001/specialAbilities/${TurnUndeadUses?.id}`, {
-        ...TurnUndeadUses,
-        currentUses:
-          TurnUndeadUses?.currentUses && TurnUndeadUses?.currentUses - 1,
-      })
+    Promise.all([
+      axios.patch(
+        `http://localhost:3001/specialAbilities/${TurnUndeadUses?.id}`,
+        {
+          ...TurnUndeadUses,
+          currentUses:
+            TurnUndeadUses?.currentUses && TurnUndeadUses?.currentUses - 1,
+        }
+      ),
+      axios.post("http://localhost:3001/log", {
+        dateTime: new Date(Date.now()),
+        logText: "Used Sacred Boost / Turn Undead",
+      }),
+    ])
       .then(() => handleDialogClose())
       .catch((error) => console.log(error));
   };
 
   const handleCastSunDomain = () => {
-    axios
-      .patch(`http://localhost:3001/specialAbilities/${TurnUndeadUses?.id}`, {
-        ...TurnUndeadUses,
-        currentUses:
-          TurnUndeadUses?.currentUses && TurnUndeadUses?.currentUses - 1,
-      })
+    Promise.all([
+      axios.patch(
+        `http://localhost:3001/specialAbilities/${TurnUndeadUses?.id}`,
+        {
+          ...TurnUndeadUses,
+          currentUses:
+            TurnUndeadUses?.currentUses && TurnUndeadUses?.currentUses - 1,
+        }
+      ),
+      axios.post("http://localhost:3001/log", {
+        dateTime: new Date(Date.now()),
+        logText: "Used Sun Domain Turn Undead",
+      }),
+    ])
       .then(() => {
         axios
           .patch(

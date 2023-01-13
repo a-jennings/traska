@@ -556,9 +556,9 @@
     },
     {
       "title": "Session 15",
-      "text": "<p>Feature request! To me! When casting spell, log somewhere what you fucking cast dipshit. Also add option to cast as healing spell to log that as well, dipshit!</p>\n<p>Anyway session!</p>\n<p>I speak to the captain of the Mageguard, Captain Lightpass the angry dwarf bloke, and explain that we found some of the potions previous. No lies, and eventually he gets all the potions, promising to hand some over to Ardor Crisp.</p>\n<p>The other boys went to library to be nerds, and Mozzi stays behind to put a catapult on Lodo? maybe?</p>\n<p>They look up some shit on Infernia, I think I wasn't paying attention.<br>\nI go too. I'm trying to look for shit on the vision I had in Vraddak fucking ages ago.&nbsp;</p>",
+      "text": "<p>Feature request! To me! When casting spell, log somewhere what you fucking cast dipshit. Also add option to cast as healing spell to log that as well, dipshit!</p>\n<p>Anyway session!</p>\n<p>I speak to the captain of the Mageguard, Captain Lightpass the angry dwarf bloke, and explain that we found some of the potions previous. No lies, and eventually he gets all the potions, promising to hand some over to Ardor Crisp.</p>\n<p>The other boys went to library to be nerds, and Mozzi stays behind to put a catapult on Lodo? maybe?</p>\n<p>They look up some shit on Infernia, I think I wasn't paying attention.<br>\nI go too. I'm trying to look for shit on the vision I had in Vraddak fucking ages ago.</p>\n<p>All sorts of information is found by the others.</p>\n<p>For me: No deities really cover the moon or blood moon. Speicifically, there is no god of the moon?</p>\n<p>The plane of Akaron? A plane of eternal night, where armies clash under a blood moon. Grummush, Ouijas are from this plane.`</p>\n<p>Description: Ignorant armies clash by night, refuse plane of a million failed rebellions. Enforce order, and conformity better than good.&nbsp;</p>",
       "date": "2023-01-13T18:13:24.456Z",
-      "editDate": "2023-01-13T19:29:08.315Z",
+      "editDate": "2023-01-13T19:56:07.184Z",
       "id": 17
     }
   ],
@@ -1137,7 +1137,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 13,
       "spellSummary": "Subject gains +1 on saving throws."
@@ -3129,7 +3129,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3849,7 +3849,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 133,
       "spellSummary": "Speak any language."

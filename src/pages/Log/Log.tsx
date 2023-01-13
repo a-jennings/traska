@@ -7,8 +7,9 @@ import { formatDateTime } from "../../formatting";
 export function Log(): ReactElement {
   const [data, setData] = useState<Array<LogInfo>>([]);
 
-  console.log(data);
-  console.log(data.reverse());
+  data.sort(
+    (a, b) => new Date(b.dateTime).getTime() - new Date(a.dateTime).getTime()
+  );
 
   axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
   axios.defaults.headers.common["Access-Control-Allow-Methods"] =

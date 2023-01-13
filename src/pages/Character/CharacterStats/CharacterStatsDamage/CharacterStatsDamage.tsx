@@ -40,11 +40,16 @@ export function CharacterStatsDamage(
           <Formik
             initialValues={{ damage: 0 }}
             onSubmit={(values) => {
-              axios
-                .post("http://localhost:3001/stats", {
+              Promise.all([
+                axios.post("http://localhost:3001/stats", {
                   ...data,
                   hpCurrent: data.hpCurrent - values.damage,
-                })
+                }),
+                axios.post("http://localhost:3001/log", {
+                  dateTime: new Date(Date.now()),
+                  logText: `${values.damage} damage taken`,
+                }),
+              ])
                 .then(() => onClose())
                 .catch((error) => console.log(error));
             }}
