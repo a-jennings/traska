@@ -2,9 +2,13 @@ import React, { ReactElement, useState, useEffect } from "react";
 import { Box, Typography } from "@mui/material";
 import axios from "axios";
 import { LogInfo } from "../../types";
+import { formatDateTime } from "../../formatting";
 
 export function Log(): ReactElement {
-  const [data, setData] = useState<Array<LogInfo> | null>(null);
+  const [data, setData] = useState<Array<LogInfo>>([]);
+
+  console.log(data);
+  console.log(data.reverse());
 
   axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
   axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -17,12 +21,16 @@ export function Log(): ReactElement {
       .catch((error) => console.log(error));
   }, []);
 
-  console.log(data);
+  if (!data) {
+    return <></>;
+  }
 
   return (
     <Box my={2} mx={4}>
-      {data?.map((log) => (
-        <Typography>{log.data}</Typography>
+      {data.map((log) => (
+        <Typography>
+          {formatDateTime(new Date(log.dateTime))} - {log.logText}
+        </Typography>
       ))}
     </Box>
   );

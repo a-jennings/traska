@@ -556,9 +556,9 @@
     },
     {
       "title": "Session 15",
-      "text": "<p>Feature request! To me! When casting spell, log somewhere what you fucking cast dipshit. Also add option to cast as healing spell to log that as well, dipshit!</p>\n<p>Anyway session!</p>\n<p>I speak to the captain of the Mageguard, Captain Lightpass the angry dwarf bloke, and explain that we found some of the potions previous. No lies, and eventually he gets all the potions, promising to hand some over to Ardor Crisp.&nbsp;</p>\n<p>The other boys went to library to be nerds, and Mozzi stays behind to put a catapult on Lodo? maybe?&nbsp;</p>",
+      "text": "<p>Feature request! To me! When casting spell, log somewhere what you fucking cast dipshit. Also add option to cast as healing spell to log that as well, dipshit!</p>\n<p>Anyway session!</p>\n<p>I speak to the captain of the Mageguard, Captain Lightpass the angry dwarf bloke, and explain that we found some of the potions previous. No lies, and eventually he gets all the potions, promising to hand some over to Ardor Crisp.</p>\n<p>The other boys went to library to be nerds, and Mozzi stays behind to put a catapult on Lodo? maybe?</p>\n<p>They look up some shit on Infernia, I think I wasn't paying attention.<br>\nI go too. I'm trying to look for shit on the vision I had in Vraddak fucking ages ago.&nbsp;</p>",
       "date": "2023-01-13T18:13:24.456Z",
-      "editDate": "2023-01-13T19:12:19.021Z",
+      "editDate": "2023-01-13T19:29:08.315Z",
       "id": 17
     }
   ],
@@ -3311,7 +3311,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>You can use dispel magic to end ongoing spells that have been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, to end ongoing spells (or at least their effects) within an area, or to counter another spellcaster’s spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can’t be defeated by dispel magic. Dispel magic can dispel (but not counter) <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellLikeAbilities\" title=\"spell-like\">spell-like</a> effects just as it does spells.</p>\n<p><em>Note:</em> The effect of a spell with an instantaneous duration can’t be dispelled, because the magical effect is already over before the dispel magic can take effect.</p>\n<p>You choose to use dispel magic in one of three ways: a targeted dispel, an area dispel, or a counterspell:</p>\n<h6><em>Targeted Dispel</em></h6>\n<p>One object, creature, or spell is the target of the dispel magic spell. You make a dispel check (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell’s caster level. If you succeed on a particular check, that spell is dispelled; if you fail, that spell remains in effect.</p>\n<p>If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning), you make a dispel check to end the spell that conjured the object or creature.</p>\n<p>If the object that you target is a magic item, you make a dispel check against the item’s caster level. If you succeed, all the item’s magical properties are suppressed for <a href=\"javascript:void(0);\" title=\"1d4\">1d4</a> rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a bag of holding) is temporarily closed. A magic item’s physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.</p>\n<p>You automatically succeed on your dispel check against any spell that you cast yourself.</p>\n<h6><em>Area Dispel</em></h6>\n<p>When dispel magic is used in this way, the spell affects everything within a 20-foot radius.</p>\n<p>For each creature within the area that is the subject of one or more spells, you make a dispel check against the spell with the highest caster level. If that check fails, you make dispel checks against progressively weaker spells until you dispel one spell (which discharges the dispel magic spell so far as that target is concerned) or until you fail all your checks. The creature’s magic items are not affected.</p>\n<p>For each object within the area that is the target of one or more spells, you make dispel checks as with creatures. Magic items are not affected by an area dispel.</p>\n<p>For each ongoing area or effect spell whose point of origin is within the area of the dispel magic spell, you can make a dispel check to dispel the spell.</p>\n<p>For each ongoing spell whose area overlaps that of the dispel magic spell, you can make a dispel check to end the effect, but only within the overlapping area.</p>\n<p>If an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning) is in the area, you can make a dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel spells targeting the creature or object.</p>\n<p>You may choose to automatically succeed on dispel checks against any spell that you have cast.</p>\n<h6><em>Counterspell</em></h6>\n<p>When dispel magic is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, dispel magic may not work; you must make a dispel check to counter the other spellcaster’s spell.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3855,14 +3855,5 @@
       "spellSummary": "Speak any language."
     }
   ],
-  "log": [
-    {
-      "data": "Fri 13 Jan 2023 - 19:06 - Cast spell: Tongues",
-      "id": 1
-    },
-    {
-      "data": "Fri 13 Jan 2023 - 19:15 - Cast spell: Blindness/Deafness",
-      "id": 2
-    }
-  ]
+  "log": []
 }

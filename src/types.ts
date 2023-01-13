@@ -183,6 +183,7 @@ export type NoteData = {
 };
 
 export type LogInfo = {
-  data: string;
+  dateTime: Date;
+  logText: string;
   id: number;
 };
