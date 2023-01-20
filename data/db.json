@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 65,
-    "hpCurrent": 63,
+    "hpCurrent": 65,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -410,11 +410,6 @@
       "id": 2
     },
     {
-      "name": "Spell components for Divination",
-      "weight": "1",
-      "id": 3
-    },
-    {
       "name": "Pedigree Chum business cards",
       "weight": 0,
       "id": 4
@@ -438,7 +433,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 3125,
+    "gold": 3105,
     "platinum": 0
   },
   "notes": [
@@ -556,10 +551,17 @@
     },
     {
       "title": "Session 15",
-      "text": "<p>Anyway session!</p>\n<p>I speak to the captain of the Mageguard, Captain Lightpass the angry dwarf bloke, and explain that we found some of the potions previous. No lies, and eventually he gets all the potions, promising to hand some over to Ardor Crisp.</p>\n<p>The other boys went to library to be nerds, and Mozzi stays behind to put a catapult on Lodo? maybe?</p>\n<p>They look up some shit on Infernia, I think I wasn't paying attention.<br>\nI go too. I'm trying to look for shit on the vision I had in Vraddak fucking ages ago.</p>\n<p>All sorts of information is found by the others.</p>\n<p>For me: No deities really cover the moon or blood moon. Speicifically, there is no god of the moon?</p>\n<p>The plane of Akaron? A plane of eternal night, where armies clash under a blood moon. Grummush, Ouijas are from this plane.`</p>\n<p>Description: Ignorant armies clash by night, refuse plane of a million failed rebellions. Enforce order, and conformity better than good.</p>\n<p>Calamity incoming? every 33 years, there's an eclipse, and maybe some sort of calamity is coming... Not cool.</p>\n<p>We go to sleep in our home for the first time. LIVE LAUGH LOVE</p>\n<p>NOT. We get fucking attacked in our house by fucking rat men! They're trying to grab Lodo!? Not cool. Also Tarryn got completely fucking fucked, stabbed in bed.</p>\n<p>We find a note on a dead rat that the other bitch rats killed:</p>\n<p><em>\"Great maker, be warned, my kin come for you. Terrym want your weapons and craft to turn on the surface dwellers. We will assist where we can. Lord Snibble\"</em></p>\n<p>Tarryn has a permanent neck scar now. Chicks love it</p>\n<p>Next week, we do a rat interrogation.&nbsp;</p>",
+      "text": "<p>Anyway session!</p>\n<p>I speak to the captain of the Mageguard, Captain Lightpass the angry dwarf bloke, and explain that we found some of the potions previous. No lies, and eventually he gets all the potions, promising to hand some over to Ardor Crisp.</p>\n<p>The other boys went to library to be nerds, and Mozzi stays behind to put a catapult on Lodo? maybe?</p>\n<p>They look up some shit on Infernia, I think I wasn't paying attention.<br>\nI go too. I'm trying to look for shit on the vision I had in Vraddak fucking ages ago.</p>\n<p>All sorts of information is found by the others.</p>\n<p>Infernia is big even by pheonix standards. There was a poem found about that too. From the Tragedy of the Elementals, Power of the Flame. Something about an egg not hatching.</p>\n<p>For me: No deities really cover the moon or blood moon. Speicifically, there is no god of the moon?</p>\n<p>The plane of Akaron? A plane of eternal night, where armies clash under a blood moon. Grummush, Ouijas are from this plane.`</p>\n<p>Description: Ignorant armies clash by night, refuse plane of a million failed rebellions. Enforce order, and conformity better than good.</p>\n<p>Calamity incoming? every 33 years, there's an eclipse, and maybe some sort of calamity is coming... Not cool.</p>\n<p>We go to sleep in our home for the first time. LIVE LAUGH LOVE</p>\n<p>NOT. We get fucking attacked in our house by fucking rat men! They're trying to grab Lodo!? Not cool. Also Tarryn got completely fucking fucked, stabbed in bed.</p>\n<p>We find a note on a dead rat that the other bitch rats killed:</p>\n<p><em>\"Great maker, be warned, my kin come for you. Terrym want your weapons and craft to turn on the surface dwellers. We will assist where we can. Lord Snibble\"</em></p>\n<p>Tarryn has a permanent neck scar now. Chicks love it</p>\n<p>Next week, we do a rat interrogation.</p>",
       "date": "2023-01-13T18:13:24.456Z",
-      "editDate": "2023-01-13T22:17:18.695Z",
+      "editDate": "2023-01-20T19:02:33.673Z",
       "id": 17
+    },
+    {
+      "title": "Session 16",
+      "text": "<p>FUCKING RATS.</p>\n<p>Ok so we have this fucking rat man tied up and we begin some interrogation shit. It goes extremely poorly lol.</p>\n<p>Tarryn and Nym go and find the law, they succeed! Probably a bit too successful, the fuzz are coming fast and we've done some light torture. We knock the rat out so they shut the fuck up.</p>\n<p>The fuzz turn up. They've never seen the ratmen either.</p>\n<p>Eventually other people turn up. Captain fucking Lightpass once again. Female Goliath turns up. Tall as shit. Large warhammer, Armoured to the tits. Nasal helm. Lord Captain Gagia Thundereye Elanigon. She's a no nonsense kind of biatch.&nbsp;</p>",
+      "date": "2023-01-20T18:54:53.227Z",
+      "editDate": "2023-01-20T19:48:10.690Z",
+      "id": 18
     }
   ],
   "attacks": [
@@ -729,7 +731,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 11,
+      "currentUses": "13",
       "maxUses": "13",
       "id": 1
     },
@@ -764,7 +766,7 @@
     {
       "name": "Epic Point",
       "description": "An Epic Point can be spent at any point to do one of the following things:\n\n** Increase your Crit Range by 3 (after other multiplications) for one turn\n** Make a full attack as a standard acton\n** Add 5ft to your weapon reach for 3 turns\n** The next spell you cast will be empowered (it cannot be an empowered or maximised spell)\n** Gain Damage Reduction 30 / Epic for one turn\n** The next skill roll you make is an automatic natural 20\n** Do something EPIC***\n\n***EPIC = This is something that doesn’t necessarily have rules, and can be proposed that go beyond normal rules. That said, the above options should give an indicator for how powerful the action should be.\n",
-      "currentUses": 0,
+      "currentUses": "1",
       "maxUses": "1",
       "id": 6
     },
@@ -1299,13 +1301,13 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "<p>You can understand the spoken words of creatures or read otherwise incomprehensible written messages. In either case, you must touch the creature or the writing. The ability to read does not necessarily impart insight into the material, merely its literal meaning. The spell enables you to understand or read an unknown language, not speak or write it.</p>\n<p>Written material can be read at the rate of one page (250 words) per minute. Magical writing cannot be read, though the spell reveals that it is magical. This spell can be foiled by certain warding magic (such as the <a href=\"https://www.d20srd.org/srd/spells/secretPage.htm\" title=\"secret page\"><em>secret page</em></a> and <a href=\"https://www.d20srd.org/srd/spells/illusoryScript.htm\" title=\"illusory script\"><em>illusory script</em></a> spells). It does not decipher codes or reveal messages concealed in otherwise normal text.</p>\n<p>Comprehend languages can be made permanent with a <a href=\"https://www.d20srd.org/srd/spells/permanency.htm\" title=\"permanency\"><em>permanency</em></a> spell.<br>\n</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 20,
       "spellSummary": "You understand all spoken and written languages."
@@ -2259,13 +2261,13 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellArea": "Creatures in a 20-ft.-radius spread",
-      "spellDescription": "<p>This spell calms agitated creatures. You have no control over the affected creatures, but calm emotions can stop raging creatures from fighting or joyous ones from reveling. Creatures so affected cannot take violent actions (although they can defend themselves) or do anything destructive. Any aggressive action against or damage dealt to a calmed creature immediately breaks the spell on all calmed creatures.</p>\n<p>This spell automatically suppresses (but does not dispel) any <a href=\"https://www.d20srd.org/srd/theBasics.htm#moraleModifier\" title=\"morale bonus\">morale bonus</a>es granted by spells such as <a href=\"https://www.d20srd.org/srd/spells/bless.htm\" title=\"bless\"><em>bless</em></a>, <a href=\"https://www.d20srd.org/srd/spells/goodHope.htm\" title=\"good hope\"><em>good hope</em></a>, and <a href=\"https://www.d20srd.org/srd/spells/rage.htm\" title=\"rage\"><em>rage</em></a>, as well as negating a <a href=\"https://www.d20srd.org/srd/classes/bard.htm\" title=\"bard’s\">bard’s</a> ability to inspire courage or a <a href=\"https://www.d20srd.org/srd/classes/barbarian.htm\" title=\"barbarian’s\">barbarian’s</a> rage ability. It also suppresses any <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#fear\" title=\"fear\">fear</a> effects and removes the <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#confused\" title=\"&lt;em&gt;confused&lt;/em&gt;\"><em>confused</em></a> condition from all targets. While the spell lasts, a suppressed spell or effect has no effect. When the calm emotions spell ends, the original spell or effect takes hold of the creature again, provided that its duration has not expired in the meantime.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 62,
       "spellSummary": "Calms creatures, negating emotion effects."
@@ -2715,13 +2717,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "<p>A weapon made of pure force springs into existence and attacks opponents at a distance, as you direct it, dealing <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> force damage per hit, +1 point per three caster levels (maximum +5 at 15th level). The weapon takes the shape of a weapon favored by your deity or a weapon with some spiritual significance or symbolism to you (see below) and has the same threat range and critical multipliers as a real weapon of its form. It strikes the opponent you designate, starting with one attack in the round the spell is cast and continuing each round thereafter on your turn. It uses your base attack bonus (possibly allowing it multiple attacks per round in subsequent rounds) plus your Wisdom modifier as its attack bonus. It strikes as a spell, not as a weapon, so, for example, it can damage creatures that have <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#damageReduction\" title=\"damage reduction\">damage reduction</a>. As a force effect, it can strike <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#incorporealSubtype\" title=\"incorporeal creatures\">incorporeal creatures</a> without the normal miss chance associated with <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#incorporeality\" title=\"incorporeality\">incorporeality</a>. The weapon always strikes from your direction. It does not get a <a href=\"https://www.d20srd.org/srd/combat/combatModifiers.htm#flanking\" title=\"flanking\">flanking</a> bonus or help a combatant get one. Your feats or combat actions do not affect the weapon. If the weapon goes beyond the spell range, if it goes out of your sight, or if you are not directing it, the weapon returns to you and hovers.</p>\n<p>Each round after the first, you can use a <a href=\"https://www.d20srd.org/srd/combat/actionsInCombat.htm#moveActions\" title=\"move action\">move action</a> to redirect the weapon to a new target. If you do not, the weapon continues to attack the previous round’s target. On any round that the weapon switches targets, it gets one attack. Subsequent rounds of attacking that target allow the weapon to make multiple attacks if your base attack bonus would allow it to. Even if the spiritual weapon is a ranged weapon, use the spell’s range, not the weapon’s normal range increment, and switching targets still is a move action.</p>\n<p>A spiritual weapon cannot be attacked or harmed by physical attacks, but <a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\" title=\"dispel magic\"><em>dispel magic</em></a>, <a href=\"https://www.d20srd.org/srd/spells/disintegrate.htm\" title=\"disintegrate\"><em>disintegrate</em></a>, a sphere of annihilation, or a rod of cancellation affects it. A spiritual weapon’s AC against <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#touchAttacks\" title=\"touch attacks\">touch attacks</a> is 12 (10 + size bonus for Tiny object).</p>\n<p>If an attacked creature has <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"spell resistance\">spell resistance</a>, you make a <a href=\"https://www.d20srd.org/srd/magicOverview/castingSpells.htm#casterLevelChecks\" title=\"caster level check\">caster level check</a> (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + caster level) against that spell resistance the first time the spiritual weapon strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the weapon has its normal full effect on that creature for the duration of the spell.</p>\n<p>The weapon that you get is often a force replica of your deity’s own personal weapon. A <a href=\"https://www.d20srd.org/srd/classes/cleric.htm\" title=\"cleric\">cleric</a> without a deity gets a weapon based on his <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a>. A neutral cleric without a deity can create a spiritual weapon of any alignment, provided he is acting at least generally in accord with that alignment at the time. The weapons associated with each alignment are as follows.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "Magic weapon of force",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 81,
       "spellSummary": "Magic weapon attacks on its own."
@@ -3051,13 +3053,13 @@
       "spellSavingThrow": "Will negates; see text",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>You grant the semblance of life and intellect to a corpse, allowing it to answer several questions that you put to it. You may ask one question per two caster levels. Unasked questions are wasted if the duration expires. The corpse’s knowledge is limited to what the creature knew during life, including the languages it spoke (if any). Answers are usually brief, cryptic, or repetitive. If the creature’s <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a> was different from yours, the corpse gets a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a> to resist the spell as if it were alive.</p>\n<p>If the corpse has been subject to speak with dead within the past week, the new spell fails. You can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all.</p>\n<p>This spell does not let you actually speak to the person (whose soul has departed). It instead draws on the imprinted knowledge stored in the corpse. The partially animated body retains the imprint of the soul that once inhabited it, and thus it can speak with all the knowledge that the creature had while alive. The corpse, however, cannot learn new information.</p>\n<p>Indeed, it can’t even remember being questioned.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 97,
       "spellSummary": "Corpse answers one question/two levels."
@@ -3123,7 +3125,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>You contact a particular creature with which you are familiar and send a short message of twenty-five words or less to the subject. The subject recognizes you if it knows you. It can answer in like manner immediately. A creature with an Intelligence score as low as 1 can understand the sending, though the subject’s ability to react is limited as normal by its Intelligence score. Even if the sending is received, the subject is not obligated to act upon it in any manner.</p>\n<p>If the creature in question is not on the same plane of existence as you are, there is a 5% chance that the sending does not arrive. (Local conditions on other planes may worsen this chance considerably.)</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3147,13 +3149,13 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>Similar to <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a> but more powerful, a divination spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within one week. The advice can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. If your party doesn’t act on the information, the conditions may change so that the information is no longer useful. The base chance for a correct divination is 70% + 1% per caster level, to a maximum of 90%. If the dice roll fails, you know the spell failed, unless specific magic yielding false information is at work.</p>\n<p>As with <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a>, multiple divinations about the same topic by the same caster use the same dice result as the first divination spell and yield the same answer each time.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.",
       "id": 101,
       "spellSummary": "Provides useful advice for specific proposed actions."
@@ -3849,7 +3851,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 133,
       "spellSummary": "Speak any language."
@@ -3905,6 +3907,66 @@
       "dateTime": "2023-01-13T22:02:08.439Z",
       "logText": "Updated spell information for Comprehend Languages",
       "id": 12
+    },
+    {
+      "dateTime": "2023-01-20T19:15:16.734Z",
+      "logText": "Prepared spell: Sending",
+      "id": 13
+    },
+    {
+      "dateTime": "2023-01-20T19:54:54.734Z",
+      "logText": "2 damage healed",
+      "id": 14
+    },
+    {
+      "dateTime": "2023-01-20T19:55:00.878Z",
+      "logText": "Used special ability: Turn Undead",
+      "id": 15
+    },
+    {
+      "dateTime": "2023-01-20T19:55:02.344Z",
+      "logText": "Regenerated special ability: Turn Undead",
+      "id": 16
+    },
+    {
+      "dateTime": "2023-01-20T19:55:04.027Z",
+      "logText": "Regenerated special ability: Epic Point",
+      "id": 17
+    },
+    {
+      "dateTime": "2023-01-20T19:55:28.105Z",
+      "logText": "Prepared spell: Comprehend Languages",
+      "id": 18
+    },
+    {
+      "dateTime": "2023-01-20T19:55:50.768Z",
+      "logText": "Prepared spell: Spiritual Weapon",
+      "id": 19
+    },
+    {
+      "dateTime": "2023-01-20T19:56:46.904Z",
+      "logText": "Prepared spell: Calm Emotions",
+      "id": 20
+    },
+    {
+      "dateTime": "2023-01-20T19:57:04.969Z",
+      "logText": "Prepared spell: Speak With Dead",
+      "id": 21
+    },
+    {
+      "dateTime": "2023-01-20T19:57:17.400Z",
+      "logText": "Prepared spell: Tongues",
+      "id": 22
+    },
+    {
+      "dateTime": "2023-01-20T19:57:56.036Z",
+      "logText": "Prepared spell: Divination",
+      "id": 23
+    },
+    {
+      "dateTime": "2023-01-20T20:04:04.475Z",
+      "logText": "Cast spell: Divination",
+      "id": 24
     }
   ]
 }
