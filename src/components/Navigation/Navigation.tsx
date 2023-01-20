@@ -12,6 +12,7 @@ export function Navigation(props: NavigationProps): ReactElement {
     "Spells",
     "Abilities",
     "Inventory",
+    "Contacts",
     "World Map",
     "Turn Undead",
     "Notes",
