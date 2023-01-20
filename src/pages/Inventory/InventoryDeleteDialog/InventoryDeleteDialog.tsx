@@ -26,8 +26,13 @@ export function InventoryDeleteDialog(
   const { item, dialogOpen, onClose } = props;
 
   const handleDelete = (id: number) => {
-    axios
-      .delete(`http://localhost:3001/inventory/${id}`)
+    Promise.all([
+      axios.delete(`http://localhost:3001/inventory/${id}`),
+      axios.post("http://localhost:3001/log", {
+        dateTime: new Date(Date.now()),
+        logText: `Deleted item: ${item.name}`,
+      }),
+    ])
       .then(() => onClose())
       .catch((error) => console.log(error));
   };

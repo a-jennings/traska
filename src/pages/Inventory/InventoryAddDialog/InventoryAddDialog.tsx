@@ -32,8 +32,13 @@ export function InventoryAddDialog(
         <Formik
           initialValues={{ name: "", weight: 0 }}
           onSubmit={(values) => {
-            axios
-              .post("http://localhost:3001/inventory", values)
+            Promise.all([
+              axios.post("http://localhost:3001/inventory", values),
+              axios.post("http://localhost:3001/log", {
+                dateTime: new Date(Date.now()),
+                logText: `Added item: ${values.name}`,
+              }),
+            ])
               .then(() => onClose())
               .catch((error) => console.log(error));
           }}
