@@ -433,7 +433,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 3105,
+    "gold": 4105,
     "platinum": 0
   },
   "notes": [
@@ -558,9 +558,9 @@
     },
     {
       "title": "Session 16",
-      "text": "<p>FUCKING RATS.</p>\n<p>Ok so we have this fucking rat man tied up and we begin some interrogation shit. It goes extremely poorly lol.</p>\n<p>Tarryn and Nym go and find the law, they succeed! Probably a bit too successful, the fuzz are coming fast and we've done some light torture. We knock the rat out so they shut the fuck up.</p>\n<p>The fuzz turn up. They've never seen the ratmen either.</p>\n<p>Eventually other people turn up. Captain fucking Lightpass once again. Female Goliath turns up. Tall as shit. Large warhammer, Armoured to the tits. Nasal helm. Lord Captain Gagia Thundereye Elanigon. She's a no nonsense kind of biatch.</p>\n<p>I cast Divination, to find out if the ratmen might attack us within a week. Response: 'They live in darkness, but that's not he darkness you must fear' Ominous.</p>\n<p>Time for some downtime!<br>\n <br>\nMozzi gets to his workshop and takes care of covering up that shit. Done!</p>\n<p>Nym: Goes to the Above Board, Under Dark to do some shopping and that. Darrrrkk shit.</p>\n<p><strong>Neccos Kalarys - Golden Dragonborn - High Priestess of Pelor</strong></p>\n<p>Ardor Crisp, did get the potions and has been studiying. Blue = magic boost, Red = martial skill, Green = skill. We leave her to her learning, but this is deffo coming back to bite us at some point.</p>\n<p>Glaruid Brightgut - Manager of the Big Leak - Dwarf Woman.</p>\n<p>Me and Tarryn go to the Temple of Pelor! Finally!! I speed to the high priestess about all things visions and omens. She seems very upset and annoyed about the fact that we met a God not from the Pantheon. Tarryn's wound is unfortunately not able to be recovered, and will live forever as a reminder of almost death. Me and Tarryn have a DMC.&nbsp;</p>",
+      "text": "<p>FUCKING RATS.</p>\n<p>Ok so we have this fucking rat man tied up and we begin some interrogation shit. It goes extremely poorly lol.</p>\n<p>Tarryn and Nym go and find the law, they succeed! Probably a bit too successful, the fuzz are coming fast and we've done some light torture. We knock the rat out so they shut the fuck up.</p>\n<p>The fuzz turn up. They've never seen the ratmen either.</p>\n<p>Eventually other people turn up. Captain fucking Lightpass once again. Female Goliath turns up. Tall as shit. Large warhammer, Armoured to the tits. Nasal helm. Lord Captain Gagia Thundereye Elanigon. She's a no nonsense kind of biatch.</p>\n<p>I cast Divination, to find out if the ratmen might attack us within a week. Response: 'They live in darkness, but that's not he darkness you must fear' Ominous.</p>\n<p>Time for some downtime!<br>\n <br>\nMozzi gets to his workshop and takes care of covering up that shit. Done!</p>\n<p>Nym: Goes to the Above Board, Under Dark to do some shopping and that. Darrrrkk shit.</p>\n<p><strong>Neccos Kalarys - Golden Dragonborn - High Priestess of Pelor</strong></p>\n<p>Ardor Crisp, did get the potions and has been studiying. Blue = magic boost, Red = martial skill, Green = skill. We leave her to her learning, but this is deffo coming back to bite us at some point.</p>\n<p>Glaruid Brightgut - Manager of the Big Leak - Dwarf Woman.</p>\n<p>Me and Tarryn go to the Temple of Pelor! Finally!! I speed to the high priestess about all things visions and omens. She seems very upset and annoyed about the fact that we met a God not from the Pantheon. Tarryn's wound is unfortunately not able to be recovered, and will live forever as a reminder of almost death. Me and Tarryn have a DMC.</p>\n<p>Few days pass.</p>\n<p>Early in the morning of one these days I recieve a message: \"This is Father Arven from Vraddak. Beak returned. Fought pebs. Pebs okay. Lost arm. Beak fled.\"</p>\n<p>And another one!: \"Inquisitor has leads. Will be contacting you soon. Pebs is okay. He will be coming to Kessen soon.\"</p>\n<p>Jonah pays us! 16000 gp!!!!</p>\n<p>The next day, who's at the door. Inquistor Lydia fucking Greymont, that's who. Fuck nuggets. She needs us because we're fucking low profile. It's us because she thinks this might be mageocracy/mage guard involved with beaky motherfucker.</p>\n<p>I think our plan, is to fucking Halo jump off an airship over Vraddak? Please let this happen. It's fucking haaaaappppeeeeennniiiiinnnnnngggggggggggggg</p>",
       "date": "2023-01-20T18:54:53.227Z",
-      "editDate": "2023-01-20T21:36:10.001Z",
+      "editDate": "2023-01-20T22:41:42.808Z",
       "id": 18
     }
   ],
@@ -3180,13 +3180,13 @@
       "spellSavingThrow": "Will negates (harmless, object)",
       "spellResistance": "Yes (harmless, object)",
       "spellArea": "",
-      "spellDescription": "<p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/magicWeapon.htm\" title=\"magic weapon\"><em>magic weapon</em></a>, except that it gives a weapon an <a href=\"https://www.d20srd.org/srd/theBasics.htm#enhancementBonus\" title=\"enhancement bonus\">enhancement bonus</a> on attack and damage rolls of +1 per four caster levels (maximum +5).</p>\n<p>Alternatively, you can affect as many as fifty arrows, bolts, or bullets. The <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#projectileWeapons\" title=\"projectiles\">projectiles</a> must be of the same kind, and they have to be together (in the same quiver or other container). Projectiles, but not <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#thrownWeapons\" title=\"thrown weapons\">thrown weapons</a>, lose their transmutation when used. (Treat <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#shuriken\" title=\"shuriken\">shuriken</a> as projectiles, rather than as thrown weapons, for the purpose of this spell.)</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 102,
       "spellSummary": "+1 bonus/four levels (max +5)."
@@ -3974,6 +3974,11 @@
       "dateTime": "2023-01-20T20:04:04.475Z",
       "logText": "Cast spell: Divination",
       "id": 24
+    },
+    {
+      "dateTime": "2023-01-20T22:08:05.751Z",
+      "logText": "Prepared spell: Magic Weapon, Greater",
+      "id": 25
     }
   ]
 }
