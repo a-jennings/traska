@@ -34,8 +34,16 @@ export function InventoryEditDialog(
         <Formik
           initialValues={item}
           onSubmit={(values) => {
-            axios
-              .patch(`http://localhost:3001/inventory/${values.id}`, values)
+            Promise.all([
+              axios.patch(
+                `http://localhost:3001/inventory/${values.id}`,
+                values
+              ),
+              axios.post("http://localhost:3001/log", {
+                dateTime: new Date(Date.now()),
+                logText: `Changed item: "${item.name}" to "${values.name}"`,
+              }),
+            ])
               .then(() => onClose())
               .catch((error) => console.log(error));
           }}
