@@ -3864,6 +3864,32 @@
       "spellSummary": "Speak any language."
     }
   ],
+  "contacts": [
+    {
+      "name": "Test",
+      "description": "|Testsetsetset",
+      "text": "",
+      "id": 1
+    },
+    {
+      "name": "teasdt",
+      "description": "asetasdt",
+      "text": "",
+      "id": 2
+    },
+    {
+      "name": "23123123",
+      "description": "123123",
+      "text": "",
+      "id": 3
+    },
+    {
+      "name": "23123123",
+      "description": "123123",
+      "text": "",
+      "id": 4
+    }
+  ],
   "log": [
     {
       "dateTime": "2023-01-13T21:20:17.173Z",

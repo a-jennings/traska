@@ -187,3 +187,10 @@ export type LogInfo = {
   logText: string;
   id: number;
 };
+
+export type ContactInfo = {
+  name: string;
+  description: string;
+  text: string;
+  id: number;
+};
