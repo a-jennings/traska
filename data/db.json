@@ -3866,28 +3866,10 @@
   ],
   "contacts": [
     {
-      "name": "Test",
-      "description": "|Testsetsetset",
-      "text": "",
+      "name": "Ardor Crisp",
+      "description": "Owner of the Healing Wave in Kessen",
+      "text": "<p>Ardor is the owner of the Healing Wave shop in Kessen where I buy some spell casting materials from. She's an expert alchemist, currently investigating the potions being used by the resitance/the Beak?</p>",
       "id": 1
-    },
-    {
-      "name": "teasdt",
-      "description": "asetasdt",
-      "text": "",
-      "id": 2
-    },
-    {
-      "name": "23123123",
-      "description": "123123",
-      "text": "",
-      "id": 3
-    },
-    {
-      "name": "23123123",
-      "description": "123123",
-      "text": "",
-      "id": 4
     }
   ],
   "log": [

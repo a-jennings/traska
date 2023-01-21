@@ -8,11 +8,12 @@ import {
   Grid,
   DialogActions,
 } from "@mui/material";
-import React, { ReactElement, useState, useEffect } from "react";
+import React, { ReactElement, useState, useEffect, useCallback } from "react";
 import AddIcon from "@mui/icons-material/Add";
 import { Formik, Form } from "formik";
 import axios from "axios";
 import { ContactInfo } from "../../types";
+import { Contact } from "../../components/Contact/Contact";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -24,6 +25,15 @@ export function Contacts(): ReactElement {
 
   const handleAddDialogOpen = () => setAddDialogOpen(true);
   const handleAddDialogClose = () => setAddDialogOpen(false);
+
+  const fetchContacts = useCallback(() => {
+    axios
+      .get("http://localhost:3001/contacts")
+      .then((res: { data: Array<ContactInfo> }) => {
+        setData(res.data);
+      })
+      .catch((error) => console.log(error));
+  }, []);
 
   useEffect(() => {
     axios
@@ -50,8 +60,8 @@ export function Contacts(): ReactElement {
         Add Contact
       </Button>
       <Box py={2} px={8}>
-        {data.map((contact) => (
-          <>{contact.name}</>
+        {data.map((contact, index) => (
+          <Contact data={contact} key={index} fetchContacts={fetchContacts} />
         ))}
       </Box>
 
