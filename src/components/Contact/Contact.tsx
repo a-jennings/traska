@@ -73,9 +73,33 @@ export function Contact(props: ContactProps): ReactElement {
         <Box display="flex" justifyContent="space-between">
           <Box display="flex" alignItems="center">
             <Typography>{data.name}</Typography>
-            <Box ml={2}>
+            <Box ml={2} display="flex" alignItems="center">
               <Typography fontSize="12px" sx={{ opacity: 0.8 }}>
                 {data.description}
+              </Typography>
+              <Divider
+                flexItem
+                orientation="vertical"
+                style={{
+                  margin: "3px 10px",
+                  backgroundColor: "grey",
+                  opacity: 0.8,
+                }}
+              />
+              <Typography fontSize="12px" sx={{ opacity: 0.8 }}>
+                {data.gender}
+              </Typography>
+              <Divider
+                flexItem
+                orientation="vertical"
+                style={{
+                  margin: "3px 10px",
+                  backgroundColor: "grey",
+                  opacity: 0.8,
+                }}
+              />
+              <Typography fontSize="12px" sx={{ opacity: 0.8 }}>
+                {data.race}
               </Typography>
             </Box>
           </Box>
@@ -178,13 +202,34 @@ export function Contact(props: ContactProps): ReactElement {
                       size="small"
                     />
                   </Grid>
-
                   <Grid item xs={12}>
                     <TextField
                       id="description"
                       name="description"
                       label="Description"
                       value={values.description}
+                      onChange={handleChange}
+                      fullWidth
+                      size="small"
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      id="race"
+                      name="race"
+                      label="Race"
+                      value={values.race}
+                      onChange={handleChange}
+                      fullWidth
+                      size="small"
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      id="gender"
+                      name="gender"
+                      label="Gender"
+                      value={values.gender}
                       onChange={handleChange}
                       fullWidth
                       size="small"

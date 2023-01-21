@@ -193,4 +193,6 @@ export type ContactInfo = {
   description: string;
   text: string;
   id: number;
+  race: string | null;
+  gender: string | null;
 };

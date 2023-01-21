@@ -3868,7 +3868,9 @@
     {
       "name": "Ardor Crisp",
       "description": "Owner of the Healing Wave in Kessen",
-      "text": "<p>Ardor is the owner of the Healing Wave shop in Kessen where I buy some spell casting materials from. She's an expert alchemist, currently investigating the potions being used by the resitance/the Beak?</p>",
+      "text": "<ul>\n  <li>Healing Wave is a shop thats good for me to buy reagents in</li>\n  <li>Ardor is a great Alchemist, currently investigating the potions that we found/were used by the resistance attack on Kessen.</li>\n</ul>",
+      "gender": "Female",
+      "race": "Water Genasi",
       "id": 1
     }
   ],

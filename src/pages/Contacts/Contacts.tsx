@@ -69,7 +69,13 @@ export function Contacts(): ReactElement {
         <DialogTitle>Add New Contact</DialogTitle>
         <DialogContent>
           <Formik
-            initialValues={{ name: "", description: "", text: "" }}
+            initialValues={{
+              name: "",
+              description: "",
+              text: "",
+              gender: "",
+              race: "",
+            }}
             onSubmit={(values) => {
               axios
                 .post("http://localhost:3001/contacts", values)
@@ -99,6 +105,28 @@ export function Contacts(): ReactElement {
                       name="description"
                       label="Description"
                       value={values.description}
+                      onChange={handleChange}
+                      fullWidth
+                      size="small"
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      id="race"
+                      name="race"
+                      label="Race"
+                      value={values.race}
+                      onChange={handleChange}
+                      fullWidth
+                      size="small"
+                    />
+                  </Grid>
+                  <Grid item xs={12}>
+                    <TextField
+                      id="gender"
+                      name="gender"
+                      label="Gender"
+                      value={values.gender}
                       onChange={handleChange}
                       fullWidth
                       size="small"
