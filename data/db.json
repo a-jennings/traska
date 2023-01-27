@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 65,
-    "hpCurrent": 65,
+    "hpCurrent": 47,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -610,9 +610,9 @@
     },
     {
       "title": "Session 17",
-      "text": "<p>We're on a boat motherfucker.<br>\nCaptain Lance Mathias is the owner of the Emerald Dragon Airship! Yes then!</p>\n<p>He introduces us to his wife Petrya, who's an elven woman with 1 arm. Between them they use one of the crazy purple gems to fly the ship. Wild.</p>\n<p>When we go to our rooms, we have a care package? Assuming it's from Lydia? It's like a inquisition care package.</p>",
+      "text": "<p>We're on a boat motherfucker.<br>\nCaptain Lance Mathias is the owner of the Emerald Dragon Airship! Yes then!</p>\n<p>He introduces us to his wife Petrya, who's an elven woman with 1 arm. Between them they use one of the crazy purple gems to fly the ship. Wild.</p>\n<p>When we go to our rooms, we have a care package? Assuming it's from Lydia? It's like a inquisition care package.</p>\n<p>We discuss the underdark and its shit at length.<br>\n <br>\nI get a vision at night. The sun eclipsed again with a red hue. Like the same blood moon again. There's something in front of me. Taking more shape than it did before. Humanoid. Stone like appearance. Cold to the touch. Male voice. 'By his grace, free me, help me'. I spend a few hours on the top of the ship trying to think it out. Much confusion.</p>\n<p>Tarryn has a vision too! Holy shit.</p>\n<p>There is a grand temple of Pelor! In the northern parts of the Olden Province. Can't wait to fucking go there!</p>\n<p>We sleep again! Otto gets a fucking vision this time!!!! Vissssiiioonnnzzzzzzz</p>\n<p>WHY IS THERE A LORD OF CHANGE ON THE FUCKING BOARD PLEASE!?!</p>\n<p>Otto's mum thing is a cat man? Be ba ba bada bo.</p>\n<p>It's my turn next time. Do I searing light?! or die I heallll</p>",
       "date": "2023-01-27T18:34:20.336Z",
-      "editDate": "2023-01-27T19:35:24.087Z",
+      "editDate": "2023-01-27T22:19:40.568Z",
       "id": 19
     }
   ],
@@ -1850,7 +1850,7 @@
       "spellSavingThrow": "Will partial",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p><br>\nAn affected creature is capable of taking actions, such as attacking or casting spells, but it cannot step from its current square (or squares, if it occupies more than one). The subject also takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves while so rooted.</p>\n<p>If the subject succeeds on the initial Will save, it suffers no ill effects and the spell ends immediately. If it fails the initial save, it can attempt a new Will save every round thereafter. Once the subject succeeds on one of these secondary saves, it can move, but its base speed is reduced by 10 feet (to a minimum of 5 feet) for the duration of the spell. If the subject has multiple modes of movement, each is reduced accordingly.</p>\n<p>If the subject is already under an effect that curtails its ability to move (such as slow or hold person), it also takes a -4 penalty to Dexterity for the duration of this spell, even if the other effect ends before this one does.</p>\n<p>All penalties imposed by the spell are sacred if your deity is good or neutral or profane if your deity is evil.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -2336,7 +2336,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 62,
       "spellSummary": "Calms creatures, negating emotion effects."
@@ -2810,13 +2810,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>When you need to keep track of comrades who may get separated, status allows you to mentally monitor their relative positions and general condition. You are aware of direction and distance to the creatures and any conditions affecting them: unharmed, wounded, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#disabled\" title=\"disabled\">disabled</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#staggered\" title=\"staggered\">staggered</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#unconscious\" title=\"unconscious\">unconscious</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#dying\" title=\"dying\">dying</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#nauseated\" title=\"nauseated\">nauseated</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#panicked\" title=\"panicked\">panicked</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#stunned\" title=\"stunned\">stunned</a>, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poisoned\">poisoned</a>, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#disease\" title=\"diseased\">diseased</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#confused\" title=\"&lt;em&gt;confused&lt;/em&gt;\"><em>confused</em></a>, or the like. Once the spell has been cast upon the subjects, the distance between them and the caster does not affect the spell as long as they are on the same plane of existence. If a subject leaves the plane, or if it dies, the spell ceases to function for it.&nbsp;</p>",
+      "spellDescription": "<p>When you need to keep track of comrades who may get separated, status allows you to mentally monitor their relative positions and general condition. You are aware of direction and distance to the creatures and any conditions affecting them: unharmed, wounded, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#disabled\" title=\"disabled\">disabled</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#staggered\" title=\"staggered\">staggered</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#unconscious\" title=\"unconscious\">unconscious</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#dying\" title=\"dying\">dying</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#nauseated\" title=\"nauseated\">nauseated</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#panicked\" title=\"panicked\">panicked</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#stunned\" title=\"stunned\">stunned</a>, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poisoned\">poisoned</a>, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#disease\" title=\"diseased\">diseased</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#confused\" title=\"&lt;em&gt;confused&lt;/em&gt;\"><em>confused</em></a>, or the like. Once the spell has been cast upon the subjects, the distance between them and the caster does not affect the spell as long as they are on the same plane of existence. If a subject leaves the plane, or if it dies, the spell ceases to function for it.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 82,
       "spellSummary": "Monitors condition, position of allies."
@@ -2930,13 +2930,13 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>This spell cures 1d4 points of damage +1 point per caster level (maximum +5).</p>\n<p>If you cast this spell immediately after the subject takes damage, it effectively prevents the damage. It would keep alive someone who had just dropped to —10 hit points, for example, leaving the character at negative hit points but stable.</p>\n<p>Used against an undead creature, close wounds deals damage instead of curing the creature (which takes half damage if it makes a Will saving throw).</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 87,
       "spellSummary": "Cure 1d4 damage +1/level, even on another’s turn"
@@ -3242,7 +3242,7 @@
       "spellSavingThrow": "Will negates (harmless, object)",
       "spellResistance": "Yes (harmless, object)",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>This spell functions like <a href=\"https://www.d20srd.org/srd/spells/magicWeapon.htm\" title=\"magic weapon\"><em>magic weapon</em></a>, except that it gives a weapon an <a href=\"https://www.d20srd.org/srd/theBasics.htm#enhancementBonus\" title=\"enhancement bonus\">enhancement bonus</a> on attack and damage rolls of +1 per four caster levels (maximum +5).</p>\n<p>Alternatively, you can affect as many as fifty arrows, bolts, or bullets. The <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#projectileWeapons\" title=\"projectiles\">projectiles</a> must be of the same kind, and they have to be together (in the same quiver or other container). Projectiles, but not <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#thrownWeapons\" title=\"thrown weapons\">thrown weapons</a>, lose their transmutation when used. (Treat <a href=\"https://www.d20srd.org/srd/equipment/weapons.htm#shuriken\" title=\"shuriken\">shuriken</a> as projectiles, rather than as thrown weapons, for the purpose of this spell.)<br>\n</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3968,7 +3968,7 @@
       "id": 5
     },
     {
-      "name": "Captain Gagia Thundereye Elanigon",
+      "name": "Gagia Thundereye Elanigon",
       "description": "Lord Captain of the Mage Guard in Kessen",
       "text": "<p>Seriously fucking mean. Armoured to the tits</p>",
       "gender": "Female",
@@ -4165,6 +4165,56 @@
       "dateTime": "2023-01-27T19:56:29.476Z",
       "logText": "Prepared spell: Detect Undead",
       "id": 35
+    },
+    {
+      "dateTime": "2023-01-27T20:27:09.584Z",
+      "logText": "Cast spell: Calm Emotions",
+      "id": 36
+    },
+    {
+      "dateTime": "2023-01-27T20:27:23.505Z",
+      "logText": "Prepared spell: Status",
+      "id": 37
+    },
+    {
+      "dateTime": "2023-01-27T20:27:36.427Z",
+      "logText": "Prepared spell: Status",
+      "id": 38
+    },
+    {
+      "dateTime": "2023-01-27T20:28:11.867Z",
+      "logText": "Prepared spell: Status",
+      "id": 39
+    },
+    {
+      "dateTime": "2023-01-27T20:28:21.918Z",
+      "logText": "Prepared spell: Status",
+      "id": 40
+    },
+    {
+      "dateTime": "2023-01-27T21:44:07.838Z",
+      "logText": "Prepared spell: Impede",
+      "id": 41
+    },
+    {
+      "dateTime": "2023-01-27T22:03:05.567Z",
+      "logText": "Prepared spell: Magic Weapon, Greater",
+      "id": 42
+    },
+    {
+      "dateTime": "2023-01-27T22:09:47.589Z",
+      "logText": "18 damage taken",
+      "id": 43
+    },
+    {
+      "dateTime": "2023-01-27T22:10:27.931Z",
+      "logText": "Prepared spell: Close Wounds",
+      "id": 44
+    },
+    {
+      "dateTime": "2023-01-27T22:11:19.248Z",
+      "logText": "Cast spell: Close Wounds",
+      "id": 45
     }
   ]
 }
