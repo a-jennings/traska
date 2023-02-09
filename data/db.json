@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 65,
-    "hpCurrent": 47,
+    "hpCurrent": 65,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -460,7 +460,7 @@
       "id": 13
     },
     {
-      "name": "Sunfood",
+      "name": "Sunrod",
       "weight": 0,
       "id": 14
     },
@@ -614,6 +614,13 @@
       "date": "2023-01-27T18:34:20.336Z",
       "editDate": "2023-01-27T22:19:40.568Z",
       "id": 19
+    },
+    {
+      "title": "Session 18",
+      "text": "<p>DAAAAAAANNNNNGGGGEEEERRRR ISSS UPPOONNN USSSSS</p>\n<p>That fight was fucking completely nuts, with people flying off the ship, lots of flying.</p>\n<p>The demons, the Vrock eventually fall, with Tarryn and Otto narowly escaping death.</p>\n<p>The Rakshasa creature lived, by diving over the boat...</p>\n<p>Lydia has some questions and interogations for Otto.</p>\n<p>A few days pass. Some people do some shit it is what it is.</p>\n<p>I get another fucking vision for fuck sake. A muscular man is more visible in this vision. Greyness to their form. Shoulder length way hair. Its still a blury kind of image.</p>\n<p>Tracing a sunlike sigil on the statues chest. 'By his will release me'. Appears to be in some sort of stone room? or surrounded with stone buildings? I'm not sure what to make of this shit.</p>\n<p>Anyway we FUCKING HALO JUMP. AND IT WORKS TOO!</p>\n<p>We continue to fly for a bit, and follow the river north, passing over a smaller boy and his dad probably.</p>\n<p>Its an additional 3 days of walking to the western side of Vraddak.</p>\n<p>Lydia casts her spell and does the look back through time thing. It goes wrong. She exclaims, Hes in Mawsgate!</p>",
+      "date": "2023-02-08T18:13:06.879Z",
+      "editDate": "2023-02-08T22:22:07.408Z",
+      "id": 20
     }
   ],
   "attacks": [
@@ -1856,7 +1863,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 40,
       "spellSummary": "Subject is locked in place and takes a -1 penalty on melee attack rolls and a -2 penalty on Reflex saves."
@@ -2816,7 +2823,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 82,
       "spellSummary": "Monitors condition, position of allies."
@@ -2930,13 +2937,13 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>This spell cures 1d4 points of damage +1 point per caster level (maximum +5).</p>\n<p>If you cast this spell immediately after the subject takes damage, it effectively prevents the damage. It would keep alive someone who had just dropped to —10 hit points, for example, leaving the character at negative hit points but stable.</p>\n<p>Used against an undead creature, close wounds deals damage instead of curing the creature (which takes half damage if it makes a Will saving throw).</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 2,
       "spellMaterial": "",
       "id": 87,
       "spellSummary": "Cure 1d4 damage +1/level, even on another’s turn"
@@ -3050,7 +3057,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "<p>Focusing divine power like a ray of the sun, you project a blast of light from your open palm. You must succeed on a ranged <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#touchAttacks\" title=\"touch attack\">touch attack</a> to strike your target. A creature struck by this ray of light takes <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> points of damage per two caster levels (maximum <a href=\"javascript:void(0);\" title=\"5d8\">5d8</a>). An <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature takes <a href=\"javascript:void(0);\" title=\"1d6\">1d6</a> points of damage per caster level (maximum <a href=\"javascript:void(0);\" title=\"10d6\">10d6</a>), and an undead creature particularly vulnerable to bright light takes <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> points of damage per caster level (maximum <a href=\"javascript:void(0);\" title=\"10d8\">10d8</a>). A <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#constructType\" title=\"construct\">construct</a> or inanimate object takes only <a href=\"javascript:void(0);\" title=\"1d6\">1d6</a> points of damage per two caster levels (maximum <a href=\"javascript:void(0);\" title=\"5d6\">5d6</a>).</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3128,7 +3135,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 97,
       "spellSummary": "Corpse answers one question/two levels."
@@ -3194,7 +3201,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>You contact a particular creature with which you are familiar and send a short message of twenty-five words or less to the subject. The subject recognizes you if it knows you. It can answer in like manner immediately. A creature with an Intelligence score as low as 1 can understand the sending, though the subject’s ability to react is limited as normal by its Intelligence score. Even if the sending is received, the subject is not obligated to act upon it in any manner.</p>\n<p>If the creature in question is not on the same plane of existence as you are, there is a 5% chance that the sending does not arrive. (Local conditions on other planes may worsen this chance considerably.)</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3248,7 +3255,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 102,
       "spellSummary": "+1 bonus/four levels (max +5)."
@@ -3296,7 +3303,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 104
     },
@@ -3897,7 +3904,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 132
     },
@@ -3954,7 +3961,7 @@
     {
       "name": "Lydia Greymont",
       "description": "Inquisitor",
-      "text": "<ul>\n  <li>Met her in The Cobblers House in Vraddak. She has a gun.</li>\n  <li>SYKE! That was a duplicate? or a clone? a fake for sure.</li>\n  <li>We met the actual her on the road back to Kessen. She has a dog named pup.</li>\n  <li>Met up with us in Kessen, to take us back to Vraddak to find the beak.</li>\n</ul>",
+      "text": "<ul>\n  <li>Met her in The Cobblers House in Vraddak. She has a gun.</li>\n  <li>SYKE! That was a duplicate? or a clone? a fake for sure.</li>\n  <li>We met the actual her on the road back to Kessen. She has a dog named pup.</li>\n  <li>Met up with us in Kessen, to take us back to Vraddak to find the beak.</li>\n  <li>She is pretty fucking competent at shooting that cool gun</li>\n</ul>",
       "gender": "Female",
       "race": "Human",
       "id": 4
@@ -3986,7 +3993,7 @@
     {
       "name": "Lance Mathias",
       "description": "Captain of the Emerald Dragon Airship",
-      "text": "<p>Petrya is his elven wife who has one arm.</p>",
+      "text": "<p>Petrya is his elven wife who has one arm.</p>\n<p>He cowered like a bitch when we were attacked. Pretty funny</p>",
       "gender": "Male",
       "race": "Human",
       "id": 8
@@ -4215,6 +4222,176 @@
       "dateTime": "2023-01-27T22:11:19.248Z",
       "logText": "Cast spell: Close Wounds",
       "id": 45
+    },
+    {
+      "dateTime": "2023-02-08T18:47:52.327Z",
+      "logText": "Cast spell: Searing Light",
+      "id": 46
+    },
+    {
+      "dateTime": "2023-02-08T18:56:49.632Z",
+      "logText": "Prepared spell: Restoration",
+      "id": 47
+    },
+    {
+      "dateTime": "2023-02-08T19:05:08.870Z",
+      "logText": "16 damage taken",
+      "id": 48
+    },
+    {
+      "dateTime": "2023-02-08T19:12:54.953Z",
+      "logText": "Cast spell: Tongues as healing spell",
+      "id": 49
+    },
+    {
+      "dateTime": "2023-02-08T19:13:07.850Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 50
+    },
+    {
+      "dateTime": "2023-02-08T19:22:15.417Z",
+      "logText": "Changed item: \"Sunfood\" to \"Sunrod\"",
+      "id": 51
+    },
+    {
+      "dateTime": "2023-02-08T19:48:50.213Z",
+      "logText": "Cast spell: Magic Weapon, Greater as healing spell",
+      "id": 52
+    },
+    {
+      "dateTime": "2023-02-08T19:48:55.513Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 53
+    },
+    {
+      "dateTime": "2023-02-08T20:09:42.804Z",
+      "logText": "Cast spell: Sending",
+      "id": 54
+    },
+    {
+      "dateTime": "2023-02-08T20:10:51.770Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 55
+    },
+    {
+      "dateTime": "2023-02-08T20:11:30.518Z",
+      "logText": "18 damage taken",
+      "id": 56
+    },
+    {
+      "dateTime": "2023-02-08T20:11:36.613Z",
+      "logText": "13 damage taken",
+      "id": 57
+    },
+    {
+      "dateTime": "2023-02-08T20:12:48.127Z",
+      "logText": "19 damage healed",
+      "id": 58
+    },
+    {
+      "dateTime": "2023-02-08T20:20:44.229Z",
+      "logText": "Prepared spell: Close Wounds",
+      "id": 59
+    },
+    {
+      "dateTime": "2023-02-08T20:20:55.676Z",
+      "logText": "Cast spell: Status",
+      "id": 60
+    },
+    {
+      "dateTime": "2023-02-08T20:29:54.175Z",
+      "logText": "Cast spell: Restoration",
+      "id": 61
+    },
+    {
+      "dateTime": "2023-02-08T20:30:05.823Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 62
+    },
+    {
+      "dateTime": "2023-02-08T20:30:15.124Z",
+      "logText": "41 damage healed",
+      "id": 63
+    },
+    {
+      "dateTime": "2023-02-08T20:30:54.945Z",
+      "logText": "Prepared spell: Close Wounds",
+      "id": 64
+    },
+    {
+      "dateTime": "2023-02-08T20:32:28.640Z",
+      "logText": "Cast spell: Close Wounds",
+      "id": 65
+    },
+    {
+      "dateTime": "2023-02-08T20:55:20.273Z",
+      "logText": "Cast spell: Impede",
+      "id": 66
+    },
+    {
+      "dateTime": "2023-02-08T21:10:19.564Z",
+      "logText": "Cast spell: Speak With Dead",
+      "id": 67
+    },
+    {
+      "dateTime": "2023-02-08T21:10:54.198Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 68
+    },
+    {
+      "dateTime": "2023-02-08T21:11:09.767Z",
+      "logText": "Used special ability: Epic Point",
+      "id": 69
+    },
+    {
+      "dateTime": "2023-02-08T21:36:29.953Z",
+      "logText": "5 damage healed",
+      "id": 70
+    },
+    {
+      "dateTime": "2023-02-08T21:37:31.579Z",
+      "logText": "Prepared spell: Close Wounds",
+      "id": 71
+    },
+    {
+      "dateTime": "2023-02-08T21:37:54.808Z",
+      "logText": "Prepared spell: Blindness/Deafness",
+      "id": 72
+    },
+    {
+      "dateTime": "2023-02-08T21:37:59.727Z",
+      "logText": "Prepared spell: Searing Light",
+      "id": 73
+    },
+    {
+      "dateTime": "2023-02-08T21:38:14.206Z",
+      "logText": "Prepared spell: Restoration",
+      "id": 74
+    },
+    {
+      "dateTime": "2023-02-08T21:38:21.420Z",
+      "logText": "Prepared spell: Sending",
+      "id": 75
+    },
+    {
+      "dateTime": "2023-02-08T21:38:27.418Z",
+      "logText": "Prepared spell: Tongues",
+      "id": 76
+    },
+    {
+      "dateTime": "2023-02-08T21:39:45.385Z",
+      "logText": "Prepared spell: Spell Immunity",
+      "id": 77
+    },
+    {
+      "dateTime": "2023-02-08T21:40:33.916Z",
+      "logText": "Regenerated special ability: Epic Point",
+      "id": 78
+    },
+    {
+      "dateTime": "2023-02-08T21:40:35.177Z",
+      "logText": "Regenerated special ability: Turn Undead",
+      "id": 79
     }
   ]
 }
