@@ -478,7 +478,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 4105,
+    "gold": 3625,
     "platinum": 0
   },
   "notes": [
@@ -621,6 +621,13 @@
       "date": "2023-02-08T18:13:06.879Z",
       "editDate": "2023-02-08T22:22:07.408Z",
       "id": 20
+    },
+    {
+      "title": "Session 19",
+      "text": "<p>It's been a while...</p>\n<p>So Lydia is super passed out. Some sort of feedback from casting this divination spell? Apparently casting divination spells on powerful casters can kind of feedback and make you pass out.<br>\nEither way, we decide we need to get her out of the street. A couple of us take her to the temple of Pelor, while a couple go to the temple of Boccob, to try and see if the father mage there can possibly help?</p>\n<p>No. They can't help. Her intelligence might be zero with no way of restoring it? Not sure what to do about dat..</p>\n<p>We're trying to decide what our next moves are.</p>\n<p>Pebs wakes up. Missing an arm. Sadge. He also has savage cuts on his chest. Cut with the beaky boy sword which he said drained him of power.</p>\n<p>Beaky boy description -&gt; Fancy looking robes. Beak mask only covering the mouth, quite long. Eyes visible, sunken eyes. No elven ears. Broad and muscular. Pebs says that he was 'off'. A description that is pretty much backed up as Tarryn goes around asking about the fight they had.</p>\n<p>Also by the sounds of it, the beaky boy was toying with our boy Pebs before fucking him up. Then he twiddled something on his finger and teleported away. Cannot fucking wait to pry that ring of his cold dead hands.</p>\n<p>Nym tries to go to the temple of Boccob to do some research but the library there is pretty shite. So on his stroll back he has a though that the reason Lydia is fucked is because the beak boy is a psionic being? And wait... is he using the beak mask over his mouth to HIDE FUCKING TENTICLES. FUCKING NO PLEASE.</p>\n<p>We rest on this potentially terrible news.<br>\n <br>\nIn the morning the father of the temple of Boccob comes to the temple of Pelor and casts See Invisibility, to check if it's a similar situation to Vinny before. It's not.</p>\n<p>Our decision then, is to get to Mawsgate as fast as we can. The best route we can think of is to go to Byton, and try and catch an airship to Mawsgate. We buy horses for everyone except for Otto because crushing, and he can basically travel the same speed. We buy as much rations as we need, and take off! Leaving Lydia behind in the temple of Pelor hoping she recovers at some point.</p>\n<p>Byton!! We arrive! It appears to be really fucking chill here. Nice place, pretty relaxed because we sit on Lake Tranquil. Around 20 minutes travelling through the town we come to the literal 'Air-Port', where there's like 30 or so airships, with all sorts of carts and shit coming in and out. Major trade up in here. Also there's deffo some smuggling of Tranquil the drug going on in here. From descriptions, it's like Weed+.</p>\n<p>We fuck off our horses because cba. Then we hire an airship for a hunny g each. Sorry Otto we took 100g off your character sheet because fairness.</p>\n<p>Captain Vasinil Alendar, is a female drow. The ship is named Underdark and Beyond. Now I see why Nym found this one ;)</p>\n<p>So I ask the captain about maybe getting a center room for Otto because he's heavy, and it turns out we can balance out the weight of the ship because there's a fucking TROLL ON THE SHIP.</p>\n<p>4 days or so travel to Mawsgate, time for chillin. Nym goes and ask the captain to see if she knows anything about Psionics. They also talk about some drow shit, but I'm not there so I don't hear it. It definitely sounds fucking terrible though. Not that I'd know.</p>\n<p>We continue on without much trouble and we arrive at Mawsgate! It's a two-tiered city, built into the side of a mountain. Part of the city is walled, and it also sprawls out past the walls.</p>\n<p>As we descend in the airship, I notice a very specific statue as part of a well? Its the fucking statue from my dreams... Greaaaaattt...<br>\n<br>\nSession END!</p>",
+      "date": "2023-02-24T18:04:03.779Z",
+      "editDate": "2023-02-24T21:57:03.833Z",
+      "id": 21
     }
   ],
   "attacks": [
@@ -763,6 +770,18 @@
       "speed": "",
       "weight": 0,
       "properties": "Each of these identical silver rings is inscribed with the Draconic word for friendship.\n\nWhen you activate a ring of communication, for the next minute you can clearly hear any words spoken by anyone within 1 mile who is wearing another ring of communication to which you are attuned. The volume of the speech and the background noise at either end make no difference; whispers are audible above even the sounds of combat.\n\nAny two or more ring wearers need only touch their rings together (a standard action) and speak the command word in unison to attune the rings to each other. Any number of rings can become attuned to one another in this manner, so long as all are touched together at the same time.\n\nA ring remains attuned to the others until you attune it to a different ring."
+    },
+    {
+      "id": 11,
+      "name": "Everlasting Rations",
+      "type": "",
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": "This pouch contains enough trail rations to feed a Medium creature for one day. Every morning at sunrise, the pouch magically creates another day's worth of rations."
     }
   ],
   "feats": [
@@ -3511,7 +3530,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 114,
       "spellSummary": "Frees object or person from curse."
@@ -4392,6 +4411,11 @@
       "dateTime": "2023-02-08T21:40:35.177Z",
       "logText": "Regenerated special ability: Turn Undead",
       "id": 79
+    },
+    {
+      "dateTime": "2023-02-24T19:28:50.234Z",
+      "logText": "Cast spell: Remove Curse",
+      "id": 80
     }
   ]
 }
