@@ -628,6 +628,13 @@
       "date": "2023-02-24T18:04:03.779Z",
       "editDate": "2023-02-24T21:57:03.833Z",
       "id": 21
+    },
+    {
+      "title": "Session 20",
+      "text": "<p>Mawsgate Mawsgate. Fucking statue.</p>\n<p>Statue looks human, head bowed kind of short shaved hair.<br>\nGreek looking hoplite armour, muscular with a massive symbol of Pelor carved into the stone chest.</p>\n<p>Tarryn, knows this statues to be Helio, and old champion of Pelor. The story of Helio: Legend says that he still lives, and that he was turned to stone by Medusa. Allegedly he severed her arm, but at that point he was beginning to turn to stone. Tarryn has a song about it that he sings.</p>\n<p>After the song has finished a old looking noble man behind us starts clapping at the song. Rista Noble is his name, he is a travelling historian man? He recommends us a tavern called the Ale of the Banshee.</p>\n<p>He also gives some more info about the statue that he knows of. He thinks that Medusa is still alive. Rumour has it that she resides in the city of Sardus, wherever that is. Maybe embedded in the mountain? Around 45 miles south ish?</p>\n<p>The temple of Pelor here is called the Sun Sanctuary, and I'm erect.</p>\n<p>There's also a Magic Academy. Pog</p>\n<p>I do a wade through the fountain, and go to touch the statue. Big fucking mistake I get a Gandalf vs Ring flash vision of the same thing I saw before and the statue asking to release it. Not cool bro.</p>\n<p>Annyyywayy, bigger fish to fry right now! Beaky boi! We head on over toward the Ale of the Banshee, which is inside the walled city bit, in the trade district. We approach the gate of the walled area, which is heavily guarded, but they're only really looking at the carts going in and out.</p>\n<p>This is our kind of inn baby! Rowdy, lots of other people and blue collars etc. Also seems like there's another adventurer party here... Bartender is a gnomish woman.</p>\n<p>Adventuring party: dwarf man, human man, halfling female, elf female... Can't wait for this.</p>\n<p>Anyway, the barwoman says that maybe a patron saw him a couple months ago? We get rooms food drinks and all that shit.</p>\n<p>The other adventuring party 'killed a white dragon' for sure, no cap. They don't even have a name, fucking lame.</p>\n<p>We eat and drink etc etc, and decide we're gonna try and get some more info. First stop the Trickdown Mage Academy, which is in the emerald eye area. We get stopped by guards on our way there, but we good. The receptionist there is a complete fucking dick on a stick. So fuck the Mage Academy.</p>\n<p>Mozzi does a steal, and doesn't get caught... luckily...</p>\n<p>Aaaaaanyway, next stop is the Mayor's office! There's a conversation that some people are having, but I can't really hear what it's about. Eventually the office door opens, and a few very posh people come out. Dwarf, posh boi who turns up his nose. Another Dwarf (Lovid), who looks fucking done. A female human who has a librarian-esque appearance. Finally, a female drawf who moves with purpose.</p>\n<p>She enjoys our card, and our intro but her back gets up when we say that we're here for inquisitorial business.<br>\nGretin Ironslag, is the mayor! She seems a bit more chill when we explain our selves a bit more. But doesn't seem to know much about the beaky boi.</p>\n<p>Rollock Sacks, is the captain of the guard here. Apparently they have a little black market problem, but doesn't know too much about the special healing potions. So we might be able to help out with that.</p>\n<p>But other than that the mayor seems actually pretty chill, and willing to help us! Sick. But doesn't know much information.</p>\n<p>ITS SUN SANCTUARY TIME BABBBYYYY</p>\n<p>Female Gnome behind the altar, blond hair, praying. Livolla. We have a kind of strange conversation, but she doesn't seem to know a lot. Also this temple, for being called the Sun Sanctuary is a little bit shit.</p>\n<p>Nym and Tarryn also goes and prays at the temple of Corellon... I stay outside...</p>\n<p>FIN</p>",
+      "date": "2023-03-03T18:08:56.590Z",
+      "editDate": "2023-03-03T21:18:36.808Z",
+      "id": 22
     }
   ],
   "attacks": [
@@ -3124,13 +3131,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellArea": "All allies and foes within a 40-ft.-radius burst centered on you",
-      "spellDescription": "",
+      "spellDescription": "<p>You bring special favor upon yourself and your allies while bringing disfavor to your enemies. You and your each of your allies gain a +1 <a href=\"https://www.d20srd.org/srd/theBasics.htm#luckModifier\" title=\"luck bonus\">luck bonus</a> on <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#attackRoll\" title=\"attack rolls\">attack rolls</a>, weapon damage rolls, saves, and <a href=\"https://www.d20srd.org/srd/skills/usingSkills.htm#skillChecks\" title=\"skill checks\">skill checks</a>, while each of your foes takes a -1 penalty on such rolls.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 96,
       "spellSummary": "Allies +1 bonus on most rolls, enemies -1 penalty."
@@ -4416,6 +4423,16 @@
       "dateTime": "2023-02-24T19:28:50.234Z",
       "logText": "Cast spell: Remove Curse",
       "id": 80
+    },
+    {
+      "dateTime": "2023-03-03T18:29:48.373Z",
+      "logText": "Prepared spell: Prayer",
+      "id": 81
+    },
+    {
+      "dateTime": "2023-03-03T18:30:08.601Z",
+      "logText": "Prepared spell: Prayer",
+      "id": 82
     }
   ]
 }
