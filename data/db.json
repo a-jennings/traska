@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 65,
-    "hpCurrent": 65,
+    "hpCurrent": 57,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -645,9 +645,9 @@
     },
     {
       "title": "Session 22",
-      "text": "<p>Ok so shits all fucked up.<br>\nThe Guard captain eventually arrives, and gives us a massive dressing down. For some reason, still trying to figure that out.</p>\n<p>He tells us to not leave the city and go away. Basically breaks us</p>\n<p>Nyms father was captured by drow raiders a long time ago. Was a great swordsman. Was also a slave. Mother was a discraced priestess of Lolth. She sucks. She reaaaalllllyy sucks. Pitting her children against each other? Hence crazy siblings. Father, Nym and his sister, tried to get sprung out. 5 siblings remain...</p>\n<p>The Reverent Matriatch (Nym's mother), has put out a motherfucking 100,000GP bounty on his head........... What the actual fuck.</p>",
+      "text": "<p>Ok so shits all fucked up.<br>\nThe Guard captain eventually arrives, and gives us a massive dressing down. For some reason, still trying to figure that out.</p>\n<p>He tells us to not leave the city and go away. Basically breaks us</p>\n<p>Nyms father was captured by drow raiders a long time ago. Was a great swordsman. Was also a slave. Mother was a discraced priestess of Lolth. She sucks. She reaaaalllllyy sucks. Pitting her children against each other? Hence crazy siblings. Father, Nym and his sister, tried to get sprung out. 5 siblings remain...</p>\n<p>The Reverent Matriatch (Nym's mother), has put out a motherfucking 100,000GP bounty on his head........... What the actual fuck.</p>\n<p>We all spill our guts about our back stories.<br>\nTarryn has been to the underdark once to try and save some people.<br>\nOtto has no idea about what happened on the air ship. His adopted parents are dead, and his village was burned down by a baron.<br>\nNym, see above. Holy shit.<br>\nMozzi found another gem in the sewers in Kessen back in the day and that what powers Lodo, and what the rats are after.</p>\n<p>I'm fine by the way. <br>\nTime to sleep...</p>\n<p>SIKE MOTHERFUCKER.</p>\n<p>Fucking Vilna is back and she's literally sniper wolf. Attacks Nym who I'm sharing a room with, and he almost gets one banged. Then I almost get one banged and we charge out to face her... Naked and afraid. Not good. Otto see's her briefly, but she's very stealthy bitch.</p>\n<p>Mozzi goes up on the rooftops and its very MGS. She runs, we chase etc etc.<br>\nAt last we find her, scaling a building. Very fortunate I get off a blindness spell, which is fucking permanent in this edition? Hello.<br>\nAt that point she's pretty much defeated. Time for Nym to do his thing. She looks like she's giving up, but they're speaking in undercommon, so I have no idea what the fuck is going on.<br>\nShe tries one last attempt to get a boot dagger, but no dice. Nym gets his coup de grace.&nbsp;</p>",
       "date": "2023-03-31T16:58:54.658Z",
-      "editDate": "2023-03-31T18:26:01.334Z",
+      "editDate": "2023-03-31T20:55:40.690Z",
       "id": 24
     }
   ],
@@ -803,6 +803,18 @@
       "speed": "",
       "weight": 0,
       "properties": "This pouch contains enough trail rations to feed a Medium creature for one day. Every morning at sunrise, the pouch magically creates another day's worth of rations."
+    },
+    {
+      "id": 12,
+      "name": "Bracers of Armour +3. Only when not in armour",
+      "type": "Bracers",
+      "bonus": 3,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": "Stolen from Nym's sister. "
     }
   ],
   "feats": [
@@ -840,7 +852,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 12,
+      "currentUses": 10,
       "maxUses": "13",
       "id": 1
     },
@@ -1495,7 +1507,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 23,
       "spellSummary": "Reveals undead within 60 ft."
@@ -1735,7 +1747,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 33,
       "spellSummary": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders."
@@ -1777,13 +1789,13 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>Any opponent attempting to strike or otherwise directly attack the warded creature, even with a targeted spell, must attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a>. If the save succeeds, the opponent can attack normally and is unaffected by that casting of the spell. If the save fails, the opponent can’t follow through with the attack, that part of its action is lost, and it can’t directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area or effect spells. The subject cannot attack without breaking the spell but may use nonattack spells or otherwise act.</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 35,
       "spellSummary": "Opponents can’t attack you, and you can’t attack."
@@ -3055,7 +3067,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 91,
       "spellSummary": "60-ft. radius of bright light."
@@ -3326,26 +3338,27 @@
     },
     {
       "spellName": "Blindness/Deafness",
-      "spellSchool": "",
+      "spellSchool": "Necromancy",
       "spellDescriptor": "",
       "spellLevel": 3,
       "spellComponents": "",
-      "spellCastingTime": "",
-      "spellRange": "",
-      "spellDuration": "",
-      "spellTarget": "",
-      "spellSavingThrow": "",
-      "spellResistance": "",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Medium (100 ft. + 10 ft./level)",
+      "spellDuration": "Permanent (D)",
+      "spellTarget": "One living creature",
+      "spellSavingThrow": "Fortitude negates",
+      "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>You call upon the powers of unlife to render the subject blinded or deafened, as you choose.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 104
+      "id": 104,
+      "spellSummary": "You call upon the powers of unlife to render the subject blinded or deafened, as you choose."
     },
     {
       "spellName": "Contagion",
@@ -3429,13 +3442,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>You can use dispel magic to end ongoing spells that have been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, to end ongoing spells (or at least their effects) within an area, or to counter another spellcaster’s spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can’t be defeated by dispel magic. Dispel magic can dispel (but not counter) <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellLikeAbilities\" title=\"spell-like\">spell-like</a> effects just as it does spells.</p>\n<p><em>Note:</em> The effect of a spell with an instantaneous duration can’t be dispelled, because the magical effect is already over before the dispel magic can take effect.</p>\n<p>You choose to use dispel magic in one of three ways: a targeted dispel, an area dispel, or a counterspell:</p>\n<h6><em>Targeted Dispel</em></h6>\n<p>One object, creature, or spell is the target of the dispel magic spell. You make a dispel check (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell’s caster level. If you succeed on a particular check, that spell is dispelled; if you fail, that spell remains in effect.</p>\n<p>If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning), you make a dispel check to end the spell that conjured the object or creature.</p>\n<p><br></p>\n<p><br></p>\n<p>If the object that you target is a magic item, you make a dispel check against the item’s caster level. If you succeed, all the item’s magical properties are suppressed for <a href=\"javascript:void(0);\" title=\"1d4\">1d4</a> rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a bag of holding) is temporarily closed. A magic item’s physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.</p>\n<p>You automatically succeed on your dispel check against any spell that you cast yourself.</p>\n<h6><em>Area Dispel</em></h6>\n<p>When dispel magic is used in this way, the spell affects everything within a 20-foot radius.</p>\n<p>For each creature within the area that is the subject of one or more spells, you make a dispel check against the spell with the highest caster level. If that check fails, you make dispel checks against progressively weaker spells until you dispel one spell (which discharges the dispel magic spell so far as that target is concerned) or until you fail all your checks. The creature’s magic items are not affected.</p>\n<p>For each object within the area that is the target of one or more spells, you make dispel checks as with creatures. Magic items are not affected by an area dispel.</p>\n<p>For each ongoing area or effect spell whose point of origin is within the area of the dispel magic spell, you can make a dispel check to dispel the spell.</p>\n<p>For each ongoing spell whose area overlaps that of the dispel magic spell, you can make a dispel check to end the effect, but only within the overlapping area.</p>\n<p>If an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning) is in the area, you can make a dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel spells targeting the creature or object.</p>\n<p>You may choose to automatically succeed on dispel checks against any spell that you have cast.</p>\n<h6><em>Counterspell</em></h6>\n<p>When dispel magic is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, dispel magic may not work; you must make a dispel check to counter the other spellcaster’s spell.</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 108,
       "spellSummary": "Cancels spells and magical effects."
@@ -4509,6 +4522,76 @@
       "dateTime": "2023-03-31T18:23:56.369Z",
       "logText": "10 damage healed",
       "id": 94
+    },
+    {
+      "dateTime": "2023-03-31T19:05:08.839Z",
+      "logText": "Cast spell: Daylight",
+      "id": 95
+    },
+    {
+      "dateTime": "2023-03-31T19:06:24.422Z",
+      "logText": "Cast spell: Dispel Magic",
+      "id": 96
+    },
+    {
+      "dateTime": "2023-03-31T19:13:02.240Z",
+      "logText": "Updated spell information for Dispel Magic",
+      "id": 97
+    },
+    {
+      "dateTime": "2023-03-31T19:32:47.388Z",
+      "logText": "Cast spell: Detect Undead as healing spell",
+      "id": 98
+    },
+    {
+      "dateTime": "2023-03-31T19:32:55.121Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 99
+    },
+    {
+      "dateTime": "2023-03-31T19:32:56.903Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 100
+    },
+    {
+      "dateTime": "2023-03-31T19:41:40.689Z",
+      "logText": "Cast spell: Protection from Evil",
+      "id": 101
+    },
+    {
+      "dateTime": "2023-03-31T19:51:57.213Z",
+      "logText": "25 damage taken",
+      "id": 102
+    },
+    {
+      "dateTime": "2023-03-31T19:54:39.661Z",
+      "logText": "Prepared spell: Sanctuary",
+      "id": 103
+    },
+    {
+      "dateTime": "2023-03-31T20:00:59.235Z",
+      "logText": "Cast spell: Sanctuary",
+      "id": 104
+    },
+    {
+      "dateTime": "2023-03-31T20:12:27.637Z",
+      "logText": "17 damage healed",
+      "id": 105
+    },
+    {
+      "dateTime": "2023-03-31T20:30:43.679Z",
+      "logText": "Prepared spell: Blindness/Deafness",
+      "id": 106
+    },
+    {
+      "dateTime": "2023-03-31T20:30:59.509Z",
+      "logText": "Prepared spell: Blindness/Deafness",
+      "id": 107
+    },
+    {
+      "dateTime": "2023-03-31T20:35:11.222Z",
+      "logText": "Cast spell: Blindness/Deafness",
+      "id": 108
     }
   ]
 }
