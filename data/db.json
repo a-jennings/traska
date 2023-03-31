@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 65,
-    "hpCurrent": 39,
+    "hpCurrent": 65,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -642,6 +642,13 @@
       "date": "2023-03-24T18:08:33.945Z",
       "editDate": "2023-03-31T17:00:18.996Z",
       "id": 23
+    },
+    {
+      "title": "Session 22",
+      "text": "<p>Ok so shits all fucked up.<br>\nThe Guard captain eventually arrives, and gives us a massive dressing down. For some reason, still trying to figure that out.</p>\n<p>He tells us to not leave the city and go away. Basically breaks us</p>\n<p>Nyms father was captured by drow raiders a long time ago. Was a great swordsman. Was also a slave. Mother was a discraced priestess of Lolth. She sucks. She reaaaalllllyy sucks. Pitting her children against each other? Hence crazy siblings. Father, Nym and his sister, tried to get sprung out. 5 siblings remain...</p>\n<p>The Reverent Matriatch (Nym's mother), has put out a motherfucking 100,000GP bounty on his head........... What the actual fuck.</p>",
+      "date": "2023-03-31T16:58:54.658Z",
+      "editDate": "2023-03-31T18:26:01.334Z",
+      "id": 24
     }
   ],
   "attacks": [
@@ -658,7 +665,7 @@
     {
       "name": "Wand of Cure Moderate Wounds (2d8+3)",
       "bonus": 0,
-      "damage": "47/50",
+      "damage": "44/50",
       "critical": "",
       "range": "",
       "type": "",
@@ -3144,7 +3151,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 96,
       "spellSummary": "Allies +1 bonus on most rolls, enemies -1 penalty."
@@ -4482,6 +4489,26 @@
       "dateTime": "2023-03-24T22:25:02.522Z",
       "logText": "26 damage taken",
       "id": 90
+    },
+    {
+      "dateTime": "2023-03-31T18:09:07.056Z",
+      "logText": "Cast spell: Prayer as healing spell",
+      "id": 91
+    },
+    {
+      "dateTime": "2023-03-31T18:09:12.598Z",
+      "logText": "33 damage healed",
+      "id": 92
+    },
+    {
+      "dateTime": "2023-03-31T18:23:51.419Z",
+      "logText": "2 damage taken",
+      "id": 93
+    },
+    {
+      "dateTime": "2023-03-31T18:23:56.369Z",
+      "logText": "10 damage healed",
+      "id": 94
     }
   ]
 }

@@ -43,7 +43,10 @@ export function CharacterStatsHeal(
               Promise.all([
                 axios.post("http://localhost:3001/stats", {
                   ...data,
-                  hpCurrent: data.hpCurrent + values.healing,
+                  hpCurrent:
+                    data.hpCurrent + values.healing > data.hpMax
+                      ? data.hpMax
+                      : data.hpCurrent + values.healing,
                 }),
                 axios.post("http://localhost:3001/log", {
                   dateTime: new Date(Date.now()),
