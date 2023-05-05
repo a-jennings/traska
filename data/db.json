@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 65,
-    "hpCurrent": 57,
+    "hpCurrent": 65,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -478,7 +478,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 3625,
+    "gold": 1625,
     "platinum": 0
   },
   "notes": [
@@ -649,6 +649,13 @@
       "date": "2023-03-31T16:58:54.658Z",
       "editDate": "2023-03-31T20:55:40.690Z",
       "id": 24
+    },
+    {
+      "title": "Session 23",
+      "text": "<p>We baaaaaaaaaaack. It's been a while.</p>\n<p>Ok so Nym swallows up a third sibling and takes her skull and bones... Cooooool...<br>\n <br>\nWe head back to the Ale of the Banshee, and the owner is a bit confused about the fucked up door and windows. Yeah, our bad, but money resolves all problems. I take my diva grouchy ass self to bed and rest.</p>\n<p>We loot Viylna!<br>\nShe has:</p>\n<p>Quicksilver Boots - Goes to Otto.</p>\n<p>Gloves of Dex + 4 - Nym</p>\n<p>Leather + 3 - Mozzi</p>\n<p>Ring of Entropic Deflection - ME! I now have 50% chance to be missed when targetted by ranged attacks.</p>\n<p>Longbow +1 with an energy crystal. - Nym</p>\n<p>Shopping is going terrbily. There's a tax on buying magic items? It's a fucking nightmare. I just wanna buy my shit... Lots of Tax Shouting happens</p>\n<p>I try to go to an enchanter to get Calling on my armour... Success!! 2000gold down, but I will have Calling armour in 2 days!</p>\n<p>In the mean time I wear Leather + 2 as a hand me down.</p>\n<p>We split into two. Tarryn and Nym are dressing up to try and find someone in the black market business by looking for illicit goods.<br>\nMe Mozzi and Otto are gonna go to the airship docks to try and see if they've seen anyone with the beaky boiz description</p>\n<p>Me and Otto find fuck all, however Mozzi speaks to some mice nearby who have spotted Beaky boi!!! He was spotted putting some shit on an airship once upon a time. A lead?</p>\n<p>Tarryn and Nym do there deception stuff, and they're meeting up with a dodgy dealer female dwarf (named Steelgrate?) with a symbol that Nym might recognise? The safehouse is the fucking temple of Moradin...</p>\n<p>The Silver Chimes, The Obsidian. What the fuck this plan is worrrrrrkkkiinnnnnggggg. No one expects the temples...<br>\n <br>\nWe have a plan. Its fucking shit. We'll do it live</p>\n<p>Tarryn and Otto are gonna do the dirty 8 grand deal for Tranquil, Whisky and guns.<br>\nMozzi is gonna try and teleport in to the temple, and steal a fucking load of money.<br>\nNym and Me hide on a temple roof in case shit goes down. If it does, Nym lights it up, and I send a message to the Guard Captain.<br>\n <br>\nOperation Cannot Possibly Fail</p>\n<p>Uhhhhhhh, wait. Operation can fail. Steelgrate says that the deal is off. Apparently the Obsidian got spooked...</p>\n<p>And then Tarryn and Otto go into an alleyway... and theres some dark figures.</p>\n<p>And then Me and Nym on the roof see some dark figures on other roofs...<br>\n<br>\nFuck.<br>\n<br>\nRemember for next session: I'm not wearing my normal armour and I have weird ring of 50% ranged dodge. Also Mozzi has Tarryns transolcation anklet. And Mirryn has booties</p>",
+      "date": "2023-05-05T17:15:39.481Z",
+      "editDate": "2023-05-05T21:16:16.444Z",
+      "id": 25
     }
   ],
   "attacks": [
@@ -782,7 +789,7 @@
     },
     {
       "id": 10,
-      "name": "Ring of Communication",
+      "name": "Ring of Communication (Unequipped)",
       "type": "Ring",
       "bonus": 0,
       "maxDex": "",
@@ -815,6 +822,18 @@
       "speed": "",
       "weight": 0,
       "properties": "Stolen from Nym's sister. "
+    },
+    {
+      "id": 13,
+      "name": "Ring of Entropic Deflection (Equipped)",
+      "type": "Ring",
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": "20% miss chance against all ranged attacks. Boosted to 50% if you have another item giving you additional speed."
     }
   ],
   "feats": [
@@ -852,7 +871,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 10,
+      "currentUses": "13",
       "maxUses": "13",
       "id": 1
     },
@@ -1741,13 +1760,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "No; see text",
       "spellArea": "",
-      "spellDescription": "<p>This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.</p>\n<p>First, the subject gains a +2 <a href=\"https://www.d20srd.org/srd/theBasics.htm#deflectionBonus\" title=\"deflection bonus\">deflection bonus</a> to AC and a +2 <a href=\"https://www.d20srd.org/srd/theBasics.htm#resistanceBonus\" title=\"resistance bonus\">resistance bonus</a> on saves. Both these bonuses apply against attacks made or effects created by evil creatures.</p>\n<p>Second, the barrier blocks any attempt to possess the warded creature (by a <a href=\"https://www.d20srd.org/srd/spells/magicJar.htm\" title=\"magic jar\"><em>magic jar</em></a> attack, for example) or to exercise mental control over the creature (including enchantment (charm) effects and enchantment (compulsion) effects that grant the caster ongoing control over the subject, such as <a href=\"https://www.d20srd.org/srd/spells/dominatePerson.htm\" title=\"dominate person\"><em>dominate person</em></a>). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the protection from evil effect. If the protection from evil effect ends before the effect granting mental control does, the would-be controller would then be able to mentally command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast. This second effect works regardless of <a href=\"https://www.d20srd.org/srd/description.htm#alignment\" title=\"alignment\">alignment</a>.</p>\n<p>Third, the spell prevents bodily contact by summoned creatures. This causes the <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#naturalWeapons\" title=\"natural weapon\">natural weapon</a> attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. Good summoned creatures are immune to this effect. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature. <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellResistance\" title=\"Spell resistance\">Spell resistance</a> can allow a creature to overcome this protection and touch the warded creature.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 33,
       "spellSummary": "+2 to AC and saves, counter mind control, hedge out elementals and outsiders."
@@ -1789,13 +1808,13 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>Any opponent attempting to strike or otherwise directly attack the warded creature, even with a targeted spell, must attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a>. If the save succeeds, the opponent can attack normally and is unaffected by that casting of the spell. If the save fails, the opponent can’t follow through with the attack, that part of its action is lost, and it can’t directly attack the warded creature for the duration of the spell. Those not attempting to attack the subject remain unaffected. This spell does not prevent the warded creature from being attacked or affected by area or effect spells. The subject cannot attack without breaking the spell but may use nonattack spells or otherwise act.</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 35,
       "spellSummary": "Opponents can’t attack you, and you can’t attack."
@@ -2125,13 +2144,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>The subject of this spell gains the ability to see normally in natural and magical darkness, although it does not otherwise improve the subject's ability to see in natural dark or shadowy conditions. The subject ignores the miss chance due to lack of illumination other than total darkness. While the spell is in effect, a jet· black film covers the subject's eyes, a visual effect that gives the spell its name.</p>\n<p><em>Material Component:</em> A pinch of powdered black gemstone of any type.&nbsp;</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 50,
       "spellSummary": "Subject can see through magical darkness"
@@ -2934,14 +2953,14 @@
       "spellDescriptor": "",
       "spellLevel": 2,
       "spellComponents": "V, S, M",
-      "spellCastingTime": "",
+      "spellCastingTime": "1 standard action",
       "spellRange": "Close (25 ft. + 5 ft./2 levels)",
       "spellDuration": "1 min./level or until discharged",
       "spellTarget": "One creature",
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>You toss a small golden die.<br>\nIt rolls toward the creature you choose, then disappears in a tiny golden flash of light.<br>\nThe subject of the spell becomes unusually lucky.<br>\nOnce during the spell's duration, when he makes an attack roll, skill check, saving throw, or ability check, he rolls twice and takes the better result.<br>\nHe must choose to use this ability before the check is attempted, and the spell expires once the second die is rolled.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3187,7 +3206,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 97,
       "spellSummary": "Corpse answers one question/two levels."
@@ -3259,7 +3278,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3349,13 +3368,13 @@
       "spellSavingThrow": "Fortitude negates",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "<p>You call upon the powers of unlife to render the subject blinded or deafened, as you choose.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 104,
       "spellSummary": "You call upon the powers of unlife to render the subject blinded or deafened, as you choose."
@@ -3442,13 +3461,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>You can use dispel magic to end ongoing spells that have been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, to end ongoing spells (or at least their effects) within an area, or to counter another spellcaster’s spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can’t be defeated by dispel magic. Dispel magic can dispel (but not counter) <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#spellLikeAbilities\" title=\"spell-like\">spell-like</a> effects just as it does spells.</p>\n<p><em>Note:</em> The effect of a spell with an instantaneous duration can’t be dispelled, because the magical effect is already over before the dispel magic can take effect.</p>\n<p>You choose to use dispel magic in one of three ways: a targeted dispel, an area dispel, or a counterspell:</p>\n<h6><em>Targeted Dispel</em></h6>\n<p>One object, creature, or spell is the target of the dispel magic spell. You make a dispel check (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell’s caster level. If you succeed on a particular check, that spell is dispelled; if you fail, that spell remains in effect.</p>\n<p>If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning), you make a dispel check to end the spell that conjured the object or creature.</p>\n<p><br></p>\n<p><br></p>\n<p>If the object that you target is a magic item, you make a dispel check against the item’s caster level. If you succeed, all the item’s magical properties are suppressed for <a href=\"javascript:void(0);\" title=\"1d4\">1d4</a> rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a bag of holding) is temporarily closed. A magic item’s physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.</p>\n<p>You automatically succeed on your dispel check against any spell that you cast yourself.</p>\n<h6><em>Area Dispel</em></h6>\n<p>When dispel magic is used in this way, the spell affects everything within a 20-foot radius.</p>\n<p>For each creature within the area that is the subject of one or more spells, you make a dispel check against the spell with the highest caster level. If that check fails, you make dispel checks against progressively weaker spells until you dispel one spell (which discharges the dispel magic spell so far as that target is concerned) or until you fail all your checks. The creature’s magic items are not affected.</p>\n<p>For each object within the area that is the target of one or more spells, you make dispel checks as with creatures. Magic items are not affected by an area dispel.</p>\n<p>For each ongoing area or effect spell whose point of origin is within the area of the dispel magic spell, you can make a dispel check to dispel the spell.</p>\n<p>For each ongoing spell whose area overlaps that of the dispel magic spell, you can make a dispel check to end the effect, but only within the overlapping area.</p>\n<p>If an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning) is in the area, you can make a dispel check to end the spell that conjured that object or creature (returning it whence it came) in addition to attempting to dispel spells targeting the creature or object.</p>\n<p>You may choose to automatically succeed on dispel checks against any spell that you have cast.</p>\n<h6><em>Counterspell</em></h6>\n<p>When dispel magic is used in this way, the spell targets a spellcaster and is cast as a counterspell. Unlike a true counterspell, however, dispel magic may not work; you must make a dispel check to counter the other spellcaster’s spell.</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 108,
       "spellSummary": "Cancels spells and magical effects."
@@ -4592,6 +4611,61 @@
       "dateTime": "2023-03-31T20:35:11.222Z",
       "logText": "Cast spell: Blindness/Deafness",
       "id": 108
+    },
+    {
+      "dateTime": "2023-05-05T18:05:47.568Z",
+      "logText": "8 damage healed",
+      "id": 109
+    },
+    {
+      "dateTime": "2023-05-05T18:05:57.881Z",
+      "logText": "Used special ability: Turn Undead",
+      "id": 110
+    },
+    {
+      "dateTime": "2023-05-05T18:05:58.889Z",
+      "logText": "Regenerated special ability: Turn Undead",
+      "id": 111
+    },
+    {
+      "dateTime": "2023-05-05T18:06:38.960Z",
+      "logText": "Prepared spell: Protection from Evil",
+      "id": 112
+    },
+    {
+      "dateTime": "2023-05-05T18:06:51.040Z",
+      "logText": "Prepared spell: Sanctuary",
+      "id": 113
+    },
+    {
+      "dateTime": "2023-05-05T18:07:50.465Z",
+      "logText": "Prepared spell: Ebon Eyes",
+      "id": 114
+    },
+    {
+      "dateTime": "2023-05-05T18:08:25.568Z",
+      "logText": "Prepared spell: Blindness/Deafness",
+      "id": 115
+    },
+    {
+      "dateTime": "2023-05-05T18:08:42.241Z",
+      "logText": "Prepared spell: Speak With Dead",
+      "id": 116
+    },
+    {
+      "dateTime": "2023-05-05T18:09:03.612Z",
+      "logText": "Prepared spell: Dispel Magic",
+      "id": 117
+    },
+    {
+      "dateTime": "2023-05-05T18:09:27.803Z",
+      "logText": "Prepared spell: Sending",
+      "id": 118
+    },
+    {
+      "dateTime": "2023-05-05T19:03:55.551Z",
+      "logText": "Prepared spell: Insight of Good Fortune",
+      "id": 119
     }
   ]
 }
