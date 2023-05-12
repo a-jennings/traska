@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 65,
-    "hpCurrent": 65,
+    "hpCurrent": 33,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -656,6 +656,13 @@
       "date": "2023-05-05T17:15:39.481Z",
       "editDate": "2023-05-05T21:16:16.444Z",
       "id": 25
+    },
+    {
+      "title": "Session 24",
+      "text": "<p>Get well soon Luke. Dialing in from OUTER SPACE!!!</p>\n<p>Combat board is amazing looking. But fuucccckkk ok lets do it.</p>\n<p>Getting stressed in this fight....</p>\n<p>RIght this combat has been fucking stressful, but here are the highlights:</p>\n<p>- Tarryn and Otto in their murder corrdior. Otto does otto things, Tarryn almost gets flanked but convinces the two baddies to attack each other and runs.<br>\nOtto gets hit by a feeblemind. Not fucking good. He dddduuummmbbb.... They start trying to arrive to our fight, but it's gonna take a while.</p>\n<p>- The other fight... Yeah we're not doing so hot. Mozzi almost fucking dies, 2 failed death saving throws. Fuck. Still playing it out, but Mozzi got hit by a paralysis and hasn't been able to resist... Me and Nym almost fucking die to.<br>\nHowever! When Nym kills the mage, they start to fucking run awayyyyy. Shwweeeeeeetttt.<br>\n <br>\nOk it's all fucked. We take refuge in the temple of Pelor where we stood upon for most of the fight. The party comes back together. We know that we've got nothing we can do to help Otto right now. Bad times...</p>\n<p>Amulet of Natural armour</p>\n<p>Braces of armour + 2</p>\n<p>6 * +1 crossbow</p>\n<p>6 * leather + 3</p>\n<p>6* +1 dagger</p>\n<p>The sorceress has another item... A scrying beacon. This is a banned item.&nbsp;</p>\n<p>I'm gonna start asking questions to the dead sorceress:</p>\n<p><strong>Where is the obsidian based in this city. - </strong>Many bases.<strong><br>\n <br>\nIs the beak faced man in this city right now. </strong>- No.<strong><br>\n <br>\nWhere is the black market? - </strong>Next door (temple of moradin)</p>\n<p><strong>Who sent you to kill us? - </strong>Ophelia. Leader of the commerce guild...</p>",
+      "date": "2023-05-12T17:36:09.323Z",
+      "editDate": "2023-05-12T20:37:26.213Z",
+      "id": 26
     }
   ],
   "attacks": [
@@ -871,7 +878,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": "13",
+      "currentUses": 10,
       "maxUses": "13",
       "id": 1
     },
@@ -2870,7 +2877,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "Magic weapon of force",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 81,
       "spellSummary": "Magic weapon attacks on its own."
@@ -3014,7 +3021,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 2,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 87,
       "spellSummary": "Cure 1d4 damage +1/level, even on another’s turn"
@@ -3206,7 +3213,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 97,
       "spellSummary": "Corpse answers one question/two levels."
@@ -3278,7 +3285,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3350,7 +3357,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "Diamond dust worth 100 gp that is sprinkled over the target.",
       "id": 103,
       "spellSummary": "Restores level and ability score drains."
@@ -3977,7 +3984,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 132,
       "spellSummary": "Give spell resistance to creature"
@@ -4001,7 +4008,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 133,
       "spellSummary": "Speak any language."
@@ -4666,6 +4673,106 @@
       "dateTime": "2023-05-05T19:03:55.551Z",
       "logText": "Prepared spell: Insight of Good Fortune",
       "id": 119
+    },
+    {
+      "dateTime": "2023-05-12T18:24:42.880Z",
+      "logText": "39 damage taken",
+      "id": 120
+    },
+    {
+      "dateTime": "2023-05-12T18:42:59.144Z",
+      "logText": "Cast spell: Tongues as healing spell",
+      "id": 121
+    },
+    {
+      "dateTime": "2023-05-12T18:43:13.283Z",
+      "logText": "39 damage healed",
+      "id": 122
+    },
+    {
+      "dateTime": "2023-05-12T18:57:38.000Z",
+      "logText": "8 damage taken",
+      "id": 123
+    },
+    {
+      "dateTime": "2023-05-12T19:03:05.733Z",
+      "logText": "Cast spell: Close Wounds",
+      "id": 124
+    },
+    {
+      "dateTime": "2023-05-12T19:18:55.360Z",
+      "logText": "Cast spell: Spell Immunity as healing spell",
+      "id": 125
+    },
+    {
+      "dateTime": "2023-05-12T19:26:19.882Z",
+      "logText": "39 damage taken",
+      "id": 126
+    },
+    {
+      "dateTime": "2023-05-12T19:33:28.468Z",
+      "logText": "11 damage taken",
+      "id": 127
+    },
+    {
+      "dateTime": "2023-05-12T19:33:45.667Z",
+      "logText": "6 damage taken",
+      "id": 128
+    },
+    {
+      "dateTime": "2023-05-12T19:34:44.359Z",
+      "logText": "17 damage healed",
+      "id": 129
+    },
+    {
+      "dateTime": "2023-05-12T19:45:50.434Z",
+      "logText": "Cast spell: Restoration",
+      "id": 130
+    },
+    {
+      "dateTime": "2023-05-12T19:53:52.524Z",
+      "logText": "14 damage taken",
+      "id": 131
+    },
+    {
+      "dateTime": "2023-05-12T19:54:48.371Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 132
+    },
+    {
+      "dateTime": "2023-05-12T19:54:49.839Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 133
+    },
+    {
+      "dateTime": "2023-05-12T19:54:51.107Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 134
+    },
+    {
+      "dateTime": "2023-05-12T19:59:13.355Z",
+      "logText": "Cast spell: Sending as healing spell",
+      "id": 135
+    },
+    {
+      "dateTime": "2023-05-12T19:59:21.958Z",
+      "logText": "41 damage healed",
+      "id": 136
+    },
+    {
+      "dateTime": "2023-05-12T20:00:50.640Z",
+      "logText": "12 damage taken",
+      "id": 137
+    },
+    {
+      "dateTime": "2023-05-12T20:08:25.149Z",
+      "logText": "Cast spell: Spiritual Weapon as healing spell",
+      "id": 138
+    },
+    {
+      "dateTime": "2023-05-12T20:34:02.595Z",
+      "logText": "Cast spell: Speak With Dead",
+      "id": 139
     }
   ]
 }
