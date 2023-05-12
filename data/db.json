@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 65,
-    "hpCurrent": 33,
+    "hpCurrent": 65,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -659,9 +659,9 @@
     },
     {
       "title": "Session 24",
-      "text": "<p>Get well soon Luke. Dialing in from OUTER SPACE!!!</p>\n<p>Combat board is amazing looking. But fuucccckkk ok lets do it.</p>\n<p>Getting stressed in this fight....</p>\n<p>RIght this combat has been fucking stressful, but here are the highlights:</p>\n<p>- Tarryn and Otto in their murder corrdior. Otto does otto things, Tarryn almost gets flanked but convinces the two baddies to attack each other and runs.<br>\nOtto gets hit by a feeblemind. Not fucking good. He dddduuummmbbb.... They start trying to arrive to our fight, but it's gonna take a while.</p>\n<p>- The other fight... Yeah we're not doing so hot. Mozzi almost fucking dies, 2 failed death saving throws. Fuck. Still playing it out, but Mozzi got hit by a paralysis and hasn't been able to resist... Me and Nym almost fucking die to.<br>\nHowever! When Nym kills the mage, they start to fucking run awayyyyy. Shwweeeeeeetttt.<br>\n <br>\nOk it's all fucked. We take refuge in the temple of Pelor where we stood upon for most of the fight. The party comes back together. We know that we've got nothing we can do to help Otto right now. Bad times...</p>\n<p>Amulet of Natural armour</p>\n<p>Braces of armour + 2</p>\n<p>6 * +1 crossbow</p>\n<p>6 * leather + 3</p>\n<p>6* +1 dagger</p>\n<p>The sorceress has another item... A scrying beacon. This is a banned item.&nbsp;</p>\n<p>I'm gonna start asking questions to the dead sorceress:</p>\n<p><strong>Where is the obsidian based in this city. - </strong>Many bases.<strong><br>\n <br>\nIs the beak faced man in this city right now. </strong>- No.<strong><br>\n <br>\nWhere is the black market? - </strong>Next door (temple of moradin)</p>\n<p><strong>Who sent you to kill us? - </strong>Ophelia. Leader of the commerce guild...</p>",
+      "text": "<p>Get well soon Luke. Dialing in from OUTER SPACE!!!</p>\n<p>Combat board is amazing looking. But fuucccckkk ok lets do it.</p>\n<p>Getting stressed in this fight....</p>\n<p>RIght this combat has been fucking stressful, but here are the highlights:</p>\n<p>- Tarryn and Otto in their murder corrdior. Otto does otto things, Tarryn almost gets flanked but convinces the two baddies to attack each other and runs.<br>\nOtto gets hit by a feeblemind. Not fucking good. He dddduuummmbbb.... They start trying to arrive to our fight, but it's gonna take a while.</p>\n<p>- The other fight... Yeah we're not doing so hot. Mozzi almost fucking dies, 2 failed death saving throws. Fuck. Still playing it out, but Mozzi got hit by a paralysis and hasn't been able to resist... Me and Nym almost fucking die to.<br>\nHowever! When Nym kills the mage, they start to fucking run awayyyyy. Shwweeeeeeetttt.<br>\n <br>\nOk it's all fucked. We take refuge in the temple of Pelor where we stood upon for most of the fight. The party comes back together. We know that we've got nothing we can do to help Otto right now. Bad times...</p>\n<p>Amulet of Natural armour</p>\n<p>Braces of armour + 2</p>\n<p>6 * +1 crossbow</p>\n<p>6 * leather + 3</p>\n<p>6* +1 dagger</p>\n<p>The sorceress has another item... A scrying beacon. This is a banned item.</p>\n<p>I'm gonna start asking questions to the dead sorceress:</p>\n<p><strong>Where is the obsidian based in this city. - </strong>Many bases.<strong><br>\n <br>\nIs the beak faced man in this city right now. </strong>- No.<strong><br>\n <br>\nWhere is the black market? - </strong>Next door (temple of moradin)</p>\n<p><strong>Who sent you to kill us? - </strong>Ophelia. Leader of the commerce guild...<br>\n<br>\nWe run into the Moradin temple to start trying to search around, but there is fucking nothing in here.&nbsp;</p>",
       "date": "2023-05-12T17:36:09.323Z",
-      "editDate": "2023-05-12T20:37:26.213Z",
+      "editDate": "2023-05-12T20:50:36.683Z",
       "id": 26
     }
   ],
@@ -679,7 +679,7 @@
     {
       "name": "Wand of Cure Moderate Wounds (2d8+3)",
       "bonus": 0,
-      "damage": "44/50",
+      "damage": "43/50",
       "critical": "",
       "range": "",
       "type": "",
@@ -4773,6 +4773,16 @@
       "dateTime": "2023-05-12T20:34:02.595Z",
       "logText": "Cast spell: Speak With Dead",
       "id": 139
+    },
+    {
+      "dateTime": "2023-05-12T20:41:51.504Z",
+      "logText": "13 damage healed",
+      "id": 140
+    },
+    {
+      "dateTime": "2023-05-12T20:45:21.368Z",
+      "logText": "19 damage healed",
+      "id": 141
     }
   ]
 }
