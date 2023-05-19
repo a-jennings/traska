@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 65,
-    "hpCurrent": 65,
+    "hpCurrent": 27,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -425,7 +425,7 @@
       "id": 6
     },
     {
-      "name": "5x golden dice spell component",
+      "name": "4x golden dice spell component",
       "weight": 0,
       "id": 7
     },
@@ -478,7 +478,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 1625,
+    "gold": 625,
     "platinum": 0
   },
   "notes": [
@@ -663,6 +663,13 @@
       "date": "2023-05-12T17:36:09.323Z",
       "editDate": "2023-05-12T20:50:36.683Z",
       "id": 26
+    },
+    {
+      "title": "Session 25",
+      "text": "<p>My notes got deleted for this session :(</p>\n<p>Basically, we decide to chase Ophelia in the commerce guild tower.</p>\n<p>We get Otto nice and healed up, we charge in,<br>\n<br>\nShe should be on the top floor. It's fucking mental trapped. We end up in a maze with Gorgons, metal bulls and shit.</p>\n<p>We eventually escape. The final room has a super mega fire explosion. We almost get tpk'd... But it's all gravy</p>",
+      "date": "2023-05-19T17:16:05.910Z",
+      "editDate": "2023-05-19T21:04:56.645Z",
+      "id": 27
     }
   ],
   "attacks": [
@@ -878,7 +885,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 10,
+      "currentUses": 9,
       "maxUses": "13",
       "id": 1
     },
@@ -2301,7 +2308,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 57,
       "spellSummary": "Make metal so hot it damages those who touch it."
@@ -2757,7 +2764,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 76,
       "spellSummary": "Dispels magical ability penalty or repairs 1d4 ability damage."
@@ -2877,7 +2884,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "Magic weapon of force",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 81,
       "spellSummary": "Magic weapon attacks on its own."
@@ -2949,7 +2956,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 84,
       "spellSummary": "Subjects within range cannot lie."
@@ -2973,7 +2980,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "A gold die (worth 20 gp)",
       "id": 85,
       "spellSummary": "Grant advantage to a roll"
@@ -3021,7 +3028,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 87,
       "spellSummary": "Cure 1d4 damage +1/level, even on another’s turn"
@@ -3165,7 +3172,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 95,
       "spellSummary": "Senses direction toward object (specific or type)."
@@ -3213,7 +3220,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 2,
       "spellMaterial": "",
       "id": 97,
       "spellSummary": "Corpse answers one question/two levels."
@@ -3285,7 +3292,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3303,13 +3310,13 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "<p>Similar to <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a> but more powerful, a divination spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within one week. The advice can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. If your party doesn’t act on the information, the conditions may change so that the information is no longer useful. The base chance for a correct divination is 70% + 1% per caster level, to a maximum of 90%. If the dice roll fails, you know the spell failed, unless specific magic yielding false information is at work.</p>\n<p>As with <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a>, multiple divinations about the same topic by the same caster use the same dice result as the first divination spell and yield the same answer each time.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.",
       "id": 101,
       "spellSummary": "Provides useful advice for specific proposed actions."
@@ -3381,7 +3388,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 104,
       "spellSummary": "You call upon the powers of unlife to render the subject blinded or deafened, as you choose."
@@ -3474,7 +3481,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 108,
       "spellSummary": "Cancels spells and magical effects."
@@ -4783,6 +4790,146 @@
       "dateTime": "2023-05-12T20:45:21.368Z",
       "logText": "19 damage healed",
       "id": 141
+    },
+    {
+      "dateTime": "2023-05-19T17:45:42.216Z",
+      "logText": "Cast spell: Locate Object",
+      "id": 142
+    },
+    {
+      "dateTime": "2023-05-19T17:45:50.706Z",
+      "logText": "Prepared spell: Speak With Dead",
+      "id": 143
+    },
+    {
+      "dateTime": "2023-05-19T17:46:08.896Z",
+      "logText": "Prepared spell: Sending",
+      "id": 144
+    },
+    {
+      "dateTime": "2023-05-19T17:46:16.112Z",
+      "logText": "Prepared spell: Restoration",
+      "id": 145
+    },
+    {
+      "dateTime": "2023-05-19T17:47:57.004Z",
+      "logText": "Prepared spell: Zone of Truth",
+      "id": 146
+    },
+    {
+      "dateTime": "2023-05-19T17:49:10.923Z",
+      "logText": "Prepared spell: Spiritual Weapon",
+      "id": 147
+    },
+    {
+      "dateTime": "2023-05-19T17:49:58.964Z",
+      "logText": "Prepared spell: Tongues",
+      "id": 148
+    },
+    {
+      "dateTime": "2023-05-19T17:50:26.363Z",
+      "logText": "Prepared spell: Divination",
+      "id": 149
+    },
+    {
+      "dateTime": "2023-05-19T19:26:12.868Z",
+      "logText": "32 damage taken",
+      "id": 150
+    },
+    {
+      "dateTime": "2023-05-19T19:28:39.364Z",
+      "logText": "27 damage healed",
+      "id": 151
+    },
+    {
+      "dateTime": "2023-05-19T19:28:48.897Z",
+      "logText": "27 damage taken",
+      "id": 152
+    },
+    {
+      "dateTime": "2023-05-19T19:32:06.498Z",
+      "logText": "27 damage healed",
+      "id": 153
+    },
+    {
+      "dateTime": "2023-05-19T19:42:43.918Z",
+      "logText": "Cast spell: Dispel Magic",
+      "id": 154
+    },
+    {
+      "dateTime": "2023-05-19T19:45:18.697Z",
+      "logText": "5 damage taken",
+      "id": 155
+    },
+    {
+      "dateTime": "2023-05-19T19:50:36.790Z",
+      "logText": "Cast spell: Close Wounds",
+      "id": 156
+    },
+    {
+      "dateTime": "2023-05-19T19:51:48.311Z",
+      "logText": "Cast spell: Blindness/Deafness as healing spell",
+      "id": 157
+    },
+    {
+      "dateTime": "2023-05-19T19:52:07.031Z",
+      "logText": "Regenerated special ability: Turn Undead",
+      "id": 158
+    },
+    {
+      "dateTime": "2023-05-19T19:52:08.061Z",
+      "logText": "Used special ability: Turn Undead",
+      "id": 159
+    },
+    {
+      "dateTime": "2023-05-19T19:59:29.865Z",
+      "logText": "Cast spell: Lessor Restoration as healing spell",
+      "id": 160
+    },
+    {
+      "dateTime": "2023-05-19T19:59:43.945Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 161
+    },
+    {
+      "dateTime": "2023-05-19T20:20:09.871Z",
+      "logText": "Cast spell: Insight of Good Fortune",
+      "id": 162
+    },
+    {
+      "dateTime": "2023-05-19T20:20:20.848Z",
+      "logText": "Changed item: \"5x golden dice spell component\" to \"4x golden dice spell component\"",
+      "id": 163
+    },
+    {
+      "dateTime": "2023-05-19T20:32:52.162Z",
+      "logText": "Cast spell: Heat Metal",
+      "id": 164
+    },
+    {
+      "dateTime": "2023-05-19T20:57:45.933Z",
+      "logText": "28 damage taken",
+      "id": 165
+    },
+    {
+      "dateTime": "2023-05-19T21:01:13.807Z",
+      "logText": "Cast spell: Tongues as healing spell",
+      "id": 166
+    },
+    {
+      "dateTime": "2023-05-19T21:02:05.609Z",
+      "logText": "Cast spell: Restoration as healing spell",
+      "id": 167
+    },
+    {
+      "dateTime": "2023-05-19T21:02:22.593Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 168
+    },
+    {
+      "dateTime": "2023-05-19T21:02:24.126Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 169
     }
   ]
 }
