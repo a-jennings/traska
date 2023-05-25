@@ -8,7 +8,7 @@
       },
       {
         "class": "Rad Serv of Pelor",
-        "level": 2
+        "level": 3
       }
     ],
     "player": "Drew Jennings",
@@ -33,8 +33,8 @@
     "charisma": 16
   },
   "stats": {
-    "hpMax": 65,
-    "hpCurrent": 27,
+    "hpMax": 73,
+    "hpCurrent": 73,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -42,10 +42,10 @@
     "initiative": 0,
     "savingThrows": {
       "fortitude": 11,
-      "reflex": 2,
+      "reflex": 3,
       "will": 12
     },
-    "baseAttackBonus": 5,
+    "baseAttackBonus": 6,
     "grapple": 5,
     "spellResistance": 0,
     "damageReduction": 0
@@ -180,7 +180,7 @@
     {
       "name": "Heal",
       "keyAbility": "WIS",
-      "ranks": 10,
+      "ranks": 12,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": false,
@@ -225,7 +225,7 @@
     {
       "name": "Knowledge (Religion)",
       "keyAbility": "INT",
-      "ranks": 11,
+      "ranks": 12,
       "miscModifier": 0,
       "classSkill": true,
       "requiresTraining": true,
@@ -473,12 +473,22 @@
       "name": "Bag of Caltrops",
       "weight": 0,
       "id": 16
+    },
+    {
+      "name": "2x Incense for divination casts",
+      "weight": 0,
+      "id": 17
+    },
+    {
+      "name": "1x Font (Material focus for scrying)",
+      "weight": 0,
+      "id": 18
     }
   ],
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 625,
+    "gold": 425,
     "platinum": 0
   },
   "notes": [
@@ -670,6 +680,13 @@
       "date": "2023-05-19T17:16:05.910Z",
       "editDate": "2023-05-19T21:04:56.645Z",
       "id": 27
+    },
+    {
+      "title": "Session 26",
+      "text": "<p>Hopefully no more seshy deleteys this time. <br>\nWe're just about alive in this stupid commerce guild tower... We're trying to do map completion, but also weary that we could fucking die big time, and I'm tapped.<br>\n <br>\nWe think about trying to go through some more doors and shit up here but fuck that off fairly quicky. <br>\nWe head down stairs, the drones at level 4 are still droning on. Looks like they're writing weird flow charts or something to try and prepare for something. Weirdchamp.</p>\n<p>They also have these flow charts that talk about upcoming attacks potentially on Kessen and Mawsgate... Hmmm...<br>\n <br>\nLevel 3, prison is empty now. Not much there</p>\n<p>Level 2. Empty, but the orb... it's so tempting. Nym yolo touches it. He gets a crazy vision, white cliffs, black pyramid, boat graveyard? We all sort of see it, but no one knows where it is. <br>\nThen we go for a group check on it. That's when we see a dark omen. Mawsgate is under attack, complete chaos and death running through the streets. Very cold. Chanting in draconic, 'Vengeance'. It could be a white dragon attack as revenge for that shitty little other party that says they killed a white dragon... might have been a baby... Fuck.<br>\n <br>\nWe head back towards the captains quarters, and there's so many people there getting ready for processing. Fucking paperwork<br>\n <br>\nWe start questioning a guy called Lovid, he might know some shit. He starts making deals to try and get his wife and son safe, fuck that shit we're gonna interview his son because he's deffo involved in all the bad shit. Kid's name is Oslo.</p>\n<p>Oslo is a fuccccccckkiiinnnnggggggg ppprrrriiiiiiccccccckkkkkkkk.<br>\n <br>\nHe's such a fucking noble douche rocket, he thinks he's top shit. He probably knows shit but he doesn't reveal much. Also he a little raaacciisstt.<br>\n <br>\nThis isn't getting far, not sure what the play is. But we think maybe the best thing is to find Lovid's wife, Oslo's mother, because she's a little sussy baka as well. Maybe we can use her as leverage.<br>\n <br>\nWe come to the conclusion after doing a little searchy search that the Obsidian definitely have the wife/mother.<br>\n <br>\nOh my god Tarryn fucking figured it out. The kid doesnt know shit, the Obsidian have kidnapped her and Oslo thought. We have to save her basically. The kid says that sometimes the dad smelt like meat? Cure Moderate Meats is the next stop for shure. <br>\n <br>\nI've bought a Font for scrying for next session to try and locate her, because WE FUCKING LEVEL UP BBAABBBBYYYYYYYY!!!!!!</p>\n<p>I also message Nathaniel, who says my armour will be ready at around noon tomorrow. I can try to get it a bit earlier. The command word is ZENITH</p>",
+      "date": "2023-05-25T17:57:39.854Z",
+      "editDate": "2023-05-25T21:34:37.922Z",
+      "id": 28
     }
   ],
   "attacks": [
@@ -865,6 +882,11 @@
       "name": "Reach Spell [Metamagic]",
       "description": "You may cast a spell that normally has a range of touch at any distance up to 30 feet. The spell effectively becomes a ray, so you must succeed on a ranged touch attack to bestow the spell upon the recipient. A reach spell uses up a spell slot two levels higher than the spell's actual level.",
       "id": 3
+    },
+    {
+      "name": "Divine Metamagic - Reach Spell",
+      "description": "When you take this feat, choose a metamagic feat that you have. This feat applies only to that metamagic feat. As a free action, you can take the energy from turning or rebuking undead and use it to apply a metamagic feat to divine spells that you know. You must spend one turn or rebuke attempt, plus an additional attempt for each level increase in the metamagic feat you're using. For example, Jozan the cleric could sacrifice three turn attempts to empower a holy smite he's casting. Because you're using positive or negative energy to augment your spells, the spell slot for the spell doesn't change.",
+      "id": 4
     }
   ],
   "languages": [
@@ -885,7 +907,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 9,
+      "currentUses": 5,
       "maxUses": "13",
       "id": 1
     },
@@ -964,21 +986,21 @@
     "zero": 6,
     "zeroBonus": 0,
     "zeroDomain": 0,
-    "one": 5,
+    "one": 4,
     "oneBonus": 1,
     "oneDomain": 1,
-    "two": 4,
+    "two": 3,
     "twoBonus": 1,
     "twoDomain": 1,
     "three": 3,
     "threeBonus": 1,
     "threeDomain": 1,
-    "four": 3,
+    "four": 2,
     "fourBonus": 1,
     "fourDomain": 1,
-    "five": 0,
+    "five": 1,
     "fiveBonus": 0,
-    "fiveDomain": 0,
+    "fiveDomain": 1,
     "six": 0,
     "sixBonus": 0,
     "sixDomain": 0,
@@ -1828,7 +1850,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 35,
       "spellSummary": "Opponents can’t attack you, and you can’t attack."
@@ -2950,13 +2972,13 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellArea": "20 ft. radius emanation",
-      "spellDescription": "",
+      "spellDescription": "<p>Creatures within the emanation area (or those who enter it) can’t speak any deliberate and intentional lies. Each potentially affected creature is allowed a save to avoid the effects when the spell is cast or when the creature first enters the emanation area. Affected creatures are aware of this enchantment. Therefore, they may avoid answering questions to which they would normally respond with a lie, or they may be evasive as long as they remain within the boundaries of the truth. Creatures who leave the area are free to speak as they choose.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 84,
       "spellSummary": "Subjects within range cannot lie."
@@ -3220,7 +3242,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 2,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 97,
       "spellSummary": "Corpse answers one question/two levels."
@@ -3292,7 +3314,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3310,13 +3332,13 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>Similar to <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a> but more powerful, a divination spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within one week. The advice can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. If your party doesn’t act on the information, the conditions may change so that the information is no longer useful. The base chance for a correct divination is 70% + 1% per caster level, to a maximum of 90%. If the dice roll fails, you know the spell failed, unless specific magic yielding false information is at work.</p>\n<p>As with <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a>, multiple divinations about the same topic by the same caster use the same dice result as the first divination spell and yield the same answer each time.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.",
       "id": 101,
       "spellSummary": "Provides useful advice for specific proposed actions."
@@ -4019,6 +4041,380 @@
       "spellMaterial": "",
       "id": 133,
       "spellSummary": "Speak any language."
+    },
+    {
+      "spellName": "Cure Light Wounds, Mass",
+      "spellSchool": "Conjuration",
+      "spellDescriptor": "Healing",
+      "spellLevel": 5,
+      "spellComponents": "V, S",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Close (25 ft. + 5 ft./2 levels)",
+      "spellDuration": "Instantaneous",
+      "spellTarget": "",
+      "spellSavingThrow": "Will half (harmless); see text",
+      "spellResistance": "Yes (harmless)",
+      "spellArea": "",
+      "spellDescription": "<p>You channel positive energy to cure <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> points of damage +1 point per caster level (maximum +25) in each selected creature.</p>\n<p>Like other cure spells, mass cure light wounds deals damage to undead in its area rather than curing them. Each affected undead may attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a> for half damage.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": true,
+      "spellPrepared": "",
+      "spellMaterial": "",
+      "id": 134,
+      "spellSummary": "Cures 1d8 damage +1/level for many creatures."
+    },
+    {
+      "spellName": "Flame Strike",
+      "spellSchool": "Evocation",
+      "spellDescriptor": "Fire",
+      "spellLevel": 5,
+      "spellComponents": "V, S, DF",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Medium (100 ft. + 10 ft./level)",
+      "spellDuration": "Instantaneous",
+      "spellTarget": "",
+      "spellSavingThrow": "Reflex Half",
+      "spellResistance": "Yes",
+      "spellArea": "Cylinder (10-ft. radius, 40ft. high)",
+      "spellDescription": "<p>A flame strike produces a vertical column of divine fire roaring downward. The spell deals <a href=\"javascript:void(0);\" title=\"1d6\">1d6</a> points of damage per caster level (maximum <a href=\"javascript:void(0);\" title=\"15d6\">15d6</a>). Half the damage is fire damage, but the other half results directly from divine power and is therefore not subject to being reduced by <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#resistanceToEnergy\" title=\"resistance\">resistance</a> to fire-based attacks.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": true,
+      "spellPrepared": 1,
+      "spellMaterial": "",
+      "id": 135,
+      "spellSummary": "Smite foes with divine fire (1d6/level damage)."
+    },
+    {
+      "spellName": "Raise Dead",
+      "spellSchool": "Conjuration",
+      "spellDescriptor": "Healing",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "1 minute",
+      "spellRange": "Touch",
+      "spellDuration": "Instantaneous",
+      "spellTarget": "",
+      "spellSavingThrow": "None; See text",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "<p>You restore life to a deceased creature. You can raise a creature that has been <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#dead\" title=\"dead\">dead</a> for no longer than one day per caster level. In addition, the subject’s soul must be free and willing to return. If the subject’s soul is not willing to return, the spell does not work; therefore, a subject that wants to return receives no <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throw\">saving throw</a>.</p>\n<p>Coming back from the dead is an ordeal. The subject of the spell loses one level (or 1 Hit Die) when it is raised, just as if it had lost a level or a Hit Die to an energy-draining creature. If the subject is 1st level, it loses 2 points of Constitution instead (if this would reduce its Con to 0 or less, it can’t be raised). This level/HD loss or Constitution loss cannot be repaired by any means. A character who died with spells prepared has a 50% chance of losing any given spell upon being raised, in addition to losing spells for losing a level. A spellcasting creature that doesn’t prepare spells (such as a <a href=\"https://www.d20srd.org/srd/classes/sorcererWizard.htm#sorcerer\" title=\"sorcerer\">sorcerer</a>) has a 50% chance of losing any given unused spell slot as if it had been used to cast a spell, in addition to losing spell slots for losing a level.</p>\n<p>A raised creature has a number of hit points equal to its current Hit Dice. Any ability scores damaged to 0 are raised to 1. Normal <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poison\">poison</a> and normal <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#disease\" title=\"disease\">disease</a> are cured in the process of raising the subject, but magical diseases and curses are not undone. While the spell closes mortal wounds and repairs lethal damage of most kinds, the body of the creature to be raised must be whole. Otherwise, missing parts are still missing when the creature is brought back to life. None of the dead creature’s equipment or possessions are affected in any way by this spell.</p>\n<p>A creature who has been turned into an <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature or killed by a <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#deathAttacks\" title=\"death effect\">death effect</a> can’t be raised by this spell. <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#constructType\" title=\"Constructs\">Constructs</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#elementalType\" title=\"elementals\">elementals</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#outsiderType\" title=\"outsiders\">outsiders</a>, and undead creatures can’t be raised. The spell cannot bring back a creature that has died of old age.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "Diamonds worth a total of at least 5,000gp",
+      "id": 136,
+      "spellSummary": "Restores life to subject who died as long as one day/level ago."
+    },
+    {
+      "spellName": "True Seeing",
+      "spellSchool": "Divination",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "V, S, M",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Touch",
+      "spellDuration": "1 min./level",
+      "spellTarget": "",
+      "spellSavingThrow": "Will negates (harmless)",
+      "spellResistance": "Yes (harmless)",
+      "spellArea": "",
+      "spellDescription": "<p>You confer on the subject the ability to see all things as they actually are. The subject sees through normal and magical darkness, notices secret doors hidden by magic, sees the exact locations of creatures or objects under <a href=\"https://www.d20srd.org/srd/spells/blur.htm\" title=\"blur\"><em>blur</em></a> or <a href=\"https://www.d20srd.org/srd/spells/displacement.htm\" title=\"displacement\"><em>displacement</em></a> effects, sees <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#invisible\" title=\"invisible\">invisible</a> creatures or objects normally, sees through illusions, and sees the true form of <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#polymorph\" title=\"polymorphed\">polymorphed</a>, changed, or transmuted things. Further, the subject can focus its vision to see into the Ethereal Plane (but not into extradimensional spaces). The range of true seeing conferred is 120 feet.</p>\n<p>True seeing, however, does not penetrate solid objects. It in no way confers X-ray vision or its equivalent. It does not negate <a href=\"https://www.d20srd.org/srd/combat/combatModifiers.htm#concealment\" title=\"concealment\">concealment</a>, including that caused by fog and the like. True seeing does not help the viewer see through mundane disguises, spot creatures who are simply <a href=\"https://www.d20srd.org/srd/skills/hide.htm\" title=\"hiding\">hiding</a>, or notice secret doors hidden by mundane means. In addition, the spell effects cannot be further enhanced with known magic, so one cannot use true seeing through a crystal ball or in conjunction with <a href=\"https://www.d20srd.org/srd/spells/clairaudienceClairvoyance.htm\" title=\"clairaudience/clairvoyance\"><em>clairaudience/clairvoyance</em></a>.Lets you see all things as they really are.</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "An ointment for the eyes that costs 250 gp and is made from mushroom powder, saffron, and fat.",
+      "id": 137,
+      "spellSummary": "Lets you see all things as they really are."
+    },
+    {
+      "spellName": "Break Enchantment",
+      "spellSchool": "Abjuration",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "V, S",
+      "spellCastingTime": "1 minute",
+      "spellRange": "Close (25 ft. + 5 ft./2 levels)",
+      "spellDuration": "Instantaneous",
+      "spellTarget": "Up to one creature per level, all within 30ft. of each other",
+      "spellSavingThrow": "See text",
+      "spellResistance": "No",
+      "spellArea": "",
+      "spellDescription": "<p>This spell frees victims from enchantments, transmutations, and curses. Break enchantment can reverse even an instantaneous effect. For each such effect, you make a <a href=\"https://www.d20srd.org/srd/magicOverview/castingSpells.htm#casterLevelChecks\" title=\"caster level check\">caster level check</a> (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + caster level, maximum +15) against a DC of 11 + caster level of the effect. Success means that the creature is free of the spell, curse, or effect. For a cursed magic item, the DC is 25.</p>\n<p>If the spell is one that cannot be dispelled by <a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\" title=\"dispel magic\"><em>dispel magic</em></a>, break enchantment works only if that spell is 5th level or lower.</p>\n<p>If the effect comes from some permanent magic item break enchantment does not remove the curse from the item, but it does frees the victim from the item’s effects.</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 138,
+      "spellSummary": "Frees subjects from enchantments, alterations, curses, and petrification."
+    },
+    {
+      "spellName": "Atonement",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 139
+    },
+    {
+      "spellName": "Command, Greater",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 140
+    },
+    {
+      "spellName": "Commune",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 141
+    },
+    {
+      "spellName": "Disrupting Weapon",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 142
+    },
+    {
+      "spellName": "Hallow",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 143
+    },
+    {
+      "spellName": "Plane Shift",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 144
+    },
+    {
+      "spellName": "Righteous Might",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 145
+    },
+    {
+      "spellName": "Scrying",
+      "spellSchool": "Divination",
+      "spellDescriptor": "Scrying",
+      "spellLevel": 5,
+      "spellComponents": "V, S, M/DF F",
+      "spellCastingTime": "1 hour",
+      "spellRange": "See text",
+      "spellDuration": "1 min./level",
+      "spellTarget": "",
+      "spellSavingThrow": "Will negates",
+      "spellResistance": "Yes",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "Magical Sensor",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "Focus - A holy water font costing not less than 100 gp. ",
+      "id": 146,
+      "spellSummary": "Spies on subject from a distance."
+    },
+    {
+      "spellName": "Spell Resistance",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 147
+    },
+    {
+      "spellName": "Symbol of Sleep",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 148
+    },
+    {
+      "spellName": "Wall of Stone",
+      "spellSchool": "",
+      "spellDescriptor": "",
+      "spellLevel": 5,
+      "spellComponents": "",
+      "spellCastingTime": "",
+      "spellRange": "",
+      "spellDuration": "",
+      "spellTarget": "",
+      "spellSavingThrow": "",
+      "spellResistance": "",
+      "spellArea": "",
+      "spellDescription": "",
+      "spellDescriptionTwo": "",
+      "spellDescriptionThree": "",
+      "spellDescriptionFour": "",
+      "spellEffect": "",
+      "spellDomainSpell": false,
+      "spellPrepared": 0,
+      "spellMaterial": "",
+      "id": 149
     }
   ],
   "contacts": [
@@ -4930,6 +5326,131 @@
       "dateTime": "2023-05-19T21:02:24.126Z",
       "logText": "Used Sacred Boost / Turn Undead",
       "id": 169
+    },
+    {
+      "dateTime": "2023-05-25T17:44:11.120Z",
+      "logText": "Cast spell: Divination as healing spell",
+      "id": 170
+    },
+    {
+      "dateTime": "2023-05-25T17:44:22.499Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 171
+    },
+    {
+      "dateTime": "2023-05-25T17:44:38.993Z",
+      "logText": "41 damage healed",
+      "id": 172
+    },
+    {
+      "dateTime": "2023-05-25T17:45:34.303Z",
+      "logText": "Cast spell: Speak With Dead as healing spell",
+      "id": 173
+    },
+    {
+      "dateTime": "2023-05-25T17:45:36.537Z",
+      "logText": "Cast spell: Speak With Dead as healing spell",
+      "id": 174
+    },
+    {
+      "dateTime": "2023-05-25T17:45:52.352Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 175
+    },
+    {
+      "dateTime": "2023-05-25T17:45:53.653Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 176
+    },
+    {
+      "dateTime": "2023-05-25T17:46:15.019Z",
+      "logText": "Cast spell: Zone of Truth as healing spell",
+      "id": 177
+    },
+    {
+      "dateTime": "2023-05-25T17:46:21.135Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 178
+    },
+    {
+      "dateTime": "2023-05-25T17:54:40.000Z",
+      "logText": "Updated spell information for Cure Light Wounds, Mass",
+      "id": 179
+    },
+    {
+      "dateTime": "2023-05-25T18:09:40.226Z",
+      "logText": "Cast spell: Sanctuary",
+      "id": 180
+    },
+    {
+      "dateTime": "2023-05-25T18:22:12.345Z",
+      "logText": "Updated spell information for Flame Strike",
+      "id": 181
+    },
+    {
+      "dateTime": "2023-05-25T18:22:22.702Z",
+      "logText": "Prepared spell: Flame Strike",
+      "id": 182
+    },
+    {
+      "dateTime": "2023-05-25T18:24:44.057Z",
+      "logText": "Updated spell information for Raise Dead",
+      "id": 183
+    },
+    {
+      "dateTime": "2023-05-25T18:28:07.901Z",
+      "logText": "Updated spell information for Raise Dead",
+      "id": 184
+    },
+    {
+      "dateTime": "2023-05-25T18:31:34.594Z",
+      "logText": "Updated spell information for True Seeing",
+      "id": 185
+    },
+    {
+      "dateTime": "2023-05-25T18:35:50.591Z",
+      "logText": "Updated spell information for Break Enchantment",
+      "id": 186
+    },
+    {
+      "dateTime": "2023-05-25T19:09:30.294Z",
+      "logText": "Updated spell information for Zone of Truth",
+      "id": 187
+    },
+    {
+      "dateTime": "2023-05-25T19:09:47.075Z",
+      "logText": "Updated spell information for Zone of Truth",
+      "id": 188
+    },
+    {
+      "dateTime": "2023-05-25T20:20:35.686Z",
+      "logText": "Updated spell information for Divination",
+      "id": 189
+    },
+    {
+      "dateTime": "2023-05-25T20:47:11.346Z",
+      "logText": "Updated spell information for Scrying",
+      "id": 190
+    },
+    {
+      "dateTime": "2023-05-25T20:51:50.386Z",
+      "logText": "Updated spell information for Scrying",
+      "id": 191
+    },
+    {
+      "dateTime": "2023-05-25T20:53:24.982Z",
+      "logText": "Added item: 2x Incense for divination casts",
+      "id": 192
+    },
+    {
+      "dateTime": "2023-05-25T20:53:38.112Z",
+      "logText": "Added item: 1x Font (Material focus for scrying)",
+      "id": 193
+    },
+    {
+      "dateTime": "2023-05-25T21:24:16.473Z",
+      "logText": "Cast spell: Sending",
+      "id": 194
     }
   ]
 }
