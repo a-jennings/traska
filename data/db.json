@@ -1517,7 +1517,7 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 21,
-      "spellSummary": "Cures 1d8 damage +1/level (max +5)"
+      "spellSummary": "Cures 1d8 damage +1/level (max +5) + 1d8 halved rounded down"
     },
     {
       "spellName": "Detect Evil",
@@ -2309,7 +2309,7 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 56,
-      "spellSummary": "Cures 2d8 damage +1/level (max +10). (+1 for Healing Domain)"
+      "spellSummary": "Cures 2d8 damage +1/level (max +10). (+1 for Healing Domain) +2d8 halved rounding down "
     },
     {
       "spellName": "Heat Metal",
@@ -3149,7 +3149,7 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 92,
-      "spellSummary": "Cures 3d8 damage +1/level (max +15). (+1 for Healing Domain)"
+      "spellSummary": "Cures 3d8 damage +1/level (max +15). (+1 for Healing Domain, +3d8 halved rounded down)"
     },
     {
       "spellName": "Searing Light",
@@ -3269,7 +3269,7 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 98,
-      "spellSummary": "Cures 4d8 damage +1/level (max +20). (+1 for Healing Domain)"
+      "spellSummary": "Cures 4d8 damage +1/level (max +20). (+1 for Healing Domain, +4d8 halved rounding down)"
     },
     {
       "spellName": "Fire Shield",
@@ -4055,7 +4055,7 @@
       "spellSavingThrow": "Will half (harmless); see text",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>You channel positive energy to cure <a href=\"javascript:void(0);\" title=\"1d8\">1d8</a> points of damage +1 point per caster level (maximum +25) in each selected creature.</p>\n<p>Like other cure spells, mass cure light wounds deals damage to undead in its area rather than curing them. Each affected undead may attempt a <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#will\" title=\"Will save\">Will save</a> for half damage.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -4064,7 +4064,7 @@
       "spellPrepared": "",
       "spellMaterial": "",
       "id": 134,
-      "spellSummary": "Cures 1d8 damage +1/level for many creatures."
+      "spellSummary": "Cures 1d8 damage  for many creatures. (+1/level max 25, + 1d8 halved rounded down)"
     },
     {
       "spellName": "Flame Strike",
@@ -5451,6 +5451,31 @@
       "dateTime": "2023-05-25T21:24:16.473Z",
       "logText": "Cast spell: Sending",
       "id": 194
+    },
+    {
+      "dateTime": "2023-05-31T17:52:09.860Z",
+      "logText": "Updated spell information for Cure Light Wounds",
+      "id": 195
+    },
+    {
+      "dateTime": "2023-05-31T17:52:25.908Z",
+      "logText": "Updated spell information for Cure Moderate Wounds",
+      "id": 196
+    },
+    {
+      "dateTime": "2023-05-31T17:53:11.428Z",
+      "logText": "Updated spell information for Cure Light Wounds, Mass",
+      "id": 197
+    },
+    {
+      "dateTime": "2023-05-31T17:53:30.236Z",
+      "logText": "Updated spell information for Cure Critical Wounds",
+      "id": 198
+    },
+    {
+      "dateTime": "2023-05-31T17:53:46.469Z",
+      "logText": "Updated spell information for Cure Serious Wounds",
+      "id": 199
     }
   ]
 }
