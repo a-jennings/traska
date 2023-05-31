@@ -5,6 +5,7 @@ import { Box, Typography, Button, Dialog } from "@mui/material";
 import { EditCharacterDialog } from "./EditCharacterDialog";
 import { CharacterAbilities } from "./CharacterAbilities/CharacterAbilities";
 import { CharacterStats } from "./CharacterStats/CharacterStats";
+import { Reminders } from "./Reminders/Reminders";
 
 axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
 axios.defaults.headers.common["Access-Control-Allow-Methods"] =
@@ -74,6 +75,9 @@ export function Character(): ReactElement {
         <Box>
           <CharacterStats />
         </Box>
+      </Box>
+      <Box py={3} px={8}>
+        <Reminders />
       </Box>
 
       <Dialog
