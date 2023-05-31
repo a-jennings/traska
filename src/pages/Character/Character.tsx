@@ -76,7 +76,7 @@ export function Character(): ReactElement {
           <CharacterStats />
         </Box>
       </Box>
-      <Box py={3} px={8}>
+      <Box py={1} px={8}>
         <Reminders />
       </Box>
 

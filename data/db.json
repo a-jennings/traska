@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 73,
-    "hpCurrent": 73,
+    "hpCurrent": 40,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -687,6 +687,13 @@
       "date": "2023-05-25T17:57:39.854Z",
       "editDate": "2023-05-25T21:34:37.922Z",
       "id": 28
+    },
+    {
+      "title": "Session 27",
+      "text": "<p>Happy birthday to me!!!!! Dnd on bevvies!!<br>\n <br>\nOk I try and get the annoying kid to give me something of his mothers. He does. I do the scrying thing. It feels like it connects, and immediately gets cut off. Something is blocking me out for sure. Annnoooyyyyiiinnngggg....<br>\n <br>\nAnyyywaaayyy... &nbsp;we decide fuck it we're gonna try to get to Cure Moderate Meats via the sewers. It goes fucking terribly. They know we're coming and there are many many traps. Including one that turns Otto to stone. Quick detour to grab a Stone to Flesh scroll, and he's back in action, but they're still fucking with us with their pre cognition. It's real bad news.<br>\n <br>\nEventually, we find the underpassage to Cure Moderate Meats. Mozzi and Nym go up first, thrown up by Otto. Then Otto throws me, and I spend my epic point to get my armour at the peak. It's a proper anime moment.<br>\n <br>\nLight from the armour allows a bit of vision in the room now. We see what we assume is Beatice in a cage, looking close to death maybes. There's also a guy who just opened the door and have seen us... We roll initiative, but we'll see what happens..<br>\nThis poor peasant man, gets commanded, grappled, gagged and tied... But we also find boxes FULL of contriband shit. Potions, illegal magic items etc. This is potentially the mega base!<br>\n <br>\nIt's fucking time. Mozzi tries to pick the lock to the cage, natty 1. An alarm goes off and we're fucking going for it.</p>\n<p>Alright its fucking fight time, it's kind of like a chess game, trying to dodge the necklaces of fireballs everywhere. Some serious big time work done by Nym and Otto to be fair. Phantasmal Killer plus a crazy head shot with the heavy crossbow. People getting fucked up...<br>\n<br>\nAnd then Opehelia appears and tries to get us to Halt. It literally didnt work against anyone. Lolsies...<br>\n<br>\nBut then... THE BEAKY BOI STABS BEATICE... and then throws a giant sphere of pain with tenticles or something? Uh oh. Game end!</p>",
+      "date": "2023-05-31T17:13:28.579Z",
+      "editDate": "2023-05-31T21:38:56.062Z",
+      "id": 29
     }
   ],
   "attacks": [
@@ -703,7 +710,7 @@
     {
       "name": "Wand of Cure Moderate Wounds (2d8+3)",
       "bonus": 0,
-      "damage": "43/50",
+      "damage": "37/50",
       "critical": "",
       "range": "",
       "type": "",
@@ -724,7 +731,7 @@
   "gear": [
     {
       "id": 1,
-      "name": "Full Plate (M/Work +1, Commander)",
+      "name": "Full Plate (M/Work +1, Commander, Calling)",
       "type": "Armour",
       "bonus": 9,
       "maxDex": "1",
@@ -907,7 +914,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 5,
+      "currentUses": 12,
       "maxUses": "13",
       "id": 1
     },
@@ -942,7 +949,7 @@
     {
       "name": "Epic Point",
       "description": "An Epic Point can be spent at any point to do one of the following things:\n\n** Increase your Crit Range by 3 (after other multiplications) for one turn\n** Make a full attack as a standard acton\n** Add 5ft to your weapon reach for 3 turns\n** The next spell you cast will be empowered (it cannot be an empowered or maximised spell)\n** Gain Damage Reduction 30 / Epic for one turn\n** The next skill roll you make is an automatic natural 20\n** Do something EPIC***\n\n***EPIC = This is something that doesn’t necessarily have rules, and can be proposed that go beyond normal rules. That said, the above options should give an indicator for how powerful the action should be.\n",
-      "currentUses": "1",
+      "currentUses": 0,
       "maxUses": "1",
       "id": 6
     },
@@ -1466,7 +1473,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 19,
       "spellSummary": "One subject obeys selected command for 1 round."
@@ -2324,13 +2331,13 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "<p>Heat metal makes metal extremely warm. Unattended, nonmagical metal gets no <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throw\">saving throw</a>. Magical metal is allowed a saving throw against the spell. An item in a creature’s possession uses the creature’s saving throw bonus unless its own is higher.</p>\n<p>A creature takes fire damage if its equipment is heated. It takes full damage if its armor is affected or if it is holding, touching, wearing, or carrying metal weighing one-fifth of its weight. The creature takes minimum damage (1 point or 2 points; see the table) if it’s not wearing metal armor and the metal that it’s carrying weighs less than one-fifth of its weight.</p>\n<p>On the first round of the spell, the metal becomes warm and uncomfortable to touch but deals no damage. The same effect also occurs on the last round of the spell’s duration. During the second (and also the next-to-last) round, intense heat causes pain and damage. In the third, fourth, and fifth rounds, the metal is searing hot, causing more damage, as shown on the table below.</p>\n<p>Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, heat metal deals half damage and boils the surrounding water.</p>\n<p>Heat metal counters and dispels <a href=\"https://www.d20srd.org/srd/spells/chillMetal.htm\" title=\"chill metal\"><em>chill metal</em></a>.</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 57,
       "spellSummary": "Make metal so hot it damages those who touch it."
@@ -2594,7 +2601,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 68,
       "spellSummary": "Notice traps as a rogue does."
@@ -2612,13 +2619,13 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "<p>You preserve the remains of a <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#dead\" title=\"dead\">dead</a> creature so that they do not decay. Doing so effectively extends the time limit on raising that creature from the dead (see <a href=\"https://www.d20srd.org/srd/spells/raiseDead.htm\" title=\"raise dead\"><em>raise dead</em></a>). Days spent under the influence of this spell don’t count against the time limit. Additionally, this spell makes transporting a fallen comrade more pleasant.</p>\n<p>The spell also works on severed body parts and the like.&nbsp;</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 69,
       "spellSummary": "Preserves one corpse."
@@ -3050,10 +3057,10 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 87,
-      "spellSummary": "Cure 1d4 damage +1/level, even on another’s turn"
+      "spellSummary": "Cure 1d4 damage +1/level, even on another’s turn (max + 5)"
     },
     {
       "spellName": "Healing Lorecall",
@@ -3116,13 +3123,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>The object touched sheds light as bright as full daylight in a 60-foot radius, and dim light for an additional 60 feet beyond that. Creatures that take penalties in bright light also take them while within the radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by bright light.</p>\n<p>If daylight is cast on a small object that is then placed inside or under a light-proof covering, the spell’s effects are blocked until the covering is removed.</p>\n<p>Daylight brought into an area of magical darkness (or vice versa) is temporarily negated, so that the otherwise prevailing light conditions exist in the overlapping areas of effect.</p>\n<p>Daylight counters or dispels any darkness spell of equal or lower level, such as <a href=\"https://www.d20srd.org/srd/spells/darkness.htm\" title=\"darkness\"><em>darkness</em></a>.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 91,
       "spellSummary": "60-ft. radius of bright light."
@@ -3242,7 +3249,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 97,
       "spellSummary": "Corpse answers one question/two levels."
@@ -3314,7 +3321,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3332,13 +3339,13 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "<p>Similar to <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a> but more powerful, a divination spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within one week. The advice can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. If your party doesn’t act on the information, the conditions may change so that the information is no longer useful. The base chance for a correct divination is 70% + 1% per caster level, to a maximum of 90%. If the dice roll fails, you know the spell failed, unless specific magic yielding false information is at work.</p>\n<p>As with <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a>, multiple divinations about the same topic by the same caster use the same dice result as the first divination spell and yield the same answer each time.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.",
       "id": 101,
       "spellSummary": "Provides useful advice for specific proposed actions."
@@ -3386,7 +3393,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "Diamond dust worth 100 gp that is sprinkled over the target.",
       "id": 103,
       "spellSummary": "Restores level and ability score drains."
@@ -3503,7 +3510,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 108,
       "spellSummary": "Cancels spells and magical effects."
@@ -3706,7 +3713,7 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>You can temporarily turn any single normal or masterwork melee weapon into a magical, flaming one. For the duration of the spell, the weapon acts as a <em>+1</em> <a href=\"https://dnd.arkalseif.info/items/dungeon-masters-guide-v35--4/flaming-burst--146/index.html\" title=\"&lt;em style=&quot;margin: 0px; padding: 0px;&quot;&gt;flaming burst&lt;/em&gt;\"><u><em>flaming burst</em></u></a> <em>weapon</em> that deals an additional +1d6 points of fire damage. On a critical hit, the weapon deals +1d10 points of bonus fire damage if the weapon's critical multiplier is x2, +2d10 points if the weapon's multiplier is x3, and +3d10 points if the multiplier is x4. This spell effect does not stack with a weapon's enhancement bonus or with a <a href=\"https://dnd.arkalseif.info/items/dungeon-masters-guide-v35--4/flaming--145/index.html\" title=\"&lt;em style=&quot;margin: 0px; padding: 0px;&quot;&gt;flaming&lt;/em&gt;\"><u><em>flaming</em></u></a> or <a href=\"https://dnd.arkalseif.info/items/dungeon-masters-guide-v35--4/flaming-burst--146/index.html\" title=\"&lt;em style=&quot;margin: 0px; padding: 0px;&quot;&gt;flaming burst&lt;/em&gt;\"><u><em>flaming burst</em></u></a> weapon bonus</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -4085,7 +4092,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 135,
       "spellSummary": "Smite foes with divine fire (1d6/level damage)."
@@ -5476,6 +5483,141 @@
       "dateTime": "2023-05-31T17:53:46.469Z",
       "logText": "Updated spell information for Cure Serious Wounds",
       "id": 199
+    },
+    {
+      "dateTime": "2023-05-31T18:07:45.502Z",
+      "logText": "Prepared spell: Scrying",
+      "id": 200
+    },
+    {
+      "dateTime": "2023-05-31T18:07:56.204Z",
+      "logText": "Prepared spell: Divination",
+      "id": 201
+    },
+    {
+      "dateTime": "2023-05-31T18:08:03.169Z",
+      "logText": "Prepared spell: Sending",
+      "id": 202
+    },
+    {
+      "dateTime": "2023-05-31T18:08:27.245Z",
+      "logText": "Prepared spell: Restoration",
+      "id": 203
+    },
+    {
+      "dateTime": "2023-05-31T18:08:45.740Z",
+      "logText": "Prepared spell: Daylight",
+      "id": 204
+    },
+    {
+      "dateTime": "2023-05-31T18:08:57.886Z",
+      "logText": "Prepared spell: Speak With Dead",
+      "id": 205
+    },
+    {
+      "dateTime": "2023-05-31T18:09:14.693Z",
+      "logText": "Prepared spell: Flame of Faith",
+      "id": 206
+    },
+    {
+      "dateTime": "2023-05-31T18:09:29.807Z",
+      "logText": "Prepared spell: Dispel Magic",
+      "id": 207
+    },
+    {
+      "dateTime": "2023-05-31T18:09:59.738Z",
+      "logText": "Prepared spell: Blindness/Deafness",
+      "id": 208
+    },
+    {
+      "dateTime": "2023-05-31T18:10:13.743Z",
+      "logText": "Prepared spell: Close Wounds",
+      "id": 209
+    },
+    {
+      "dateTime": "2023-05-31T18:10:22.723Z",
+      "logText": "Prepared spell: Heat Metal",
+      "id": 210
+    },
+    {
+      "dateTime": "2023-05-31T18:10:39.770Z",
+      "logText": "Prepared spell: Find Traps",
+      "id": 211
+    },
+    {
+      "dateTime": "2023-05-31T18:10:56.380Z",
+      "logText": "Prepared spell: Gentle Repose",
+      "id": 212
+    },
+    {
+      "dateTime": "2023-05-31T18:32:14.597Z",
+      "logText": "Regenerated special ability: Turn Undead",
+      "id": 213
+    },
+    {
+      "dateTime": "2023-05-31T18:33:20.613Z",
+      "logText": "Cast spell: Scrying",
+      "id": 214
+    },
+    {
+      "dateTime": "2023-05-31T19:01:20.540Z",
+      "logText": "15 damage taken",
+      "id": 215
+    },
+    {
+      "dateTime": "2023-05-31T19:03:04.618Z",
+      "logText": "10 damage healed",
+      "id": 216
+    },
+    {
+      "dateTime": "2023-05-31T19:22:50.960Z",
+      "logText": "Prepared spell: Close Wounds",
+      "id": 217
+    },
+    {
+      "dateTime": "2023-05-31T19:22:58.194Z",
+      "logText": "Cast spell: Close Wounds",
+      "id": 218
+    },
+    {
+      "dateTime": "2023-05-31T19:47:13.455Z",
+      "logText": "Cast spell: Blindness/Deafness as healing spell",
+      "id": 219
+    },
+    {
+      "dateTime": "2023-05-31T19:47:25.056Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 220
+    },
+    {
+      "dateTime": "2023-05-31T20:04:29.052Z",
+      "logText": "Used special ability: Epic Point",
+      "id": 221
+    },
+    {
+      "dateTime": "2023-05-31T20:20:46.406Z",
+      "logText": "Cast spell: Command",
+      "id": 222
+    },
+    {
+      "dateTime": "2023-05-31T20:36:10.675Z",
+      "logText": "Cast spell: Flame of Faith",
+      "id": 223
+    },
+    {
+      "dateTime": "2023-05-31T21:14:24.243Z",
+      "logText": "Cast spell: Flame Strike",
+      "id": 224
+    },
+    {
+      "dateTime": "2023-05-31T21:24:24.743Z",
+      "logText": "1 damage taken",
+      "id": 225
+    },
+    {
+      "dateTime": "2023-05-31T21:24:49.834Z",
+      "logText": "27 damage taken",
+      "id": 226
     }
   ]
 }
