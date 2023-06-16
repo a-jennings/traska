@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 73,
-    "hpCurrent": 40,
+    "hpCurrent": 73,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -415,7 +415,7 @@
       "id": 4
     },
     {
-      "name": "100gp worth of diamond dust x3",
+      "name": "100gp worth of diamond dust x2",
       "weight": 0,
       "id": 5
     },
@@ -483,6 +483,11 @@
       "name": "1x Font (Material focus for scrying)",
       "weight": 0,
       "id": 18
+    },
+    {
+      "name": "5000gp of diamonds. yolo",
+      "weight": 0,
+      "id": 19
     }
   ],
   "currency": {
@@ -694,6 +699,13 @@
       "date": "2023-05-31T17:13:28.579Z",
       "editDate": "2023-05-31T21:38:56.062Z",
       "id": 29
+    },
+    {
+      "title": "Session 28",
+      "text": "<p>Fuck. We're just getting straight in there.... This is gonna be real bad.<br>\nStraight up beaky just throws some aoe rage on the boys, and then the tenticle ball explodes into some kind of complete fucking mess monster.<br>\n <br>\nOk shit got real.</p>\n<p>- There are lots of tenticly boys, and one large boi. They really fucking hurt.</p>\n<p>- The beaky is stuck in a cage for most of the time. He can't do fuck all, but he pretty much bounces out as soon as he can.</p>\n<p>- Ophelia is sort of helping, but when shit turns shower she makes a big stone wall. Tarryn gives chase, teleporting over. And she fucking 1 taps him. He dedge. Big time.</p>\n<p>Ok we need to act fast. 9 days remaining before he dedge for life. Unless I gentle repose which I just wasted on a stupid dwarf bitch with a shit name. We GTFO of the meat plant. Otto is weak from poison.</p>\n<p>Alright. Fuck. Fuck. Fuck. Fuck.<br>\nWe need to bring him back to life goddamn it. Fuck.<br>\n <br>\nWe gather up the diamonds that we need, it costs extra but dilligaf.</p>\n<p>Temple of Pelor time. We're setting up trying to bring him back. Gonna need to happen tomorrow though. I'm gonna need some sort of epic speech to bring him back...</p>\n<p>\"Pelor, I call upon you as your humble servant. Our friend and comrade Tarryn has been taken from this world before his time. He has a kind soul, and has spent his life in dedication to helping the weak, and in the injustices that he has found. The people of this world still need him. Tarryn, we need you.<br>\n <br>\nThe boys go for a memorial rager, because you know that's what Tarryn would have wanted.<br>\n <br>\nAlright it's time...<br>\nLets see how it goes.</p>\n<p>We all have to give up something, or prepare something.<br>\nOtto gives up his glave. Nym gives up some spell slots. Mozzi gives up his ability to hide his arms. I try to give up my religious diplomacy, but instead I have to roll a last diplomacy check.<br>\n<br>\nThe roll ends up being DC 30. +9, +12 for all of the things we give up.</p>\n<p>Natural 20 baby.</p>\n<p><br></p>\n<p>End</p>",
+      "date": "2023-06-16T17:22:37.146Z",
+      "editDate": "2023-06-16T20:56:45.066Z",
+      "id": 30
     }
   ],
   "attacks": [
@@ -914,7 +926,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 12,
+      "currentUses": "13",
       "maxUses": "13",
       "id": 1
     },
@@ -1419,13 +1431,13 @@
       "spellSavingThrow": "Will negates (object)",
       "spellResistance": "Yes (object)",
       "spellArea": "",
-      "spellDescription": "<p>This transmutation imbues a flask (1 pint) of water with positive energy, turning it into <a href=\"https://www.d20srd.org/srd/equipment/goodsAndServices.htm#holyWater\" title=\"holy water\">holy water</a>.</p>\n<h6><em>Material Component</em></h6>\n<p>5 pounds of powdered silver (worth 25 gp).&nbsp;</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "5 pounds of powdered silver (worth 25 gp).",
       "id": 17,
       "spellSummary": "Makes holy water."
@@ -2601,7 +2613,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 68,
       "spellSummary": "Notice traps as a rogue does."
@@ -2739,13 +2751,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "<p>You can free one or more creatures from the effects of any temporary <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#paralysis\" title=\"paralysis\">paralysis</a> or related magic, including a <a href=\"https://www.d20srd.org/srd/monsters/ghoul.htm\" title=\"ghoul’s\">ghoul’s</a> touch or a <a href=\"https://www.d20srd.org/srd/spells/slow.htm\" title=\"slow\"><em>slow</em></a> spell. If the spell is cast on one creature, the <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#paralysis\" title=\"paralysis\">paralysis</a> is negated. If cast on two creatures, each receives another save with a +4 <a href=\"https://www.d20srd.org/srd/theBasics.htm#resistanceBonus\" title=\"resistance bonus\">resistance bonus</a> against the effect that afflicts it. If cast on three or four creatures, each receives another save with a +2 resistance bonus.</p>\n<p>The spell does not restore ability scores reduced by penalties, damage, or drain.&nbsp;</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 74,
       "spellSummary": "Frees one or more creatures from paralysis or slow effect."
@@ -3009,7 +3021,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "A gold die (worth 20 gp)",
       "id": 85,
       "spellSummary": "Grant advantage to a roll"
@@ -3156,7 +3168,7 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 92,
-      "spellSummary": "Cures 3d8 damage +1/level (max +15). (+1 for Healing Domain, +3d8 halved rounded down)"
+      "spellSummary": "Cures 3d8 damage +1/level (max +15). (+1 for Healing Domain, +3d8 halved rounded down) (SB = 46 at level 9)"
     },
     {
       "spellName": "Searing Light",
@@ -3276,7 +3288,7 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 98,
-      "spellSummary": "Cures 4d8 damage +1/level (max +20). (+1 for Healing Domain, +4d8 halved rounding down)"
+      "spellSummary": "Cures 4d8 damage +1/level (max +20). (+1 for Healing Domain, +4d8 halved rounding down) (SB = 58)"
     },
     {
       "spellName": "Fire Shield",
@@ -3626,7 +3638,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 114,
       "spellSummary": "Frees object or person from curse."
@@ -3650,7 +3662,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 115
     },
@@ -4086,13 +4098,13 @@
       "spellSavingThrow": "Reflex Half",
       "spellResistance": "Yes",
       "spellArea": "Cylinder (10-ft. radius, 40ft. high)",
-      "spellDescription": "<p>A flame strike produces a vertical column of divine fire roaring downward. The spell deals <a href=\"javascript:void(0);\" title=\"1d6\">1d6</a> points of damage per caster level (maximum <a href=\"javascript:void(0);\" title=\"15d6\">15d6</a>). Half the damage is fire damage, but the other half results directly from divine power and is therefore not subject to being reduced by <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#resistanceToEnergy\" title=\"resistance\">resistance</a> to fire-based attacks.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 135,
       "spellSummary": "Smite foes with divine fire (1d6/level damage)."
@@ -4110,7 +4122,7 @@
       "spellSavingThrow": "None; See text",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "<p>You restore life to a deceased creature. You can raise a creature that has been <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#dead\" title=\"dead\">dead</a> for no longer than one day per caster level. In addition, the subject’s soul must be free and willing to return. If the subject’s soul is not willing to return, the spell does not work; therefore, a subject that wants to return receives no <a href=\"https://www.d20srd.org/srd/combat/combatStatistics.htm#savingThrows\" title=\"saving throw\">saving throw</a>.</p>\n<p>Coming back from the dead is an ordeal. The subject of the spell loses one level (or 1 Hit Die) when it is raised, just as if it had lost a level or a Hit Die to an energy-draining creature. If the subject is 1st level, it loses 2 points of Constitution instead (if this would reduce its Con to 0 or less, it can’t be raised). This level/HD loss or Constitution loss cannot be repaired by any means. A character who died with spells prepared has a 50% chance of losing any given spell upon being raised, in addition to losing spells for losing a level. A spellcasting creature that doesn’t prepare spells (such as a <a href=\"https://www.d20srd.org/srd/classes/sorcererWizard.htm#sorcerer\" title=\"sorcerer\">sorcerer</a>) has a 50% chance of losing any given unused spell slot as if it had been used to cast a spell, in addition to losing spell slots for losing a level.</p>\n<p>A raised creature has a number of hit points equal to its current Hit Dice. Any ability scores damaged to 0 are raised to 1. Normal <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poison\">poison</a> and normal <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#disease\" title=\"disease\">disease</a> are cured in the process of raising the subject, but magical diseases and curses are not undone. While the spell closes mortal wounds and repairs lethal damage of most kinds, the body of the creature to be raised must be whole. Otherwise, missing parts are still missing when the creature is brought back to life. None of the dead creature’s equipment or possessions are affected in any way by this spell.</p>\n<p>A creature who has been turned into an <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#undeadType\" title=\"undead\">undead</a> creature or killed by a <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#deathAttacks\" title=\"death effect\">death effect</a> can’t be raised by this spell. <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#constructType\" title=\"Constructs\">Constructs</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#elementalType\" title=\"elementals\">elementals</a>, <a href=\"https://www.d20srd.org/srd/typesSubtypes.htm#outsiderType\" title=\"outsiders\">outsiders</a>, and undead creatures can’t be raised. The spell cannot bring back a creature that has died of old age.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -5618,6 +5630,136 @@
       "dateTime": "2023-05-31T21:24:49.834Z",
       "logText": "27 damage taken",
       "id": 226
+    },
+    {
+      "dateTime": "2023-06-16T18:09:25.152Z",
+      "logText": "Cast spell: Find Traps as healing spell",
+      "id": 227
+    },
+    {
+      "dateTime": "2023-06-16T18:10:11.724Z",
+      "logText": "34 damage healed",
+      "id": 228
+    },
+    {
+      "dateTime": "2023-06-16T18:10:18.503Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 229
+    },
+    {
+      "dateTime": "2023-06-16T18:39:57.490Z",
+      "logText": "Changed item: \"100gp worth of diamond dust x3\" to \"100gp worth of diamond dust x2\"",
+      "id": 230
+    },
+    {
+      "dateTime": "2023-06-16T18:40:09.079Z",
+      "logText": "Cast spell: Restoration",
+      "id": 231
+    },
+    {
+      "dateTime": "2023-06-16T18:59:14.112Z",
+      "logText": "8 damage taken",
+      "id": 232
+    },
+    {
+      "dateTime": "2023-06-16T19:11:11.946Z",
+      "logText": "Updated spell information for Cure Critical Wounds",
+      "id": 233
+    },
+    {
+      "dateTime": "2023-06-16T19:12:11.228Z",
+      "logText": "Updated spell information for Cure Critical Wounds",
+      "id": 234
+    },
+    {
+      "dateTime": "2023-06-16T19:15:32.609Z",
+      "logText": "Updated spell information for Cure Serious Wounds",
+      "id": 235
+    },
+    {
+      "dateTime": "2023-06-16T19:15:56.878Z",
+      "logText": "Cast spell: Divination as healing spell",
+      "id": 236
+    },
+    {
+      "dateTime": "2023-06-16T19:16:10.642Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 237
+    },
+    {
+      "dateTime": "2023-06-16T19:27:23.390Z",
+      "logText": "Cast spell: Gentle Repose",
+      "id": 238
+    },
+    {
+      "dateTime": "2023-06-16T20:07:20.041Z",
+      "logText": "Added item: 5000gp of diamonds. yolo",
+      "id": 239
+    },
+    {
+      "dateTime": "2023-06-16T20:31:22.114Z",
+      "logText": "Prepared spell: Raise Dead",
+      "id": 240
+    },
+    {
+      "dateTime": "2023-06-16T20:31:28.472Z",
+      "logText": "Prepared spell: Flame Strike",
+      "id": 241
+    },
+    {
+      "dateTime": "2023-06-16T20:31:35.542Z",
+      "logText": "Prepared spell: Divination",
+      "id": 242
+    },
+    {
+      "dateTime": "2023-06-16T20:31:41.278Z",
+      "logText": "Prepared spell: Restoration",
+      "id": 243
+    },
+    {
+      "dateTime": "2023-06-16T20:32:00.578Z",
+      "logText": "Prepared spell: Remove Curse",
+      "id": 244
+    },
+    {
+      "dateTime": "2023-06-16T20:41:49.437Z",
+      "logText": "8 damage healed",
+      "id": 245
+    },
+    {
+      "dateTime": "2023-06-16T20:57:55.457Z",
+      "logText": "Regenerated special ability: Turn Undead",
+      "id": 246
+    },
+    {
+      "dateTime": "2023-06-16T20:59:38.965Z",
+      "logText": "Cast spell: Raise Dead",
+      "id": 247
+    },
+    {
+      "dateTime": "2023-06-16T21:00:09.080Z",
+      "logText": "Prepared spell: Remove Disease",
+      "id": 248
+    },
+    {
+      "dateTime": "2023-06-16T21:00:29.010Z",
+      "logText": "Prepared spell: Gentle Repose",
+      "id": 249
+    },
+    {
+      "dateTime": "2023-06-16T21:00:37.809Z",
+      "logText": "Prepared spell: Insight of Good Fortune",
+      "id": 250
+    },
+    {
+      "dateTime": "2023-06-16T21:01:32.168Z",
+      "logText": "Prepared spell: Remove Paralysis",
+      "id": 251
+    },
+    {
+      "dateTime": "2023-06-16T21:01:43.580Z",
+      "logText": "Prepared spell: Bless Water",
+      "id": 252
     }
   ]
 }
