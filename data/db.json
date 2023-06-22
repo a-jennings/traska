@@ -483,6 +483,11 @@
       "name": "1x Font (Material focus for scrying)",
       "weight": 0,
       "id": 18
+    },
+    {
+      "name": "2x Divination Spell Components",
+      "weight": 0,
+      "id": 19
     }
   ],
   "currency": {
@@ -701,6 +706,13 @@
       "date": "2023-06-16T17:22:37.146Z",
       "editDate": "2023-06-16T20:56:45.066Z",
       "id": 30
+    },
+    {
+      "title": "Session 29",
+      "text": "<p>We back bitches. Tarryn is alive -1 level</p>\n<p>We don't have a plan... but we'll start.</p>\n<p>First stop is we're gonna go back to the commerce guild building. And we're going to try using the same scrying table from before to see some shit. We try to scry on Ophelia again. Denied. Bitch.<br>\nWe try scrying on the white dragon. No dice.</p>\n<p>We try again, not sure this time. Field with a starless sky... It's the fucking scarecrow... What have we spawned</p>\n<p>Next stop. - Back to the statue of Helio.</p>\n<p>Medusa is in ancient city to the south named Sardus?</p>\n<p>I do a little divination spell and as if it's Pelor's will that we go to Sardus to slay the medusa. He says:</p>\n<p>\"Sometimes the darkest path reveal the brightest sun. Share my shame.\"</p>\n<p>Cryptic as ever.</p>\n<p>We try a little trip to visit the two dwarf bois. It's not a goer.</p>\n<p>We interrogate the burrito man that we made. He was just a worker at cure moderate meats, until the baddies turned up and took it over, he was kind of forced to stay and work for them. However he does link the Obsidian and Ophelia and all that shit to the Freedom fighter people who terroristed. Which means that they were supplying more necklaces of fireballs and potions etc etc.<br>\n <br>\nSleepy sleep time. I have a mini dream that I don't really remember \"Please, release me\".</p>\n<p>In the morning, we head to the temple of Pelor, and high priestess Neccos is there? Confirming a miracle? Who me?</p>\n<p>She reaffirms her belief that ressurection is scary, and should be used in moderation or Pelor might get angry. Fair enough. Also kind of reaffirms that going to kill the Medusa would be a good idea?</p>\n<p>Messaged Lydia. She's alive! and replies. But she a little dumb dumb.</p>\n<p><strong>Ophelia - Sending:</strong></p>\n<p>Ophelia, enemy of my enemy is my friend. Would like to discuss beak. Truce. Because we will finish him. Neutral ground, tomorrow. If not we hunt you.</p>\n<p>Hunt away, you will end up like your friend. I recommend you speak to the mayor, we have something in progress.</p>\n<p><br></p>\n<p>We head to mayor. She hands up a paper, terms of surrender. She wants amnesty for her and followers, and severance for 2 years... To discuss next sesh! End</p>",
+      "date": "2023-06-22T17:29:47.243Z",
+      "editDate": "2023-06-22T21:23:25.859Z",
+      "id": 31
     }
   ],
   "attacks": [
@@ -921,7 +933,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": "13",
+      "currentUses": 12,
       "maxUses": "13",
       "id": 1
     },
@@ -1288,7 +1300,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 11,
       "spellSummary": "Read scrolls and spellbooks."
@@ -1354,13 +1366,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>You conjure a small holy symbol, which you can then use to turn undead, or as a divine focus for spells, or for any other purpose that you would normally use one. The conjured holy symbol is made of wood and is neither magical nor particularly valuable.&nbsp;</p>",
+      "spellDescription": "<p>You conjure a small holy symbol, which you can then use to turn undead, or as a divine focus for spells, or for any other purpose that you would normally use one. The conjured holy symbol is made of wood and is neither magical nor particularly valuable.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "Small wooden holy symbol",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 14,
       "spellSummary": "Wooden holy symbol appears in your hand."
@@ -2746,7 +2758,7 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>You can free one or more creatures from the effects of any temporary paralysis or related magic, including a ghoul’s touch or a slow spell. If the spell is cast on one creature, the paralysis is negated. If cast on two creatures, each receives another save with a +4 resistance bonus against the effect that afflicts it. If cast on three or four creatures, each receives another save with a +2 resistance bonus.</p>\n<p>The spell does not restore ability scores reduced by penalties, damage, or drain.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3208,7 +3220,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 95,
       "spellSummary": "Senses direction toward object (specific or type)."
@@ -3346,13 +3358,13 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>Similar to <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a> but more powerful, a divination spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within one week. The advice can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. If your party doesn’t act on the information, the conditions may change so that the information is no longer useful. The base chance for a correct divination is 70% + 1% per caster level, to a maximum of 90%. If the dice roll fails, you know the spell failed, unless specific magic yielding false information is at work.</p>\n<p>As with <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a>, multiple divinations about the same topic by the same caster use the same dice result as the first divination spell and yield the same answer each time.</p>\n<h6><em>Material Component</em></h6>\n<p>Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.",
       "id": 101,
       "spellSummary": "Provides useful advice for specific proposed actions."
@@ -3657,7 +3669,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 115
     },
@@ -4356,7 +4368,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "Magical Sensor",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "Focus - A holy water font costing not less than 100 gp. ",
       "id": 146,
       "spellSummary": "Spies on subject from a distance."
@@ -5815,6 +5827,86 @@
       "dateTime": "2023-06-22T17:35:34.603Z",
       "logText": "Prepared spell: Mending",
       "id": 264
+    },
+    {
+      "dateTime": "2023-06-22T17:49:28.931Z",
+      "logText": "Prepared spell: Remove Paralysis",
+      "id": 265
+    },
+    {
+      "dateTime": "2023-06-22T18:36:53.740Z",
+      "logText": "Prepared spell: Divination",
+      "id": 266
+    },
+    {
+      "dateTime": "2023-06-22T18:45:27.486Z",
+      "logText": "Added item: 2x Divination Spell Components",
+      "id": 267
+    },
+    {
+      "dateTime": "2023-06-22T18:55:11.836Z",
+      "logText": "Cast spell: Divination",
+      "id": 268
+    },
+    {
+      "dateTime": "2023-06-22T19:04:42.557Z",
+      "logText": "Cast spell: Speak With Dead",
+      "id": 269
+    },
+    {
+      "dateTime": "2023-06-22T19:32:10.866Z",
+      "logText": "Cast spell: Sending",
+      "id": 270
+    },
+    {
+      "dateTime": "2023-06-22T19:56:30.344Z",
+      "logText": "Cast spell: Read Magic",
+      "id": 271
+    },
+    {
+      "dateTime": "2023-06-22T19:56:39.286Z",
+      "logText": "Prepared spell: Summon Holy Symbol",
+      "id": 272
+    },
+    {
+      "dateTime": "2023-06-22T20:24:19.639Z",
+      "logText": "Cast spell: Remove Disease as healing spell",
+      "id": 273
+    },
+    {
+      "dateTime": "2023-06-22T20:24:26.990Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 274
+    },
+    {
+      "dateTime": "2023-06-22T20:44:08.928Z",
+      "logText": "Prepared spell: Sending",
+      "id": 275
+    },
+    {
+      "dateTime": "2023-06-22T20:44:17.927Z",
+      "logText": "Prepared spell: Scrying",
+      "id": 276
+    },
+    {
+      "dateTime": "2023-06-22T20:44:35.380Z",
+      "logText": "Prepared spell: Locate Object",
+      "id": 277
+    },
+    {
+      "dateTime": "2023-06-22T20:44:45.828Z",
+      "logText": "Prepared spell: Speak With Dead",
+      "id": 278
+    },
+    {
+      "dateTime": "2023-06-22T20:47:57.747Z",
+      "logText": "Prepared spell: Summon Holy Symbol",
+      "id": 279
+    },
+    {
+      "dateTime": "2023-06-22T21:15:41.717Z",
+      "logText": "Cast spell: Sending",
+      "id": 280
     }
   ]
 }
