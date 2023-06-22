@@ -238,9 +238,6 @@ export function Spell(props: SpellProps): ReactElement {
                 axios.patch(`http://localhost:3001/spells/${values.id}`, {
                   ...values,
                   spellDescription: editorText,
-                  spellDescriptionTwo: "",
-                  spellDescriptionThree: "",
-                  spellDescriptionFour: "",
                 }),
                 axios.post("http://localhost:3001/log", {
                   dateTime: new Date(Date.now()),
@@ -464,12 +461,7 @@ export function Spell(props: SpellProps): ReactElement {
                   </Grid>
                   <Grid item xs={12}>
                     <TextEditor
-                      initialValue={
-                        values?.spellDescription +
-                          values?.spellDescriptionTwo +
-                          values.spellDescriptionThree +
-                          values.spellDescriptionFour || ""
-                      }
+                      initialValue={values?.spellDescription}
                       onChange={(value) => {
                         setEditorText(value);
                       }}
