@@ -716,9 +716,9 @@
     },
     {
       "title": "Session 30",
-      "text": "<p><br></p>",
+      "text": "<p>All my notes got fucking deleted. Sadge.</p>",
       "date": "2023-06-30T17:10:29.834Z",
-      "editDate": "2023-06-30T20:27:01.791Z",
+      "editDate": "2023-06-30T20:31:27.109Z",
       "id": 32
     }
   ],
@@ -3227,7 +3227,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 95,
       "spellSummary": "Senses direction toward object (specific or type)."
@@ -3347,7 +3347,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3443,7 +3443,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 104,
       "spellSummary": "You call upon the powers of unlife to render the subject blinded or deafened, as you choose."
@@ -5924,6 +5924,36 @@
       "dateTime": "2023-06-30T19:39:55.387Z",
       "logText": "Cast spell: Sending",
       "id": 282
+    },
+    {
+      "dateTime": "2023-06-30T20:42:11.662Z",
+      "logText": "Cast spell: Locate Object",
+      "id": 283
+    },
+    {
+      "dateTime": "2023-06-30T20:49:48.293Z",
+      "logText": "Prepared spell: Scrying",
+      "id": 284
+    },
+    {
+      "dateTime": "2023-06-30T20:50:01.408Z",
+      "logText": "Prepared spell: Sending",
+      "id": 285
+    },
+    {
+      "dateTime": "2023-06-30T20:50:27.831Z",
+      "logText": "Prepared spell: Blindness/Deafness",
+      "id": 286
+    },
+    {
+      "dateTime": "2023-06-30T20:51:03.150Z",
+      "logText": "Cast spell: Sending",
+      "id": 287
+    },
+    {
+      "dateTime": "2023-06-30T21:05:45.475Z",
+      "logText": "Cast spell: Scrying",
+      "id": 288
     }
   ]
 }
