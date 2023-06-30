@@ -1,4 +1,4 @@
-import React, { ReactElement, useState, useEffect } from "react";
+import React, { ReactElement, useState } from "react";
 import { NoteData } from "../../types";
 import {
   Box,
@@ -66,16 +66,6 @@ export function Note(props: NoteProps): ReactElement {
       .catch((error) => console.log(error));
   };
 
-  useEffect(() => {
-    if (edit) {
-      const interval = setInterval(() => {
-        handleSave();
-      }, 1000);
-
-      return () => clearInterval(interval);
-    }
-  });
-
   return (
     <>
       <Box sx={{ boxShadow: 2, borderRadius: 1 }} py={1} px={3} mb={1}>
@@ -136,15 +126,6 @@ export function Note(props: NoteProps): ReactElement {
           <Box display="flex" justifyContent="center">
             {edit && (
               <>
-                <Button
-                  variant="outlined"
-                  sx={{ marginRight: 1 }}
-                  onClick={() => {
-                    setEdit(false);
-                  }}
-                >
-                  Close
-                </Button>
                 <Button
                   variant="contained"
                   onClick={() => {

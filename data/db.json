@@ -713,6 +713,13 @@
       "date": "2023-06-22T17:29:47.243Z",
       "editDate": "2023-06-22T21:23:25.859Z",
       "id": 31
+    },
+    {
+      "title": "Session 30",
+      "text": "<p><br></p>",
+      "date": "2023-06-30T17:10:29.834Z",
+      "editDate": "2023-06-30T20:27:01.791Z",
+      "id": 32
     }
   ],
   "attacks": [
@@ -3340,7 +3347,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -4368,7 +4375,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "Magical Sensor",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "Focus - A holy water font costing not less than 100 gp. ",
       "id": 146,
       "spellSummary": "Spies on subject from a distance."
@@ -5907,6 +5914,16 @@
       "dateTime": "2023-06-22T21:15:41.717Z",
       "logText": "Cast spell: Sending",
       "id": 280
+    },
+    {
+      "dateTime": "2023-06-30T19:10:40.627Z",
+      "logText": "Cast spell: Scrying",
+      "id": 281
+    },
+    {
+      "dateTime": "2023-06-30T19:39:55.387Z",
+      "logText": "Cast spell: Sending",
+      "id": 282
     }
   ]
 }
