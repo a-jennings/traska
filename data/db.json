@@ -716,10 +716,17 @@
     },
     {
       "title": "Session 30",
-      "text": "<p>All my notes got fucking deleted. Sadge.</p>",
+      "text": "<p>I can't replicate the bug but all my notes are gone.&nbsp;</p>",
       "date": "2023-06-30T17:10:29.834Z",
-      "editDate": "2023-06-30T20:31:27.109Z",
+      "editDate": "2023-07-07T17:30:37.210Z",
       "id": 32
+    },
+    {
+      "title": "Session 31",
+      "text": "<p>RIGGGHHHHTTTTTTT....</p>\n<p>Tarryn is single player right now. His mates are there and he fucks off! Darian Smith is BAAAALLLD!! FUCKING BALD NO HAIR PUSSY BALD. BALD. BALD. BALD.</p>\n<p>Alby (not the racist dragon), he's a dwarf, who's BEARDLESS!?!?!?!?!?! and thin. Braids, is a female golaith, who is basically Barrett but it's a blade. Sick.</p>\n<p>He meets with his 'friends', and has a little chat. I wasn't there. what do I know?</p>\n<p>Recap over. It's time to fuck with Tarryn hardstyle. He get's scarecrowed. You know how it do.</p>\n<p>We deal with that whole scenario, try some tracking to find it but no good.</p>\n<p>SYKE! He fucks with him agaiiiiiiinnnnn!!!</p>\n<p>This time he's out... maybe... See in 10 weeks or so...</p>\n<p>-----------</p>\n<p>WE HAVE A SPA DAY. ALRIGHT ALRIGHT ALRIGHT.</p>\n<p>Then we kind of chill so that these guys can meet Hurbadurby Dur who's name I can't say, the noble who wants to make us suckle for cash. We meet him, he offers us up to 50G's each per month. Ridiculous, but we still say no. Fuck that...</p>\n<p><br></p>",
+      "date": "2023-07-07T17:06:09.225Z",
+      "editDate": "2023-07-07T21:25:45.709Z",
+      "id": 33
     }
   ],
   "attacks": [
@@ -876,18 +883,6 @@
       "properties": "This pouch contains enough trail rations to feed a Medium creature for one day. Every morning at sunrise, the pouch magically creates another day's worth of rations."
     },
     {
-      "id": 12,
-      "name": "Bracers of Armour +3. Only when not in armour",
-      "type": "Bracers",
-      "bonus": 3,
-      "maxDex": "",
-      "checkPenalty": "",
-      "spellFailure": "",
-      "speed": "",
-      "weight": 0,
-      "properties": "Stolen from Nym's sister. "
-    },
-    {
       "id": 13,
       "name": "Ring of Entropic Deflection (Equipped)",
       "type": "Ring",
@@ -940,7 +935,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 12,
+      "currentUses": "13",
       "maxUses": "13",
       "id": 1
     },
@@ -975,7 +970,7 @@
     {
       "name": "Epic Point",
       "description": "An Epic Point can be spent at any point to do one of the following things:\n\n** Increase your Crit Range by 3 (after other multiplications) for one turn\n** Make a full attack as a standard acton\n** Add 5ft to your weapon reach for 3 turns\n** The next spell you cast will be empowered (it cannot be an empowered or maximised spell)\n** Gain Damage Reduction 30 / Epic for one turn\n** The next skill roll you make is an automatic natural 20\n** Do something EPIC***\n\n***EPIC = This is something that doesn’t necessarily have rules, and can be proposed that go beyond normal rules. That said, the above options should give an indicator for how powerful the action should be.\n",
-      "currentUses": 0,
+      "currentUses": "1",
       "maxUses": "1",
       "id": 6
     },
@@ -2219,7 +2214,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 50,
       "spellSummary": "Subject can see through magical darkness"
@@ -2261,13 +2256,13 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellArea": "",
-      "spellDescription": "<p>Bright lights shine at the targets. The lights grant a +2 circumstance bonus on ranged attack rolls against any highlighted target. If a creature gains total cover or total concealment relative to you, or if it leaves the area, the spell ends for that target.<br>\n</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 52,
       "spellSummary": "+2 on ranged attacks against creatures in illuminated area"
@@ -2651,7 +2646,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 69,
       "spellSummary": "Preserves one corpse."
@@ -2957,13 +2952,13 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "<p>When you need to keep track of comrades who may get separated, status allows you to mentally monitor their relative positions and general condition. You are aware of direction and distance to the creatures and any conditions affecting them: unharmed, wounded, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#disabled\" title=\"disabled\">disabled</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#staggered\" title=\"staggered\">staggered</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#unconscious\" title=\"unconscious\">unconscious</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#dying\" title=\"dying\">dying</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#nauseated\" title=\"nauseated\">nauseated</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#panicked\" title=\"panicked\">panicked</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#stunned\" title=\"stunned\">stunned</a>, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#poison\" title=\"poisoned\">poisoned</a>, <a href=\"https://www.d20srd.org/srd/specialAbilities.htm#disease\" title=\"diseased\">diseased</a>, <a href=\"https://www.d20srd.org/srd/conditionSummary.htm#confused\" title=\"&lt;em&gt;confused&lt;/em&gt;\"><em>confused</em></a>, or the like. Once the spell has been cast upon the subjects, the distance between them and the caster does not affect the spell as long as they are on the same plane of existence. If a subject leaves the plane, or if it dies, the spell ceases to function for it.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 82,
       "spellSummary": "Monitors condition, position of allies."
@@ -4046,7 +4041,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 132,
       "spellSummary": "Give spell resistance to creature"
@@ -5954,6 +5949,51 @@
       "dateTime": "2023-06-30T21:05:45.475Z",
       "logText": "Cast spell: Scrying",
       "id": 288
+    },
+    {
+      "dateTime": "2023-07-07T20:21:26.814Z",
+      "logText": "Prepared spell: Guiding Light",
+      "id": 289
+    },
+    {
+      "dateTime": "2023-07-07T20:21:36.919Z",
+      "logText": "Cast spell: Ebon Eyes",
+      "id": 290
+    },
+    {
+      "dateTime": "2023-07-07T20:22:03.199Z",
+      "logText": "Prepared spell: Status",
+      "id": 291
+    },
+    {
+      "dateTime": "2023-07-07T20:22:34.984Z",
+      "logText": "Cast spell: Gentle Repose",
+      "id": 292
+    },
+    {
+      "dateTime": "2023-07-07T20:23:00.493Z",
+      "logText": "Prepared spell: Spell Immunity",
+      "id": 293
+    },
+    {
+      "dateTime": "2023-07-07T20:23:56.745Z",
+      "logText": "Prepared spell: Scrying",
+      "id": 294
+    },
+    {
+      "dateTime": "2023-07-07T20:34:12.763Z",
+      "logText": "Regenerated special ability: Turn Undead",
+      "id": 295
+    },
+    {
+      "dateTime": "2023-07-07T20:34:14.926Z",
+      "logText": "Regenerated special ability: Epic Point",
+      "id": 296
+    },
+    {
+      "dateTime": "2023-07-07T21:33:08.871Z",
+      "logText": "Cast spell: Scrying",
+      "id": 297
     }
   ]
 }
