@@ -460,11 +460,6 @@
       "id": 13
     },
     {
-      "name": "Sunrod",
-      "weight": 0,
-      "id": 14
-    },
-    {
       "name": "Small Steel Mirror",
       "weight": 0,
       "id": 15
@@ -488,6 +483,16 @@
       "name": "2x Divination Spell Components",
       "weight": 0,
       "id": 19
+    },
+    {
+      "name": "Scroll of Break Enchantment x 1",
+      "weight": 0,
+      "id": 20
+    },
+    {
+      "name": "Cure Moderate Wounds Potion (2d8+3)",
+      "weight": 0,
+      "id": 21
     }
   ],
   "currency": {
@@ -727,6 +732,13 @@
       "date": "2023-07-07T17:06:09.225Z",
       "editDate": "2023-07-07T21:25:45.709Z",
       "id": 33
+    },
+    {
+      "title": "Session 32",
+      "text": "<p>SCRY is over!! We know those fuckers are on an airship to Kessen now, but what do we do about it?</p>\n<p>We go visit the Mayor, she's so bored of us by now. We tell her about the imminent 9/11, but she doesn't like it because we scryed. Fucking commie.</p>\n<p>Alright so we decide its Medusa time. We buy just a bunch of provisions and shit, and just begin our YOLO journey. We head south, days travel. At night time, Tarryn and Otto are on watch when a loud noise happens, sort of back the way we came? Ru ro shaggy.</p>\n<p>Sent a message to our daddy, he was super unhappy about that. He heard the roar too. No worries then, lets go to Sardus!<br>\nWe arrive, at sort of night time, and it's like a ruined greek necropolisy like feel. Looks cool... to bad it's gonna be fucking cursed.</p>\n<p>We get a nice relaxing night sleep, and there's a female cackiling in the night... Excellent. Let's go fuck this bitch.</p>\n<p>I roll a -8 stealth check, not the worst.</p>\n<p>We travel up the many levels of the ruined city. Eventually after a few hours we come across some statues... of all races size times etc. We think about maybe freeing one for bants, but carry on.</p>\n<p>We've scaled like 5 levels of this city now, and the statues are becoming more frequent. Shit's getting real fam.</p>\n<p>MOZZI FUCKING LOOKS AT HER. Not his fault, he does a little double take and she's fucking there. Luckily he resists the petrification, holy. So anyway he stated blasting...</p>\n<p>WE IN THE FIGHT BOIS. There's a lot of terrain up in here, and she's fucking terrifying. Confirmed elf!? Maybe? I try my blindness yolo hope. It fails big time.</p>\n<p>ADDS ARE COMINGGGGGG. They pretty much suck cock. But annyoing...</p>",
+      "date": "2023-07-14T17:09:33.028Z",
+      "editDate": "2023-07-14T21:51:44.227Z",
+      "id": 34
     }
   ],
   "attacks": [
@@ -935,7 +947,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": "13",
+      "currentUses": 12,
       "maxUses": "13",
       "id": 1
     },
@@ -2337,7 +2349,7 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 56,
-      "spellSummary": "Cures 2d8 damage +1/level (max +10). (+1 for Healing Domain) +2d8 halved rounding down "
+      "spellSummary": "Cures 2d8 damage +1/level (max +10). (+1 for Healing Domain) +2d8 halved rounding down (SB=34)"
     },
     {
       "spellName": "Heat Metal",
@@ -2934,7 +2946,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "Magic weapon of force",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 81,
       "spellSummary": "Magic weapon attacks on its own."
@@ -2958,7 +2970,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 82,
       "spellSummary": "Monitors condition, position of allies."
@@ -3342,7 +3354,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 100,
       "spellSummary": "Delivers short message anywhere, instantly."
@@ -3438,7 +3450,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 104,
       "spellSummary": "You call upon the powers of unlife to render the subject blinded or deafened, as you choose."
@@ -3839,18 +3851,18 @@
     },
     {
       "spellName": "Death Ward",
-      "spellSchool": "",
+      "spellSchool": "Necromancy",
       "spellDescriptor": "",
       "spellLevel": 4,
       "spellComponents": "",
-      "spellCastingTime": "",
-      "spellRange": "",
-      "spellDuration": "",
-      "spellTarget": "",
-      "spellSavingThrow": "",
-      "spellResistance": "",
+      "spellCastingTime": "1 standard action",
+      "spellRange": "Touch",
+      "spellDuration": "1 min./level",
+      "spellTarget": "Living creature touched",
+      "spellSavingThrow": "Will negates (harmless)",
+      "spellResistance": "Yes (harmless)",
       "spellArea": "",
-      "spellDescription": "",
+      "spellDescription": "<p>The subject is immune to all death spells, magical death effects, energy drain, and any negative energy effects.</p>\n<p><br></p>\n<p>This spell doesn’t remove negative levels that the subject has already gained, nor does it affect the saving throw necessary 24 hours after gaining a negative level.</p>\n<p><br></p>\n<p>Death ward does not protect against other sorts of attacks even if those attacks might be lethal.</p>",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
@@ -3858,7 +3870,8 @@
       "spellDomainSpell": false,
       "spellPrepared": 0,
       "spellMaterial": "",
-      "id": 123
+      "id": 123,
+      "spellSummary": "Grants immunity to death spells and negative energy effects"
     },
     {
       "spellName": "Dimensional Anchor",
@@ -4179,13 +4192,13 @@
       "spellSavingThrow": "See text",
       "spellResistance": "No",
       "spellArea": "",
-      "spellDescription": "<p>This spell frees victims from enchantments, transmutations, and curses. Break enchantment can reverse even an instantaneous effect. For each such effect, you make a <a href=\"https://www.d20srd.org/srd/magicOverview/castingSpells.htm#casterLevelChecks\" title=\"caster level check\">caster level check</a> (<a href=\"javascript:void(0);\" title=\"1d20\">1d20</a> + caster level, maximum +15) against a DC of 11 + caster level of the effect. Success means that the creature is free of the spell, curse, or effect. For a cursed magic item, the DC is 25.</p>\n<p>If the spell is one that cannot be dispelled by <a href=\"https://www.d20srd.org/srd/spells/dispelMagic.htm\" title=\"dispel magic\"><em>dispel magic</em></a>, break enchantment works only if that spell is 5th level or lower.</p>\n<p>If the effect comes from some permanent magic item break enchantment does not remove the curse from the item, but it does frees the victim from the item’s effects.</p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br></p>\n<p><br>\n</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 138,
       "spellSummary": "Frees subjects from enchantments, alterations, curses, and petrification."
@@ -5994,6 +6007,86 @@
       "dateTime": "2023-07-07T21:33:08.871Z",
       "logText": "Cast spell: Scrying",
       "id": 297
+    },
+    {
+      "dateTime": "2023-07-14T18:09:45.162Z",
+      "logText": "Added item: Scroll of Break Enchantment x 1",
+      "id": 298
+    },
+    {
+      "dateTime": "2023-07-14T18:24:26.730Z",
+      "logText": "Deleted item: Sunrod",
+      "id": 299
+    },
+    {
+      "dateTime": "2023-07-14T18:27:26.022Z",
+      "logText": "Added item: Cure Moderate Wounds Potion (2d8+3)",
+      "id": 300
+    },
+    {
+      "dateTime": "2023-07-14T18:44:58.158Z",
+      "logText": "Prepared spell: Break Enchantment",
+      "id": 301
+    },
+    {
+      "dateTime": "2023-07-14T18:49:43.963Z",
+      "logText": "Cast spell: Sending",
+      "id": 302
+    },
+    {
+      "dateTime": "2023-07-14T18:52:14.555Z",
+      "logText": "Prepared spell: Death Ward",
+      "id": 303
+    },
+    {
+      "dateTime": "2023-07-14T18:52:32.758Z",
+      "logText": "Prepared spell: Death Ward",
+      "id": 304
+    },
+    {
+      "dateTime": "2023-07-14T18:52:37.929Z",
+      "logText": "Prepared spell: Death Ward",
+      "id": 305
+    },
+    {
+      "dateTime": "2023-07-14T20:19:16.615Z",
+      "logText": "Cast spell: Death Ward",
+      "id": 306
+    },
+    {
+      "dateTime": "2023-07-14T20:44:17.607Z",
+      "logText": "Cast spell: Blindness/Deafness",
+      "id": 307
+    },
+    {
+      "dateTime": "2023-07-14T21:09:42.345Z",
+      "logText": "Updated spell information for Cure Moderate Wounds",
+      "id": 308
+    },
+    {
+      "dateTime": "2023-07-14T21:14:49.453Z",
+      "logText": "Cast spell: Status",
+      "id": 309
+    },
+    {
+      "dateTime": "2023-07-14T21:15:01.286Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 310
+    },
+    {
+      "dateTime": "2023-07-14T21:23:57.241Z",
+      "logText": "36 damage taken",
+      "id": 311
+    },
+    {
+      "dateTime": "2023-07-14T21:41:05.425Z",
+      "logText": "Cast spell: Spiritual Weapon",
+      "id": 312
+    },
+    {
+      "dateTime": "2023-07-14T21:41:10.619Z",
+      "logText": "36 damage healed",
+      "id": 313
     }
   ]
 }
