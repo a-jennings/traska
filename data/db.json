@@ -34,7 +34,7 @@
   },
   "stats": {
     "hpMax": 73,
-    "hpCurrent": 73,
+    "hpCurrent": 0,
     "ac": 24,
     "acTouch": 12,
     "acFF": 24,
@@ -493,6 +493,11 @@
       "name": "Cure Moderate Wounds Potion (2d8+3)",
       "weight": 0,
       "id": 21
+    },
+    {
+      "name": "Amulet of Ehlona (Nature Goddess) off of Medusa.",
+      "weight": 0,
+      "id": 22
     }
   ],
   "currency": {
@@ -739,6 +744,13 @@
       "date": "2023-07-14T17:09:33.028Z",
       "editDate": "2023-07-14T21:51:44.227Z",
       "id": 34
+    },
+    {
+      "title": "Session 33",
+      "text": "<p>OHHHHH FUCCKK</p>\n<p>We're in combat boiz. She runs up and tries to stare at me. Eyes closed hands out like a blind hooker.</p>\n<p>I heal Otto, but it gets basically nullified by a Medusa shot immediately.</p>\n<p>NYM YOU FUCKING HEEEEERRRROOOOOOOOOOOO! Rolls a crit and drains of her of 14 Strength. Holy shit he fucking did, he sucked her dry.</p>\n<p>And then Otto deals the death blow.</p>\n<p>Nym gives me a simple looking bronze amulet, a unicorn, symbol of Ehlona possibly. It's not magical.</p>\n<p>There are 7 temples in a kind of circle over the bridge, with a number of deities. The center and biggest dick one is Pelor, for sure for sure. We take the body and head and shit over to the temple area.</p>\n<p>We enter in the ruined Temple of Pelor...</p>\n<p>It's an older style of temple, but it does have some kind of like sacrificial altar for old school offerings and shit. We put the body of Medusa on it...<br>\nMeanwhiiiillle. Nym finds a secret door at the back of the room, and goes through into a dirt tunnel or something, I don't know I was getting a drink.</p>\n<p>It looks like Nym find the resting place of the actual Helio? We find his skeleton, and shit like that. There's a note carved the in the wall, possibly from Medusa saying that she loves him like the sun or something. Shit.</p>\n<p>Eventually we decide to lay Medusa and Helio to rest in that tomb and do burial rites etc.<br>\nWe search the other temples, don't really find too much EXCEPT. There is a FUCKING MASSIVE GREATAXE in the temple of Kord, Flaming and Berserking. Holy Otto weapon. We take that shit.</p>\n<p>There's a Palace Nightclub which we try and enter but the harpies dont like us. Fucking classic Palace. Otto takes a bit of a tumble, but it's not fatal and we bounce.</p>\n<p>We do a little break enchantment on a human we try as a tester. It works but she's already dead like the soul had given up. Bad times.</p>\n<p>We rest up and travel back to Mawsgate which is uneventfull.</p>\n<p>I got fucking betrayed... FML...</p>\n<p>As we pour the blood on the statue, it turns into some sort of moon bitch, and there's a satyr which was the old man who was the historian. I am rage.</p>\n<p>She almost 1 shots me, I don't have armour on because I thought this would be fine. I think I'm probably deadge here, also I have 4 negative levels so I'm turbo fucko'd. SYKE I have 8 negative levels instead. So I'm level 1, and down with 0 death saves currently... 1 SUCCESS!<br>\nAnd thats the session end.&nbsp;</p>",
+      "date": "2023-07-20T17:30:43.121Z",
+      "editDate": "2023-07-20T21:24:54.813Z",
+      "id": 35
     }
   ],
   "attacks": [
@@ -947,7 +959,7 @@
     {
       "name": "Turn Undead",
       "description": "Roll: 1d20 + CHA +2. Turning undead is a supernatural ability that a character can perform as a standard action. It does not provoke attacks of opportunity. You must present your holy symbol to turn undead. Turning is considered an attack. You turn the closest turnable undead first, and you can’t turn undead that are more than 60 feet away or that have total cover relative to you. You don’t need line of sight to a target, but you do need line of effect.",
-      "currentUses": 12,
+      "currentUses": "13",
       "maxUses": "13",
       "id": 1
     },
@@ -1557,7 +1569,7 @@
       "spellPrepared": 0,
       "spellMaterial": "",
       "id": 21,
-      "spellSummary": "Cures 1d8 damage +1/level (max +5) + 1d8 halved rounded down"
+      "spellSummary": "Cures 1d8 damage +1/level (max +5) + 1d8 halved rounded down SB=17"
     },
     {
       "spellName": "Detect Evil",
@@ -1674,7 +1686,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": true,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 26,
       "spellSummary": "Exist comfortably in hot or cold environments."
@@ -2658,7 +2670,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 69,
       "spellSummary": "Preserves one corpse."
@@ -2778,7 +2790,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 74,
       "spellSummary": "Frees one or more creatures from paralysis or slow effect."
@@ -2946,7 +2958,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "Magic weapon of force",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 81,
       "spellSummary": "Magic weapon attacks on its own."
@@ -2970,7 +2982,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 82,
       "spellSummary": "Monitors condition, position of allies."
@@ -3372,13 +3384,13 @@
       "spellSavingThrow": "",
       "spellResistance": "",
       "spellArea": "",
-      "spellDescription": "<p>Similar to <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a> but more powerful, a divination spell can provide you with a useful piece of advice in reply to a question concerning a specific goal, event, or activity that is to occur within one week. The advice can be as simple as a short phrase, or it might take the form of a cryptic rhyme or omen. If your party doesn’t act on the information, the conditions may change so that the information is no longer useful. The base chance for a correct divination is 70% + 1% per caster level, to a maximum of 90%. If the dice roll fails, you know the spell failed, unless specific magic yielding false information is at work.</p>\n<p>As with <a href=\"https://www.d20srd.org/srd/spells/augury.htm\" title=\"augury\"><em>augury</em></a>, multiple divinations about the same topic by the same caster use the same dice result as the first divination spell and yield the same answer each time.</p>\n<h6><em>Material Component</em></h6>\n<p>Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.</p>",
+      "spellDescription": "",
       "spellDescriptionTwo": "",
       "spellDescriptionThree": "",
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp.",
       "id": 101,
       "spellSummary": "Provides useful advice for specific proposed actions."
@@ -3450,7 +3462,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "",
       "id": 104,
       "spellSummary": "You call upon the powers of unlife to render the subject blinded or deafened, as you choose."
@@ -4198,7 +4210,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "",
       "spellDomainSpell": false,
-      "spellPrepared": 1,
+      "spellPrepared": 0,
       "spellMaterial": "",
       "id": 138,
       "spellSummary": "Frees subjects from enchantments, alterations, curses, and petrification."
@@ -4383,7 +4395,7 @@
       "spellDescriptionFour": "",
       "spellEffect": "Magical Sensor",
       "spellDomainSpell": false,
-      "spellPrepared": 0,
+      "spellPrepared": 1,
       "spellMaterial": "Focus - A holy water font costing not less than 100 gp. ",
       "id": 146,
       "spellSummary": "Spies on subject from a distance."
@@ -6087,6 +6099,181 @@
       "dateTime": "2023-07-14T21:41:10.619Z",
       "logText": "36 damage healed",
       "id": 313
+    },
+    {
+      "dateTime": "2023-07-20T17:49:10.125Z",
+      "logText": "14 damage taken",
+      "id": 314
+    },
+    {
+      "dateTime": "2023-07-20T17:51:54.895Z",
+      "logText": "Cast spell: Speak With Dead as healing spell",
+      "id": 315
+    },
+    {
+      "dateTime": "2023-07-20T17:52:13.196Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 316
+    },
+    {
+      "dateTime": "2023-07-20T18:08:48.515Z",
+      "logText": "Cast spell: Insight of Good Fortune as healing spell",
+      "id": 317
+    },
+    {
+      "dateTime": "2023-07-20T18:09:44.389Z",
+      "logText": "Added item: Amulet of Ehlona (Nature Goddess) off of Medusa.",
+      "id": 318
+    },
+    {
+      "dateTime": "2023-07-20T18:30:23.844Z",
+      "logText": "Cast spell: Comprehend Languages",
+      "id": 319
+    },
+    {
+      "dateTime": "2023-07-20T18:30:23.992Z",
+      "logText": "Cast spell: Endure Elements",
+      "id": 320
+    },
+    {
+      "dateTime": "2023-07-20T18:36:30.178Z",
+      "logText": "Cast spell: Remove Curse",
+      "id": 321
+    },
+    {
+      "dateTime": "2023-07-20T19:17:06.351Z",
+      "logText": "Updated spell information for Cure Light Wounds",
+      "id": 322
+    },
+    {
+      "dateTime": "2023-07-20T19:17:20.367Z",
+      "logText": "Cast spell: Bless Water as healing spell",
+      "id": 323
+    },
+    {
+      "dateTime": "2023-07-20T19:17:27.931Z",
+      "logText": "17 damage healed",
+      "id": 324
+    },
+    {
+      "dateTime": "2023-07-20T19:30:35.657Z",
+      "logText": "Cast spell: Flame Strike",
+      "id": 325
+    },
+    {
+      "dateTime": "2023-07-20T19:47:37.246Z",
+      "logText": "Cast spell: Remove Paralysis as healing spell",
+      "id": 326
+    },
+    {
+      "dateTime": "2023-07-20T19:47:47.763Z",
+      "logText": "Used Sacred Boost / Turn Undead",
+      "id": 327
+    },
+    {
+      "dateTime": "2023-07-20T20:01:17.058Z",
+      "logText": "Cast spell: Break Enchantment",
+      "id": 328
+    },
+    {
+      "dateTime": "2023-07-20T20:15:07.252Z",
+      "logText": "Regenerated special ability: Turn Undead",
+      "id": 329
+    },
+    {
+      "dateTime": "2023-07-20T20:15:56.890Z",
+      "logText": "Updated spell information for Flame Strike",
+      "id": 330
+    },
+    {
+      "dateTime": "2023-07-20T20:16:02.328Z",
+      "logText": "Prepared spell: Flame Strike",
+      "id": 331
+    },
+    {
+      "dateTime": "2023-07-20T20:18:00.430Z",
+      "logText": "Prepared spell: Divination",
+      "id": 332
+    },
+    {
+      "dateTime": "2023-07-20T20:18:16.480Z",
+      "logText": "Prepared spell: Remove Curse",
+      "id": 333
+    },
+    {
+      "dateTime": "2023-07-20T20:18:20.794Z",
+      "logText": "Prepared spell: Speak With Dead",
+      "id": 334
+    },
+    {
+      "dateTime": "2023-07-20T20:18:40.746Z",
+      "logText": "Prepared spell: Speak With Dead",
+      "id": 335
+    },
+    {
+      "dateTime": "2023-07-20T20:18:53.084Z",
+      "logText": "Prepared spell: Blindness/Deafness",
+      "id": 336
+    },
+    {
+      "dateTime": "2023-07-20T20:19:16.811Z",
+      "logText": "Prepared spell: Gentle Repose",
+      "id": 337
+    },
+    {
+      "dateTime": "2023-07-20T20:19:40.368Z",
+      "logText": "Prepared spell: Insight of Good Fortune",
+      "id": 338
+    },
+    {
+      "dateTime": "2023-07-20T20:19:54.130Z",
+      "logText": "Prepared spell: Status",
+      "id": 339
+    },
+    {
+      "dateTime": "2023-07-20T20:19:58.830Z",
+      "logText": "Prepared spell: Spiritual Weapon",
+      "id": 340
+    },
+    {
+      "dateTime": "2023-07-20T20:20:12.297Z",
+      "logText": "Prepared spell: Bless Water",
+      "id": 341
+    },
+    {
+      "dateTime": "2023-07-20T20:20:19.361Z",
+      "logText": "Prepared spell: Comprehend Languages",
+      "id": 342
+    },
+    {
+      "dateTime": "2023-07-20T20:21:31.593Z",
+      "logText": "Prepared spell: Scrying",
+      "id": 343
+    },
+    {
+      "dateTime": "2023-07-20T20:57:41.642Z",
+      "logText": "62 damage taken",
+      "id": 344
+    },
+    {
+      "dateTime": "2023-07-20T20:58:50.247Z",
+      "logText": "3 damage taken",
+      "id": 345
+    },
+    {
+      "dateTime": "2023-07-20T21:08:45.079Z",
+      "logText": "17 damage healed",
+      "id": 346
+    },
+    {
+      "dateTime": "2023-07-20T21:20:05.288Z",
+      "logText": "24 damage taken",
+      "id": 347
+    },
+    {
+      "dateTime": "2023-07-20T21:21:15.059Z",
+      "logText": "1 damage taken",
+      "id": 348
     }
   ]
 }
