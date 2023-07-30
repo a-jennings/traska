@@ -68,7 +68,7 @@ export function Spell(props: SpellProps): ReactElement {
     Promise.all([
       axios.patch(`http://localhost:3001/spells/${data.id}`, {
         ...data,
-        spellPrepared: data.spellPrepared - 1,
+        spellPrepared: data.spellPrepared && data.spellPrepared - 1,
       }),
       axios.post("http://localhost:3001/log", {
         dateTime: new Date(Date.now()),
@@ -130,7 +130,7 @@ export function Spell(props: SpellProps): ReactElement {
           </Typography>
         </Box>
         <Box>
-          {data.spellPrepared > 0 && (
+          {(data.spellPrepared || 0) > 0 && (
             <IconButton disabled>
               <Typography
                 sx={{ color: theme.palette.common.white, opacity: 1 }}
@@ -139,7 +139,7 @@ export function Spell(props: SpellProps): ReactElement {
               </Typography>
             </IconButton>
           )}
-          {data.spellPrepared > 0 && (
+          {(data.spellPrepared || 0) > 0 && (
             <IconButton onClick={handleCastDialogOpen}>
               <AutoFixHighIcon sx={{ color: theme.palette.common.white }} />
             </IconButton>
@@ -425,7 +425,7 @@ export function Spell(props: SpellProps): ReactElement {
                     <FormControlLabel
                       control={
                         <Checkbox
-                          checked={values.spellDomainSpell}
+                          checked={values.spellDomainSpell || false}
                           onChange={handleChange}
                           id="spellDomainSpell"
                           name="spellDomainSpell"
@@ -461,7 +461,7 @@ export function Spell(props: SpellProps): ReactElement {
                   </Grid>
                   <Grid item xs={12}>
                     <TextEditor
-                      initialValue={values?.spellDescription}
+                      initialValue={values?.spellDescription ?? ""}
                       onChange={(value) => {
                         setEditorText(value);
                       }}
