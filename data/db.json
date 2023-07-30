@@ -1177,7 +1177,8 @@
       "spellSavingThrow": "Will negates (harmless, object)",
       "spellResistance": "Yes (harmless, object)",
       "spellDescription": "<p>Mending repairs small breaks or tears in objects (but not warps, such as might be caused by a warp wood spell). It will weld broken metallic objects such as a ring, a chain link, a medallion, or a slender dagger, providing but one break exists.</p><p>Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new. A hole in a leather sack or a wineskin is completely healed over by mending. The spell can repair a magic item, but the item’s magical abilities are not restored. The spell cannot mend broken magic rods, staffs, or wands, nor does it affect creatures (including constructs</a>).</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 0
     },
     {
       "id": 3,
@@ -1273,7 +1274,8 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellDescription": "<p>This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large—possibly creating a downpour or filling many small receptacles.</p><p><em>Note:</em> Conjuration spells can’t create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.</p>",
-      "spellSchool": "Conjuration (Creation) [Water]"
+      "spellSchool": "Conjuration (Creation) [Water]",
+      "spellPrepared": 0
     },
     {
       "id": 21,
@@ -5413,9 +5415,34 @@
       "id": 348
     },
     {
-      "dateTime": "2023-07-30T21:21:15.059Z",
+      "dateTime": "2023-07-27T21:21:15.059Z",
       "logText": "Illusida has been slain.",
       "id": 349
+    },
+    {
+      "dateTime": "2023-07-30T14:43:00.169Z",
+      "logText": "Cast spell: Create Water",
+      "id": 350
+    },
+    {
+      "dateTime": "2023-07-30T14:44:14.043Z",
+      "logText": "Prepared spell: Mending",
+      "id": 351
+    },
+    {
+      "dateTime": "2023-07-30T14:44:25.168Z",
+      "logText": "Prepared spell: Create Water",
+      "id": 352
+    },
+    {
+      "dateTime": "2023-07-30T14:44:27.336Z",
+      "logText": "Cast spell: Mending",
+      "id": 353
+    },
+    {
+      "dateTime": "2023-07-30T14:44:28.995Z",
+      "logText": "Cast spell: Create Water",
+      "id": 354
     }
   ]
 }
