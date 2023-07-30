@@ -67,10 +67,10 @@ export type Item = {
 };
 
 export type SpellData = {
-  spellName: string;
+  spellName: string | null;
   spellSchool: string | null;
   spellDescriptor: string | null;
-  spellLevel: number;
+  spellLevel: number | null;
   spellComponents: string | null;
   spellCastingTime: string | null;
   spellRange: string | null;
@@ -80,15 +80,12 @@ export type SpellData = {
   spellResistance: string | null;
   spellArea: string | null;
   spellEffect: string | null;
-  spellDescription: string;
-  spellDescriptionTwo: string;
-  spellDescriptionThree: string;
-  spellDescriptionFour: string;
-  spellDomainSpell: boolean;
+  spellDescription: string | null;
+  spellDomainSpell: boolean | null;
   spellSummary: string | null;
-  spellPrepared: number;
-  spellMaterial: string;
-  id: 1;
+  spellPrepared: number | null;
+  spellMaterial: string | null;
+  id: number;
 };
 
 export type AttackData = {
