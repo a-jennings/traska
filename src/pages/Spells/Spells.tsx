@@ -45,21 +45,35 @@ export function Spells(): ReactElement {
 
   const sortSpells = (data: Array<SpellData>) => {
     const preparedSpells = data
-      .filter((spell) => spell.spellPrepared > 0)
+      .filter((spell) => (spell.spellPrepared || 0) > 0)
       .sort((a, b) =>
-        a.spellName > b.spellName ? 1 : b.spellName > a.spellName ? -1 : 0
+        (a.spellName ?? "") > (b.spellName ?? "")
+          ? 1
+          : (b.spellName ?? "") > (a.spellName ?? "")
+          ? -1
+          : 0
       );
 
     const domainSpells = data
       .filter((spell) => spell.spellDomainSpell && !spell.spellPrepared)
       .sort((a, b) =>
-        a.spellName > b.spellName ? 1 : b.spellName > a.spellName ? -1 : 0
+        (a.spellName ?? "") > (b.spellName ?? "")
+          ? 1
+          : (b.spellName ?? "") > (a.spellName ?? "")
+          ? -1
+          : 0
       );
 
     const otherSpells = data
-      .filter((spell) => spell.spellPrepared <= 0 && !spell.spellDomainSpell)
+      .filter(
+        (spell) => (spell.spellPrepared || 0) <= 0 && !spell.spellDomainSpell
+      )
       .sort((a, b) =>
-        a.spellName > b.spellName ? 1 : b.spellName > a.spellName ? -1 : 0
+        (a.spellName ?? "") > (b.spellName ?? "")
+          ? 1
+          : (b.spellName ?? "") > (a.spellName ?? "")
+          ? -1
+          : 0
       );
 
     return preparedSpells.concat(domainSpells).concat(otherSpells);
