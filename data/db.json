@@ -358,7 +358,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 425,
+    "gold": 1275,
     "platinum": 0
   },
   "notes": [
@@ -609,17 +609,192 @@
     },
     {
       "title": "Session 34",
-      "text": "<p>I DIED</p>",
+      "text": "<p>I DIED</p>\n<p><br></p>\n<p>A new challenger approaches...</p>",
       "date": "2023-07-28T17:00:42.356Z",
-      "editDate": "2023-07-28T18:08:54.205Z",
+      "editDate": "2023-07-31T18:00:21.707Z",
       "id": 36
     }
   ],
-  "attacks": [],
-  "gear": [],
-  "feats": [],
-  "languages": [],
-  "specialAbilities": [],
+  "attacks": [
+    {
+      "name": "Quarterstaff",
+      "bonus": 1,
+      "damage": "1d6+1",
+      "critical": "x2",
+      "range": "-",
+      "type": "Bludgeoning",
+      "notes": "+9/+4 Masterwork",
+      "id": 1
+    }
+  ],
+  "gear": [
+    {
+      "id": 1,
+      "name": "Hide Armour +3 ",
+      "type": "Light",
+      "bonus": 3,
+      "maxDex": "+4",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": "Masterwork +3"
+    },
+    {
+      "id": 2,
+      "name": "Collar of Healing (Companion)",
+      "type": "Throat",
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": ""
+    },
+    {
+      "id": 3,
+      "name": "Periapt of Wisdom",
+      "type": "Throat",
+      "bonus": "",
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": ""
+    },
+    {
+      "id": 4,
+      "name": "Belt of the Wild Earth",
+      "type": "Belt",
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": ""
+    },
+    {
+      "id": 5,
+      "name": "Ring of Protection +1",
+      "type": "Ring",
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": ""
+    },
+    {
+      "id": 6,
+      "name": "Sandals of the Vagabond",
+      "type": "Feet",
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": ""
+    }
+  ],
+  "feats": [
+    {
+      "name": "Natural Spell",
+      "description": "",
+      "id": 1
+    },
+    {
+      "name": "Fast Wild Shape",
+      "description": "",
+      "id": 2
+    },
+    {
+      "name": "Swift Wild Shape",
+      "description": "",
+      "id": 3
+    },
+    {
+      "name": "Companion Spellbond",
+      "description": "",
+      "id": 4
+    }
+  ],
+  "languages": [
+    {
+      "name": "Elvish",
+      "id": 1
+    },
+    {
+      "name": "Common",
+      "id": 2
+    },
+    {
+      "name": "Sylvan",
+      "id": 3
+    }
+  ],
+  "specialAbilities": [
+    {
+      "name": "Animal Companion - Dire Lion",
+      "description": "",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 1
+    },
+    {
+      "name": "Nature Sense",
+      "description": "",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 2
+    },
+    {
+      "name": "Wild Empathy",
+      "description": "",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 3
+    },
+    {
+      "name": "Woodland Stride",
+      "description": "",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 4
+    },
+    {
+      "name": "Trackless Step",
+      "description": "",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 5
+    },
+    {
+      "name": "Resist Nature's Lure",
+      "description": "",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 6
+    },
+    {
+      "name": "Venom Immunity",
+      "description": "",
+      "currentUses": 0,
+      "maxUses": 0,
+      "id": 7
+    },
+    {
+      "name": "Wild Shape",
+      "description": "",
+      "currentUses": "4",
+      "maxUses": "4",
+      "id": 8
+    }
+  ],
   "spellSlots": {
     "zero": 6,
     "zeroBonus": 0,
