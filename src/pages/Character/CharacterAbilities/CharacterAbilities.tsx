@@ -98,7 +98,7 @@ export function CharacterAbilities(): ReactElement {
           </Grid>
 
           <Grid item xs={8}>
-            <Typography>Wisdom</Typography>
+            <Typography>Wisdom (+4)</Typography>
           </Grid>
           <Grid item xs={2} textAlign="center">
             <Typography>{data.wisdom}</Typography>
@@ -110,14 +110,14 @@ export function CharacterAbilities(): ReactElement {
           </Grid>
 
           <Grid item xs={8}>
-            <Typography>Charisma (+3)</Typography>
+            <Typography>Charisma</Typography>
           </Grid>
           <Grid item xs={2} textAlign="center">
             <Typography>{data.charisma}</Typography>
           </Grid>
           <Grid item xs={2} textAlign="center">
             <Typography>
-              {styleAbilityBonus(calcAbilityBonus(data.charisma) + 3)}
+              {styleAbilityBonus(calcAbilityBonus(data.charisma))}
             </Typography>
           </Grid>
         </Grid>

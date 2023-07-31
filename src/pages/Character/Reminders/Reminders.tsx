@@ -12,7 +12,8 @@ export function Reminders(): ReactElement {
       >
         Reminders
       </Typography>
-      <Box>
+      {/* OLD */}
+      {/* <Box>
         <Grid container spacing={1}>
           <Grid item xs={6}>
             <Typography>2 attacks! Base attack is +6/+1</Typography>
@@ -49,7 +50,7 @@ export function Reminders(): ReactElement {
             <Typography>+1 on Diplomacy checks when invoking Pelor</Typography>
           </Grid>
         </Grid>
-      </Box>
+      </Box> */}
     </>
   );
 }
