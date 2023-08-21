@@ -613,6 +613,13 @@
       "date": "2023-07-28T17:00:42.356Z",
       "editDate": "2023-07-31T18:00:21.707Z",
       "id": 36
+    },
+    {
+      "title": "Session 35",
+      "text": "<p>Lol all notes gone again Fuck sake.&nbsp;</p>\n<p>We're going into a seige. It's all going very fast...</p>",
+      "date": "2023-08-18T17:06:50.289Z",
+      "editDate": "2023-08-18T20:28:56.094Z",
+      "id": 37
     }
   ],
   "attacks": [
@@ -739,7 +746,7 @@
   ],
   "specialAbilities": [
     {
-      "name": "Animal Companion - Dire Lion",
+      "name": "Animal Companion - Dire Lion - Saja",
       "description": "",
       "currentUses": 0,
       "maxUses": 0,
@@ -842,7 +849,8 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellDescription": "<p>This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.</p><p>A light spell (one with the light descriptor) counters and dispels a darkness spell (one with the darkness descriptor) of an equal or lower level.</p><h6>Arcane Material Component</h6><p>A firefly or a piece of phosphorescent moss.</p>",
-      "spellSchool": "Evocation [Light]"
+      "spellSchool": "Evocation [Light]",
+      "spellPrepared": 1
     },
     {
       "id": 2,
@@ -867,7 +875,8 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes",
       "spellDescription": "<p>This spell imbues the subject with a touch of divine guidance. The creature gets a +1 skill check. It must choose to use the bonus before making the roll to which it applies.</p>",
-      "spellSchool": "Divination"
+      "spellSchool": "Divination",
+      "spellPrepared": 1
     },
     {
       "id": 16,
@@ -932,7 +941,7 @@
       "spellResistance": "Yes (harmless, object)",
       "spellDescription": "<p>Mending repairs small breaks or tears in objects (but not warps, such as might be caused by a warp wood spell). It will weld broken metallic objects such as a ring, a chain link, a medallion, or a slender dagger, providing but one break exists.</p><p>Ceramic or wooden objects with multiple breaks can be invisibly rejoined to be as strong as new. A hole in a leather sack or a wineskin is completely healed over by mending. The spell can repair a magic item, but the item’s magical abilities are not restored. The spell cannot mend broken magic rods, staffs, or wands, nor does it affect creatures (including constructs</a>).</p>",
       "spellSchool": "Transmutation",
-      "spellPrepared": 0
+      "spellPrepared": 1
     },
     {
       "id": 3,
@@ -948,7 +957,8 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellDescription": "<p>You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.</p><h6>1st Round</h6><p>Presence or absence of magical auras.</p><h6>2nd Round</h6><p>Number of different magical auras and the power of the most potent aura.</p><h6>3rd Round</h6><p>The strength and location of each aura. If the items or creatures bearing the auras are in line of sight, you can make skill checks to determine the school of magic involved in each. (Make one check per aura; DC 15 + spell level, or 15 + half caster level for a nonspell effect.)</p><p>Magical areas, multiple types of magic, or strong local magical emanations may distort or conceal weaker auras.</p><h6>Aura Strength</h6><p>An aura’s power depends on a spell’s functioning spell level or an item’s caster level. If an aura falls into more than one category, detect magic indicates the stronger of the two.</p><table cellspacing=\"0\"><tbody><tr><th align=\"left\" rowspan=\"2\">Spell or Object</th><th colspan=\"4\">Aura Power</th></tr><tr><th>Faint</th><th>Moderate</th><th>Strong</th><th>Overwhelming</th></tr><tr><td>Functioning spell (spell level)</td><td align=\"center\">3rd or lower</td><td align=\"center\">4th-6th</td><td align=\"center\">7th-9th</td><td align=\"center\">10th+ (deity-level)</td></tr><tr><td>Magic item (caster level)</td><td align=\"center\">5th or lower</td><td align=\"center\">6th-11th</td><td align=\"center\">12th-20th</td><td align=\"center\">21st+ (artifact)</td></tr></tbody></table><h6>Lingering Aura</h6><p>A magical aura lingers after its original source dissipates (in the case of a spell) or is destroyed (in the case of a magic item). If detect magic is cast and directed at such a location, the spell indicates an aura strength of dim (even weaker than a faint aura). How long the aura lingers at this dim level depends on its original power:</p><table cellspacing=\"0\"><tbody><tr><th align=\"left\">Original Strength</th><th align=\"left\">Duration of Lingering Aura</th></tr><tr><td>Faint</td><td>1d6</a> rounds</td></tr><tr><td>Moderate</td><td>1d6</a> minutes</td></tr><tr><td>Strong</td><td>1d6</a>×10 minutes</td></tr><tr><td>Overwhelming</td><td>1d6</a> days</td></tr></tbody></table><p>elementals</a> are not magical in themselves, but if they are summoned, the conjuration spell registers.</p><p>Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.</p><p>Detect magic can be made permanent with a permanency</a> spell.</p>",
-      "spellSchool": "Divination"
+      "spellSchool": "Divination",
+      "spellPrepared": 1
     },
     {
       "id": 14,
@@ -1012,7 +1022,8 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellDescription": "<p>Casting goodberry upon a handful of freshly picked berries makes druid of 3rd or higher level) can immediately discern which berries are affected. Each transmuted berry provides nourishment as if it were a normal meal for a Medium creature. The berry also cures 1 point of damage when eaten, subject to a maximum of 8 points of such curing in any 24-hour period.</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 1
     },
     {
       "id": 1,
@@ -1029,7 +1040,7 @@
       "spellResistance": "No",
       "spellDescription": "<p>This spell generates wholesome, drinkable water, just like clean rain water. Water can be created in an area as small as will actually contain the liquid, or in an area three times as large—possibly creating a downpour or filling many small receptacles.</p><p><em>Note:</em> Conjuration spells can’t create substances or objects within a creature. Water weighs about 8 pounds per gallon. One cubic foot of water contains roughly 8 gallons and weighs about 60 pounds.</p>",
       "spellSchool": "Conjuration (Creation) [Water]",
-      "spellPrepared": 0
+      "spellPrepared": 1
     },
     {
       "id": 21,
@@ -1045,7 +1056,8 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellDescription": "<p>A pale glow surrounds and outlines the subjects. Outlined subjects shed light as candles. Outlined creatures do not benefit from the invisibility, or similar effects. The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light. The faerie fire can be blue, green, or violet, according to your choice at the time of casting. The faerie fire does not cause any harm to the objects or creatures thus outlined.</p>",
-      "spellSchool": "Evocation [Light]"
+      "spellSchool": "Evocation [Light]",
+      "spellPrepared": 1
     },
     {
       "id": 34,
@@ -1061,7 +1073,8 @@
       "spellSavingThrow": "None; see text",
       "spellResistance": "Yes",
       "spellDescription": "<p>You compel a Tiny animal to go to a spot you designate. The most common use for this spell is to get an animal to carry a message to your allies. The animal cannot be one tamed or trained by someone else, including such creatures as familiars and animal companions.</p><p>Using some type of food desirable to the animal as a lure, you call the animal to you. It advances and awaits your bidding. You can mentally impress on the animal a certain place well known to you or an obvious landmark. The directions must be simple, because the animal depends on your knowledge and can’t find a destination on its own. You can attach some small item or note to the messenger. The animal then goes to the designated location and waits there until the duration of the spell expires, whereupon it resumes its normal activities.</p><p>During this period of waiting, the messenger allows others to approach it and remove any scroll or token it carries. The intended recipient gains no special ability to communicate with the animal or read any attached message (if it’s written in a language he or she doesn’t know, for example).</p><h6>Material Component</h6><p>A morsel of food the animal likes.</p>",
-      "spellSchool": "Enchantment (Compulsion) [Mind-Affecting]"
+      "spellSchool": "Enchantment (Compulsion) [Mind-Affecting]",
+      "spellPrepared": 1
     },
     {
       "id": 5,
@@ -1093,7 +1106,8 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellDescription": "<p>The subject or subjects can move through any type of terrain and leave neither footprints nor scent. Tracking the subjects is impossible by nonmagical means.</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 0
     },
     {
       "id": 27,
@@ -1167,7 +1181,8 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellDescription": "<p>The subject becomes stronger. The spell grants a +4 attack rolls, melee damage rolls, and other uses of the Strength modifier.</p><h6>Arcane Material Component</h6><p>A few hairs, or a pinch of dung, from a bull.</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 0
     },
     {
       "id": 45,
@@ -1197,7 +1212,8 @@
       "spellTarget": "You",
       "spellDuration": "1 min./level",
       "spellDescription": "<p>You can comprehend and communicate with animals. You are able to ask questions of and receive answers from animals, although the spell doesn’t make them any more friendly or cooperative than normal. Furthermore, wary and cunning animals are likely to be terse and evasive, while the more stupid ones make inane comments. If an animal is friendly toward you, it may do some favor or service for you.</p>",
-      "spellSchool": "Divination"
+      "spellSchool": "Divination",
+      "spellPrepared": 1
     },
     {
       "id": 39,
@@ -1261,7 +1277,8 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellDescription": "<p>A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves). The creature’s equipment is likewise protected.</p><p>Endure elements doesn’t provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth.</p>",
-      "spellSchool": "Abjuration"
+      "spellSchool": "Abjuration",
+      "spellPrepared": 1
     },
     {
       "id": 28,
@@ -1277,7 +1294,8 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellDescription": "<p>A misty vapor arises around you. It is stationary once created. The vapor obscures all sight, including total concealment (50% miss chance, and the attacker cannot use sight to locate the target).</p><p>A moderate wind (11+ mph), such as from a wall of fire</a> burns away the fog in the area into which it deals damage.</p><p>This spell does not function underwater.</p>",
-      "spellSchool": "Conjuration (Creation)"
+      "spellSchool": "Conjuration (Creation)",
+      "spellPrepared": 1
     },
     {
       "id": 24,
@@ -1325,7 +1343,8 @@
       "spellSavingThrow": "Reflex negates",
       "spellResistance": "Yes",
       "spellDescription": "<p>A burning globe of fire rolls in whichever direction you point and burns those it strikes. It moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target. If it enters a space with a creature, it stops moving for the round and deals Reflex save negates that damage. A flaming sphere rolls over barriers less than 4 feet tall. It ignites flammable substances it touches and illuminates the same area as a torch would.</p><p>The sphere moves as long as you actively direct it (a move action</a> for you); otherwise, it merely stays at rest and burns. It can be extinguished by any means that would put out a normal fire of its size. The surface of the sphere has a spongy, yielding consistency and so does not cause damage except by its flame. It cannot push aside unwilling creatures or batter down large obstacles. A flaming sphere winks out if it exceeds the spell’s range.</p><h6>Arcane Material Component</h6><p>A bit of tallow, a pinch of brimstone, and a dusting of powdered iron.</p>",
-      "spellSchool": "Evocation [Fire]"
+      "spellSchool": "Evocation [Fire]",
+      "spellPrepared": 1
     },
     {
       "id": 25,
@@ -1339,7 +1358,8 @@
       "spellTarget": "You",
       "spellDuration": "1 hour/level (D)",
       "spellDescription": "<p>This spell increases your base land speed by 10 feet. (This adjustment counts as an enhancement bonus.) It has no effect on other modes of movement, such as burrow, climb, fly, or swim.</p><h6>Material Component</h6><p>A pinch of dirt.</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 1
     },
     {
       "id": 46,
@@ -1510,7 +1530,8 @@
       "spellSavingThrow": "Reflex half",
       "spellResistance": "Yes",
       "spellDescription": "<p>Immediately upon completion of the spell, and once per round thereafter, you may call down a 5-foot-wide, 30-foot-long, vertical bolt of lightning that deals 3d6 points of electricity damage. The bolt of lightning flashes down in a vertical stroke at whatever target point you choose within the spell’s range (measured from your position at the time). Any creature in the target square or in the path of the bolt is affected.</p><p>You need not call a bolt of lightning immediately; other actions, even spellcasting, can be performed. However, each round after the first you may use a standard action</a> (concentrating on the spell) to call a bolt. You may call a total number of bolts equal to your caster level (maximum 10 bolts).</p><p>If you are outdoors and in a stormy area—a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a 3d6</a>.</p><p>This spell functions indoors or underground but not underwater.</p>",
-      "spellSchool": "Evocation [Electricity]"
+      "spellSchool": "Evocation [Electricity]",
+      "spellPrepared": 1
     },
     {
       "id": 59,
@@ -1542,7 +1563,8 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellDescription": "<p>This spell functions like reduce person, except that it affects a single willing animal. Reduce the damage dealt by the animal’s natural attacks as appropriate for its new size.</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 1
     },
     {
       "id": 55,
@@ -1689,7 +1711,8 @@
       "spellLink": "https://www.d20srd.org/srd/spells/cureModerateWounds.htm",
       "spellLevel": 3,
       "spellDescription": "<p>This spell functions like 2d8 points of damage +1 point per caster level (maximum +10).</p>",
-      "spellSchool": "Conjuration (Healing)"
+      "spellSchool": "Conjuration (Healing)",
+      "spellPrepared": 1
     },
     {
       "id": 75,
@@ -1705,7 +1728,8 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellDescription": "<p>This spell enables you to make a snare that functions as a magic trap. The snare can be made from any supple vine, a thong, or a rope. When you cast snare upon it, the cordlike object blends with its surroundings (Search DC 23 for a character with the trapfinding ability to locate). One end of the snare is tied in a loop that contracts around one or more of the limbs of any creature stepping inside the circle.</p><p>If a strong and supple tree is nearby, the snare can be fastened to it. The spell causes the tree to bend and then straighten when the loop is triggered, dealing entangled</a>.</p><p>The snare is magical. To escape, a trapped creature must make a DC 23 full-round action</a>. The snare has AC 7 and 5 hit points. A successful escape from the snare breaks the loop and ends the spell.</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 1
     },
     {
       "id": 61,
@@ -1721,7 +1745,8 @@
       "spellSavingThrow": "Fortitude negates",
       "spellResistance": "Yes",
       "spellDescription": "<p>The subject contracts a saving throw).</p>",
-      "spellSchool": "Necromancy [Evil]"
+      "spellSchool": "Necromancy [Evil]",
+      "spellPrepared": 1
     },
     {
       "id": 78,
@@ -1751,7 +1776,8 @@
       "spellTarget": "You",
       "spellDuration": "1 hour/level (D)",
       "spellDescription": "<p>By means of this spell, you are able to assume the form of a Large living tree or shrub or a Large dead tree trunk with a small number of limbs. The closest inspection cannot reveal that the tree in question is actually a magically concealed creature. To all normal tests you are, in fact, a tree or shrub, although a critical hits while in tree form. All clothing and gear carried or worn changes with you.</p><p>You can dismiss tree shape as a standard action</a>).</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 1
     },
     {
       "id": 74,
@@ -1797,7 +1823,8 @@
       "spellTarget": "You",
       "spellDuration": "Instantaneous",
       "spellDescription": "<p>You instantly know the direction of north from your current position. The spell is effective in any environment in which “north” exists, but it may not work in extraplanar settings. Your knowledge of north is correct at the moment of casting, but you can get lost again within moments if you don’t find some external reference point to help you keep track of direction.</p>",
-      "spellSchool": "Divination"
+      "spellSchool": "Divination",
+      "spellPrepared": 1
     },
     {
       "id": 56,
@@ -1933,7 +1960,8 @@
       "spellSavingThrow": "Will negates",
       "spellResistance": "Yes",
       "spellDescription": "<p>You can see and hear some creature, which may be at any distance. If the subject succeeds on a Will save, the scrying attempt simply fails. The difficulty of the save depends on how well you know the subject and what sort of physical connection (if any) you have to that creature. Furthermore, if the subject is on another plane, it gets a +5 bonus on its Will save.</p><table cellspacing=\"0\" class=\"right\"><thead><tr><th align=\"left\">Knowledge</th><th>Will Save Modifier</th></tr></thead><tfoot><tr><td colspan=\"2\"><ol><li>You must have some sort of connection to a creature you have no knowledge of.</li></ol></td></tr></tfoot><tbody><tr><td>None<sup>1</sup></td><td align=\"center\">+10</td></tr><tr><td>Secondhand (you have heard of the subject)</td><td align=\"center\">+5</td></tr><tr><td>Firsthand (you have met the subject)</td><td align=\"center\">+0</td></tr><tr><td>Familiar (you know the subject well)</td><td align=\"center\">-5</td></tr><tr><th align=\"left\">Connection</th><th>Will Save Modifier</th></tr><tr><td>Likeness or picture</td><td align=\"center\">-2</td></tr><tr><td>Possession or garment</td><td align=\"center\">-4</td></tr><tr><td>Body part, lock of hair, bit of nail, etc.</td><td align=\"center\">-10</td></tr></tbody></table><p>If the save fails, you can see and hear the subject and the subject’s immediate surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.</p><p>As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: message</a>.</p><p>If the save succeeds, you can’t attempt to scry on that subject again for at least 24 hours.</p><h6>Arcane Material Component</h6><p>The eye of a hawk, an eagle, or a roc</a>, plus nitric acid, copper, and zinc.</p><h6>Wizard, Sorcerer, or Bard Focus</h6><p>A mirror of finely wrought and highly polished silver costing not less than 1,000 gp. The mirror must be at least 2 feet by 4 feet.</p><h6>Cleric Focus</h6><p>A holy water</a> font costing not less than 100 gp.</p><h6>Druid Focus</h6><p>A natural pool of water.</p>",
-      "spellSchool": "Divination (Scrying)"
+      "spellSchool": "Divination (Scrying)",
+      "spellPrepared": 1
     },
     {
       "id": 88,
@@ -2101,7 +2129,8 @@
       "spellSavingThrow": "Reflex partial",
       "spellResistance": "Yes",
       "spellDescription": "<p>Rocky ground, stone floors, and similar surfaces shape themselves into long, sharp points that blend into the background.</p><p>Spike stones impede progress through an area and deal damage. Any creature moving on foot into or through the spell’s area moves at half speed.</p><p>In addition, each creature moving through the area takes 1d8 points of piercing damage for each 5 feet of movement through the spiked area.</p><p>Any creature that takes damage from this spell must also succeed on a Heal</a> check against the spell’s save DC.</p><p>Spike stones is a magic trap that can’t be disabled with the Disable Device</a> skill.</p><p><em>Note:</em> Magic traps such as spike stones are hard to detect. A Search</a> skill to find spike stones. The DC is 25 + spell level, or DC 29 for spike stones.</p>",
-      "spellSchool": "Transmutation [Earth]"
+      "spellSchool": "Transmutation [Earth]",
+      "spellPrepared": 0
     },
     {
       "id": 58,
@@ -2514,7 +2543,8 @@
       "spellSavingThrow": "None",
       "spellResistance": "Yes",
       "spellDescription": "<p>An immobile, blazing curtain of shimmering violet fire springs into existence. One side of the wall, selected by you, sends forth waves of heat, dealing undead creatures.</p><p>If you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall. If any 5-foot length of wall takes 20 points of cold damage or more in 1 round, that length goes out. (Do not divide cold damage by 4, as normal for objects.)</p><p>Wall of fire can be made permanent with a permanency</a> spell. A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.</p><h6>Arcane Material Component</h6><p>A small piece of phosphorus.</p>",
-      "spellSchool": "Evocation [Fire]"
+      "spellSchool": "Evocation [Fire]",
+      "spellPrepared": 1
     },
     {
       "id": 155,
@@ -3021,7 +3051,8 @@
       "spellSavingThrow": "Fortitude negates",
       "spellResistance": "Yes",
       "spellDescription": "<p>A number of animals grow to twice their normal size and eight times their normal weight. This alteration changes each animal’s size category to the next largest, grants it a +8 size bonus to Strength and a +4 size bonus to Constitution (and thus an extra 2 hit points per HD), and imposes a -2 size penalty to Dexterity. The creature’s existing attack rolls and its base damage. The animal’s space and reach change as appropriate to the new size, but its speed does not change.</p><p>The spell also grants each subject saving throws</a>. If insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it— the spell cannot be used to crush a creature by increasing its size.</p><p>All equipment worn or carried by an animal is similarly enlarged by the spell, though this change has no effect on the magical properties of any such equipment.</p><p>Any enlarged item that leaves the enlarged creature’s possession instantly returns to its normal size.</p><p>The spell gives no means of command or influence over the enlarged animals.</p><p>Multiple magical effects that increase size do not stack.</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 1
     },
     {
       "id": 102,
@@ -3146,7 +3177,8 @@
       "spellLink": "https://www.d20srd.org/srd/spells/cureSeriousWounds.htm",
       "spellLevel": 4,
       "spellDescription": "<p>This spell functions like 3d8 points of damage +1 point per caster level (maximum +15).</p>",
-      "spellSchool": "Conjuration (Healing)"
+      "spellSchool": "Conjuration (Healing)",
+      "spellPrepared": 2
     },
     {
       "id": 81,
@@ -5312,6 +5344,171 @@
       "dateTime": "2023-07-31T17:43:08.497Z",
       "logText": "Deleted item: Amulet of Ehlona (Nature Goddess) off of Medusa.",
       "id": 377
+    },
+    {
+      "dateTime": "2023-08-18T17:45:08.409Z",
+      "logText": "Prepared spell: Wall of Fire",
+      "id": 378
+    },
+    {
+      "dateTime": "2023-08-18T17:45:43.942Z",
+      "logText": "Prepared spell: Animal Growth",
+      "id": 379
+    },
+    {
+      "dateTime": "2023-08-18T17:45:59.093Z",
+      "logText": "Prepared spell: Cure Serious Wounds",
+      "id": 380
+    },
+    {
+      "dateTime": "2023-08-18T17:46:02.960Z",
+      "logText": "Prepared spell: Cure Serious Wounds",
+      "id": 381
+    },
+    {
+      "dateTime": "2023-08-18T17:46:21.379Z",
+      "logText": "Prepared spell: Scrying",
+      "id": 382
+    },
+    {
+      "dateTime": "2023-08-18T17:48:02.179Z",
+      "logText": "Prepared spell: Spike Stones",
+      "id": 383
+    },
+    {
+      "dateTime": "2023-08-18T17:48:21.029Z",
+      "logText": "Prepared spell: Call Lightning",
+      "id": 384
+    },
+    {
+      "dateTime": "2023-08-18T17:50:49.965Z",
+      "logText": "Prepared spell: Cure Moderate Wounds",
+      "id": 385
+    },
+    {
+      "dateTime": "2023-08-18T17:51:04.332Z",
+      "logText": "Prepared spell: Snare",
+      "id": 386
+    },
+    {
+      "dateTime": "2023-08-18T17:52:07.367Z",
+      "logText": "Prepared spell: Contagion",
+      "id": 387
+    },
+    {
+      "dateTime": "2023-08-18T17:52:30.501Z",
+      "logText": "Prepared spell: Cure Moderate Wounds",
+      "id": 388
+    },
+    {
+      "dateTime": "2023-08-18T17:52:36.902Z",
+      "logText": "Prepared spell: Animal Messenger",
+      "id": 389
+    },
+    {
+      "dateTime": "2023-08-18T17:52:43.584Z",
+      "logText": "Prepared spell: Bull’s Strength",
+      "id": 390
+    },
+    {
+      "dateTime": "2023-08-18T17:52:58.551Z",
+      "logText": "Prepared spell: Flaming Sphere",
+      "id": 391
+    },
+    {
+      "dateTime": "2023-08-18T18:08:17.590Z",
+      "logText": "Prepared spell: Reduce Animal",
+      "id": 392
+    },
+    {
+      "dateTime": "2023-08-18T18:08:34.307Z",
+      "logText": "Prepared spell: Tree Shape",
+      "id": 393
+    },
+    {
+      "dateTime": "2023-08-18T18:36:52.673Z",
+      "logText": "Prepared spell: Detect Magic",
+      "id": 394
+    },
+    {
+      "dateTime": "2023-08-18T18:36:55.573Z",
+      "logText": "Prepared spell: Create Water",
+      "id": 395
+    },
+    {
+      "dateTime": "2023-08-18T18:37:01.572Z",
+      "logText": "Prepared spell: Guidance",
+      "id": 396
+    },
+    {
+      "dateTime": "2023-08-18T18:37:08.672Z",
+      "logText": "Prepared spell: Know Direction",
+      "id": 397
+    },
+    {
+      "dateTime": "2023-08-18T18:37:13.055Z",
+      "logText": "Prepared spell: Mending",
+      "id": 398
+    },
+    {
+      "dateTime": "2023-08-18T18:38:13.456Z",
+      "logText": "Prepared spell: Light",
+      "id": 399
+    },
+    {
+      "dateTime": "2023-08-18T18:49:42.903Z",
+      "logText": "Prepared spell: Goodberry",
+      "id": 400
+    },
+    {
+      "dateTime": "2023-08-18T18:49:45.386Z",
+      "logText": "Prepared spell: Faerie Fireblur",
+      "id": 401
+    },
+    {
+      "dateTime": "2023-08-18T18:50:33.637Z",
+      "logText": "Prepared spell: Endure Elements",
+      "id": 402
+    },
+    {
+      "dateTime": "2023-08-18T18:50:48.269Z",
+      "logText": "Prepared spell: Longstrider",
+      "id": 403
+    },
+    {
+      "dateTime": "2023-08-18T18:50:53.619Z",
+      "logText": "Prepared spell: Obscuring Mist",
+      "id": 404
+    },
+    {
+      "dateTime": "2023-08-18T18:50:57.670Z",
+      "logText": "Prepared spell: Pass without Trace",
+      "id": 405
+    },
+    {
+      "dateTime": "2023-08-18T18:51:03.303Z",
+      "logText": "Cast spell: Pass without Trace",
+      "id": 406
+    },
+    {
+      "dateTime": "2023-08-18T18:51:06.753Z",
+      "logText": "Prepared spell: Speak with Animals",
+      "id": 407
+    },
+    {
+      "dateTime": "2023-08-18T19:36:08.381Z",
+      "logText": "Cast spell: Bull’s Strength",
+      "id": 408
+    },
+    {
+      "dateTime": "2023-08-18T19:54:12.003Z",
+      "logText": "Cast spell: Cure Moderate Wounds",
+      "id": 409
+    },
+    {
+      "dateTime": "2023-08-18T19:58:09.624Z",
+      "logText": "Cast spell: Spike Stones",
+      "id": 410
     }
   ]
 }
