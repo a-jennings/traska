@@ -30,7 +30,7 @@
   },
   "stats": {
     "hpMax": 69,
-    "hpCurrent": 69,
+    "hpCurrent": 68,
     "ac": 21,
     "acTouch": 15,
     "acFF": 17,
@@ -348,7 +348,7 @@
       "name": "Knowledge (Nature)",
       "keyAbility": "INT",
       "ranks": 14,
-      "miscModifier": 0,
+      "miscModifier": 2,
       "classSkill": true,
       "requiresTraining": true,
       "id": 39
@@ -620,6 +620,13 @@
       "date": "2023-08-18T17:06:50.289Z",
       "editDate": "2023-08-18T20:28:56.094Z",
       "id": 37
+    },
+    {
+      "title": "Session 36",
+      "text": "<p>49 COLD RESIST REMAINING<br>\nSAJA HP - 53 / 60<br>\n <br>\nSiege begins. Turns out stone spikes is very very good. Lots of AoE shit goes down including necklace of fireballs. We kill the first wave fairly quickly but they're coming in hot.</p>",
+      "date": "2023-09-01T16:41:30.426Z",
+      "editDate": "2023-09-01T20:54:05.676Z",
+      "id": 38
     }
   ],
   "attacks": [
@@ -657,7 +664,7 @@
       "spellFailure": "",
       "speed": "",
       "weight": 0,
-      "properties": ""
+      "properties": "This collar allows you to heal your trusted\nanimal friend at a moment’s notice. A\ncollar of healing functions only when worn\nby your animal companion, familiar, or\nspecial mount. While that creature wears\nthe collar, you always know its exact hit\npoint total. This is a continuous effect and\nrequires no activation.\n\nIn addition, you can activate the collar\nfrom any distance (as long as you are on\nthe same plane) to cure the animal wearing it. This instantly heals the creature wearing the collar of 50 points of damage\nand removes the fatigued or exhausted\ncondition (if the creature currently suffers from such). This ability functions once per day."
     },
     {
       "id": 3,
@@ -754,50 +761,50 @@
     },
     {
       "name": "Nature Sense",
-      "description": "",
+      "description": "A druid gains a +2 bonus on Knowledge (nature) and Survival checks.",
       "currentUses": 0,
       "maxUses": 0,
       "id": 2
     },
     {
       "name": "Wild Empathy",
-      "description": "",
+      "description": "A druid can improve the attitude of an animal. This ability functions just like a Diplomacy check made to improve the attitude of a person. The druid rolls 1d20 and adds her druid level and her Charisma modifier to determine the wild empathy check result.\n\nThe typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.\n\nTo use wild empathy, the druid and the animal must be able to study each other, which means that they must be within 30 feet of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.\n\nA druid can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but she takes a -4 penalty on the check.",
       "currentUses": 0,
       "maxUses": 0,
       "id": 3
     },
     {
       "name": "Woodland Stride",
-      "description": "",
+      "description": "Starting at 2nd level, a druid may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at her normal speed and without taking damage or suffering any other impairment. However, thorns, briars, and overgrown areas that have been magically manipulated to impede motion still affect her.",
       "currentUses": 0,
       "maxUses": 0,
       "id": 4
     },
     {
       "name": "Trackless Step",
-      "description": "",
+      "description": "Starting at 3rd level, a druid leaves no trail in natural surroundings and cannot be tracked. She may choose to leave a trail if so desired.",
       "currentUses": 0,
       "maxUses": 0,
       "id": 5
     },
     {
       "name": "Resist Nature's Lure",
-      "description": "",
+      "description": "Starting at 4th level, a druid gains a +4 bonus on saving throws against the spell-like abilities of fey.",
       "currentUses": 0,
       "maxUses": 0,
       "id": 6
     },
     {
       "name": "Venom Immunity",
-      "description": "",
+      "description": "At 9th level, a druid gains immunity to all poisons.",
       "currentUses": 0,
       "maxUses": 0,
       "id": 7
     },
     {
       "name": "Wild Shape",
-      "description": "",
-      "currentUses": "4",
+      "description": "At 5th level, a druid gains the ability to turn herself into any Small or Medium animal and back again once per day. Her options for new forms include all creatures with the animal type. This ability functions like the alternate form special ability, except as noted here. The effect lasts for 1 hour per druid level, or until she changes back. Changing form (to animal or back) is a standard action and doesn’t provoke an attack of opportunity. Each time you use wild shape, you regain lost hit points as if you had rested for a night.\n\nAny gear worn or carried by the druid melds into the new form and becomes nonfunctional. When the druid reverts to her true form, any objects previously melded into the new form reappear in the same location on her body that they previously occupied and are once again functional. Any new items worn in the assumed form fall off and land at the druid's feet.\n\nThe form chosen must be that of an animal the druid is familiar with.\n\nA druid loses her ability to speak while in animal form because she is limited to the sounds that a normal, untrained animal can make, but she can communicate normally with other animals of the same general grouping as her new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not permit speech.)\n\nA druid can use this ability more times per day at 6th, 7th, 10th, 14th, and 18th level, as noted on Table: The Druid. In addition, she gains the ability to take the shape of a Large animal at 8th level, a Tiny animal at 11th level, and a Huge animal at 15th level.\n\nThe new form’s Hit Dice can’t exceed the character’s druid level.\n\nAt 12th level, a druid becomes able to use wild shape to change into a plant creature with the same size restrictions as for animal forms. (A druid can’t use this ability to take the form of a plant that isn’t a creature.)\n\nAt 16th level, a druid becomes able to use wild shape to change into a Small, Medium, or Large elemental (air, earth, fire, or water) once per day. These elemental forms are in addition to her normal wild shape usage. In addition to the normal effects of wild shape, the druid gains all the elemental’s extraordinary, supernatural, and spell-like abilities. She also gains the elemental’s feats for as long as she maintains the wild shape, but she retains her own creature type.\n\nAt 18th level, a druid becomes able to assume elemental form twice per day, and at 20th level she can do so three times per day. At 20th level, a druid may use this wild shape ability to change into a Huge elemental.",
+      "currentUses": 3,
       "maxUses": "4",
       "id": 8
     }
@@ -2544,7 +2551,7 @@
       "spellResistance": "Yes",
       "spellDescription": "<p>An immobile, blazing curtain of shimmering violet fire springs into existence. One side of the wall, selected by you, sends forth waves of heat, dealing undead creatures.</p><p>If you evoke the wall so that it appears where creatures are, each creature takes damage as if passing through the wall. If any 5-foot length of wall takes 20 points of cold damage or more in 1 round, that length goes out. (Do not divide cold damage by 4, as normal for objects.)</p><p>Wall of fire can be made permanent with a permanency</a> spell. A permanent wall of fire that is extinguished by cold damage becomes inactive for 10 minutes, then reforms at normal strength.</p><h6>Arcane Material Component</h6><p>A small piece of phosphorus.</p>",
       "spellSchool": "Evocation [Fire]",
-      "spellPrepared": 1
+      "spellPrepared": 0
     },
     {
       "id": 155,
@@ -5509,6 +5516,61 @@
       "dateTime": "2023-08-18T19:58:09.624Z",
       "logText": "Cast spell: Spike Stones",
       "id": 410
+    },
+    {
+      "dateTime": "2023-09-01T18:24:58.166Z",
+      "logText": "Cast spell: Wall of Fire",
+      "id": 411
+    },
+    {
+      "dateTime": "2023-09-01T18:34:04.626Z",
+      "logText": "4 damage taken",
+      "id": 412
+    },
+    {
+      "dateTime": "2023-09-01T18:56:10.058Z",
+      "logText": "16 damage taken",
+      "id": 413
+    },
+    {
+      "dateTime": "2023-09-01T19:01:28.161Z",
+      "logText": "22 damage healed",
+      "id": 414
+    },
+    {
+      "dateTime": "2023-09-01T19:08:14.865Z",
+      "logText": "Used special ability: Wild Shape",
+      "id": 415
+    },
+    {
+      "dateTime": "2023-09-01T19:17:20.265Z",
+      "logText": "18 damage taken",
+      "id": 416
+    },
+    {
+      "dateTime": "2023-09-01T19:45:26.482Z",
+      "logText": "4 damage taken",
+      "id": 417
+    },
+    {
+      "dateTime": "2023-09-01T20:12:35.005Z",
+      "logText": "24 damage taken",
+      "id": 418
+    },
+    {
+      "dateTime": "2023-09-01T20:15:58.847Z",
+      "logText": "46 damage healed",
+      "id": 419
+    },
+    {
+      "dateTime": "2023-09-01T20:49:58.120Z",
+      "logText": "27 damage taken",
+      "id": 420
+    },
+    {
+      "dateTime": "2023-09-01T20:53:43.240Z",
+      "logText": "26 damage healed",
+      "id": 421
     }
   ]
 }
