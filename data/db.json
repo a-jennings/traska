@@ -30,7 +30,7 @@
   },
   "stats": {
     "hpMax": 69,
-    "hpCurrent": 68,
+    "hpCurrent": 26,
     "ac": 21,
     "acTouch": 15,
     "acFF": 17,
@@ -358,7 +358,7 @@
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 1275,
+    "gold": 895,
     "platinum": 0
   },
   "notes": [
@@ -639,6 +639,16 @@
       "type": "Bludgeoning",
       "notes": "+9/+4 Masterwork",
       "id": 1
+    },
+    {
+      "name": "Longbow",
+      "bonus": 5,
+      "damage": "1d8+1",
+      "critical": "x3",
+      "range": "100ft Increment",
+      "type": "Piercing",
+      "notes": "+13 / +8. Masterwork",
+      "id": 2
     }
   ],
   "gear": [
@@ -706,6 +716,18 @@
       "id": 6,
       "name": "Sandals of the Vagabond",
       "type": "Feet",
+      "bonus": 0,
+      "maxDex": "",
+      "checkPenalty": "",
+      "spellFailure": "",
+      "speed": "",
+      "weight": 0,
+      "properties": ""
+    },
+    {
+      "id": 7,
+      "name": "Arrows (100)",
+      "type": "",
       "bonus": 0,
       "maxDex": "",
       "checkPenalty": "",
@@ -804,9 +826,23 @@
     {
       "name": "Wild Shape",
       "description": "At 5th level, a druid gains the ability to turn herself into any Small or Medium animal and back again once per day. Her options for new forms include all creatures with the animal type. This ability functions like the alternate form special ability, except as noted here. The effect lasts for 1 hour per druid level, or until she changes back. Changing form (to animal or back) is a standard action and doesn’t provoke an attack of opportunity. Each time you use wild shape, you regain lost hit points as if you had rested for a night.\n\nAny gear worn or carried by the druid melds into the new form and becomes nonfunctional. When the druid reverts to her true form, any objects previously melded into the new form reappear in the same location on her body that they previously occupied and are once again functional. Any new items worn in the assumed form fall off and land at the druid's feet.\n\nThe form chosen must be that of an animal the druid is familiar with.\n\nA druid loses her ability to speak while in animal form because she is limited to the sounds that a normal, untrained animal can make, but she can communicate normally with other animals of the same general grouping as her new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not permit speech.)\n\nA druid can use this ability more times per day at 6th, 7th, 10th, 14th, and 18th level, as noted on Table: The Druid. In addition, she gains the ability to take the shape of a Large animal at 8th level, a Tiny animal at 11th level, and a Huge animal at 15th level.\n\nThe new form’s Hit Dice can’t exceed the character’s druid level.\n\nAt 12th level, a druid becomes able to use wild shape to change into a plant creature with the same size restrictions as for animal forms. (A druid can’t use this ability to take the form of a plant that isn’t a creature.)\n\nAt 16th level, a druid becomes able to use wild shape to change into a Small, Medium, or Large elemental (air, earth, fire, or water) once per day. These elemental forms are in addition to her normal wild shape usage. In addition to the normal effects of wild shape, the druid gains all the elemental’s extraordinary, supernatural, and spell-like abilities. She also gains the elemental’s feats for as long as she maintains the wild shape, but she retains her own creature type.\n\nAt 18th level, a druid becomes able to assume elemental form twice per day, and at 20th level she can do so three times per day. At 20th level, a druid may use this wild shape ability to change into a Huge elemental.",
-      "currentUses": 3,
+      "currentUses": 2,
       "maxUses": "4",
       "id": 8
+    },
+    {
+      "name": "Epic Point",
+      "description": "",
+      "currentUses": "1",
+      "maxUses": "1",
+      "id": 9
+    },
+    {
+      "name": "Collar of Healing",
+      "description": "",
+      "currentUses": 0,
+      "maxUses": "1",
+      "id": 10
     }
   ],
   "spellSlots": {
@@ -1538,7 +1574,7 @@
       "spellResistance": "Yes",
       "spellDescription": "<p>Immediately upon completion of the spell, and once per round thereafter, you may call down a 5-foot-wide, 30-foot-long, vertical bolt of lightning that deals 3d6 points of electricity damage. The bolt of lightning flashes down in a vertical stroke at whatever target point you choose within the spell’s range (measured from your position at the time). Any creature in the target square or in the path of the bolt is affected.</p><p>You need not call a bolt of lightning immediately; other actions, even spellcasting, can be performed. However, each round after the first you may use a standard action</a> (concentrating on the spell) to call a bolt. You may call a total number of bolts equal to your caster level (maximum 10 bolts).</p><p>If you are outdoors and in a stormy area—a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a 3d6</a>.</p><p>This spell functions indoors or underground but not underwater.</p>",
       "spellSchool": "Evocation [Electricity]",
-      "spellPrepared": 1
+      "spellPrepared": 0
     },
     {
       "id": 59,
@@ -1719,7 +1755,7 @@
       "spellLevel": 3,
       "spellDescription": "<p>This spell functions like 2d8 points of damage +1 point per caster level (maximum +10).</p>",
       "spellSchool": "Conjuration (Healing)",
-      "spellPrepared": 1
+      "spellPrepared": 0
     },
     {
       "id": 75,
@@ -3059,7 +3095,7 @@
       "spellResistance": "Yes",
       "spellDescription": "<p>A number of animals grow to twice their normal size and eight times their normal weight. This alteration changes each animal’s size category to the next largest, grants it a +8 size bonus to Strength and a +4 size bonus to Constitution (and thus an extra 2 hit points per HD), and imposes a -2 size penalty to Dexterity. The creature’s existing attack rolls and its base damage. The animal’s space and reach change as appropriate to the new size, but its speed does not change.</p><p>The spell also grants each subject saving throws</a>. If insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a Strength check (using its increased Strength) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it— the spell cannot be used to crush a creature by increasing its size.</p><p>All equipment worn or carried by an animal is similarly enlarged by the spell, though this change has no effect on the magical properties of any such equipment.</p><p>Any enlarged item that leaves the enlarged creature’s possession instantly returns to its normal size.</p><p>The spell gives no means of command or influence over the enlarged animals.</p><p>Multiple magical effects that increase size do not stack.</p>",
       "spellSchool": "Transmutation",
-      "spellPrepared": 1
+      "spellPrepared": 0
     },
     {
       "id": 102,
@@ -3185,7 +3221,7 @@
       "spellLevel": 4,
       "spellDescription": "<p>This spell functions like 3d8 points of damage +1 point per caster level (maximum +15).</p>",
       "spellSchool": "Conjuration (Healing)",
-      "spellPrepared": 2
+      "spellPrepared": 0
     },
     {
       "id": 81,
@@ -5571,6 +5607,81 @@
       "dateTime": "2023-09-01T20:53:43.240Z",
       "logText": "26 damage healed",
       "id": 421
+    },
+    {
+      "dateTime": "2023-09-08T17:37:01.892Z",
+      "logText": "Cast spell: Cure Moderate Wounds",
+      "id": 422
+    },
+    {
+      "dateTime": "2023-09-08T18:00:40.369Z",
+      "logText": "Cast spell: Call Lightning",
+      "id": 423
+    },
+    {
+      "dateTime": "2023-09-08T19:40:21.998Z",
+      "logText": "Cast spell: Animal Growth",
+      "id": 424
+    },
+    {
+      "dateTime": "2023-09-08T19:50:27.111Z",
+      "logText": "Cast spell: Cure Serious Wounds",
+      "id": 425
+    },
+    {
+      "dateTime": "2023-09-08T19:51:27.884Z",
+      "logText": "3 damage taken",
+      "id": 426
+    },
+    {
+      "dateTime": "2023-09-08T20:18:56.755Z",
+      "logText": "17 damage taken",
+      "id": 427
+    },
+    {
+      "dateTime": "2023-09-08T20:19:35.858Z",
+      "logText": "16 damage taken",
+      "id": 428
+    },
+    {
+      "dateTime": "2023-09-08T20:20:30.600Z",
+      "logText": "11 damage taken",
+      "id": 429
+    },
+    {
+      "dateTime": "2023-09-08T20:20:42.444Z",
+      "logText": "5 damage healed",
+      "id": 430
+    },
+    {
+      "dateTime": "2023-09-08T20:44:35.097Z",
+      "logText": "Cast spell: Cure Serious Wounds",
+      "id": 431
+    },
+    {
+      "dateTime": "2023-09-08T20:58:28.331Z",
+      "logText": "Regenerated special ability: Wild Shape",
+      "id": 432
+    },
+    {
+      "dateTime": "2023-09-08T20:58:30.982Z",
+      "logText": "Used special ability: Wild Shape",
+      "id": 433
+    },
+    {
+      "dateTime": "2023-09-08T20:58:31.144Z",
+      "logText": "Used special ability: Wild Shape",
+      "id": 434
+    },
+    {
+      "dateTime": "2023-09-08T20:58:32.648Z",
+      "logText": "Used special ability: Wild Shape",
+      "id": 435
+    },
+    {
+      "dateTime": "2023-09-08T20:58:34.497Z",
+      "logText": "Used special ability: Wild Shape",
+      "id": 436
     }
   ]
 }
