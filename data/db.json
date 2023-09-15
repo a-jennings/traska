@@ -30,7 +30,7 @@
   },
   "stats": {
     "hpMax": 69,
-    "hpCurrent": 26,
+    "hpCurrent": 49,
     "ac": 21,
     "acTouch": 15,
     "acFF": 17,
@@ -354,7 +354,13 @@
       "id": 39
     }
   ],
-  "inventory": [],
+  "inventory": [
+    {
+      "name": "Saja's Animal Collar (Collar of Healing)",
+      "weight": 0,
+      "id": 1
+    }
+  ],
   "currency": {
     "copper": 0,
     "silver": 0,
@@ -838,10 +844,10 @@
       "id": 9
     },
     {
-      "name": "Collar of Healing",
+      "name": "Collar of Healing - Not in use currently",
       "description": "",
       "currentUses": 0,
-      "maxUses": "1",
+      "maxUses": "0",
       "id": 10
     }
   ],
@@ -1387,7 +1393,7 @@
       "spellResistance": "Yes",
       "spellDescription": "<p>A burning globe of fire rolls in whichever direction you point and burns those it strikes. It moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target. If it enters a space with a creature, it stops moving for the round and deals Reflex save negates that damage. A flaming sphere rolls over barriers less than 4 feet tall. It ignites flammable substances it touches and illuminates the same area as a torch would.</p><p>The sphere moves as long as you actively direct it (a move action</a> for you); otherwise, it merely stays at rest and burns. It can be extinguished by any means that would put out a normal fire of its size. The surface of the sphere has a spongy, yielding consistency and so does not cause damage except by its flame. It cannot push aside unwilling creatures or batter down large obstacles. A flaming sphere winks out if it exceeds the spell’s range.</p><h6>Arcane Material Component</h6><p>A bit of tallow, a pinch of brimstone, and a dusting of powdered iron.</p>",
       "spellSchool": "Evocation [Fire]",
-      "spellPrepared": 1
+      "spellPrepared": 0
     },
     {
       "id": 25,
@@ -1789,7 +1795,7 @@
       "spellResistance": "Yes",
       "spellDescription": "<p>The subject contracts a saving throw).</p>",
       "spellSchool": "Necromancy [Evil]",
-      "spellPrepared": 1
+      "spellPrepared": 0
     },
     {
       "id": 78,
@@ -2004,7 +2010,7 @@
       "spellResistance": "Yes",
       "spellDescription": "<p>You can see and hear some creature, which may be at any distance. If the subject succeeds on a Will save, the scrying attempt simply fails. The difficulty of the save depends on how well you know the subject and what sort of physical connection (if any) you have to that creature. Furthermore, if the subject is on another plane, it gets a +5 bonus on its Will save.</p><table cellspacing=\"0\" class=\"right\"><thead><tr><th align=\"left\">Knowledge</th><th>Will Save Modifier</th></tr></thead><tfoot><tr><td colspan=\"2\"><ol><li>You must have some sort of connection to a creature you have no knowledge of.</li></ol></td></tr></tfoot><tbody><tr><td>None<sup>1</sup></td><td align=\"center\">+10</td></tr><tr><td>Secondhand (you have heard of the subject)</td><td align=\"center\">+5</td></tr><tr><td>Firsthand (you have met the subject)</td><td align=\"center\">+0</td></tr><tr><td>Familiar (you know the subject well)</td><td align=\"center\">-5</td></tr><tr><th align=\"left\">Connection</th><th>Will Save Modifier</th></tr><tr><td>Likeness or picture</td><td align=\"center\">-2</td></tr><tr><td>Possession or garment</td><td align=\"center\">-4</td></tr><tr><td>Body part, lock of hair, bit of nail, etc.</td><td align=\"center\">-10</td></tr></tbody></table><p>If the save fails, you can see and hear the subject and the subject’s immediate surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.</p><p>As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: message</a>.</p><p>If the save succeeds, you can’t attempt to scry on that subject again for at least 24 hours.</p><h6>Arcane Material Component</h6><p>The eye of a hawk, an eagle, or a roc</a>, plus nitric acid, copper, and zinc.</p><h6>Wizard, Sorcerer, or Bard Focus</h6><p>A mirror of finely wrought and highly polished silver costing not less than 1,000 gp. The mirror must be at least 2 feet by 4 feet.</p><h6>Cleric Focus</h6><p>A holy water</a> font costing not less than 100 gp.</p><h6>Druid Focus</h6><p>A natural pool of water.</p>",
       "spellSchool": "Divination (Scrying)",
-      "spellPrepared": 1
+      "spellPrepared": 0
     },
     {
       "id": 88,
@@ -5682,6 +5688,51 @@
       "dateTime": "2023-09-08T20:58:34.497Z",
       "logText": "Used special ability: Wild Shape",
       "id": 436
+    },
+    {
+      "dateTime": "2023-09-15T17:41:09.096Z",
+      "logText": "43 damage healed",
+      "id": 437
+    },
+    {
+      "dateTime": "2023-09-15T18:13:03.715Z",
+      "logText": "Cast spell: Scrying",
+      "id": 438
+    },
+    {
+      "dateTime": "2023-09-15T18:15:42.449Z",
+      "logText": "Cast spell: Flaming Sphere",
+      "id": 439
+    },
+    {
+      "dateTime": "2023-09-15T18:22:59.182Z",
+      "logText": "0 damage taken",
+      "id": 440
+    },
+    {
+      "dateTime": "2023-09-15T18:23:03.390Z",
+      "logText": "8 damage taken",
+      "id": 441
+    },
+    {
+      "dateTime": "2023-09-15T18:59:27.949Z",
+      "logText": "12 damage taken",
+      "id": 442
+    },
+    {
+      "dateTime": "2023-09-15T19:50:39.236Z",
+      "logText": "Added item: Saja's Animal Collar",
+      "id": 443
+    },
+    {
+      "dateTime": "2023-09-15T19:50:50.128Z",
+      "logText": "Changed item: \"Saja's Animal Collar\" to \"Saja's Animal Collar (Collar of Healing)\"",
+      "id": 444
+    },
+    {
+      "dateTime": "2023-09-15T19:53:06.469Z",
+      "logText": "Cast spell: Contagion",
+      "id": 445
     }
   ]
 }
