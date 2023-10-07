@@ -30,7 +30,7 @@
   },
   "stats": {
     "hpMax": 69,
-    "hpCurrent": 49,
+    "hpCurrent": 69,
     "ac": 21,
     "acTouch": 15,
     "acFF": 17,
@@ -359,12 +359,17 @@
       "name": "Saja's Animal Collar (Collar of Healing)",
       "weight": 0,
       "id": 1
+    },
+    {
+      "name": "Bracers of Archery Lesser ",
+      "weight": 0,
+      "id": 2
     }
   ],
   "currency": {
     "copper": 0,
     "silver": 0,
-    "gold": 895,
+    "gold": 9895,
     "platinum": 0
   },
   "notes": [
@@ -832,7 +837,7 @@
     {
       "name": "Wild Shape",
       "description": "At 5th level, a druid gains the ability to turn herself into any Small or Medium animal and back again once per day. Her options for new forms include all creatures with the animal type. This ability functions like the alternate form special ability, except as noted here. The effect lasts for 1 hour per druid level, or until she changes back. Changing form (to animal or back) is a standard action and doesn’t provoke an attack of opportunity. Each time you use wild shape, you regain lost hit points as if you had rested for a night.\n\nAny gear worn or carried by the druid melds into the new form and becomes nonfunctional. When the druid reverts to her true form, any objects previously melded into the new form reappear in the same location on her body that they previously occupied and are once again functional. Any new items worn in the assumed form fall off and land at the druid's feet.\n\nThe form chosen must be that of an animal the druid is familiar with.\n\nA druid loses her ability to speak while in animal form because she is limited to the sounds that a normal, untrained animal can make, but she can communicate normally with other animals of the same general grouping as her new form. (The normal sound a wild parrot makes is a squawk, so changing to this form does not permit speech.)\n\nA druid can use this ability more times per day at 6th, 7th, 10th, 14th, and 18th level, as noted on Table: The Druid. In addition, she gains the ability to take the shape of a Large animal at 8th level, a Tiny animal at 11th level, and a Huge animal at 15th level.\n\nThe new form’s Hit Dice can’t exceed the character’s druid level.\n\nAt 12th level, a druid becomes able to use wild shape to change into a plant creature with the same size restrictions as for animal forms. (A druid can’t use this ability to take the form of a plant that isn’t a creature.)\n\nAt 16th level, a druid becomes able to use wild shape to change into a Small, Medium, or Large elemental (air, earth, fire, or water) once per day. These elemental forms are in addition to her normal wild shape usage. In addition to the normal effects of wild shape, the druid gains all the elemental’s extraordinary, supernatural, and spell-like abilities. She also gains the elemental’s feats for as long as she maintains the wild shape, but she retains her own creature type.\n\nAt 18th level, a druid becomes able to assume elemental form twice per day, and at 20th level she can do so three times per day. At 20th level, a druid may use this wild shape ability to change into a Huge elemental.",
-      "currentUses": 2,
+      "currentUses": 3,
       "maxUses": "4",
       "id": 8
     },
@@ -1123,7 +1128,7 @@
       "spellResistance": "Yes",
       "spellDescription": "<p>You compel a Tiny animal to go to a spot you designate. The most common use for this spell is to get an animal to carry a message to your allies. The animal cannot be one tamed or trained by someone else, including such creatures as familiars and animal companions.</p><p>Using some type of food desirable to the animal as a lure, you call the animal to you. It advances and awaits your bidding. You can mentally impress on the animal a certain place well known to you or an obvious landmark. The directions must be simple, because the animal depends on your knowledge and can’t find a destination on its own. You can attach some small item or note to the messenger. The animal then goes to the designated location and waits there until the duration of the spell expires, whereupon it resumes its normal activities.</p><p>During this period of waiting, the messenger allows others to approach it and remove any scroll or token it carries. The intended recipient gains no special ability to communicate with the animal or read any attached message (if it’s written in a language he or she doesn’t know, for example).</p><h6>Material Component</h6><p>A morsel of food the animal likes.</p>",
       "spellSchool": "Enchantment (Compulsion) [Mind-Affecting]",
-      "spellPrepared": 1
+      "spellPrepared": 0
     },
     {
       "id": 5,
@@ -1278,7 +1283,8 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes",
       "spellDescription": "<p>The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 Reflex saves, and other uses of the Dexterity modifier.</p><h6>Material Component</h6><p>A pinch of cat fur.</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 1
     },
     {
       "id": 23,
@@ -1393,7 +1399,7 @@
       "spellResistance": "Yes",
       "spellDescription": "<p>A burning globe of fire rolls in whichever direction you point and burns those it strikes. It moves 30 feet per round. As part of this movement, it can ascend or jump up to 30 feet to strike a target. If it enters a space with a creature, it stops moving for the round and deals Reflex save negates that damage. A flaming sphere rolls over barriers less than 4 feet tall. It ignites flammable substances it touches and illuminates the same area as a torch would.</p><p>The sphere moves as long as you actively direct it (a move action</a> for you); otherwise, it merely stays at rest and burns. It can be extinguished by any means that would put out a normal fire of its size. The surface of the sphere has a spongy, yielding consistency and so does not cause damage except by its flame. It cannot push aside unwilling creatures or batter down large obstacles. A flaming sphere winks out if it exceeds the spell’s range.</p><h6>Arcane Material Component</h6><p>A bit of tallow, a pinch of brimstone, and a dusting of powdered iron.</p>",
       "spellSchool": "Evocation [Fire]",
-      "spellPrepared": 0
+      "spellPrepared": 1
     },
     {
       "id": 25,
@@ -1515,7 +1521,8 @@
       "spellComponents": "V, S",
       "spellTarget": "One animal",
       "spellDescription": "<p>This spell functions like humanoid.</p>",
-      "spellSchool": "Enchantment (Compulsion) [Mind-Affecting]"
+      "spellSchool": "Enchantment (Compulsion) [Mind-Affecting]",
+      "spellPrepared": 1
     },
     {
       "id": 30,
@@ -1735,7 +1742,8 @@
       "spellSavingThrow": "None",
       "spellResistance": "No",
       "spellDescription": "<p>The object touched sheds light as bright as full daylight in a 60-foot radius, and dim light for an additional 60 feet beyond that. Creatures that take penalties in bright light also take them while within the radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by bright light.</p><p>If daylight is cast on a small object that is then placed inside or under a light-proof covering, the spell’s effects are blocked until the covering is removed.</p><p>Daylight brought into an area of magical darkness (or vice versa) is temporarily negated, so that the otherwise prevailing light conditions exist in the overlapping areas of effect.</p><p>Daylight counters or dispels any darkness spell of equal or lower level, such as darkness.</p>",
-      "spellSchool": "Evocation [Light]"
+      "spellSchool": "Evocation [Light]",
+      "spellPrepared": 1
     },
     {
       "id": 33,
@@ -1761,7 +1769,7 @@
       "spellLevel": 3,
       "spellDescription": "<p>This spell functions like 2d8 points of damage +1 point per caster level (maximum +10).</p>",
       "spellSchool": "Conjuration (Healing)",
-      "spellPrepared": 0
+      "spellPrepared": 1
     },
     {
       "id": 75,
@@ -1795,7 +1803,7 @@
       "spellResistance": "Yes",
       "spellDescription": "<p>The subject contracts a saving throw).</p>",
       "spellSchool": "Necromancy [Evil]",
-      "spellPrepared": 0
+      "spellPrepared": 1
     },
     {
       "id": 78,
@@ -1933,7 +1941,8 @@
       "spellSavingThrow": "Reflex half",
       "spellResistance": "Yes",
       "spellDescription": "<p>A flame strike produces a vertical column of divine fire roaring downward. The spell deals resistance to fire-based attacks.</p>",
-      "spellSchool": "Evocation [Fire]"
+      "spellSchool": "Evocation [Fire]",
+      "spellPrepared": 1
     },
     {
       "id": 95,
@@ -2010,7 +2019,7 @@
       "spellResistance": "Yes",
       "spellDescription": "<p>You can see and hear some creature, which may be at any distance. If the subject succeeds on a Will save, the scrying attempt simply fails. The difficulty of the save depends on how well you know the subject and what sort of physical connection (if any) you have to that creature. Furthermore, if the subject is on another plane, it gets a +5 bonus on its Will save.</p><table cellspacing=\"0\" class=\"right\"><thead><tr><th align=\"left\">Knowledge</th><th>Will Save Modifier</th></tr></thead><tfoot><tr><td colspan=\"2\"><ol><li>You must have some sort of connection to a creature you have no knowledge of.</li></ol></td></tr></tfoot><tbody><tr><td>None<sup>1</sup></td><td align=\"center\">+10</td></tr><tr><td>Secondhand (you have heard of the subject)</td><td align=\"center\">+5</td></tr><tr><td>Firsthand (you have met the subject)</td><td align=\"center\">+0</td></tr><tr><td>Familiar (you know the subject well)</td><td align=\"center\">-5</td></tr><tr><th align=\"left\">Connection</th><th>Will Save Modifier</th></tr><tr><td>Likeness or picture</td><td align=\"center\">-2</td></tr><tr><td>Possession or garment</td><td align=\"center\">-4</td></tr><tr><td>Body part, lock of hair, bit of nail, etc.</td><td align=\"center\">-10</td></tr></tbody></table><p>If the save fails, you can see and hear the subject and the subject’s immediate surroundings (approximately 10 feet in all directions of the subject). If the subject moves, the sensor follows at a speed of up to 150 feet.</p><p>As with all divination (scrying) spells, the sensor has your full visual acuity, including any magical effects. In addition, the following spells have a 5% chance per caster level of operating through the sensor: message</a>.</p><p>If the save succeeds, you can’t attempt to scry on that subject again for at least 24 hours.</p><h6>Arcane Material Component</h6><p>The eye of a hawk, an eagle, or a roc</a>, plus nitric acid, copper, and zinc.</p><h6>Wizard, Sorcerer, or Bard Focus</h6><p>A mirror of finely wrought and highly polished silver costing not less than 1,000 gp. The mirror must be at least 2 feet by 4 feet.</p><h6>Cleric Focus</h6><p>A holy water</a> font costing not less than 100 gp.</p><h6>Druid Focus</h6><p>A natural pool of water.</p>",
       "spellSchool": "Divination (Scrying)",
-      "spellPrepared": 0
+      "spellPrepared": 1
     },
     {
       "id": 88,
@@ -2239,7 +2248,8 @@
       "spellTarget": "You",
       "spellDuration": "1 hour/level or until expended; see text",
       "spellDescription": "<table cellspacing=\"0\" class=\"right\"><tbody><tr><th align=\"left\">Type of Tree</th><th align=\"left\">Transport Range</th></tr><tr><td>Oak, ash, yew</td><td>3,000 feet</td></tr><tr><td>Elm, linden</td><td>2,000 feet</td></tr><tr><td>Other deciduous</td><td>1,500 feet</td></tr><tr><td>Any coniferous</td><td>1,000 feet</td></tr><tr><td>All other trees</td><td>500 feet</td></tr></tbody></table><p>You gain the ability to enter trees and move from inside one tree to inside another tree. The first tree you enter and all others you enter must be of the same kind, must be living, and must have girth at least equal to yours. By moving into an oak tree (for example), you instantly know the location of all other oak trees within transport range (see below) and may choose whether you want to pass into one or simply step back out of the tree you moved into. You may choose to pass to any tree of the appropriate kind within the transport range as shown on the following table.</p><p>You may move into a tree up to one time per caster level (passing from one tree to another counts only as moving into one tree). The spell lasts until the duration expires or you exit a tree. Each transport is a full-round action.</p><p>You can, at your option, remain within a tree without transporting yourself, but you are forced out when the spell ends. If the tree in which you are concealed is chopped down or burned, you are slain if you do not exit before the process is complete.</p>",
-      "spellSchool": "Conjuration (Teleportation)"
+      "spellSchool": "Conjuration (Teleportation)",
+      "spellPrepared": 0
     },
     {
       "id": 108,
@@ -2291,7 +2301,8 @@
       "spellSavingThrow": "See text",
       "spellResistance": "No",
       "spellDescription": "<p>This spell transforms normal mud or quicksand of any depth into soft stone (sandstone or a similar mineral) permanently.</p><p>Any creature in the mud is allowed a Reflex save to escape before the area is hardened to stone.</p><p>Transmute mud to rock counters and dispels transmute rock to mud</a>.</p><h6>Arcane Material Component</h6><p>Sand, lime, and water.</p>",
-      "spellSchool": "Transmutation [Earth]"
+      "spellSchool": "Transmutation [Earth]",
+      "spellPrepared": 0
     },
     {
       "id": 122,
@@ -2375,7 +2386,8 @@
       "spellLink": "https://www.d20srd.org/srd/spells/cureCriticalWounds.htm",
       "spellLevel": 5,
       "spellDescription": "<p>This spell functions like 4d8 points of damage +1 point per caster level (maximum +20).</p>",
-      "spellSchool": "Conjuration (Healing)"
+      "spellSchool": "Conjuration (Healing)",
+      "spellPrepared": 0
     },
     {
       "id": 128,
@@ -2783,7 +2795,8 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellDescription": "<p>This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as Escape Artist checks made to escape a grapple or a pin.</p><p>The spell also allows the subject to move and attack normally while underwater, even with slashing weapons such as axes and swords or with bludgeoning weapons such as flails</a>, hammers, and maces, provided that the weapon is wielded in the hand rather than hurled. The freedom of movement spell does not, however, allow water breathing.</p><h6>Material Component</h6><p>A leather thong, bound around the arm or a similar appendage.</p>",
-      "spellSchool": "Abjuration"
+      "spellSchool": "Abjuration",
+      "spellPrepared": 1
     },
     {
       "id": 127,
@@ -3227,7 +3240,7 @@
       "spellLevel": 4,
       "spellDescription": "<p>This spell functions like 3d8 points of damage +1 point per caster level (maximum +15).</p>",
       "spellSchool": "Conjuration (Healing)",
-      "spellPrepared": 0
+      "spellPrepared": 1
     },
     {
       "id": 81,
@@ -3393,7 +3406,8 @@
       "spellSavingThrow": "Will negates (harmless)",
       "spellResistance": "Yes (harmless)",
       "spellDescription": "<p>The transmuted creatures can breathe water freely. Divide the duration evenly among all the creatures you touch.</p><p>The spell does not make creatures unable to breathe air.</p><h6>Arcane Material Component</h6><p>A short reed or piece of straw.</p>",
-      "spellSchool": "Transmutation"
+      "spellSchool": "Transmutation",
+      "spellPrepared": 1
     },
     {
       "id": 82,
@@ -5733,6 +5747,116 @@
       "dateTime": "2023-09-15T19:53:06.469Z",
       "logText": "Cast spell: Contagion",
       "id": 445
+    },
+    {
+      "dateTime": "2023-10-06T17:52:04.229Z",
+      "logText": "Cast spell: Animal Messenger",
+      "id": 446
+    },
+    {
+      "dateTime": "2023-10-06T18:45:45.409Z",
+      "logText": "Added item: Bracers of Archery Lesser ",
+      "id": 447
+    },
+    {
+      "dateTime": "2023-10-06T19:00:13.453Z",
+      "logText": "20 damage healed",
+      "id": 448
+    },
+    {
+      "dateTime": "2023-10-06T19:00:33.208Z",
+      "logText": "Regenerated special ability: Wild Shape",
+      "id": 449
+    },
+    {
+      "dateTime": "2023-10-06T19:01:38.682Z",
+      "logText": "Prepared spell: Tree Stride",
+      "id": 450
+    },
+    {
+      "dateTime": "2023-10-06T19:02:34.116Z",
+      "logText": "Prepared spell: Cure Critical Wounds",
+      "id": 451
+    },
+    {
+      "dateTime": "2023-10-06T19:02:53.982Z",
+      "logText": "Prepared spell: Scrying",
+      "id": 452
+    },
+    {
+      "dateTime": "2023-10-06T19:04:57.697Z",
+      "logText": "Prepared spell: Cure Serious Wounds",
+      "id": 453
+    },
+    {
+      "dateTime": "2023-10-06T19:05:14.415Z",
+      "logText": "Prepared spell: Flame Strike",
+      "id": 454
+    },
+    {
+      "dateTime": "2023-10-06T19:05:23.865Z",
+      "logText": "Prepared spell: Freedom of Movement",
+      "id": 455
+    },
+    {
+      "dateTime": "2023-10-06T19:05:48.614Z",
+      "logText": "Prepared spell: Daylight",
+      "id": 456
+    },
+    {
+      "dateTime": "2023-10-06T19:05:57.030Z",
+      "logText": "Prepared spell: Cure Moderate Wounds",
+      "id": 457
+    },
+    {
+      "dateTime": "2023-10-06T19:06:22.014Z",
+      "logText": "Prepared spell: Water Breathing",
+      "id": 458
+    },
+    {
+      "dateTime": "2023-10-06T19:06:55.764Z",
+      "logText": "Prepared spell: Contagion",
+      "id": 459
+    },
+    {
+      "dateTime": "2023-10-06T19:08:00.099Z",
+      "logText": "Prepared spell: Flaming Sphere",
+      "id": 460
+    },
+    {
+      "dateTime": "2023-10-06T19:08:08.197Z",
+      "logText": "Prepared spell: Hold Animal",
+      "id": 461
+    },
+    {
+      "dateTime": "2023-10-06T19:08:14.830Z",
+      "logText": "Prepared spell: Cat’s Grace",
+      "id": 462
+    },
+    {
+      "dateTime": "2023-10-06T19:14:35.137Z",
+      "logText": "Used special ability: Wild Shape",
+      "id": 463
+    },
+    {
+      "dateTime": "2023-10-06T19:14:41.846Z",
+      "logText": "Cast spell: Cure Critical Wounds",
+      "id": 464
+    },
+    {
+      "dateTime": "2023-10-06T19:38:25.644Z",
+      "logText": "Prepared spell: Transmute Mud to Rock",
+      "id": 465
+    },
+    {
+      "dateTime": "2023-10-06T19:38:29.745Z",
+      "logText": "Cast spell: Tree Stride",
+      "id": 466
+    },
+    {
+      "dateTime": "2023-10-06T20:11:16.784Z",
+      "logText": "Cast spell: Transmute Mud to Rock",
+      "id": 467
     }
   ]
 }
